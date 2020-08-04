@@ -76,7 +76,7 @@ endmodule
 
 // ----- Template Verilog module for iopad -----
 // ----- Verilog module for iopad -----
-module iopad(pad,
+/*module iopad(pad,
              outpad,
              en,
              inpad);
@@ -100,7 +100,7 @@ output [0:0] inpad;
 
 
 // ----- Internal logic should end here -----
-endmodule
+endmodule*/
 // ----- END Verilog module for iopad -----
 
 
