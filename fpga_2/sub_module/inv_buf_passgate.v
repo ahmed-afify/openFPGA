@@ -66,7 +66,7 @@ output [0:0] out;
 // ------ END Pin-to-pin Timing constraints -----
 `endif
 
-`ifdef ENABLE_SIGNAL_INITIALIZATION
+/*`ifdef ENABLE_SIGNAL_INITIALIZATION
 // ------ BEGIN driver initialization -----
 	initial begin
 	`ifdef ENABLE_FORMAL_VERIFICATION
@@ -77,7 +77,7 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif
+`endif*/
 endmodule
 // ----- END Verilog module for INVTX1 -----
 
@@ -107,7 +107,7 @@ output [0:0] out;
 // ------ END Pin-to-pin Timing constraints -----
 `endif
 
-`ifdef ENABLE_SIGNAL_INITIALIZATION
+/*`ifdef ENABLE_SIGNAL_INITIALIZATION
 // ------ BEGIN driver initialization -----
 	initial begin
 	`ifdef ENABLE_FORMAL_VERIFICATION
@@ -118,7 +118,7 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif
+`endif*/
 endmodule
 // ----- END Verilog module for buf4 -----
 
@@ -148,7 +148,7 @@ output [0:0] out;
 // ------ END Pin-to-pin Timing constraints -----
 `endif
 
-`ifdef ENABLE_SIGNAL_INITIALIZATION
+/*`ifdef ENABLE_SIGNAL_INITIALIZATION
 // ------ BEGIN driver initialization -----
 	initial begin
 	`ifdef ENABLE_FORMAL_VERIFICATION
@@ -159,7 +159,7 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif
+`endif*/
 endmodule
 // ----- END Verilog module for tap_buf4 -----
 
@@ -186,7 +186,7 @@ output [0:0] out;
 
 	assign out = sel ? in : 1'bz;
 
-`ifdef ENABLE_TIMING
+/*`ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
 	specify
 		(in[0] => out[0]) = (0.01, 0.01);
@@ -211,7 +211,7 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif
+`endif*/
 endmodule
 // ----- END Verilog module for TGATE -----
 
