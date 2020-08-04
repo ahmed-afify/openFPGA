@@ -25,7 +25,7 @@ input [0:0] clk;
 input [0:0] D;
 //----- OUTPUT PORTS -----
 output [0:0] Q;
-
+sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1(.CLK(clk), .D(D), .RESETB(reset),  .Q(Q),  .QN(Qb));
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
 
@@ -58,7 +58,7 @@ input [0:0] D;
 output [0:0] Q;
 //----- OUTPUT PORTS -----
 output [0:0] Qb;
-
+sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1(.CLK(clk), .D(D), .RESETB(reset),  .Q(Q),  .QN(Qb));
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
 
