@@ -1,0 +1,50 @@
+Startpoint: logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop)
+Endpoint: ccff_tail (output port clocked by vclk)
+Path Group: vclk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   1.17    1.17 ^ logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    1.17 ^ ccff_tail (out)
+           1.17   data arrival time
+
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+  -2.00   -2.00   output external delay
+          -2.00   data required time
+---------------------------------------------------------
+          -2.00   data required time
+          -1.17   data arrival time
+---------------------------------------------------------
+           3.17   slack (MET)
+
+
+Startpoint: logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop)
+Endpoint: ccff_tail (output port clocked by vclk)
+Path Group: vclk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00 ^ logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.36    0.36 v logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    0.36 v ccff_tail (out)
+           0.36   data arrival time
+
+  12.00   12.00   clock vclk (rise edge)
+   0.00   12.00   clock network delay (ideal)
+   0.00   12.00   clock reconvergence pessimism
+  -2.00   10.00   output external delay
+          10.00   data required time
+---------------------------------------------------------
+          10.00   data required time
+          -0.36   data arrival time
+---------------------------------------------------------
+           9.64   slack (MET)
+
+
