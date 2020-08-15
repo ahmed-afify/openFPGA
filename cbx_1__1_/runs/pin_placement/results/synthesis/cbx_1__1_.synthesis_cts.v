@@ -142,12 +142,12 @@ module cbx_1__1_ (chanx_out_7_,
     .Q(\mem_bottom_ipin_0.sc_dff_compact_1_.Q ),
     .Q_N(\mem_bottom_ipin_0.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_0_0_prog_clk));
+    .CLK(clknet_1_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_bottom_ipin_0.sc_dff_compact_1_.Q ),
     .Q(\mem_bottom_ipin_0.sc_dff_compact_2_.Q ),
     .Q_N(\mem_bottom_ipin_0.sc_dff_compact_2_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_0_0_prog_clk));
+    .CLK(clknet_1_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_bottom_ipin_0.sc_dff_compact_2_.Q ),
     .Q(\mem_bottom_ipin_0.sc_dff_compact_3_.Q ),
     .Q_N(\mem_bottom_ipin_0.sc_dff_compact_3_.Qb ),
@@ -197,22 +197,22 @@ module cbx_1__1_ (chanx_out_7_,
     .Q(\mem_bottom_ipin_2.sc_dff_compact_4_.Q ),
     .Q_N(\mem_bottom_ipin_2.sc_dff_compact_4_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_1_0_prog_clk));
+    .CLK(clknet_1_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_bottom_ipin_2.sc_dff_compact_4_.Q ),
     .Q(\mem_bottom_ipin_2.ccff_tail ),
     .Q_N(\mem_bottom_ipin_2.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_1_0_prog_clk));
+    .CLK(clknet_1_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_bottom_ipin_2.ccff_tail ),
     .Q(\mem_top_ipin_0.sc_dff_compact_0_.Q ),
     .Q_N(\mem_top_ipin_0.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_1_0_prog_clk));
+    .CLK(clknet_1_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_top_ipin_0.sc_dff_compact_0_.Q ),
     .Q(\mem_top_ipin_0.sc_dff_compact_1_.Q ),
     .Q_N(\mem_top_ipin_0.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_1_0_prog_clk));
+    .CLK(clknet_1_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_top_ipin_0.sc_dff_compact_1_.Q ),
     .Q(\mem_top_ipin_0.sc_dff_compact_2_.Q ),
     .Q_N(\mem_top_ipin_0.sc_dff_compact_2_.Qb ),
@@ -252,7 +252,7 @@ module cbx_1__1_ (chanx_out_7_,
     .Q(ccff_tail),
     .Q_N(\mem_top_ipin_2.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_1_0_0_prog_clk));
+    .CLK(clknet_1_1_0_prog_clk));
  sky130_fd_sc_hd__decap_3 PHY_0 ();
  sky130_fd_sc_hd__decap_3 PHY_1 ();
  sky130_fd_sc_hd__decap_3 PHY_2 ();

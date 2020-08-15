@@ -134,92 +134,28 @@
       [
         [
           [
-            "_04_/VPWR",
+            "PHY_15/VGND",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 6 ],
-              [ "sky130_fd_sc_hd__conb_1", "VPWR", 3 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 9 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 4 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
+              [ "sky130_fd_sc_hd__clkbuf_1", "VGND", 2 ]
             ]
           ],
           [
-            "_22_/VGND",
+            "PHY_19/VGND",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 8 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 12 ],
+              [ "sky130_fd_sc_hd__clkbuf_16", "VGND", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
-            ]
-          ],
-          [
-            "_11_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 7 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 3 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ]
-            ]
-          ],
-          [
-            "_08_/VGND",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 7 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 2 ],
               [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
             ]
           ],
           [
             "_02_/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 10 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__conb_1", "VPWR", 1 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 3 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
-            ]
-          ],
-          [
-            "_20_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 4 ],
               [ "sky130_fd_sc_hd__diode_2", "VPWR", 9 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
-            ]
-          ],
-          [
-            "_13_/VGND",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 8 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 2 ]
-            ]
-          ],
-          [
-            "_17_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 11 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__clkbuf_16", "VPWR", 1 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 3 ],
-              [ "sky130_fd_sc_hd__clkbuf_1", "VPWR", 2 ]
-            ]
-          ],
-          [
-            "PHY_47/VPWR",
-            [
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
-            ]
-          ],
-          [
-            "_01_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 3 ],
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 10 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 5 ],
               [ "sky130_fd_sc_hd__conb_1", "VPWR", 2 ],
               [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
             ]
@@ -227,63 +163,119 @@
           [
             "_01_/VGND",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 14 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 3 ],
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 10 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 3 ],
               [ "sky130_fd_sc_hd__conb_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 6 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 1 ]
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
             ]
           ],
           [
-            "PHY_29/VPWR",
+            "_01_/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 6 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 11 ],
+              [ "sky130_fd_sc_hd__conb_1", "VPWR", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 3 ],
               [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
             ]
           ],
           [
-            "PHY_13/VPWR",
+            "PHY_17/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 8 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 10 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 3 ],
+              [ "sky130_fd_sc_hd__clkbuf_16", "VPWR", 1 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__clkbuf_1", "VPWR", 2 ]
             ]
           ],
           [
-            "_12_/VGND",
+            "_02_/VGND",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 7 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 1 ]
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 11 ],
+              [ "sky130_fd_sc_hd__conb_1", "VGND", 1 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 6 ]
+            ]
+          ],
+          [
+            "PHY_9/VGND",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 12 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 4 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
+            ]
+          ],
+          [
+            "_20_/VPWR",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 3 ],
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 6 ],
+              [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
+            ]
+          ],
+          [
+            "PHY_21/VPWR",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 10 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 3 ]
             ]
           ],
           [
             "_09_/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 7 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
               [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 1 ]
             ]
           ],
           [
-            "_06_/VGND",
+            "_22_/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 7 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 1 ]
+            ]
+          ],
+          [
+            "_13_/VGND",
+            [
               [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ]
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "VGND", 1 ]
+            ]
+          ],
+          [
+            "_17_/VGND",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 5 ],
+              [ "sky130_fd_sc_hd__buf_2", "VGND", 3 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 1 ]
+            ]
+          ],
+          [
+            "_13_/VPWR",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 3 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__buf_2", "VPWR", 3 ]
+            ]
+          ],
+          [
+            "PHY_1/VPWR",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
             ]
           ],
           [
             "_11_/VGND",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 11 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
+              [ "sky130_fd_sc_hd__buf_2", "VGND", 2 ],
               [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 1 ]
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 3 ]
             ]
           ]
         ], [
@@ -377,41 +369,6 @@
               [ "", "", 0 ]
             ]
           ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "_06_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 7 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
-            ]
-          ],
-          [
-            "_08_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 7 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
-            ]
-          ]
-        ], [
           [
             "(no matching net)",
             [
@@ -470,18 +427,19 @@
       [
         [
           [
-            "PHY_35/VGND",
+            "_08_/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 7 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 9 ],
+              [ "sky130_fd_sc_hd__buf_2", "VPWR", 9 ],
+              [ "sky130_fd_sc_hd__conb_1", "VPWR", 2 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
             ]
           ],
           [
-            "_03_/VGND",
+            "_07_/VGND",
             [
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 4 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 3 ],
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 9 ],
+              [ "sky130_fd_sc_hd__buf_2", "VGND", 9 ],
               [ "sky130_fd_sc_hd__conb_1", "VGND", 2 ],
               [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
             ]
@@ -504,59 +462,10 @@
       [
         [
           [
-            "chanx_in_6_",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
-            ]
-          ],
-          [
-            "chanx_in_14_",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
-            ]
-          ],
-          [
-            "chanx_in_11_",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
-            ]
-          ],
-          [
-            "chanx_in_16_",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
-            ]
-          ],
-          [
             "chanx_in_3_",
             [
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
-            ]
-          ],
-          [
-            "chanx_in_8_",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
-            ]
-          ],
-          [
-            "chanx_in_12_",
-            [
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
-            ]
-          ],
-          [
-            "chanx_in_13_",
-            [
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
             ]
           ],
           [
@@ -574,7 +483,14 @@
             ]
           ],
           [
-            "chanx_in_4_",
+            "chanx_in_13_",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "chanx_in_7_",
             [
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
@@ -588,6 +504,13 @@
             ]
           ],
           [
+            "chanx_in_8_",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
+            ]
+          ],
+          [
             "chanx_in_2_",
             [
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
@@ -595,7 +518,28 @@
             ]
           ],
           [
-            "chanx_in_7_",
+            "chanx_in_12_",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "chanx_in_0_",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
+            ]
+          ],
+          [
+            "chanx_in_14_",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
+            ]
+          ],
+          [
+            "chanx_in_16_",
             [
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
@@ -616,7 +560,7 @@
             ]
           ],
           [
-            "chanx_in_0_",
+            "chanx_in_11_",
             [
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
@@ -627,6 +571,18 @@
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
             ]
           ],
           [
@@ -787,14 +743,14 @@
       [
         [
           [
-            "chanx_in_17_",
+            "chanx_in_4_",
             [
-              [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
             ]
           ],
           [
-            "chanx_in_15_",
+            "chanx_in_17_",
             [
               [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
@@ -818,24 +774,52 @@
       [
         [
           [
-            "_15_/VGND",
+            "chanx_in_15_",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 10 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 2 ],
-              [ "sky130_fd_sc_hd__clkbuf_16", "VGND", 1 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ],
-              [ "sky130_fd_sc_hd__clkbuf_1", "VGND", 2 ]
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
             ]
           ],
           [
-            "_02_/VGND",
+            "chanx_in_6_",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 3 ],
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 8 ],
-              [ "sky130_fd_sc_hd__buf_2", "VGND", 5 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__buf_2", "A", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "_06_/VPWR",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "VPWR", 3 ],
+              [ "sky130_fd_sc_hd__conb_1", "VPWR", 1 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 3 ]
+            ]
+          ],
+          [
+            "_09_/VGND",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "VGND", 3 ],
               [ "sky130_fd_sc_hd__conb_1", "VGND", 1 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 6 ],
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 1 ]
             ]
           ]
         ], [
@@ -856,36 +840,32 @@
       [
         [
           [
-            "clkbuf_1_0_0_prog_clk/X",
+            "PHY_13/VPWR",
             [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 12 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "CLK", 12 ],
-              [ "sky130_fd_sc_hd__clkbuf_1", "X", 1 ]
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 13 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
             ]
           ],
           [
-            "clkbuf_1_1_0_prog_clk/X",
+            "PHY_25/VPWR",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "CLK", 12 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 12 ],
-              [ "sky130_fd_sc_hd__clkbuf_1", "X", 1 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "VPWR", 4 ],
+              [ "sky130_fd_sc_hd__diode_2", "VPWR", 13 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ]
             ]
           ]
         ], [
           [
-            "clknet_1_0_0_prog_clk",
+            "(no matching net)",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "CLK", 12 ],
-              [ "sky130_fd_sc_hd__clkbuf_1", "X", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 12 ]
+              [ "", "", 0 ]
             ]
           ],
           [
-            "clknet_1_1_0_prog_clk",
+            "(no matching net)",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "CLK", 12 ],
-              [ "sky130_fd_sc_hd__clkbuf_1", "X", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 12 ]
+              [ "", "", 0 ]
             ]
           ]
         ]
@@ -899,31 +879,13 @@
             ]
           ],
           [
-            "mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
@@ -935,13 +897,19 @@
             ]
           ],
           [
-            "mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
@@ -953,13 +921,13 @@
             ]
           ],
           [
-            "chanx_out_6_",
+            "chanx_out_8_",
             [
               [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
           ],
           [
-            "chanx_out_7_",
+            "chanx_out_0_",
             [
               [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
@@ -971,7 +939,7 @@
             ]
           ],
           [
-            "chanx_out_11_",
+            "chanx_out_12_",
             [
               [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
@@ -989,43 +957,7 @@
             ]
           ],
           [
-            "mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
             "chanx_out_3_",
-            [
-              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
-            ]
-          ],
-          [
-            "chanx_out_4_",
             [
               [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
@@ -1037,7 +969,7 @@
             ]
           ],
           [
-            "chanx_out_8_",
+            "chanx_out_7_",
             [
               [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
@@ -1049,7 +981,7 @@
             ]
           ],
           [
-            "chanx_out_12_",
+            "chanx_out_11_",
             [
               [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
@@ -1061,33 +993,33 @@
             ]
           ],
           [
-            "chanx_out_1_",
-            [
-              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "chanx_out_0_",
+            "bottom_grid_pin_8_",
             [
-              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
+              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+            ]
+          ],
+          [
+            "bottom_grid_pin_4_",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
             ]
           ],
           [
@@ -1109,9 +1041,27 @@
             ]
           ],
           [
+            "top_grid_pin_14_",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+            ]
+          ],
+          [
             "top_grid_pin_2_",
             [
               [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+            ]
+          ],
+          [
+            "top_grid_pin_6_",
+            [
+              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+            ]
+          ],
+          [
+            "chanx_out_1_",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
           ],
           [
@@ -1121,9 +1071,39 @@
             ]
           ],
           [
-            "mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "(no matching net)",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
             ]
           ],
           [
@@ -1242,6 +1222,18 @@
             ]
           ],
           [
+            "\\mem_bottom_ipin_0.sc_dff_compact_2_.Qb ",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_0.sc_dff_compact_1_.Qb ",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ],
+          [
             "\\mem_top_ipin_0.sc_dff_compact_1_.Qb ",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
@@ -1315,18 +1307,6 @@
           ],
           [
             "\\mem_bottom_ipin_0.sc_dff_compact_3_.Qb ",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_0.sc_dff_compact_2_.Qb ",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_0.sc_dff_compact_1_.Qb ",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
@@ -1486,15 +1466,15 @@
       [
         [
           [
-            "chanx_out_17_",
+            "mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
-              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "chanx_out_15_",
+            "mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
-              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ]
         ], [
@@ -1515,36 +1495,94 @@
       [
         [
           [
-            "mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            "mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
+          [
+            "mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
           [
             "mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
@@ -1573,15 +1611,15 @@
       [
         [
           [
-            "top_grid_pin_6_",
+            "mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
-              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ],
           [
-            "top_grid_pin_14_",
+            "mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N",
             [
-              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q_N", 1 ]
             ]
           ]
         ], [
@@ -1602,15 +1640,15 @@
       [
         [
           [
-            "bottom_grid_pin_4_",
+            "chanx_out_15_",
             [
-              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
           ],
           [
-            "bottom_grid_pin_8_",
+            "chanx_out_6_",
             [
-              [ "sky130_fd_sc_hd__conb_1", "LO", 1 ]
+              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
             ]
           ]
         ], [
@@ -1631,11 +1669,72 @@
       [
         [
           [
-            "mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q",
+            "chanx_out_17_",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
+            ]
+          ],
+          [
+            "chanx_out_4_",
+            [
+              [ "sky130_fd_sc_hd__buf_2", "X", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
             ]
           ],
           [
@@ -1647,19 +1746,19 @@
             ]
           ],
           [
-            "mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q",
+            "mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
             ]
           ],
           [
-            "mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D",
+            "mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q",
             [
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
             ]
           ],
           [
@@ -1671,43 +1770,11 @@
             ]
           ],
           [
-            "mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D",
+            "mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
-            ]
-          ],
-          [
-            "mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
             ]
           ],
           [
@@ -1719,6 +1786,22 @@
             ]
           ],
           [
+            "mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
+            ]
+          ],
+          [
             "mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
@@ -1727,7 +1810,23 @@
             ]
           ],
           [
-            "mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D",
+            "mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q",
+            [
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
+            ]
+          ],
+          [
+            "mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q",
             [
               [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
@@ -1743,7 +1842,7 @@
             ]
           ],
           [
-            "mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q",
+            "mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
@@ -1767,39 +1866,19 @@
             ]
           ],
           [
-            "(no matching net)",
+            "mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q",
             [
-              [ "", "", 0 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
             ]
           ],
           [
-            "(no matching net)",
+            "mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D",
             [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
             ]
           ]
         ], [
@@ -1853,6 +1932,14 @@
           ],
           [
             "\\mem_top_ipin_0.sc_dff_compact_2_.Q ",
+            [
+              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
+              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_0.sc_dff_compact_1_.Q ",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
               [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
@@ -1972,14 +2059,6 @@
             ]
           ],
           [
-            "\\mem_bottom_ipin_0.sc_dff_compact_1_.Q ",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
-            ]
-          ],
-          [
             "\\mem_bottom_ipin_0.sc_dff_compact_0_.Q ",
             [
               [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
@@ -1992,119 +2071,19 @@
       [
         [
           [
-            "mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q",
+            "PHY_23/VGND",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 10 ],
+              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 4 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
             ]
           ],
           [
-            "mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q",
+            "PHY_27/VGND",
             [
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ],
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ]
-            ]
-          ],
-          [
-            "mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "DIODE", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "D", 1 ],
-              [ "sky130_fd_sc_hd__dfrbp_1", "Q", 1 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ],
-          [
-            "(no matching net)",
-            [
-              [ "", "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "_18_/VPWR",
-            [
-              [ "sky130_fd_sc_hd__diode_2", "VPWR", 5 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VPWR", 4 ],
-              [ "sky130_fd_sc_hd__buf_2", "VPWR", 1 ]
-            ]
-          ],
-          [
-            "_04_/VGND",
-            [
-              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 1 ],
-              [ "sky130_fd_sc_hd__conb_1", "VGND", 1 ],
-              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 6 ],
-              [ "sky130_fd_sc_hd__diode_2", "VGND", 2 ]
+              [ "sky130_fd_sc_hd__dfrbp_1", "VGND", 4 ],
+              [ "sky130_fd_sc_hd__diode_2", "VGND", 10 ],
+              [ "sky130_fd_sc_hd__tapvpwrvgnd_1", "VGND", 4 ]
             ]
           ]
         ], [
@@ -2127,67 +2106,38 @@
       [
         [
           [
-            "sky130_fd_sc_hd__clkbuf_1clkbuf_1_1_0_prog_clk",
-            [
-              [ "A", 5 ],
-              [ "X", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
             "sky130_fd_sc_hd__clkbuf_1clkbuf_1_0_0_prog_clk",
             [
               [ "A", 5 ],
-              [ "X", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
+              [ "X", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
             ]
           ],
           [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ]
-        ], [
-          [
-            "clkbuf_1_0_0_prog_clk",
+            "sky130_fd_sc_hd__clkbuf_1clkbuf_1_1_0_prog_clk",
             [
               [ "A", 5 ],
-              [ "X", 25 ],
+              [ "X", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ]
+        ], [
+          [
+            "clkbuf_1_1_0_prog_clk",
+            [
+              [ "A", 5 ],
+              [ "X", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
           ],
           [
-            "clkbuf_1_1_0_prog_clk",
+            "clkbuf_1_0_0_prog_clk",
             [
               [ "A", 5 ],
-              [ "X", 25 ],
+              [ "X", 27 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -2199,365 +2149,357 @@
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_49",
             [
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_48",
-            [
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_51",
-            [
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_50",
-            [
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_59",
             [
-              [ "VGND", 14 ],
-              [ "VPWR", 20 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_48",
+            [
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_69",
             [
-              [ "VGND", 15 ],
+              [ "VGND", 19 ],
               [ "VPWR", 17 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_58",
             [
-              [ "VGND", 14 ],
-              [ "VPWR", 20 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_68",
             [
-              [ "VGND", 15 ],
+              [ "VGND", 19 ],
               [ "VPWR", 17 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_79",
-            [
-              [ "VGND", 14 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_78",
-            [
-              [ "VGND", 14 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_67",
-            [
-              [ "VGND", 15 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_66",
-            [
-              [ "VGND", 15 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_77",
-            [
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_76",
-            [
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_65",
-            [
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_87",
-            [
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_75",
-            [
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_64",
-            [
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_53",
-            [
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_86",
-            [
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_74",
-            [
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_63",
-            [
-              [ "VGND", 18 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_52",
-            [
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_62",
-            [
-              [ "VGND", 18 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_61",
-            [
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_60",
-            [
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_89",
-            [
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_88",
-            [
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_81",
-            [
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_80",
-            [
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_57",
             [
-              [ "VGND", 21 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_79",
+            [
+              [ "VGND", 13 ],
+              [ "VPWR", 14 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_78",
+            [
+              [ "VGND", 13 ],
+              [ "VPWR", 14 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_67",
+            [
+              [ "VGND", 19 ],
               [ "VPWR", 20 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_56",
             [
-              [ "VGND", 21 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_66",
+            [
+              [ "VGND", 19 ],
               [ "VPWR", 20 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_55",
             [
-              [ "VGND", 21 ],
-              [ "VPWR", 24 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_65",
+            [
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_54",
             [
-              [ "VGND", 21 ],
-              [ "VPWR", 24 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_73",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_87",
             [
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
+              [ "VGND", 9 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_72",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_64",
             [
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_53",
+            [
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_86",
+            [
+              [ "VGND", 9 ],
+              [ "VPWR", 6 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_52",
+            [
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_85",
+            [
+              [ "VGND", 6 ],
+              [ "VPWR", 6 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_51",
+            [
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_84",
+            [
+              [ "VGND", 6 ],
+              [ "VPWR", 6 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_50",
+            [
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_83",
+            [
+              [ "VGND", 6 ],
+              [ "VPWR", 10 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_82",
+            [
+              [ "VGND", 6 ],
+              [ "VPWR", 10 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_81",
+            [
+              [ "VGND", 13 ],
+              [ "VPWR", 10 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_80",
+            [
+              [ "VGND", 13 ],
+              [ "VPWR", 10 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_77",
+            [
+              [ "VGND", 18 ],
+              [ "VPWR", 14 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_76",
+            [
+              [ "VGND", 18 ],
+              [ "VPWR", 14 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_71",
             [
-              [ "VGND", 21 ],
+              [ "VGND", 18 ],
               [ "VPWR", 17 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_70",
             [
-              [ "VGND", 21 ],
+              [ "VGND", 18 ],
               [ "VPWR", 17 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_99",
             [
-              [ "VGND", 10 ],
-              [ "VPWR", 4 ]
+              [ "VGND", 11 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_98",
             [
-              [ "VGND", 10 ],
-              [ "VPWR", 4 ]
+              [ "VGND", 11 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_97",
             [
-              [ "VGND", 10 ],
-              [ "VPWR", 4 ]
+              [ "VGND", 11 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_96",
             [
-              [ "VGND", 10 ],
-              [ "VPWR", 4 ]
+              [ "VGND", 11 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_95",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_75",
             [
-              [ "VGND", 10 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_94",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_74",
             [
-              [ "VGND", 10 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_85",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_73",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_84",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_72",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_93",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_63",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_92",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_62",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_83",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_61",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_82",
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_60",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_91",
+            "(no matching instance)",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "", 0 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_90",
+            "(no matching instance)",
             [
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
             ]
           ]
         ], [
@@ -2930,43 +2872,175 @@
       [
         [
           [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_90",
+            [
+              [ "VGND", 24 ],
+              [ "VPWR", 11 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_91",
+            [
+              [ "VGND", 24 ],
+              [ "VPWR", 11 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_92",
+            [
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_93",
+            [
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_94",
+            [
+              [ "VGND", 11 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_95",
+            [
+              [ "VGND", 11 ],
+              [ "VPWR", 24 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_88",
+            [
+              [ "VGND", 9 ],
+              [ "VPWR", 11 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__tapvpwrvgnd_1PHY_89",
+            [
+              [ "VGND", 9 ],
+              [ "VPWR", 11 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__conb_1_00_",
+            [
+              [ "LO", 1 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__conb_1_01_",
+            [
+              [ "LO", 1 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
             "sky130_fd_sc_hd__conb_1_02_",
             [
               [ "LO", 1 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__conb_1_03_",
+            [
+              [ "LO", 1 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__conb_1_04_",
             [
               [ "LO", 1 ],
-              [ "VGND", 10 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 24 ],
+              [ "VPWR", 11 ]
             ]
           ],
           [
-            "(no matching instance)",
+            "sky130_fd_sc_hd__conb_1_05_",
             [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
+              [ "LO", 1 ],
+              [ "VGND", 11 ],
+              [ "VPWR", 24 ]
             ]
           ]
         ], [
@@ -3023,96 +3097,30 @@
       [
         [
           [
-            "sky130_fd_sc_hd__conb_1_05_",
-            [
-              [ "LO", 1 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__conb_1_03_",
-            [
-              [ "LO", 1 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "sky130_fd_sc_hd__conb_1_01_",
-            [
-              [ "LO", 1 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__conb_1_00_",
-            [
-              [ "LO", 1 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
             "sky130_fd_sc_hd__buf_2_10_",
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__buf_2_14_",
-            [
-              [ "A", 2 ],
-              [ "X", 1 ],
-              [ "VGND", 21 ],
+              [ "VGND", 24 ],
               [ "VPWR", 24 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__buf_2_15_",
+            "sky130_fd_sc_hd__buf_2_16_",
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__buf_2_18_",
+            [
+              [ "A", 2 ],
+              [ "X", 1 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
@@ -3120,17 +3128,17 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__buf_2_20_",
+            "sky130_fd_sc_hd__buf_2_21_",
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 17 ]
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
@@ -3138,7 +3146,7 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 21 ],
+              [ "VGND", 24 ],
               [ "VPWR", 24 ]
             ]
           ],
@@ -3147,7 +3155,7 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 21 ],
+              [ "VGND", 24 ],
               [ "VPWR", 24 ]
             ]
           ],
@@ -3156,17 +3164,8 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__buf_2_12_",
-            [
-              [ "A", 2 ],
-              [ "X", 1 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 20 ]
+              [ "VGND", 9 ],
+              [ "VPWR", 11 ]
             ]
           ],
           [
@@ -3174,17 +3173,17 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
+              [ "VGND", 6 ],
+              [ "VPWR", 10 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__buf_2_16_",
+            "sky130_fd_sc_hd__buf_2_15_",
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
+              [ "VGND", 13 ],
+              [ "VPWR", 10 ]
             ]
           ],
           [
@@ -3192,17 +3191,17 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
+              [ "VGND", 13 ],
+              [ "VPWR", 10 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__buf_2_21_",
+            "sky130_fd_sc_hd__buf_2_20_",
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
+              [ "VGND", 13 ],
+              [ "VPWR", 14 ]
             ]
           ],
           [
@@ -3210,8 +3209,8 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 17 ]
+              [ "VGND", 9 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
@@ -3219,17 +3218,20 @@
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 11 ],
+              [ "VPWR", 6 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__buf_2_18_",
+            "(no matching instance)",
             [
-              [ "A", 2 ],
-              [ "X", 1 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
             ]
           ],
           [
@@ -3412,21 +3414,56 @@
       [
         [
           [
-            "sky130_fd_sc_hd__buf_2_08_",
-            [
-              [ "A", 2 ],
-              [ "X", 1 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
             "sky130_fd_sc_hd__buf_2_06_",
             [
               [ "A", 2 ],
               [ "X", 1 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 24 ],
+              [ "VPWR", 11 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__buf_2_14_",
+            [
+              [ "A", 2 ],
+              [ "X", 1 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 11 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__buf_2_08_",
+            [
+              [ "A", 2 ],
+              [ "X", 1 ],
+              [ "VGND", 11 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__buf_2_12_",
+            [
+              [ "A", 2 ],
+              [ "X", 1 ],
+              [ "VGND", 11 ],
+              [ "VPWR", 24 ]
             ]
           ]
         ], [
@@ -3450,614 +3487,174 @@
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 17 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 15 ],
+              [ "VGND", 19 ],
               [ "VPWR", 17 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 17 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 17 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 14 ],
+              [ "VGND", 19 ],
               [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET",
-            [
-              [ "DIODE", 48 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
               [ "DIODE", 48 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
+              [ "VGND", 19 ],
+              [ "VPWR", 17 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
+              [ "DIODE", 48 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
+              [ "DIODE", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
+              [ "DIODE", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 14 ],
+              [ "DIODE", 23 ],
+              [ "VGND", 19 ],
               [ "VPWR", 20 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 17 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 17 ]
+              [ "DIODE", 23 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 10 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__17__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__19__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__13__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__10__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__15__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__12__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__22__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 15 ],
+              [ "DIODE", 23 ],
+              [ "VGND", 19 ],
               [ "VPWR", 17 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA__14__A",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__11__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_clkbuf_0_prog_clk_A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__16__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__21__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__23__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__20__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 15 ],
+              [ "DIODE", 27 ],
+              [ "VGND", 19 ],
               [ "VPWR", 17 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA__07__A",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 10 ],
-              [ "VPWR", 15 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 17 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA__09__A",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 2 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
-            [
-              [ "DIODE", 25 ],
+              [ "DIODE", 27 ],
               [ "VGND", 13 ],
               [ "VPWR", 14 ]
             ]
@@ -4065,49 +3662,485 @@
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 27 ],
               [ "VGND", 13 ],
-              [ "VPWR", 15 ]
+              [ "VPWR", 14 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 8 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
             [
               [ "DIODE", 3 ],
-              [ "VGND", 26 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 17 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET",
+            [
+              [ "DIODE", 48 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__17__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 13 ],
               [ "VPWR", 10 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_clkbuf_1_1_0_prog_clk_A",
+            "sky130_fd_sc_hd__diode_2ANTENNA__22__A",
             [
-              [ "DIODE", 5 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
+              [ "DIODE", 2 ],
+              [ "VGND", 6 ],
+              [ "VPWR", 6 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_clkbuf_0_prog_clk_A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__13__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 13 ],
+              [ "VPWR", 10 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__15__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 13 ],
+              [ "VPWR", 10 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__09__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 11 ],
+              [ "VPWR", 6 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__11__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 9 ],
+              [ "VPWR", 11 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 17 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 17 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 17 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 14 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D",
+            [
+              [ "DIODE", 3 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__19__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__16__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__21__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__10__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
             "sky130_fd_sc_hd__diode_2ANTENNA__18__A",
             [
               [ "DIODE", 2 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_clkbuf_1_0_0_prog_clk_A",
+            "sky130_fd_sc_hd__diode_2ANTENNA__23__A",
             [
-              [ "DIODE", 5 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__07__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__20__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 14 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
             ]
           ],
           [
@@ -4160,9 +4193,17 @@
           ]
         ], [
           [
+            "\\ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
             "\\ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4170,7 +4211,7 @@
           [
             "\\ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4178,7 +4219,7 @@
           [
             "\\ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4186,7 +4227,7 @@
           [
             "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4194,7 +4235,7 @@
           [
             "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4202,7 +4243,7 @@
           [
             "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4210,127 +4251,7 @@
           [
             "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK ",
-            [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4338,7 +4259,7 @@
           [
             "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4346,7 +4267,119 @@
           [
             "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
             [
-              [ "DIODE", 25 ],
+              [ "DIODE", 23 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 23 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK ",
+            [
+              [ "DIODE", 27 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -4892,18 +4925,84 @@
       [
         [
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D",
+            "sky130_fd_sc_hd__diode_2ANTENNA__12__A",
             [
-              [ "DIODE", 3 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 23 ]
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D",
+            "sky130_fd_sc_hd__diode_2ANTENNA__08__A",
             [
-              [ "DIODE", 3 ],
-              [ "VGND", 21 ],
+              [ "DIODE", 2 ],
+              [ "VGND", 24 ],
+              [ "VPWR", 24 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__06__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 9 ],
+              [ "VPWR", 11 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA__14__A",
+            [
+              [ "DIODE", 2 ],
+              [ "VGND", 9 ],
+              [ "VPWR", 11 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_clkbuf_1_0_0_prog_clk_A",
+            [
+              [ "DIODE", 5 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__diode_2ANTENNA_clkbuf_1_1_0_prog_clk_A",
+            [
+              [ "DIODE", 5 ],
+              [ "VGND", 19 ],
               [ "VPWR", 20 ]
             ]
           ]
@@ -4925,51 +5024,18 @@
       [
         [
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA__08__A",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET",
             [
-              [ "DIODE", 2 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA__06__A",
-            [
-              [ "DIODE", 2 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 14 ]
-            ]
-          ]
-        ], [
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ],
-          [
-            "(no matching instance)",
-            [
-              [ "", 0 ]
-            ]
-          ]
-        ]
-      ],
-      [
-        [
-          [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D",
-            [
-              [ "DIODE", 3 ],
+              [ "DIODE", 48 ],
               [ "VGND", 18 ],
-              [ "VPWR", 15 ]
+              [ "VPWR", 14 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B",
             [
-              [ "DIODE", 3 ],
-              [ "VGND", 14 ],
+              [ "DIODE", 48 ],
+              [ "VGND", 18 ],
               [ "VPWR", 14 ]
             ]
           ]
@@ -4991,19 +5057,19 @@
       [
         [
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 3 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 17 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 3 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 17 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
             ]
           ]
         ], [
@@ -5024,19 +5090,19 @@
       [
         [
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__diode_2ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
+            "sky130_fd_sc_hd__diode_2ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK",
             [
-              [ "DIODE", 25 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 10 ]
+              [ "DIODE", 27 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ]
         ], [
@@ -5096,105 +5162,9 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 12 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 26 ],
-              [ "VPWR", 24 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 18 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 16 ],
-              [ "VPWR", 23 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 20 ]
+              [ "CLK", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
@@ -5204,7 +5174,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 27 ],
               [ "VGND", 13 ],
               [ "VPWR", 14 ]
             ]
@@ -5216,57 +5186,21 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
+              [ "CLK", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 17 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1",
             [
               [ "D", 3 ],
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 14 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 13 ],
-              [ "VPWR", 15 ]
-            ]
-          ],
-          [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 20 ]
+              [ "CLK", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
@@ -5276,21 +5210,69 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 17 ]
+              [ "CLK", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1",
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
             [
               [ "D", 3 ],
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 17 ]
+              [ "CLK", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 20 ]
             ]
           ],
           [
@@ -5300,9 +5282,9 @@
               [ "Q", 1 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 24 ]
+              [ "CLK", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
@@ -5312,21 +5294,57 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 21 ],
-              [ "VPWR", 24 ]
+              [ "CLK", 23 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 19 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1",
+            "(no matching instance)",
             [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 10 ],
-              [ "VPWR", 15 ]
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
             ]
           ],
           [
@@ -5361,7 +5379,7 @@
               [ "Q", 1 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5373,7 +5391,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5385,7 +5403,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5397,7 +5415,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5409,7 +5427,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5421,7 +5439,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5433,7 +5451,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5445,163 +5463,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 196 ],
-              [ "VPWR", 196 ]
-            ]
-          ],
-          [
-            "\\mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 ",
-            [
-              [ "D", 3 ],
-              [ "Q", 3 ],
-              [ "Q_N", 1 ],
-              [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5613,7 +5475,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5625,7 +5487,163 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 196 ],
+              [ "VPWR", 196 ]
+            ]
+          ],
+          [
+            "\\mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 ",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5637,7 +5655,7 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 23 ],
               [ "VGND", 196 ],
               [ "VPWR", 196 ]
             ]
@@ -5647,27 +5665,27 @@
       [
         [
           [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
             [
               [ "D", 3 ],
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
+              [ "CLK", 27 ],
               [ "VGND", 18 ],
-              [ "VPWR", 14 ]
+              [ "VPWR", 21 ]
             ]
           ],
           [
-            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1",
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1",
             [
               [ "D", 3 ],
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 14 ],
-              [ "VPWR", 12 ]
+              [ "CLK", 27 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
             ]
           ]
         ], [
@@ -5688,14 +5706,137 @@
       [
         [
           [
-            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1",
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1",
             [
               [ "D", 3 ],
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 14 ],
+              [ "CLK", 23 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 21 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 14 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 27 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 17 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 18 ],
               [ "VPWR", 14 ]
             ]
           ],
@@ -5706,9 +5847,50 @@
               [ "Q", 3 ],
               [ "Q_N", 1 ],
               [ "RESET_B", 48 ],
-              [ "CLK", 25 ],
-              [ "VGND", 15 ],
-              [ "VPWR", 15 ]
+              [ "CLK", 23 ],
+              [ "VGND", 18 ],
+              [ "VPWR", 17 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 19 ],
+              [ "VPWR", 21 ]
+            ]
+          ],
+          [
+            "sky130_fd_sc_hd__dfrbp_1mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1",
+            [
+              [ "D", 3 ],
+              [ "Q", 3 ],
+              [ "Q_N", 1 ],
+              [ "RESET_B", 48 ],
+              [ "CLK", 23 ],
+              [ "VGND", 20 ],
+              [ "VPWR", 21 ]
             ]
           ]
         ], [

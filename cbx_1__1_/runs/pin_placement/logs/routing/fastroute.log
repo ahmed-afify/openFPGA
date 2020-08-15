@@ -1758,7 +1758,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/cbx_1__1_/runs/pin_placement/tmp/routing/addspacers.def
 Notice 0: Design: cbx_1__1_
 Notice 0:     Created 46 pins.
-Notice 0:     Created 622 components and 1511 component-terminals.
+Notice 0:     Created 617 components and 1501 component-terminals.
 Notice 0:     Created 96 nets and 261 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/cbx_1__1_/runs/pin_placement/tmp/routing/addspacers.def
 
@@ -1800,27 +1800,27 @@ Adjusting grid... Done!
 Computing track adjustments...
 Computing track adjustments... Done!
 Computing obstacles adjustments...
-[INFO] Processing 4942 obstacles in layer 1
-[INFO] Processing 1724 obstacles in layer 2
+[INFO] Processing 4900 obstacles in layer 1
+[INFO] Processing 1714 obstacles in layer 2
 Computing obstacles adjustments... Done!
 Computing user defined adjustments...
 Computing user defined adjustments... Done!
 Computing user defined layers adjustments...
 [INFO] Reducing resources of layer 1 by 99%
 Computing user defined layers adjustments... Done!
-[INFO] Elapsed time: 0.038513
+[INFO] Elapsed time: 0.038884
 Running FastRoute...
 
-[INFO] WIRELEN : 387, WIRELEN1 : 0
-[INFO] NumSeg  : 151
+[INFO] WIRELEN : 433, WIRELEN1 : 0
+[INFO] NumSeg  : 150
 [INFO] NumShift: 0
 First L Route
-[INFO] WIRELEN : 385, WIRELEN1 : 385
+[INFO] WIRELEN : 434, WIRELEN1 : 434
 [INFO] NumSeg  : 151
-[INFO] NumShift: 3
-[Overflow Report] Total hCap    : 2388
+[INFO] NumShift: 1
+[Overflow Report] Total hCap    : 2411
 [Overflow Report] Total vCap    : 2651
-[Overflow Report] Total Usage   : 385
+[Overflow Report] Total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1830,9 +1830,9 @@ First L Route
 [Overflow Report] Final Overflow: 0
 
 Second L Route
-[Overflow Report] Total hCap    : 2388
+[Overflow Report] Total hCap    : 2411
 [Overflow Report] Total vCap    : 2651
-[Overflow Report] Total Usage   : 385
+[Overflow Report] Total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1842,9 +1842,9 @@ Second L Route
 [Overflow Report] Final Overflow: 0
 
 First Z Route
-[Overflow Report] Total hCap    : 2388
+[Overflow Report] Total hCap    : 2411
 [Overflow Report] Total vCap    : 2651
-[Overflow Report] Total Usage   : 385
+[Overflow Report] Total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1855,7 +1855,7 @@ First Z Route
 
 [INFO] LV routing round 0, enlarge 10 
 [INFO] 10 threshold, 10 expand
-[Overflow Report] total Usage   : 385
+[Overflow Report] total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1866,7 +1866,7 @@ First Z Route
 
 [INFO] LV routing round 1, enlarge 15 
 [INFO] 5 threshold, 15 expand
-[Overflow Report] total Usage   : 385
+[Overflow Report] total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1877,7 +1877,7 @@ First Z Route
 
 [INFO] LV routing round 2, enlarge 20 
 [INFO] 1 threshold, 20 expand
-[Overflow Report] total Usage   : 385
+[Overflow Report] total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1890,7 +1890,7 @@ Usage checked
 Maze routing finished
 [INFO] P3 runtime: 0.000000 sec
 [INFO] Final 2D results: 
-[Overflow Report] total Usage   : 385
+[Overflow Report] total Usage   : 434
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1901,26 +1901,26 @@ Maze routing finished
 
 Layer Assignment Begins
 Layer assignment finished
-[INFO] 2D + Layer Assignment Runtime: 6.210000 sec
+[INFO] 2D + Layer Assignment Runtime: 6.220000 sec
 Post Processing Begins 
 Post Processsing finished
  Starting via filling
-[INFO] Via related to pin nodes 447
-[INFO] Via related stiner nodes 2
+[INFO] Via related to pin nodes 391
+[INFO] Via related stiner nodes 6
 Via filling finished
 
 Final usage/overflow report: 
 [INFO] Usage per layer: 
     Layer 1 usage: 0
-    Layer 2 usage: 63
-    Layer 3 usage: 213
-    Layer 4 usage: 111
+    Layer 2 usage: 155
+    Layer 3 usage: 227
+    Layer 4 usage: 52
     Layer 5 usage: 0
     Layer 6 usage: 0
 
 [INFO] Capacity per layer: 
     Layer 1 capacity: 0
-    Layer 2 capacity: 908
+    Layer 2 capacity: 931
     Layer 3 capacity: 1804
     Layer 4 capacity: 1240
     Layer 5 capacity: 847
@@ -1928,9 +1928,9 @@ Final usage/overflow report:
 
 [INFO] Use percentage per layer: 
     Layer 1 use percentage: 0.0%
-    Layer 2 use percentage: 6.94%
-    Layer 3 use percentage: 11.81%
-    Layer 4 use percentage: 8.95%
+    Layer 2 use percentage: 16.65%
+    Layer 3 use percentage: 12.58%
+    Layer 4 use percentage: 4.19%
     Layer 5 use percentage: 0.00%
     Layer 6 use percentage: 0.00%
 
@@ -1942,8 +1942,8 @@ Final usage/overflow report:
     Layer 5 overflow: 0
     Layer 6 overflow: 0
 
-[Overflow Report] Total Usage   : 387
-[Overflow Report] Total Capacity: 5039
+[Overflow Report] Total Usage   : 434
+[Overflow Report] Total Capacity: 5062
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1951,17 +1951,17 @@ Final usage/overflow report:
 [Overflow Report] V   Overflow  : 0
 [Overflow Report] Final Overflow: 0
 
-[INFO] Final usage          : 387
-[INFO] Final number of vias : 501
-[INFO] Final usage 3D       : 1890
+[INFO] Final usage          : 434
+[INFO] Final number of vias : 449
+[INFO] Final usage 3D       : 1781
 Getting results...
 Getting results... Done!
 
 Running FastRoute... Done!
  > Fixing long segments...
 [WARNING] Max routing length not defined. Skipping...
-[INFO] Total wirelength: 5340.600098 um
-[INFO] Elapsed time: 6.214965
+[INFO] Total wirelength: 5989.200195 um
+[INFO] Elapsed time: 6.217453
 Writing guides...
 [INFO] Num routed nets: 72
 Writing guides... Done!
