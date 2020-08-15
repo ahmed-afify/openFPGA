@@ -2,12 +2,12 @@ from collections import Counter
 right=[]
 left=[]
 bottom=[]
-top=[]
+top=[] 
 lines=[]
-right_pins=["bottom_grid_pin_14_","ccff_tail","prog_clk","pReset","chanx_out_17_","chanx_out_15_","chanx_out_13_","chanx_out_11_","chanx_out_9_","chanx_out_7_","chanx_out_5_"]
-left_pins=["chanx_out_0_","ccff_head","chanx_in_17_","chanx_in_15_","chanx_in_13_","chanx_in_11_","chanx_in_9_","chanx_in_7_","chanx_in_5_","chanx_in_3_","chanx_in_1_"]
-bottom_pins=["chanx_out_2_","chanx_out_4_","chanx_out_6_","chanx_out_8_","chanx_out_10_","chanx_out_12_","chanx_out_14","chanx_out_0_16","bottom_grid_pin_0_","bottom_grid_pin_2_","bottom_grid_pin_4_","bottom_grid_pin_6_","bottom_grid_pin_8_","bottom_grid_pin_10_","bottom_grid_pin_12_"]
-top_pins=["chanx_in_0_","chanx_in_2_","chanx_in_4_","chanx_in_6_","chanx_in_8_","chanx_in_10_","chanx_in_12_","chanx_in_14","chanx_in_0_16","top_grid_pin_2_","top_grid_pin_6_","top_grid_pin_14_","chanx_out_1_","chanx_out_3_"]
+right_pins=["prog_clk","pReset","chanx_out_17_","chanx_out_15_","chanx_out_13_","chanx_out_11_","chanx_out_9_","chanx_out_7_","chanx_out_5_","chanx_out_3_"]
+left_pins=["chanx_out_16_","chanx_in_1_","chanx_in_3_","chanx_in_5_","chanx_in_7_","chanx_in_9_","chanx_in_11_","chanx_in_13_","chanx_in_15_","chanx_in_17_"]
+bottom_pins=["chanx_out_14_","chanx_out_12_","chanx_out_10_","chanx_out_8_","chanx_out_6_","chanx_out_4_","chanx_out_2_","chanx_out_0_","bottom_grid_pin_8_","bottom_grid_pin_4_","bottom_grid_pin_0_","ccff_tail","ccff_head"]
+top_pins=["top_grid_pin_2_","top_grid_pin_6_","top_grid_pin_14_","chanx_in_0_","chanx_in_2_","chanx_in_4_","chanx_in_6_","chanx_in_8_","chanx_in_10_","chanx_in_12_","chanx_in_14_","chanx_in_16_","chanx_out_1_"]
 print(len(right_pins))
 print(len(left_pins))
 print(len(bottom_pins))
@@ -103,7 +103,7 @@ def pin_placer(i):
     update_pinline(i,pin_name)
 
 
-f = open('/Users/ahmedafify/efabless/2x2openFPGA/openFPGA/cbx_1__0_/runs/pin-placement/results/floorplan/cbx_1__0_.floorplan.def', 'r') 
+f = open('/home/aa/Desktop/Afify/openlane/designs/cbx_1__1_/runs/pin_placement/results/floorplan/cbx_1__1_.floorplan.def', 'r') 
 
 line=f.readline()
 coordinates=[]
@@ -140,6 +140,7 @@ for i in range (b_pin,e_pin):
 
 #5,2
 
-f = open('/Users/ahmedafify/efabless/2x2openFPGA/openFPGA/cbx_1__0_/runs/pin-placement/results/floorplan/cbx_1__0_.floorplan.def', 'w') 
+f = open('/home/aa/Desktop/Afify/openlane/designs/cbx_1__1_/runs/pin_placement/results/floorplan/cbx_1__1_.floorplan.def', 'w') 
 for line in lines:
     f.write(line)
+

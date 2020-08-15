@@ -24,7 +24,7 @@ set ::env(SYNTH_SCRIPT) /openLANE_flow/scripts//synth.tcl
 set ::env(SYNTH_STRATEGY) 2
 set ::env(CLOCK_BUFFER_FANOUT) 16
 # Floorplan config
-set ::env(FP_CORE_UTIL) 50
+set ::env(FP_CORE_UTIL) 30
 set ::env(FP_ASPECT_RATIO) 1
 set ::env(FP_CORE_MARGIN) 0
 set ::env(FP_IO_HMETAL) 3
@@ -37,7 +37,7 @@ set ::env(FP_PDN_HOFFSET) 16.65
 set ::env(FP_PDN_HPITCH) 153.18
 set ::env(FP_TAPCELL_DIST) 14
 # Placement config
-set ::env(PL_TARGET_DENSITY) 0.5
+set ::env(PL_TARGET_DENSITY) 0.4
 set ::env(PL_TIME_DRIVEN) 0
 set ::env(PL_LIB) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 # CTS config
@@ -63,6 +63,6 @@ set ::env(CLOCK_TREE_SYNTH) 1
 set ::env(LEC_ENABLE) 0
 set ::env(FILL_INSERTION) 1
 set ::env(DIODE_INSERTION_STRATEGY) 1
-set ::env(CURRENT_DEF) /openLANE_flow/designs/cbx_1__1_/runs/pin_placement//results/floorplan/cbx_1__1_.floorplan.def
-set ::env(CURRENT_NETLIST) /openLANE_flow/designs/cbx_1__1_/runs/pin_placement//results/synthesis/cbx_1__1_.synthesis.v
-set ::env(PREV_NETLIST) 0
+set ::env(CURRENT_DEF) /openLANE_flow/designs/cbx_1__1_/runs/pin_placement//results/routing/cbx_1__1_.def
+set ::env(CURRENT_NETLIST) /openLANE_flow/designs/cbx_1__1_/runs/pin_placement//results/synthesis/cbx_1__1_.synthesis_preroute.v
+set ::env(PREV_NETLIST) /openLANE_flow/designs/cbx_1__1_/runs/pin_placement//results/synthesis/cbx_1__1_.synthesis_diodes.v

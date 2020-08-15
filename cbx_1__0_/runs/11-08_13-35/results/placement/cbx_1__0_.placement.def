@@ -1,0 +1,756 @@
+VERSION 5.8 ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN cbx_1__0_ ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 86225 96945 ) ;
+
+ROW ROW_0 unithd 5520 10880 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_1 unithd 5520 13600 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_2 unithd 5520 16320 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_3 unithd 5520 19040 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_4 unithd 5520 21760 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_5 unithd 5520 24480 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_6 unithd 5520 27200 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_7 unithd 5520 29920 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_8 unithd 5520 32640 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_9 unithd 5520 35360 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_10 unithd 5520 38080 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_11 unithd 5520 40800 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_12 unithd 5520 43520 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_13 unithd 5520 46240 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_14 unithd 5520 48960 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_15 unithd 5520 51680 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_16 unithd 5520 54400 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_17 unithd 5520 57120 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_18 unithd 5520 59840 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_19 unithd 5520 62560 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_20 unithd 5520 65280 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_21 unithd 5520 68000 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_22 unithd 5520 70720 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_23 unithd 5520 73440 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_24 unithd 5520 76160 FS DO 163 BY 1 STEP 460 0 ;
+ROW ROW_25 unithd 5520 78880 N DO 163 BY 1 STEP 460 0 ;
+ROW ROW_26 unithd 5520 81600 FS DO 163 BY 1 STEP 460 0 ;
+
+TRACKS X 230 DO 187 STEP 460 LAYER li1 ;
+TRACKS Y 170 DO 285 STEP 340 LAYER li1 ;
+TRACKS X 170 DO 254 STEP 340 LAYER met1 ;
+TRACKS Y 170 DO 285 STEP 340 LAYER met1 ;
+TRACKS X 230 DO 187 STEP 460 LAYER met2 ;
+TRACKS Y 230 DO 211 STEP 460 LAYER met2 ;
+TRACKS X 340 DO 127 STEP 680 LAYER met3 ;
+TRACKS Y 340 DO 143 STEP 680 LAYER met3 ;
+TRACKS X 460 DO 94 STEP 920 LAYER met4 ;
+TRACKS Y 460 DO 105 STEP 920 LAYER met4 ;
+TRACKS X 1700 DO 25 STEP 3400 LAYER met5 ;
+TRACKS Y 1700 DO 29 STEP 3400 LAYER met5 ;
+
+COMPONENTS 217 ;
+- _00_ sky130_fd_sc_hd__conb_1 + PLACED ( 70840 43520 ) FS ;
+- _01_ sky130_fd_sc_hd__conb_1 + PLACED ( 9200 13600 ) N ;
+- _02_ sky130_fd_sc_hd__conb_1 + PLACED ( 21620 76160 ) FS ;
+- _03_ sky130_fd_sc_hd__conb_1 + PLACED ( 56580 19040 ) N ;
+- _04_ sky130_fd_sc_hd__conb_1 + PLACED ( 51520 19040 ) N ;
+- _05_ sky130_fd_sc_hd__conb_1 + PLACED ( 34500 78880 ) N ;
+- _06_ sky130_fd_sc_hd__conb_1 + PLACED ( 9200 48960 ) FS ;
+- _07_ sky130_fd_sc_hd__conb_1 + PLACED ( 9200 76160 ) FS ;
+- _08_ sky130_fd_sc_hd__conb_1 + PLACED ( 9200 78880 ) N ;
+- _09_ sky130_fd_sc_hd__conb_1 + PLACED ( 9200 19040 ) N ;
+- _10_ sky130_fd_sc_hd__conb_1 + PLACED ( 65780 78880 ) N ;
+- _11_ sky130_fd_sc_hd__buf_2 + PLACED ( 70840 81600 ) FS ;
+- _12_ sky130_fd_sc_hd__buf_2 + PLACED ( 9200 65280 ) FS ;
+- _13_ sky130_fd_sc_hd__buf_2 + PLACED ( 53820 13600 ) N ;
+- _14_ sky130_fd_sc_hd__buf_2 + PLACED ( 70840 78880 ) N ;
+- _15_ sky130_fd_sc_hd__buf_2 + PLACED ( 51980 76160 ) FS ;
+- _16_ sky130_fd_sc_hd__buf_2 + PLACED ( 70840 10880 ) FS ;
+- _17_ sky130_fd_sc_hd__buf_2 + PLACED ( 70380 27200 ) FS ;
+- _18_ sky130_fd_sc_hd__buf_2 + PLACED ( 9660 16320 ) FS ;
+- _19_ sky130_fd_sc_hd__buf_2 + PLACED ( 70380 16320 ) FS ;
+- _20_ sky130_fd_sc_hd__buf_2 + PLACED ( 70380 70720 ) FS ;
+- _21_ sky130_fd_sc_hd__buf_2 + PLACED ( 64860 16320 ) FS ;
+- _22_ sky130_fd_sc_hd__buf_2 + PLACED ( 14260 10880 ) FS ;
+- _23_ sky130_fd_sc_hd__buf_2 + PLACED ( 48300 13600 ) N ;
+- _24_ sky130_fd_sc_hd__buf_2 + PLACED ( 70380 21760 ) FS ;
+- _25_ sky130_fd_sc_hd__buf_2 + PLACED ( 14260 21760 ) FS ;
+- _26_ sky130_fd_sc_hd__buf_2 + PLACED ( 39100 16320 ) FS ;
+- _27_ sky130_fd_sc_hd__buf_2 + PLACED ( 70380 65280 ) FS ;
+- _28_ sky130_fd_sc_hd__buf_2 + PLACED ( 65320 10880 ) FS ;
+- mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 6900 24480 ) N ;
+- mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 6900 29920 ) N ;
+- mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 7820 35360 ) N ;
+- mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 20240 27200 ) FS ;
+- mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 15640 19040 ) N ;
+- mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 20240 21760 ) FS ;
+- mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 15180 13600 ) N ;
+- mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 20240 16320 ) FS ;
+- mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 68000 ) N ;
+- mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 34040 19040 ) N ;
+- mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 34040 13600 ) N ;
+- mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 48300 16320 ) FS ;
+- mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 19040 ) N ;
+- mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 48300 43520 ) FS ;
+- mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 13600 ) N ;
+- mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 34040 29920 ) N ;
+- mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 38080 ) FS ;
+- mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 41860 40800 ) N ;
+- mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 44620 35360 ) N ;
+- mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 48300 32640 ) FS ;
+- mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 47380 24480 ) N ;
+- mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 51060 27200 ) FS ;
+- mem_top_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 55200 21760 ) FS ;
+- mem_top_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 24480 ) N ;
+- mem_top_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 29920 ) N ;
+- mem_top_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 35360 ) N ;
+- mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 61180 38080 ) FS ;
+- mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 40800 ) N ;
+- mem_top_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 46240 ) N ;
+- mem_top_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 61640 48960 ) FS ;
+- mem_top_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 63020 51680 ) N ;
+- mem_top_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 62560 ) N ;
+- mem_top_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 56120 65280 ) FS ;
+- mem_top_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 57120 ) N ;
+- mem_top_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 48300 59840 ) FS ;
+- mem_top_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 48300 54400 ) FS ;
+- mem_top_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 40940 51680 ) N ;
+- mem_top_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 36340 57120 ) N ;
+- mem_top_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 31280 54400 ) FS ;
+- mem_top_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 28060 59840 ) FS ;
+- mem_top_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 25300 32640 ) FS ;
+- mem_top_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 34040 62560 ) N ;
+- mem_top_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 34040 46240 ) N ;
+- mem_top_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 20240 43520 ) FS ;
+- mem_top_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 7820 40800 ) N ;
+- mem_top_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 20240 48960 ) FS ;
+- mem_top_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 7820 46240 ) N ;
+- mem_top_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 8740 51680 ) N ;
+- mem_top_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 10120 57120 ) N ;
+- mem_top_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 11960 62560 ) N ;
+- mem_top_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 15180 73440 ) N ;
+- mem_top_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 19320 78880 ) N ;
+- mem_top_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 19320 68000 ) N ;
+- mem_top_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 28980 65280 ) FS ;
+- mem_top_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33120 76160 ) FS ;
+- mem_top_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 70720 ) FS ;
+- mem_top_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 41860 68000 ) N ;
+- mem_top_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 46000 78880 ) N ;
+- mem_top_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 47380 73440 ) N ;
+- mem_top_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 54740 70720 ) FS ;
+- mem_top_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 62100 73440 ) N ;
+- mem_top_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 61640 76160 ) FS ;
+- PHY_0 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 10880 ) FS ;
+- PHY_1 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 10880 ) S ;
+- PHY_2 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 13600 ) N ;
+- PHY_3 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 13600 ) FN ;
+- PHY_4 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 16320 ) FS ;
+- PHY_5 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 16320 ) S ;
+- PHY_6 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 19040 ) N ;
+- PHY_7 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 19040 ) FN ;
+- PHY_8 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 21760 ) FS ;
+- PHY_9 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 21760 ) S ;
+- PHY_10 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 24480 ) N ;
+- PHY_11 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 24480 ) FN ;
+- PHY_12 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 27200 ) FS ;
+- PHY_13 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 27200 ) S ;
+- PHY_14 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 29920 ) N ;
+- PHY_15 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 29920 ) FN ;
+- PHY_16 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 32640 ) FS ;
+- PHY_17 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 32640 ) S ;
+- PHY_18 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 35360 ) N ;
+- PHY_19 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 35360 ) FN ;
+- PHY_20 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 38080 ) FS ;
+- PHY_21 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 38080 ) S ;
+- PHY_22 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 40800 ) N ;
+- PHY_23 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 40800 ) FN ;
+- PHY_24 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 43520 ) FS ;
+- PHY_25 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 43520 ) S ;
+- PHY_26 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 46240 ) N ;
+- PHY_27 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 46240 ) FN ;
+- PHY_28 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 48960 ) FS ;
+- PHY_29 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 48960 ) S ;
+- PHY_30 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 51680 ) N ;
+- PHY_31 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 51680 ) FN ;
+- PHY_32 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 54400 ) FS ;
+- PHY_33 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 54400 ) S ;
+- PHY_34 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 57120 ) N ;
+- PHY_35 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 57120 ) FN ;
+- PHY_36 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 59840 ) FS ;
+- PHY_37 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 59840 ) S ;
+- PHY_38 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 62560 ) N ;
+- PHY_39 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 62560 ) FN ;
+- PHY_40 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 65280 ) FS ;
+- PHY_41 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 65280 ) S ;
+- PHY_42 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 68000 ) N ;
+- PHY_43 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 68000 ) FN ;
+- PHY_44 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 70720 ) FS ;
+- PHY_45 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 70720 ) S ;
+- PHY_46 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 73440 ) N ;
+- PHY_47 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 73440 ) FN ;
+- PHY_48 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 76160 ) FS ;
+- PHY_49 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 76160 ) S ;
+- PHY_50 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 78880 ) N ;
+- PHY_51 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 78880 ) FN ;
+- PHY_52 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 81600 ) FS ;
+- PHY_53 sky130_fd_sc_hd__decap_3 + FIXED ( 79120 81600 ) S ;
+- PHY_54 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 10880 ) FS ;
+- PHY_55 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 34040 10880 ) FS ;
+- PHY_56 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 48300 10880 ) FS ;
+- PHY_57 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 62560 10880 ) FS ;
+- PHY_58 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 76820 10880 ) FS ;
+- PHY_59 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 13600 ) N ;
+- PHY_60 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 13600 ) N ;
+- PHY_61 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 16320 ) FS ;
+- PHY_62 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 16320 ) FS ;
+- PHY_63 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 16320 ) FS ;
+- PHY_64 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 19040 ) N ;
+- PHY_65 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 19040 ) N ;
+- PHY_66 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 21760 ) FS ;
+- PHY_67 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 21760 ) FS ;
+- PHY_68 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 21760 ) FS ;
+- PHY_69 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 24480 ) N ;
+- PHY_70 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 24480 ) N ;
+- PHY_71 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 27200 ) FS ;
+- PHY_72 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 27200 ) FS ;
+- PHY_73 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 27200 ) FS ;
+- PHY_74 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 29920 ) N ;
+- PHY_75 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 29920 ) N ;
+- PHY_76 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 32640 ) FS ;
+- PHY_77 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 32640 ) FS ;
+- PHY_78 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 32640 ) FS ;
+- PHY_79 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 35360 ) N ;
+- PHY_80 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 35360 ) N ;
+- PHY_81 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 38080 ) FS ;
+- PHY_82 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 38080 ) FS ;
+- PHY_83 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 38080 ) FS ;
+- PHY_84 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 40800 ) N ;
+- PHY_85 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 40800 ) N ;
+- PHY_86 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 43520 ) FS ;
+- PHY_87 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 43520 ) FS ;
+- PHY_88 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 43520 ) FS ;
+- PHY_89 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 46240 ) N ;
+- PHY_90 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 46240 ) N ;
+- PHY_91 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 48960 ) FS ;
+- PHY_92 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 48960 ) FS ;
+- PHY_93 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 48960 ) FS ;
+- PHY_94 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 51680 ) N ;
+- PHY_95 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 51680 ) N ;
+- PHY_96 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 54400 ) FS ;
+- PHY_97 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 54400 ) FS ;
+- PHY_98 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 54400 ) FS ;
+- PHY_99 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 57120 ) N ;
+- PHY_100 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 57120 ) N ;
+- PHY_101 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 59840 ) FS ;
+- PHY_102 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 59840 ) FS ;
+- PHY_103 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 59840 ) FS ;
+- PHY_104 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 62560 ) N ;
+- PHY_105 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 62560 ) N ;
+- PHY_106 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 65280 ) FS ;
+- PHY_107 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 65280 ) FS ;
+- PHY_108 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 65280 ) FS ;
+- PHY_109 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 68000 ) N ;
+- PHY_110 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 68000 ) N ;
+- PHY_111 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 70720 ) FS ;
+- PHY_112 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 70720 ) FS ;
+- PHY_113 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 70720 ) FS ;
+- PHY_114 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 73440 ) N ;
+- PHY_115 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 73440 ) N ;
+- PHY_116 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 76160 ) FS ;
+- PHY_117 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 76160 ) FS ;
+- PHY_118 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 76160 ) FS ;
+- PHY_119 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 78880 ) N ;
+- PHY_120 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 78880 ) N ;
+- PHY_121 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 81600 ) FS ;
+- PHY_122 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 34040 81600 ) FS ;
+- PHY_123 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 48300 81600 ) FS ;
+- PHY_124 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 62560 81600 ) FS ;
+- PHY_125 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 76820 81600 ) FS ;
+END COMPONENTS
+
+PINS 51 ;
+- bottom_grid_pin_0_ + NET bottom_grid_pin_0_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 17340 ) N ;
+- bottom_grid_pin_10_ + NET bottom_grid_pin_10_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 96220 ) N ;
+- bottom_grid_pin_12_ + NET bottom_grid_pin_12_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 79220 ) N ;
+- bottom_grid_pin_14_ + NET bottom_grid_pin_14_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 52700 ) N ;
+- bottom_grid_pin_2_ + NET bottom_grid_pin_2_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 35650 94945 ) N ;
+- bottom_grid_pin_4_ + NET bottom_grid_pin_4_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 53590 2000 ) N ;
+- bottom_grid_pin_6_ + NET bottom_grid_pin_6_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 65090 2000 ) N ;
+- bottom_grid_pin_8_ + NET bottom_grid_pin_8_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 23690 94945 ) N ;
+- ccff_head + NET ccff_head + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 26180 ) N ;
+- ccff_tail + NET ccff_tail + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 77050 94945 ) N ;
+- chanx_in_0_ + NET chanx_in_0_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 65620 ) N ;
+- chanx_in_10_ + NET chanx_in_10_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 70380 ) N ;
+- chanx_in_11_ + NET chanx_in_11_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 71070 2000 ) N ;
+- chanx_in_12_ + NET chanx_in_12_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 88060 ) N ;
+- chanx_in_13_ + NET chanx_in_13_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 41630 94945 ) N ;
+- chanx_in_14_ + NET chanx_in_14_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 11730 2000 ) N ;
+- chanx_in_15_ + NET chanx_in_15_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 22100 ) N ;
+- chanx_in_16_ + NET chanx_in_16_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 35020 ) N ;
+- chanx_in_17_ + NET chanx_in_17_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 39780 ) N ;
+- chanx_in_1_ + NET chanx_in_1_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 92140 ) N ;
+- chanx_in_2_ + NET chanx_in_2_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 13260 ) N ;
+- chanx_in_3_ + NET chanx_in_3_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 5750 94945 ) N ;
+- chanx_in_4_ + NET chanx_in_4_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 59110 94945 ) N ;
+- chanx_in_5_ + NET chanx_in_5_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 4420 ) N ;
+- chanx_in_6_ + NET chanx_in_6_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 29670 94945 ) N ;
+- chanx_in_7_ + NET chanx_in_7_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 29670 2000 ) N ;
+- chanx_in_8_ + NET chanx_in_8_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 17710 94945 ) N ;
+- chanx_in_9_ + NET chanx_in_9_ + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 83030 2000 ) N ;
+- chanx_out_0_ + NET chanx_out_0_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 71070 94945 ) N ;
+- chanx_out_10_ + NET chanx_out_10_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 61540 ) N ;
+- chanx_out_11_ + NET chanx_out_11_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 41630 2000 ) N ;
+- chanx_out_12_ + NET chanx_out_12_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 74460 ) N ;
+- chanx_out_13_ + NET chanx_out_13_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 65090 94945 ) N ;
+- chanx_out_14_ + NET chanx_out_14_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 83030 94945 ) N ;
+- chanx_out_15_ + NET chanx_out_15_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 30940 ) N ;
+- chanx_out_16_ + NET chanx_out_16_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 23690 2000 ) N ;
+- chanx_out_17_ + NET chanx_out_17_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 17710 2000 ) N ;
+- chanx_out_1_ + NET chanx_out_1_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 77050 2000 ) N ;
+- chanx_out_2_ + NET chanx_out_2_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 59570 2000 ) N ;
+- chanx_out_3_ + NET chanx_out_3_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 47610 2000 ) N ;
+- chanx_out_4_ + NET chanx_out_4_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 35650 2000 ) N ;
+- chanx_out_5_ + NET chanx_out_5_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 43860 ) N ;
+- chanx_out_6_ + NET chanx_out_6_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 5750 2000 ) N ;
+- chanx_out_7_ + NET chanx_out_7_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 47610 94945 ) N ;
+- chanx_out_8_ + NET chanx_out_8_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 56780 ) N ;
+- chanx_out_9_ + NET chanx_out_9_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 2000 8500 ) N ;
+- pReset + NET pReset + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 11730 94945 ) N ;
+- prog_clk + NET prog_clk + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 53590 94945 ) N ;
+- top_grid_pin_14_ + NET top_grid_pin_14_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 83300 ) N ;
+- top_grid_pin_2_ + NET top_grid_pin_2_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met3 ( -2000 -300 ) ( 2000 300 ) + PLACED ( 84225 48620 ) N ;
+- top_grid_pin_6_ + NET top_grid_pin_6_ + DIRECTION OUTPUT + USE SIGNAL 
+  + LAYER met2 ( -140 -2000 ) ( 140 2000 ) + PLACED ( 230 2000 ) N ;
+END PINS
+
+NETS 174 ;
+- bottom_grid_pin_0_ 
+  ( PIN bottom_grid_pin_0_ ) ( _09_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_10_ 
+  ( PIN bottom_grid_pin_10_ ) ( _08_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_12_ 
+  ( PIN bottom_grid_pin_12_ ) ( _07_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_14_ 
+  ( PIN bottom_grid_pin_14_ ) ( _06_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_2_ 
+  ( PIN bottom_grid_pin_2_ ) ( _05_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_4_ 
+  ( PIN bottom_grid_pin_4_ ) ( _04_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_6_ 
+  ( PIN bottom_grid_pin_6_ ) ( _03_ LO ) + USE SIGNAL ;
+- bottom_grid_pin_8_ 
+  ( PIN bottom_grid_pin_8_ ) ( _02_ LO ) + USE SIGNAL ;
+- ccff_head 
+  ( PIN ccff_head ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) + USE SIGNAL ;
+- ccff_tail 
+  ( PIN ccff_tail ) ( mem_top_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- chanx_in_0_ 
+  ( PIN chanx_in_0_ ) ( _11_ A ) + USE SIGNAL ;
+- chanx_in_10_ 
+  ( PIN chanx_in_10_ ) ( _12_ A ) + USE SIGNAL ;
+- chanx_in_11_ 
+  ( PIN chanx_in_11_ ) ( _13_ A ) + USE SIGNAL ;
+- chanx_in_12_ 
+  ( PIN chanx_in_12_ ) ( _14_ A ) + USE SIGNAL ;
+- chanx_in_13_ 
+  ( PIN chanx_in_13_ ) ( _15_ A ) + USE SIGNAL ;
+- chanx_in_14_ 
+  ( PIN chanx_in_14_ ) ( _16_ A ) + USE SIGNAL ;
+- chanx_in_15_ 
+  ( PIN chanx_in_15_ ) ( _17_ A ) + USE SIGNAL ;
+- chanx_in_16_ 
+  ( PIN chanx_in_16_ ) ( _18_ A ) + USE SIGNAL ;
+- chanx_in_17_ 
+  ( PIN chanx_in_17_ ) ( _19_ A ) + USE SIGNAL ;
+- chanx_in_1_ 
+  ( PIN chanx_in_1_ ) ( _20_ A ) + USE SIGNAL ;
+- chanx_in_2_ 
+  ( PIN chanx_in_2_ ) ( _21_ A ) + USE SIGNAL ;
+- chanx_in_3_ 
+  ( PIN chanx_in_3_ ) ( _22_ A ) + USE SIGNAL ;
+- chanx_in_4_ 
+  ( PIN chanx_in_4_ ) ( _23_ A ) + USE SIGNAL ;
+- chanx_in_5_ 
+  ( PIN chanx_in_5_ ) ( _24_ A ) + USE SIGNAL ;
+- chanx_in_6_ 
+  ( PIN chanx_in_6_ ) ( _25_ A ) + USE SIGNAL ;
+- chanx_in_7_ 
+  ( PIN chanx_in_7_ ) ( _26_ A ) + USE SIGNAL ;
+- chanx_in_8_ 
+  ( PIN chanx_in_8_ ) ( _27_ A ) + USE SIGNAL ;
+- chanx_in_9_ 
+  ( PIN chanx_in_9_ ) ( _28_ A ) + USE SIGNAL ;
+- chanx_out_0_ 
+  ( PIN chanx_out_0_ ) ( _11_ X ) + USE SIGNAL ;
+- chanx_out_10_ 
+  ( PIN chanx_out_10_ ) ( _12_ X ) + USE SIGNAL ;
+- chanx_out_11_ 
+  ( PIN chanx_out_11_ ) ( _13_ X ) + USE SIGNAL ;
+- chanx_out_12_ 
+  ( PIN chanx_out_12_ ) ( _14_ X ) + USE SIGNAL ;
+- chanx_out_13_ 
+  ( PIN chanx_out_13_ ) ( _15_ X ) + USE SIGNAL ;
+- chanx_out_14_ 
+  ( PIN chanx_out_14_ ) ( _16_ X ) + USE SIGNAL ;
+- chanx_out_15_ 
+  ( PIN chanx_out_15_ ) ( _17_ X ) + USE SIGNAL ;
+- chanx_out_16_ 
+  ( PIN chanx_out_16_ ) ( _18_ X ) + USE SIGNAL ;
+- chanx_out_17_ 
+  ( PIN chanx_out_17_ ) ( _19_ X ) + USE SIGNAL ;
+- chanx_out_1_ 
+  ( PIN chanx_out_1_ ) ( _20_ X ) + USE SIGNAL ;
+- chanx_out_2_ 
+  ( PIN chanx_out_2_ ) ( _21_ X ) + USE SIGNAL ;
+- chanx_out_3_ 
+  ( PIN chanx_out_3_ ) ( _22_ X ) + USE SIGNAL ;
+- chanx_out_4_ 
+  ( PIN chanx_out_4_ ) ( _23_ X ) + USE SIGNAL ;
+- chanx_out_5_ 
+  ( PIN chanx_out_5_ ) ( _24_ X ) + USE SIGNAL ;
+- chanx_out_6_ 
+  ( PIN chanx_out_6_ ) ( _25_ X ) + USE SIGNAL ;
+- chanx_out_7_ 
+  ( PIN chanx_out_7_ ) ( _26_ X ) + USE SIGNAL ;
+- chanx_out_8_ 
+  ( PIN chanx_out_8_ ) ( _27_ X ) + USE SIGNAL ;
+- chanx_out_9_ 
+  ( PIN chanx_out_9_ ) ( _28_ X ) + USE SIGNAL ;
+- pReset 
+  ( PIN pReset ) ( mem_top_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
+  ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) + USE SIGNAL ;
+- prog_clk 
+  ( PIN prog_clk ) ( mem_top_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
+  ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) + USE SIGNAL ;
+- top_grid_pin_14_ 
+  ( PIN top_grid_pin_14_ ) ( _10_ LO ) + USE SIGNAL ;
+- top_grid_pin_2_ 
+  ( PIN top_grid_pin_2_ ) ( _00_ LO ) + USE SIGNAL ;
+- top_grid_pin_6_ 
+  ( PIN top_grid_pin_6_ ) ( _01_ LO ) + USE SIGNAL ;
+- mem_bottom_ipin_0.ccff_tail 
+  ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_0_.Q 
+  ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_0_.Qb 
+  ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_1_.Q 
+  ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_1_.Qb 
+  ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_2_.Q 
+  ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_2_.Qb 
+  ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_3_.Q 
+  ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_3_.Qb 
+  ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_4_.Q 
+  ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_4_.Qb 
+  ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_0.sc_dff_compact_5_.Qb 
+  ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_1.ccff_tail 
+  ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_1.sc_dff_compact_0_.Q 
+  ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_1.sc_dff_compact_0_.Qb 
+  ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_1.sc_dff_compact_1_.Qb 
+  ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_2.ccff_tail 
+  ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_0_.Q 
+  ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_0_.Qb 
+  ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_1_.Q 
+  ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_1_.Qb 
+  ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_2_.Q 
+  ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_2_.Qb 
+  ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_3_.Q 
+  ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_3_.Qb 
+  ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_4_.Q 
+  ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_4_.Qb 
+  ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_bottom_ipin_2.sc_dff_compact_5_.Qb 
+  ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_0.ccff_tail 
+  ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_0.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_1.ccff_tail 
+  ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_1.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_2.ccff_tail 
+  ( mem_top_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_2.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_3.ccff_tail 
+  ( mem_top_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_3.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_4.ccff_tail 
+  ( mem_top_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_4.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_5.ccff_tail 
+  ( mem_top_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_5.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_6.ccff_tail 
+  ( mem_top_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_6.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_0_.Q 
+  ( mem_top_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_0_.Qb 
+  ( mem_top_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_1_.Q 
+  ( mem_top_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_1_.Qb 
+  ( mem_top_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_2_.Q 
+  ( mem_top_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_2_.Qb 
+  ( mem_top_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_3_.Q 
+  ( mem_top_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_3_.Qb 
+  ( mem_top_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_4_.Q 
+  ( mem_top_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_4_.Qb 
+  ( mem_top_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+- mem_top_ipin_7.sc_dff_compact_5_.Qb 
+  ( mem_top_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+END NETS
+
+END DESIGN
+

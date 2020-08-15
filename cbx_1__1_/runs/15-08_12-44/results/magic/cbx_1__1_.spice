@@ -1,0 +1,814 @@
+* NGSPICE file created from cbx_1__1_.ext - technology: sky130A
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__dfrbp_1 abstract view
+.subckt sky130_fd_sc_hd__dfrbp_1 D Q Q_N RESET_B CLK VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_3 abstract view
+.subckt sky130_fd_sc_hd__decap_3 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_12 abstract view
+.subckt sky130_fd_sc_hd__decap_12 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_8 abstract view
+.subckt sky130_fd_sc_hd__decap_8 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_2 abstract view
+.subckt sky130_fd_sc_hd__fill_2 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_4 abstract view
+.subckt sky130_fd_sc_hd__decap_4 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__decap_6 abstract view
+.subckt sky130_fd_sc_hd__decap_6 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__diode_2 abstract view
+.subckt sky130_fd_sc_hd__diode_2 DIODE VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__fill_1 abstract view
+.subckt sky130_fd_sc_hd__fill_1 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__buf_2 abstract view
+.subckt sky130_fd_sc_hd__buf_2 A X VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__conb_1 abstract view
+.subckt sky130_fd_sc_hd__conb_1 HI LO VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_16 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_16 A X VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__tapvpwrvgnd_1 abstract view
+.subckt sky130_fd_sc_hd__tapvpwrvgnd_1 VGND VPWR
+.ends
+
+* Black-box entry subcircuit for sky130_fd_sc_hd__clkbuf_1 abstract view
+.subckt sky130_fd_sc_hd__clkbuf_1 A X VGND VPWR
+.ends
+
+.subckt cbx_1__1_ bottom_grid_pin_0_ bottom_grid_pin_4_ bottom_grid_pin_8_ ccff_head
++ ccff_tail chanx_in_0_ chanx_in_10_ chanx_in_11_ chanx_in_12_ chanx_in_13_ chanx_in_14_
++ chanx_in_15_ chanx_in_16_ chanx_in_17_ chanx_in_1_ chanx_in_2_ chanx_in_3_ chanx_in_4_
++ chanx_in_5_ chanx_in_6_ chanx_in_7_ chanx_in_8_ chanx_in_9_ chanx_out_0_ chanx_out_10_
++ chanx_out_11_ chanx_out_12_ chanx_out_13_ chanx_out_14_ chanx_out_15_ chanx_out_16_
++ chanx_out_17_ chanx_out_1_ chanx_out_2_ chanx_out_3_ chanx_out_4_ chanx_out_5_ chanx_out_6_
++ chanx_out_7_ chanx_out_8_ chanx_out_9_ pReset prog_clk top_grid_pin_14_ top_grid_pin_2_
++ top_grid_pin_6_
+Xmem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X _08_/VGND _08_/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X _08_/VGND _08_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_3_34 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_9_104 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_129 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_12_32 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_12_87 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_23_75 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_23_53 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_8
+Xmem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 ccff_head mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N pReset clkbuf_1_0_0_prog_clk/X
++ _15_/VGND _14_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_18_86 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_6
+XANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_20_32 _23_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_6_56 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_13_3 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_13_123 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_116 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_9_127 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q
++ _04_/VGND _02_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D
++ _04_/VGND _02_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_23_32 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_23_87 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_2_111 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_9_67 _00_/VGND _11_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_18_32 _04_/VGND _02_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_20_11 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_6_13 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_68 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_15_55 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_15_44 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_22_124 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_13_135 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_3_14 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_47 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_10_105 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_10_127 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_3_3 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_9_57 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_20_89 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_clkbuf_1_0_0_prog_clk_A clkbuf_0_prog_clk/X _08_/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_6_25 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_22_136 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_3_26 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_3_59 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_10_117 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_4_91 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _00_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_0_49 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA__12__A chanx_in_4_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA__07__A chanx_in_16_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_20_24 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_20_57 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA__20__A chanx_in_11_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_11_3 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA__15__A chanx_in_7_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_12_36 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_12_58 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+Xmem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X _23_/VGND _21_/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X _00_/VGND _11_/VPWR sky130_fd_sc_hd__dfrbp_1
+XANTENNA__23__A chanx_in_14_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_20_69 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA__18__A chanx_in_0_ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_19_132 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_19_110 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_13_7 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_15_47 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_21_90 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_22_105 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_7_92 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_39 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_12_15 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_123 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_4_60 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_4_71 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_4_93 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_18_36 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_3 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D ccff_head
++ _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_22_117 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_0 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_5_135 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_23_15 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_2_127 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_2_105 _18_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D
++ _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_18_48 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_18_15 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+Xmem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_20_16 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_1_62 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_51 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_19_123 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_10_93 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+X_09_ chanx_in_1_ chanx_out_1_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__buf_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_16_137 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XPHY_1 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q
++ PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _13_/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_23_27 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_9_18 _00_/VGND _11_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_13_71 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_18_27 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_1_74 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_41 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+X_08_ chanx_in_17_ chanx_out_17_ _08_/VGND _08_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_16_105 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_15_28 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XPHY_2 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_62 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_13_108 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_16_93 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_12_29 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_5_104 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_4_30 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_20_29 _23_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_1_86 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_10_73 _13_/VGND _11_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_19_60 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_1
+Xmem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X _18_/VGND _14_/VPWR sky130_fd_sc_hd__dfrbp_1
+X_07_ chanx_in_16_ chanx_out_16_ _18_/VGND _14_/VPWR sky130_fd_sc_hd__buf_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D
++ _08_/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_21_72 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_16_117 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XPHY_3 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_30 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_21_120 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_5_116 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_4_64 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_4_75 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_13_51 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_13_62 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+X_23_ chanx_in_14_ chanx_out_14_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_1_98 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_10_30 _13_/VGND _11_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_10_52 _13_/VGND _11_/VPWR sky130_fd_sc_hd__fill_2
+X_06_ chanx_in_15_ chanx_out_15_ _18_/VGND _06_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_21_95 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_21_84 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_21_62 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_16_129 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_8
+XPHY_4 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_clkbuf_1_1_0_prog_clk_A clkbuf_0_prog_clk/X _13_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_4_32 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_4_87 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_1_120 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_13_96 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _00_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+X_22_ chanx_in_13_ chanx_out_13_ _23_/VGND _04_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_1_55 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_6
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+Xmem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_19_138 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_19_62 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_19_40 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_18_3 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_4
+X_05_ _05_/HI top_grid_pin_6_ _18_/VGND _14_/VPWR sky130_fd_sc_hd__conb_1
+XFILLER_21_41 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XPHY_5 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_43 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_21_133 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_16_74 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_8_137 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_13_20 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+X_21_ chanx_in_12_ chanx_out_12_ _03_/VGND _21_/VPWR sky130_fd_sc_hd__buf_2
+XANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _04_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_1_34 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_19_128 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_19_74 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_10_32 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+X_04_ _04_/HI top_grid_pin_2_ _04_/VGND _04_/VPWR sky130_fd_sc_hd__conb_1
+XFILLER_21_53 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XPHY_6 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_55 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_21_123 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_16_86 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_8_105 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_4_12 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q
++ _08_/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_1_133 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_8_3 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_4
+X_20_ chanx_in_11_ chanx_out_11_ _18_/VGND _14_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_10_22 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_10_44 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_10_77 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+Xclkbuf_0_prog_clk prog_clk clkbuf_0_prog_clk/X PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__clkbuf_16
+X_03_ _03_/HI top_grid_pin_14_ _03_/VGND _03_/VPWR sky130_fd_sc_hd__conb_1
+Xmem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ ccff_tail mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N pReset clkbuf_1_0_0_prog_clk/X
++ _03_/VGND _21_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_19_86 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XPHY_7 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_23_3 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_21_113 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_7_67 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_16_32 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_8_117 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D
++ _08_/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_4_24 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_4_68 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _04_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_1_123 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_13_55 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_1_47 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_10_56 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_19_98 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_10_89 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+X_02_ _02_/HI bottom_grid_pin_0_ _04_/VGND _02_/VPWR sky130_fd_sc_hd__conb_1
+XFILLER_21_99 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_2_90 _18_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_16_3 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_15_133 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_6
+XPHY_8 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_7_35 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ _04_/VGND _02_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_16_44 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_8_129 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _08_/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_4_36 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_13_67 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_19_44 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_19_11 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_10_68 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _13_/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+X_01_ _01_/HI bottom_grid_pin_4_ _08_/VGND _01_/VPWR sky130_fd_sc_hd__conb_1
+XANTENNA__10__A chanx_in_2_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_21_45 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_21_12 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+Xmem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X _04_/VGND _04_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_15_123 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XPHY_9 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__diode_2
+Xmem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_12_137 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_1_38 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_6_3 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_4
+XANTENNA__13__A chanx_in_5_ _13_/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_19_56 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_4
+XANTENNA__08__A chanx_in_17_ _08_/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+X_00_ _00_/HI bottom_grid_pin_8_ _00_/VGND _11_/VPWR sky130_fd_sc_hd__conb_1
+XFILLER_21_68 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_21_57 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_2_70 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA__21__A chanx_in_12_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_16_68 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_16_13 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_12_105 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_21_3 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_8_91 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_1
+XANTENNA__16__A chanx_in_8_ _13_/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_13_25 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_5_92 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_28 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_4
+XANTENNA_clkbuf_0_prog_clk_A prog_clk PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_10_15 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_18_9 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_2_93 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_2_82 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA__19__A chanx_in_10_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_21_117 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_12_117 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+Xmem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_14_3 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_13_15 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_13_59 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_19_36 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XPHY_90 _23_/VGND _04_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_21_37 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_21_129 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_7_39 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_12_129 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_8_71 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_8_93 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_17_91 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_1_117 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_1_106 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_8_9 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q
++ _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _08_/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_4_3 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_91 _23_/VGND _04_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_80 _08_/VGND _08_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _13_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q
++ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_7_123 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_22_81 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_8
+Xmem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_4_137 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_1_129 _15_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _08_/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_5_62 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_14_71 _08_/VGND _01_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_14_93 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+XPHY_92 _23_/VGND _21_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_81 _08_/VGND _08_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_70 _13_/VGND _11_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_2_30 _18_/VGND _14_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_16_9 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_11_94 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_21_109 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_16_17 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_22_93 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_7_135 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_4_105 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_17_60 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_12_3 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_41 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D
++ PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_10_19 _13_/VGND _11_/VPWR sky130_fd_sc_hd__fill_1
+XPHY_93 _23_/VGND _21_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_18_126 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XPHY_82 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_60 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_71 _13_/VGND _11_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_15_129 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_15_107 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_11_62 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_16_29 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_8_30 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_4_117 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+Xmem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X _13_/VGND _16_/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X _08_/VGND _01_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_1_109 _15_/VGND _14_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_5_53 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_6_9 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__fill_2
+XPHY_94 _03_/VGND _21_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_18_138 _04_/VGND _02_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_18_105 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XPHY_83 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_50 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_61 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_72 _13_/VGND _16_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_2_32 _18_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_2_10 _18_/VGND _14_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_15_119 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_2_3 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_21_9 _23_/VGND _21_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_7_104 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_11_133 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_8_75 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_17_62 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_4_129 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_14_30 _08_/VGND _01_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_14_63 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_14_74 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_18_117 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_6
+XPHY_95 _03_/VGND _21_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_40 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_84 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_51 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_62 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_73 _13_/VGND _16_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_11_42 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_11_53 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_7_116 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_11_123 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_8_32 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_8_87 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_4
+X_19_ chanx_in_10_ chanx_out_10_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_17_30 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+Xmem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X _23_/VGND _04_/VPWR sky130_fd_sc_hd__dfrbp_1
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_10_3 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_14_86 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_4_8 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XPHY_96 _03_/VGND _03_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_41 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_85 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_30 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_52 _15_/VGND _14_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_63 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_74 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _03_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ _04_/VGND _02_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D
++ _04_/VGND _02_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_8_22 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_8
+X_18_ chanx_in_0_ chanx_out_0_ _18_/VGND _06_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_17_42 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_67 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_14_10 _08_/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_14_32 _08_/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XPHY_97 _03_/VGND _03_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_42 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_86 _04_/VGND _02_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_31 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_53 _15_/VGND _14_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_64 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_20 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_75 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q
++ _08_/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_2_46 _18_/VGND _14_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_11_66 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_22_32 _03_/VGND _21_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_3 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__fill_2
+X_17_ chanx_in_9_ chanx_out_9_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__buf_2
+XANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ _23_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_17_54 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_6
+Xmem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__dfrbp_1
+XPHY_98 _03_/VGND _03_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_43 _23_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_87 _04_/VGND _02_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_32 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_54 _18_/VGND _14_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_10 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_3
+XPHY_65 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_21 _13_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_76 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_2_14 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_22_11 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_8_13 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_8_57 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_12
+X_16_ chanx_in_8_ chanx_out_8_ _13_/VGND _16_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_17_66 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_111 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_3_133 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_125 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XPHY_99 _03_/VGND _03_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_44 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_88 _04_/VGND _04_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_33 PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_77 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_55 _18_/VGND _14_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_11 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_3
+XPHY_66 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_22 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_17_121 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_2_26 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_11_57 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_20_127 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_20_105 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_22_89 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA__11__A chanx_in_3_ _00_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_19_3 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+X_15_ chanx_in_7_ chanx_out_7_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__buf_2
+XANTENNA__06__A chanx_in_15_ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_3_123 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_137 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_14_24 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_6
+XPHY_12 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_6_91 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__fill_1
+XPHY_45 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_89 _04_/VGND _04_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_34 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_2_38 _18_/VGND _14_/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA__14__A chanx_in_6_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XPHY_56 _18_/VGND _06_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_67 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_23 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_78 _08_/VGND _01_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_23_125 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA__09__A chanx_in_1_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_11_69 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_20_117 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_22_57 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_11_106 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ _13_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+X_14_ chanx_in_6_ chanx_out_6_ _18_/VGND _14_/VPWR sky130_fd_sc_hd__buf_2
+XANTENNA__22__A chanx_in_13_ _04_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA__17__A chanx_in_9_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_14_14 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_14_36 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_4
+XPHY_46 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _23_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _04_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XPHY_35 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_57 _18_/VGND _06_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_13 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_9_3 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_4
+XPHY_68 _00_/VGND _11_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_24 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_79 _08_/VGND _01_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XFILLER_17_123 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_23_137 _03_/VGND _03_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_14_137 _08_/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_11_15 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_11_48 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_22_69 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_11_118 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_11_129 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_0_7 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_12_91 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__fill_1
+X_13_ chanx_in_5_ chanx_out_5_ _13_/VGND _16_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_0_106 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_94 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_61 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_9_92 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_6_71 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_6_93 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XPHY_47 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_36 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_58 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_14 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_3
+XPHY_69 _00_/VGND _11_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_25 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_17_135 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_4
+Xmem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__dfrbp_1
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D
++ PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_11_27 _13_/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_14_105 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+X_12_ chanx_in_4_ chanx_out_4_ _15_/VGND _14_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_12_70 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_17_3 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_0_118 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_5_29 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q
++ PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_20_81 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_8
+XPHY_37 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_48 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_59 PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_15 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_3
+XPHY_26 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_17_103 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_15_70 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_23_106 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_11_39 _13_/VGND _16_/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_14_117 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_62 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_22_16 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_19_7 _04_/VGND _04_/VPWR sky130_fd_sc_hd__fill_2
+X_11_ chanx_in_3_ chanx_out_3_ _13_/VGND _11_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_12_93 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_63 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_18_70 _04_/VGND _02_/VPWR sky130_fd_sc_hd__fill_2
+Xclkbuf_1_1_0_prog_clk clkbuf_0_prog_clk/X clkbuf_1_1_0_prog_clk/X _00_/VGND _11_/VPWR
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_20_93 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D
++ PHY_9/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XPHY_38 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_27 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_49 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__tapvpwrvgnd_1
+XPHY_16 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_17_115 PHY_35/VGND _02_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_23_118 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_6
+Xmem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X _00_/VGND _11_/VPWR sky130_fd_sc_hd__dfrbp_1
+Xmem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_0_0_prog_clk/X PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_14_129 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_7_3 PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_22_28 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_3
+X_10_ chanx_in_2_ chanx_out_2_ _23_/VGND _21_/VPWR sky130_fd_sc_hd__buf_2
+XFILLER_8_19 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__fill_1
+XFILLER_0_75 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_9_51 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_9_62 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q
++ _13_/VGND _11_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_18_93 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_18_60 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_22_3 _03_/VGND _21_/VPWR sky130_fd_sc_hd__decap_8
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _18_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XPHY_17 _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__decap_3
+XPHY_28 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_39 _04_/VGND _04_/VPWR sky130_fd_sc_hd__decap_3
+XANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ _18_/VGND _06_/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_1_0_prog_clk/X
++ _00_/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_9_123 _00_/VGND _11_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_6_137 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_129 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_23_94 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_23_61 _03_/VGND _03_/VPWR sky130_fd_sc_hd__fill_1
+XANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_35/VGND _08_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_0_87 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_0_32 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK clkbuf_1_0_0_prog_clk/X
++ _04_/VGND _04_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_15_3 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _15_/VGND _14_/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_6_75 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XPHY_29 _08_/VGND _01_/VPWR sky130_fd_sc_hd__decap_3
+XPHY_18 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_15_95 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_15_62 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_15_51 _08_/VGND _08_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_15_40 _08_/VGND _08_/VPWR sky130_fd_sc_hd__decap_4
+XFILLER_13_120 PHY_27/VGND _01_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_43 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_10 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_87 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+Xmem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q
++ mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N
++ pReset clkbuf_1_1_0_prog_clk/X _18_/VGND _06_/VPWR sky130_fd_sc_hd__dfrbp_1
+XFILLER_6_105 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_3_119 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_44 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_0_11 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_32 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_87 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_4
+XPHY_19 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_3
+Xclkbuf_1_0_0_prog_clk clkbuf_0_prog_clk/X clkbuf_1_0_0_prog_clk/X PHY_27/VGND _01_/VPWR
++ sky130_fd_sc_hd__clkbuf_1
+XFILLER_3_55 _18_/VGND _06_/VPWR sky130_fd_sc_hd__fill_2
+XFILLER_3_99 _18_/VGND _06_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_6_117 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_5_3 PHY_9/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_3
+XFILLER_12_75 PHY_27/VGND _16_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_23_63 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_23_41 _03_/VGND _03_/VPWR sky130_fd_sc_hd__decap_12
+XFILLER_0_23 _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_9_10 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_6
+XFILLER_9_43 _00_/VGND _11_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_18_74 _04_/VGND _02_/VPWR sky130_fd_sc_hd__decap_12
+XANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ _15_/VGND PHY_1/VPWR sky130_fd_sc_hd__diode_2
+XANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B pReset
++ PHY_15/VGND PHY_17/VPWR sky130_fd_sc_hd__diode_2
+XFILLER_20_3 _23_/VGND _04_/VPWR sky130_fd_sc_hd__decap_8
+XFILLER_6_44 PHY_15/VGND PHY_13/VPWR sky130_fd_sc_hd__decap_12
+.ends
+

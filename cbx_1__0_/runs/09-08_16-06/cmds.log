@@ -1,0 +1,28 @@
+Sun Aug 09 16:06:05 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp//merged_unpadded.lef -o /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Sun Aug 09 16:06:15 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp//merged.lef"
+
+Sun Aug 09 16:06:15 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp//merged_unpadded.lef"
+
+Sun Aug 09 16:06:15 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp//trimmed.lib"
+
+Sun Aug 09 16:06:15 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Sun Aug 09 16:06:16 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/synthesis/opensta.log"
+
+Sun Aug 09 16:06:17 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/floorplan/verilog2def.openroad.log"
+
+Sun Aug 09 16:06:18 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/floorplan/ioPlacer.log"
+
+Sun Aug 09 16:06:18 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/floorplan/tapcell.log"
+
+Sun Aug 09 16:06:19 UTC 2020 - Executing "replace < /openLANE_flow/scripts//replace_gp.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/placement/replace.log"
+
+Sun Aug 09 16:06:19 UTC 2020 - Executing "cp /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp/placement/replace_place.def /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp/placement/replace.def"
+
+Sun Aug 09 16:06:19 UTC 2020 - Executing "opendp -lef /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp//merged.lef -def /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//tmp/placement/replace.def -output_def /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//results/placement/cbx_1__0_.placement.def |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/placement/opendp.log"
+
+Sun Aug 09 16:06:19 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/cts/cts.log"
+
+Sun Aug 09 16:07:46 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__0_/runs/09-08_16-06//logs/floorplan/pdn.log"
+
