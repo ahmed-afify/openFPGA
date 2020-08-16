@@ -8,20 +8,20 @@ module cby_0__1_ (chany_out_7_,
     chany_in_14_,
     chany_out_9_,
     chany_in_15_,
-    chany_out_16_,
+    chany_out_6_,
     chany_in_0_,
     left_grid_pin_14_,
     chany_in_4_,
     chany_in_3_,
     chany_out_1_,
-    chany_out_6_,
+    chany_out_16_,
     chany_out_11_,
-    chany_out_10_,
+    chany_out_12_,
     chany_out_0_,
-    chany_out_4_,
+    right_grid_pin_7_,
     chany_in_8_,
     chany_in_9_,
-    chany_out_2_,
+    right_grid_pin_3_,
     chany_in_16_,
     left_grid_pin_0_,
     chany_in_12_,
@@ -29,10 +29,10 @@ module cby_0__1_ (chany_out_7_,
     chany_in_13_,
     chany_out_17_,
     left_grid_pin_4_,
-    right_grid_pin_3_,
+    chany_out_4_,
     chany_in_11_,
     chany_in_17_,
-    chany_out_8_,
+    chany_out_14_,
     ccff_tail,
     ccff_head,
     pReset,
@@ -42,12 +42,12 @@ module cby_0__1_ (chany_out_7_,
     chany_out_13_,
     chany_out_3_,
     chany_in_5_,
-    chany_out_14_,
+    chany_out_8_,
     chany_out_5_,
     chany_in_10_,
     chany_in_7_,
-    right_grid_pin_7_,
-    chany_out_12_);
+    chany_out_2_,
+    chany_out_10_);
  output chany_out_7_;
  input chany_in_6_;
  input chany_in_2_;
@@ -58,20 +58,20 @@ module cby_0__1_ (chany_out_7_,
  input chany_in_14_;
  output chany_out_9_;
  input chany_in_15_;
- output chany_out_16_;
+ output chany_out_6_;
  input chany_in_0_;
  output left_grid_pin_14_;
  input chany_in_4_;
  input chany_in_3_;
  output chany_out_1_;
- output chany_out_6_;
+ output chany_out_16_;
  output chany_out_11_;
- output chany_out_10_;
+ output chany_out_12_;
  output chany_out_0_;
- output chany_out_4_;
+ output right_grid_pin_7_;
  input chany_in_8_;
  input chany_in_9_;
- output chany_out_2_;
+ output right_grid_pin_3_;
  input chany_in_16_;
  output left_grid_pin_0_;
  input chany_in_12_;
@@ -79,10 +79,10 @@ module cby_0__1_ (chany_out_7_,
  input chany_in_13_;
  output chany_out_17_;
  output left_grid_pin_4_;
- output right_grid_pin_3_;
+ output chany_out_4_;
  input chany_in_11_;
  input chany_in_17_;
- output chany_out_8_;
+ output chany_out_14_;
  output ccff_tail;
  input ccff_head;
  input pReset;
@@ -92,12 +92,12 @@ module cby_0__1_ (chany_out_7_,
  output chany_out_13_;
  output chany_out_3_;
  input chany_in_5_;
- output chany_out_14_;
+ output chany_out_8_;
  output chany_out_5_;
  input chany_in_10_;
  input chany_in_7_;
- output right_grid_pin_7_;
- output chany_out_12_;
+ output chany_out_2_;
+ output chany_out_10_;
 
  sky130_fd_sc_hd__conb_1 _00_ (.LO(right_grid_pin_7_));
  sky130_fd_sc_hd__conb_1 _01_ (.LO(left_grid_pin_8_));
@@ -179,7 +179,7 @@ module cby_0__1_ (chany_out_7_,
     .Q(\mem_left_ipin_1.sc_dff_compact_0_.Q ),
     .Q_N(\mem_left_ipin_1.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_0_0_prog_clk));
+    .CLK(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_left_ipin_1.sc_dff_compact_0_.Q ),
     .Q(\mem_left_ipin_1.ccff_tail ),
     .Q_N(\mem_left_ipin_1.sc_dff_compact_1_.Qb ),
@@ -244,7 +244,7 @@ module cby_0__1_ (chany_out_7_,
     .Q(\mem_right_ipin_1.ccff_tail ),
     .Q_N(\mem_right_ipin_1.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_1.ccff_tail ),
     .Q(\mem_right_ipin_2.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_2.sc_dff_compact_0_.Qb ),
@@ -304,12 +304,12 @@ module cby_0__1_ (chany_out_7_,
     .Q(\mem_right_ipin_3.ccff_tail ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.ccff_tail ),
     .Q(\mem_right_ipin_4.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_4.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_4.sc_dff_compact_0_.Q ),
     .Q(\mem_right_ipin_4.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_4.sc_dff_compact_1_.Qb ),
@@ -379,12 +379,12 @@ module cby_0__1_ (chany_out_7_,
     .Q(\mem_right_ipin_6.sc_dff_compact_2_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_2_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_2_.Q ),
     .Q(\mem_right_ipin_6.sc_dff_compact_3_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_3_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_3_.Q ),
     .Q(\mem_right_ipin_6.sc_dff_compact_4_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_4_.Qb ),
@@ -758,7 +758,7 @@ module cby_0__1_ (chany_out_7_,
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
- sky130_fd_sc_hd__diode_2 \ANTENNA_mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
+ sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
@@ -766,6 +766,7 @@ module cby_0__1_ (chany_out_7_,
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_0_0_prog_clk));
+ sky130_fd_sc_hd__diode_2 \ANTENNA_mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
@@ -778,8 +779,9 @@ module cby_0__1_ (chany_out_7_,
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
- sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_1_0_prog_clk));
+ sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
+ sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
@@ -793,7 +795,7 @@ module cby_0__1_ (chany_out_7_,
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
- sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_2_0_prog_clk));
+ sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
@@ -805,7 +807,5 @@ module cby_0__1_ (chany_out_7_,
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
- sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
- sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
- sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
+ sky130_fd_sc_hd__diode_2 \ANTENNA_mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK  (.DIODE(clknet_2_3_0_prog_clk));
 endmodule

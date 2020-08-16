@@ -1814,21 +1814,21 @@ Number of created patterns = 313632.
  Generating H-Tree topology for net prog_clk...
     Tot. number of sinks: 56
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(13605, 14900), (79845, 74740)]
- Normalized sink region: [(1.04654, 1.14615), (6.14192, 5.74923)]
-    Width:  5.09538
-    Height: 4.60308
+ Original sink region: [(12685, 14900), (79845, 80180)]
+ Normalized sink region: [(0.975769, 1.14615), (6.14192, 6.16769)]
+    Width:  5.16615
+    Height: 5.02154
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 28
-    Sub-region size: 2.54769 X 4.60308
+    Sub-region size: 2.58308 X 5.02154
     Segment length (rounded): 1
     Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 14
-    Sub-region size: 2.54769 X 2.30154
+    Sub-region size: 2.58308 X 2.51077
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1838,7 +1838,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 19373.4 dbu.
+ Avg. source sink dist: 19600.9 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1848,6 +1848,6 @@ Number of created patterns = 313632.
  Minimum number of buffers in the clock path: 3.
  Maximum number of buffers in the clock path: 3.
     Created 7 clock nets.
-    Fanout distribution for the current clock = 2:3, 14:4.
+    Fanout distribution for the current clock = 2:3, 13:1, 14:2, 15:1.
     Max level of the clock tree: 2.
  ... End of TritonCTS execution.

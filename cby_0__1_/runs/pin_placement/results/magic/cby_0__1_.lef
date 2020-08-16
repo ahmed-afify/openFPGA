@@ -82,13 +82,13 @@ MACRO cby_0__1_
         RECT 88.870 110.495 89.150 114.495 ;
     END
   END chany_in_15_
-  PIN chany_out_16_
+  PIN chany_out_6_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 81.640 103.775 82.240 ;
     END
-  END chany_out_16_
+  END chany_out_6_
   PIN chany_in_0_
     DIRECTION INPUT ;
     PORT
@@ -124,13 +124,13 @@ MACRO cby_0__1_
         RECT 14.350 0.000 14.630 4.000 ;
     END
   END chany_out_1_
-  PIN chany_out_6_
+  PIN chany_out_16_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 28.600 103.775 29.200 ;
     END
-  END chany_out_6_
+  END chany_out_16_
   PIN chany_out_11_
     DIRECTION OUTPUT TRISTATE ;
     PORT
@@ -138,13 +138,13 @@ MACRO cby_0__1_
         RECT 0.000 32.000 4.000 32.600 ;
     END
   END chany_out_11_
-  PIN chany_out_10_
+  PIN chany_out_12_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 49.680 103.775 50.280 ;
     END
-  END chany_out_10_
+  END chany_out_12_
   PIN chany_out_0_
     DIRECTION OUTPUT TRISTATE ;
     PORT
@@ -152,13 +152,13 @@ MACRO cby_0__1_
         RECT 103.130 110.495 103.410 114.495 ;
     END
   END chany_out_0_
-  PIN chany_out_4_
+  PIN right_grid_pin_7_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 17.720 103.775 18.320 ;
     END
-  END chany_out_4_
+  END right_grid_pin_7_
   PIN chany_in_8_
     DIRECTION INPUT ;
     PORT
@@ -173,13 +173,13 @@ MACRO cby_0__1_
         RECT 67.250 110.495 67.530 114.495 ;
     END
   END chany_in_9_
-  PIN chany_out_2_
+  PIN right_grid_pin_3_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 6.840 103.775 7.440 ;
     END
-  END chany_out_2_
+  END right_grid_pin_3_
   PIN chany_in_16_
     DIRECTION INPUT ;
     PORT
@@ -229,13 +229,13 @@ MACRO cby_0__1_
         RECT 50.690 0.000 50.970 4.000 ;
     END
   END left_grid_pin_4_
-  PIN right_grid_pin_3_
+  PIN chany_out_4_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 92.520 103.775 93.120 ;
     END
-  END right_grid_pin_3_
+  END chany_out_4_
   PIN chany_in_11_
     DIRECTION INPUT ;
     PORT
@@ -250,13 +250,13 @@ MACRO cby_0__1_
         RECT 96.230 110.495 96.510 114.495 ;
     END
   END chany_in_17_
-  PIN chany_out_8_
+  PIN chany_out_14_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 38.800 103.775 39.400 ;
     END
-  END chany_out_8_
+  END chany_out_14_
   PIN ccff_tail
     DIRECTION OUTPUT TRISTATE ;
     PORT
@@ -320,13 +320,13 @@ MACRO cby_0__1_
         RECT 52.530 110.495 52.810 114.495 ;
     END
   END chany_in_5_
-  PIN chany_out_14_
+  PIN chany_out_8_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 71.440 103.775 72.040 ;
     END
-  END chany_out_14_
+  END chany_out_8_
   PIN chany_out_5_
     DIRECTION OUTPUT TRISTATE ;
     PORT
@@ -348,41 +348,41 @@ MACRO cby_0__1_
         RECT 59.890 110.495 60.170 114.495 ;
     END
   END chany_in_7_
-  PIN right_grid_pin_7_
+  PIN chany_out_2_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 103.400 103.775 104.000 ;
     END
-  END right_grid_pin_7_
-  PIN chany_out_12_
+  END chany_out_2_
+  PIN chany_out_10_
     DIRECTION OUTPUT TRISTATE ;
     PORT
       LAYER met3 ;
         RECT 99.775 60.560 103.775 61.160 ;
     END
-  END chany_out_12_
+  END chany_out_10_
   OBS
       LAYER li1 ;
-        RECT 0.145 10.795 97.980 103.445 ;
+        RECT 5.520 10.795 97.980 103.445 ;
       LAYER met1 ;
-        RECT 0.070 0.040 103.430 108.760 ;
+        RECT 0.070 0.040 103.430 103.600 ;
       LAYER met2 ;
-        RECT 0.090 110.215 1.650 110.685 ;
-        RECT 2.490 110.215 9.010 110.685 ;
-        RECT 9.850 110.215 16.370 110.685 ;
-        RECT 17.210 110.215 23.730 110.685 ;
-        RECT 24.570 110.215 30.630 110.685 ;
-        RECT 31.470 110.215 37.990 110.685 ;
-        RECT 38.830 110.215 45.350 110.685 ;
-        RECT 46.190 110.215 52.250 110.685 ;
-        RECT 53.090 110.215 59.610 110.685 ;
-        RECT 60.450 110.215 66.970 110.685 ;
-        RECT 67.810 110.215 74.330 110.685 ;
-        RECT 75.170 110.215 81.230 110.685 ;
-        RECT 82.070 110.215 88.590 110.685 ;
-        RECT 89.430 110.215 95.950 110.685 ;
-        RECT 96.790 110.215 102.850 110.685 ;
+        RECT 0.090 110.215 1.650 110.570 ;
+        RECT 2.490 110.215 9.010 110.570 ;
+        RECT 9.850 110.215 16.370 110.570 ;
+        RECT 17.210 110.215 23.730 110.570 ;
+        RECT 24.570 110.215 30.630 110.570 ;
+        RECT 31.470 110.215 37.990 110.570 ;
+        RECT 38.830 110.215 45.350 110.570 ;
+        RECT 46.190 110.215 52.250 110.570 ;
+        RECT 53.090 110.215 59.610 110.570 ;
+        RECT 60.450 110.215 66.970 110.570 ;
+        RECT 67.810 110.215 74.330 110.570 ;
+        RECT 75.170 110.215 81.230 110.570 ;
+        RECT 82.070 110.215 88.590 110.570 ;
+        RECT 89.430 110.215 95.950 110.570 ;
+        RECT 96.790 110.215 102.850 110.570 ;
         RECT 0.090 4.280 103.400 110.215 ;
         RECT 0.650 0.010 6.710 4.280 ;
         RECT 7.550 0.010 14.070 4.280 ;
@@ -400,10 +400,7 @@ MACRO cby_0__1_
         RECT 94.490 0.010 101.010 4.280 ;
         RECT 101.850 0.010 103.400 4.280 ;
       LAYER met3 ;
-        RECT 0.270 107.800 100.010 110.665 ;
-        RECT 4.400 106.400 100.010 107.800 ;
-        RECT 0.270 104.400 100.010 106.400 ;
-        RECT 0.270 103.000 99.375 104.400 ;
+        RECT 0.270 103.000 99.375 103.865 ;
         RECT 0.270 96.920 100.010 103.000 ;
         RECT 4.400 95.520 100.010 96.920 ;
         RECT 0.270 93.520 100.010 95.520 ;
@@ -441,7 +438,7 @@ MACRO cby_0__1_
         RECT 0.270 7.840 100.010 9.840 ;
         RECT 0.270 6.975 99.375 7.840 ;
       LAYER met4 ;
-        RECT 0.295 48.455 99.985 75.305 ;
+        RECT 0.295 68.855 99.985 96.385 ;
   END
 END cby_0__1_
 END LIBRARY

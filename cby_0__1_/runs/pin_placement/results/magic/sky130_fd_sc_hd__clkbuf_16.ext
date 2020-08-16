@@ -183,12 +183,12 @@ equiv "VPWR" "VPWR"
 equiv "VPWR" "VPWR"
 equiv "VPWR" "VPWR"
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "VPWR" "A" 19.9738
-cap "X" "VGND" 2140.87
-cap "X" "VPWR" 3147.75
-cap "VPWR" "VGND" 72.4031
-cap "X" "A" 2.45745
+cap "VGND" "VPWR" 72.4031
 cap "A" "VGND" 59.6912
+cap "X" "VGND" 2140.87
+cap "A" "VPWR" 19.9738
+cap "X" "VPWR" 3147.75
+cap "A" "X" 2.45745
 subcap "VGND" -755.844
 subcap "X" -839.714
 subcap "VPWR" -873.462

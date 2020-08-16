@@ -4,14 +4,10 @@ left=[]
 bottom=[]
 top=[] 
 lines=[]
-right_pins=["prog_clk","pReset","chanx_out_17_","chanx_out_15_","chanx_out_13_","chanx_out_11_","chanx_out_9_","chanx_out_7_","chanx_out_5_","chanx_out_3_"]
-left_pins=["chanx_out_16_","chanx_in_1_","chanx_in_3_","chanx_in_5_","chanx_in_7_","chanx_in_9_","chanx_in_11_","chanx_in_13_","chanx_in_15_","chanx_in_17_"]
-bottom_pins=["chanx_out_14_","chanx_out_12_","chanx_out_10_","chanx_out_8_","chanx_out_6_","chanx_out_4_","chanx_out_2_","chanx_out_0_","bottom_grid_pin_8_","bottom_grid_pin_4_","bottom_grid_pin_0_","ccff_tail","ccff_head"]
-top_pins=["top_grid_pin_2_","top_grid_pin_6_","top_grid_pin_14_","chanx_in_0_","chanx_in_2_","chanx_in_4_","chanx_in_6_","chanx_in_8_","chanx_in_10_","chanx_in_12_","chanx_in_14_","chanx_in_16_","chanx_out_1_"]
-print(len(right_pins))
-print(len(left_pins))
-print(len(bottom_pins))
-print(len(top_pins))
+right_pins=["right_grid_pin_3_","right_grid_pin_7_","chany_out_16_","chany_out_14_","chany_out_12_","chany_out_10_","chany_out_8_","chany_out_6_","chany_out_4_","chany_out_2_"]
+left_pins=["chany_out_7_","chany_out_9_","chany_out_11_","chany_out_13_","chany_out_15_","chany_out_17_","chany_in_0_","chany_in_2_","chany_in_4_","chany_in_6_"]
+bottom_pins=["chany_out_5_","chany_out_3_","chany_out_1_","ccff_head","ccff_tail","left_grid_pin_0_","left_grid_pin_2_","left_grid_pin_4_","left_grid_pin_6_","left_grid_pin_8_","left_grid_pin_10_","left_grid_pin_12_","left_grid_pin_14_","pReset","prog_clk"]
+top_pins=["chany_in_8_","chany_in_10_","chany_in_12_","chany_in_14_","chany_in_16_","chany_in_1_","chany_in_3_","chany_in_5_","chany_in_7_","chany_in_9_","chany_in_11_","chany_in_13_","chany_in_15_","chany_in_17_","chany_out_0_"]
 def sort_( x_left,x_right,y_top,y_bottom,coordinates ):
    
     for coordinate in coordinates:
@@ -27,6 +23,7 @@ def sort_( x_left,x_right,y_top,y_bottom,coordinates ):
     bottom.sort(key = lambda bottom: bottom[0]) 
     right.sort(key = lambda right: right[1]) 
     left.sort(key = lambda left: left[1]) 
+    
 def special_cooradinates( x, y ):
     x_stat = Counter(x)
     x_2 = x_stat.most_common(2)
@@ -103,7 +100,7 @@ def pin_placer(i):
     update_pinline(i,pin_name)
 
 
-f = open('/home/aa/Desktop/Afify/openlane/designs/cbx_1__1_/runs/pin_placement/results/floorplan/cbx_1__1_.floorplan.def', 'r') 
+f = open('/home/aa/Desktop/Afify/openlane/designs/cby_0__1_/runs/pin_placement/results/floorplan/cby_0__1_.floorplan.def', 'r') 
 
 line=f.readline()
 coordinates=[]
@@ -140,7 +137,20 @@ for i in range (b_pin,e_pin):
 
 #5,2
 
-f = open('/home/aa/Desktop/Afify/openlane/designs/cbx_1__1_/runs/pin_placement/results/floorplan/cbx_1__1_.floorplan.def', 'w') 
+f = open('/home/aa/Desktop/Afify/openlane/designs/cby_0__1_/runs/pin_placement/results/floorplan/cby_0__1_.floorplan.def', 'w') 
 for line in lines:
     f.write(line)
+print(x_left)
+print(x_right)
+print(y_bottom)
+print(y_top)
+print(len(top))
+print(len(bottom))
+print(len(left))
+print(len(right))
+print(len(right_pins))
+print(len(left_pins))
+print(len(bottom_pins))
+print(len(top_pins))
+
 
