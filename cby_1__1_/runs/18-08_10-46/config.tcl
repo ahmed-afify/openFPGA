@@ -3,20 +3,20 @@ set ::env(PDK) sky130A
 set ::env(PDK_VARIANT) sky130_fd_sc_hd
 set ::env(PDK_ROOT) /home/aa/Desktop/Afify/openlane/pdks
 set ::env(CELL_PAD) 8
-set ::env(MERGED_LEF) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//tmp//merged.lef
-set ::env(MERGED_LEF_UNPADDED) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//tmp//merged_unpadded.lef
-set ::env(TRACKS_INFO_FILE) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//tmp//tracks_copy.info
+set ::env(MERGED_LEF) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//tmp//merged.lef
+set ::env(MERGED_LEF_UNPADDED) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//tmp//merged_unpadded.lef
+set ::env(TRACKS_INFO_FILE) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//tmp//tracks_copy.info
 set ::env(TECH_LEF) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
 # Design config
 set ::env(CLOCK_PERIOD) 10
 # Synthesis config
-set ::env(LIB_SYNTH) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//tmp//trimmed.lib
+set ::env(LIB_SYNTH) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//tmp//trimmed.lib
 set ::env(LIB_SYNTH_COMPLETE) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 set ::env(SYNTH_DRIVING_CELL) sky130_fd_sc_hd__inv_8
 set ::env(SYNTH_CAP_LOAD) 17.65
 set ::env(SYNTH_MAX_FANOUT) 5
 set ::env(SYNTH_NO_FLAT) 0
-set ::env(SYNTH_MAX_TRAN) 1.0
+set ::env(SYNTH_MAX_TRAN) [expr {0.1*10}]
 set ::env(LIB_MIN) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib
 set ::env(LIB_MAX) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib
 set ::env(LIB_TYPICAL) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -63,6 +63,6 @@ set ::env(CLOCK_TREE_SYNTH) 1
 set ::env(LEC_ENABLE) 0
 set ::env(FILL_INSERTION) 1
 set ::env(DIODE_INSERTION_STRATEGY) 1
-set ::env(CURRENT_DEF) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//results/cts/cby_1__1_.cts.def
-set ::env(CURRENT_NETLIST) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//results/synthesis/cby_1__1_.synthesis_cts.v
-set ::env(PREV_NETLIST) /openLANE_flow/designs/cby_1__1_/runs/pin_placement//results/synthesis/cby_1__1_.synthesis.v
+set ::env(CURRENT_DEF) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//results/cts/cby_1__1_.cts.def
+set ::env(CURRENT_NETLIST) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//results/synthesis/cby_1__1_.synthesis_cts.v
+set ::env(PREV_NETLIST) /openLANE_flow/designs/cby_1__1_/runs/18-08_10-46//results/synthesis/cby_1__1_.synthesis.v
