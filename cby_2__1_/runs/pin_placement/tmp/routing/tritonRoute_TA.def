@@ -95,6 +95,44 @@ TRACKS Y 460 DO 136 STEP 920 LAYER met4 ;
 TRACKS X 1700 DO 34 STEP 3400 LAYER met5 ;
 TRACKS Y 1700 DO 37 STEP 3400 LAYER met5 ;
 
+VIAS 4 ;
+- via_1600x480 
+ 
++ VIARULE M1M2_PR
+  + CUTSIZE 150 150
+  + LAYERS met1 via met2
+  + CUTSPACING 170 170
+  + ENCLOSURE 245 165 55 165
+  + ROWCOL 1 4
+ ;
+- via2_1600x480 
+ 
++ VIARULE M2M3_PR
+  + CUTSIZE 200 200
+  + LAYERS met2 via2 met3
+  + CUTSPACING 200 200
+  + ENCLOSURE 40 140 100 65
+  + ROWCOL 1 4
+ ;
+- via3_1600x480 
+ 
++ VIARULE M3M4_PR
+  + CUTSIZE 200 200
+  + LAYERS met3 via3 met4
+  + CUTSPACING 200 200
+  + ENCLOSURE 100 60 100 140
+  + ROWCOL 1 4
+ ;
+- via4_1600x1600 
+ 
++ VIARULE M4M5_PR
+  + CUTSIZE 800 800
+  + LAYERS met4 via4 met5
+  + CUTSPACING 800 800
+  + ENCLOSURE 400 400 400 400
+ ;
+END VIAS
+
 COMPONENTS 1431 ;
 - _00_ sky130_fd_sc_hd__conb_1 + PLACED ( 78200 103360 ) FS ;
 - _01_ sky130_fd_sc_hd__conb_1 + PLACED ( 85560 103360 ) FS ;
@@ -1529,7 +1567,7 @@ COMPONENTS 1431 ;
 - FILLER_37_218 sky130_fd_sc_hd__decap_3 + PLACED ( 105800 111520 ) N ;
 END COMPONENTS
 
-PINS 51 ;
+PINS 53 ;
 - chany_in_0_ + NET chany_in_0_ + DIRECTION INPUT + USE SIGNAL 
   + LAYER met3 ( -2000 -300 ) ( 2000 300 )
   + PLACED ( 2000 22780 ) N ;
@@ -1683,11 +1721,186 @@ PINS 51 ;
 - chany_out_3_ + NET chany_out_3_ + DIRECTION OUTPUT + USE SIGNAL 
   + LAYER met2 ( -140 -2000 ) ( 140 2000 )
   + PLACED ( 230 2000 ) N ;
+- VPWR + NET VPWR + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met5 ( -51520 -800 ) ( 51520 800 )
+  + FIXED ( 57040 27290 ) N + SPECIAL ;
+- VGND + NET VGND + DIRECTION INPUT + USE SIGNAL 
+  + LAYER met5 ( -51520 -800 ) ( 51520 800 )
+  + FIXED ( 57040 103880 ) N + SPECIAL ;
 END PINS
+
+SPECIALNETS 2 ;
+- VPWR ( PIN VPWR ) 
+  + ROUTED met4 0 + SHAPE STRIPE ( 21840 27290 ) via4_1600x1600 
+    NEW met3 0 + SHAPE STRIPE ( 21840 114240 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 114240 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 114240 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 108800 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 108800 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 108800 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 103360 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 103360 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 103360 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 97920 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 97920 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 97920 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 92480 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 92480 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 92480 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 87040 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 87040 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 87040 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 81600 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 81600 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 81600 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 76160 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 76160 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 76160 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 70720 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 70720 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 70720 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 65280 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 65280 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 65280 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 59840 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 59840 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 59840 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 54400 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 54400 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 54400 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 48960 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 48960 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 48960 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 43520 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 43520 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 43520 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 38080 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 38080 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 38080 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 32640 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 32640 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 32640 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 27200 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 27200 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 27200 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 21760 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 21760 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 21760 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 16320 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 16320 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 16320 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 21840 10880 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 21840 10880 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 21840 10880 ) via_1600x480 
+    NEW met5 1600 + SHAPE STRIPE ( 5520 27290 ) ( 108560 27290 ) 
+    NEW met4 1600 + SHAPE STRIPE ( 21840 10640 ) ( 21840 114480 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 114240 ) ( 108560 114240 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 108800 ) ( 108560 108800 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 103360 ) ( 108560 103360 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 97920 ) ( 108560 97920 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 92480 ) ( 108560 92480 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 87040 ) ( 108560 87040 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 81600 ) ( 108560 81600 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 76160 ) ( 108560 76160 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 70720 ) ( 108560 70720 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 65280 ) ( 108560 65280 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 59840 ) ( 108560 59840 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 54400 ) ( 108560 54400 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 48960 ) ( 108560 48960 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 43520 ) ( 108560 43520 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 38080 ) ( 108560 38080 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 32640 ) ( 108560 32640 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 27200 ) ( 108560 27200 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 21760 ) ( 108560 21760 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 16320 ) ( 108560 16320 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 10880 ) ( 108560 10880 ) 
+  + USE POWER ;
+- VGND ( PIN VGND ) 
+  + ROUTED met4 0 + SHAPE STRIPE ( 98640 103880 ) via4_1600x1600 
+    NEW met3 0 + SHAPE STRIPE ( 98640 111520 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 111520 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 111520 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 106080 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 106080 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 106080 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 100640 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 100640 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 100640 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 95200 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 95200 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 95200 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 89760 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 89760 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 89760 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 84320 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 84320 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 84320 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 78880 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 78880 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 78880 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 73440 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 73440 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 73440 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 68000 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 68000 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 68000 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 62560 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 62560 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 62560 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 57120 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 57120 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 57120 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 51680 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 51680 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 51680 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 46240 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 46240 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 46240 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 40800 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 40800 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 40800 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 35360 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 35360 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 35360 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 29920 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 29920 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 29920 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 24480 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 24480 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 24480 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 19040 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 19040 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 19040 ) via_1600x480 
+    NEW met3 0 + SHAPE STRIPE ( 98640 13600 ) via3_1600x480 
+    NEW met2 0 + SHAPE STRIPE ( 98640 13600 ) via2_1600x480 
+    NEW met1 0 + SHAPE STRIPE ( 98640 13600 ) via_1600x480 
+    NEW met5 1600 + SHAPE STRIPE ( 5520 103880 ) ( 108560 103880 ) 
+    NEW met4 1600 + SHAPE STRIPE ( 98640 10640 ) ( 98640 114480 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 111520 ) ( 108560 111520 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 106080 ) ( 108560 106080 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 100640 ) ( 108560 100640 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 95200 ) ( 108560 95200 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 89760 ) ( 108560 89760 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 84320 ) ( 108560 84320 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 78880 ) ( 108560 78880 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 73440 ) ( 108560 73440 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 68000 ) ( 108560 68000 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 62560 ) ( 108560 62560 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 57120 ) ( 108560 57120 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 51680 ) ( 108560 51680 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 46240 ) ( 108560 46240 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 40800 ) ( 108560 40800 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 35360 ) ( 108560 35360 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 29920 ) ( 108560 29920 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 24480 ) ( 108560 24480 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 19040 ) ( 108560 19040 ) 
+    NEW met1 480 + SHAPE FOLLOWPIN ( 5520 13600 ) ( 108560 13600 ) 
+  + USE GROUND ;
+END SPECIALNETS
 
 NETS 181 ;
 - chany_in_0_ ( PIN chany_in_0_ ) ( ANTENNA__11__A DIODE ) ( _11_ A ) 
-  + ROUTED met1 ( 93150 25330 ) ( 99590 25330 )
+  + ROUTED met1 ( 93150 24990 ) ( 99590 24990 )
     NEW met2 ( 93150 20740 ) ( 93150 24990 )
     NEW met3 ( 3450 20740 ) ( 93150 20740 )
 + USE SIGNAL ;
@@ -1732,77 +1945,80 @@ NETS 181 ;
 ( mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
 ( mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) 
   + ROUTED met1 ( 62330 38590 ) ( 62331 38590 )
-    NEW met1 ( 16790 41650 ) ( 31970 41650 )
     NEW met1 ( 60030 41650 ) ( 69230 41650 )
-    NEW met1 ( 31510 44710 ) ( 42550 44710 )
-    NEW met1 ( 60030 48450 ) ( 63710 48450 )
-    NEW met1 ( 54050 49470 ) ( 60030 49470 )
+    NEW met1 ( 31970 45390 ) ( 42550 45390 )
+    NEW met1 ( 17710 46750 ) ( 23230 46750 )
+    NEW met1 ( 31970 49470 ) ( 40710 49470 )
     NEW met1 ( 63710 50150 ) ( 69230 50150 )
-    NEW met1 ( 31510 50830 ) ( 35190 50830 )
-    NEW met1 ( 17710 52190 ) ( 24150 52190 )
-    NEW met1 ( 35190 52190 ) ( 54050 52190 )
-    NEW met1 ( 24150 52530 ) ( 31970 52530 )
-    NEW met1 ( 27830 55590 ) ( 37950 55590 )
-    NEW met1 ( 54050 56270 ) ( 68770 56270 )
-    NEW met1 ( 13110 57970 ) ( 13111 57970 )
-    NEW met1 ( 21390 57970 ) ( 31970 57970 )
-    NEW met1 ( 23690 63070 ) ( 28290 63070 )
-    NEW met1 ( 42090 63070 ) ( 48530 63070 )
-    NEW met1 ( 60030 63070 ) ( 68770 63070 )
-    NEW met1 ( 17250 63410 ) ( 23690 63410 )
-    NEW met1 ( 8970 64770 ) ( 17250 64770 )
-    NEW met1 ( 48530 68510 ) ( 60030 68510 )
-    NEW met1 ( 14030 69530 ) ( 24150 69530 )
-    NEW met1 ( 60030 70210 ) ( 68770 70210 )
-    NEW met1 ( 28290 72250 ) ( 34730 72250 )
-    NEW met1 ( 72450 72250 ) ( 76590 72250 )
-    NEW met1 ( 24150 72930 ) ( 31970 72930 )
-    NEW met1 ( 66930 74290 ) ( 72450 74290 )
-    NEW met1 ( 9430 77010 ) ( 14030 77010 )
-    NEW met1 ( 31970 77690 ) ( 38870 77690 )
-    NEW met1 ( 58650 77690 ) ( 66930 77690 )
-    NEW met1 ( 49450 79390 ) ( 58650 79390 )
-    NEW met1 ( 24610 79730 ) ( 31970 79730 )
-    NEW met1 ( 31050 83130 ) ( 45310 83130 )
-    NEW met1 ( 57730 83130 ) ( 63250 83130 )
-    NEW met1 ( 11730 85170 ) ( 11731 85170 )
-    NEW met1 ( 23690 87550 ) ( 31050 87550 )
-    NEW met1 ( 63250 88910 ) ( 69230 88910 )
-    NEW met1 ( 45310 90270 ) ( 49910 90270 )
-    NEW met1 ( 60030 90270 ) ( 69230 90270 )
-    NEW met1 ( 11730 90610 ) ( 16790 90610 )
-    NEW met1 ( 24150 90610 ) ( 27830 90610 )
-    NEW met1 ( 69230 95710 ) ( 76590 95710 )
-    NEW met1 ( 35190 98430 ) ( 41630 98430 )
-    NEW met1 ( 27830 99450 ) ( 35190 99450 )
-    NEW met1 ( 16790 101150 ) ( 27830 101150 )
-    NEW met1 ( 41630 101150 ) ( 49910 101150 )
-    NEW met1 ( 60030 101490 ) ( 66930 101490 )
-    NEW met1 ( 51750 104550 ) ( 60030 104550 )
+    NEW met1 ( 60030 50830 ) ( 68770 50830 )
+    NEW met1 ( 17710 52190 ) ( 23230 52190 )
+    NEW met1 ( 23230 52530 ) ( 31970 52530 )
+    NEW met1 ( 42550 52530 ) ( 54050 52530 )
+    NEW met1 ( 21390 55250 ) ( 31970 55250 )
+    NEW met1 ( 51290 56270 ) ( 68770 56270 )
+    NEW met1 ( 13110 57630 ) ( 15870 57630 )
+    NEW met1 ( 28290 61370 ) ( 37950 61370 )
+    NEW met1 ( 42090 63070 ) ( 51750 63070 )
+    NEW met1 ( 60030 63070 ) ( 63250 63070 )
+    NEW met1 ( 10350 63410 ) ( 23690 63410 )
+    NEW met1 ( 51750 63410 ) ( 60030 63410 )
+    NEW met1 ( 23690 66470 ) ( 34270 66470 )
+    NEW met1 ( 60030 69190 ) ( 63250 69190 )
+    NEW met1 ( 72450 69190 ) ( 76590 69190 )
+    NEW met1 ( 48530 69530 ) ( 60030 69530 )
+    NEW met1 ( 34270 71230 ) ( 34730 71230 )
+    NEW met1 ( 24150 72930 ) ( 34270 72930 )
+    NEW met1 ( 17250 74290 ) ( 24150 74290 )
+    NEW met1 ( 44850 74290 ) ( 48530 74290 )
+    NEW met1 ( 63250 74290 ) ( 72450 74290 )
+    NEW met1 ( 34730 75650 ) ( 44850 75650 )
+    NEW met1 ( 9430 77010 ) ( 17250 77010 )
+    NEW met1 ( 31510 79390 ) ( 34730 79390 )
+    NEW met1 ( 17250 79730 ) ( 24610 79730 )
+    NEW met1 ( 41630 79730 ) ( 51290 79730 )
+    NEW met1 ( 9430 84830 ) ( 11730 84830 )
+    NEW met1 ( 57730 84830 ) ( 64170 84830 )
+    NEW met1 ( 41630 85170 ) ( 50830 85170 )
+    NEW met1 ( 23690 87550 ) ( 31510 87550 )
+    NEW met1 ( 45310 90270 ) ( 50830 90270 )
+    NEW met1 ( 13110 90610 ) ( 27370 90610 )
+    NEW met1 ( 50830 90610 ) ( 60030 90610 )
+    NEW met1 ( 64170 90610 ) ( 72450 90610 )
+    NEW met1 ( 72450 95710 ) ( 76590 95710 )
+    NEW met1 ( 27370 96730 ) ( 31050 96730 )
+    NEW met1 ( 48530 97410 ) ( 60030 97410 )
+    NEW met1 ( 31050 99450 ) ( 35190 99450 )
+    NEW met1 ( 41630 99450 ) ( 48530 99450 )
+    NEW met1 ( 60030 100130 ) ( 66930 100130 )
+    NEW met1 ( 14950 101150 ) ( 27370 101150 )
+    NEW met1 ( 35190 102850 ) ( 41630 102850 )
+    NEW met1 ( 51750 104550 ) ( 56350 104550 )
     NEW met1 ( 31970 106590 ) ( 37950 106590 )
     NEW met1 ( 41630 106930 ) ( 51750 106930 )
-    NEW met2 ( 11730 84830 ) ( 11730 90270 )
-    NEW met2 ( 13110 57630 ) ( 13110 65790 )
-    NEW met2 ( 14030 69530 ) ( 14030 75990 )
-    NEW met2 ( 16790 90270 ) ( 16790 101150 )
-    NEW met2 ( 27830 55930 ) ( 27830 63070 )
-    NEW met2 ( 27830 90610 ) ( 27830 101150 )
-    NEW met2 ( 28290 63070 ) ( 28290 73950 )
-    NEW met2 ( 31510 41650 ) ( 31510 52530 )
-    NEW met2 ( 31970 48450 ) ( 31970 57970 )
-    NEW met2 ( 34730 72250 ) ( 34730 77690 )
-    NEW met2 ( 38870 77690 ) ( 38870 83130 )
-    NEW met2 ( 41630 98430 ) ( 41630 121215 )
-    NEW met2 ( 45310 83130 ) ( 45310 90270 )
-    NEW met2 ( 49910 90270 ) ( 49910 101150 )
-    NEW met2 ( 54050 49470 ) ( 54050 55930 )
-    NEW met2 ( 60030 101150 ) ( 60030 104890 )
+    NEW met2 ( 9430 76670 ) ( 9430 84830 )
+    NEW met2 ( 15870 57630 ) ( 15870 63410 )
+    NEW met2 ( 23230 46750 ) ( 23230 52530 )
+    NEW met2 ( 24610 79730 ) ( 24610 87550 )
+    NEW met2 ( 27370 90610 ) ( 27370 101150 )
+    NEW met2 ( 28290 55250 ) ( 28290 66810 )
+    NEW met2 ( 31510 79390 ) ( 31510 87550 )
+    NEW met2 ( 31970 48450 ) ( 31970 61370 )
+    NEW met2 ( 34270 66810 ) ( 34270 73950 )
+    NEW met2 ( 34730 71230 ) ( 34730 79390 )
+    NEW met2 ( 40710 44030 ) ( 40710 48450 )
+    NEW met2 ( 41630 79730 ) ( 41630 85170 )
+    NEW met2 ( 41630 99450 ) ( 41630 121215 )
+    NEW met2 ( 42550 45050 ) ( 42550 52190 )
+    NEW met2 ( 48530 69530 ) ( 48530 79730 )
+    NEW met2 ( 50830 85170 ) ( 50830 90610 )
+    NEW met2 ( 51290 52190 ) ( 51290 55930 )
+    NEW met2 ( 60030 90610 ) ( 60030 101150 )
     NEW met2 ( 62330 38590 ) ( 62330 41650 )
-    NEW met2 ( 66930 69190 ) ( 66930 77690 )
-    NEW met2 ( 66930 90270 ) ( 66930 101150 )
-    NEW met2 ( 68770 55930 ) ( 68770 74290 )
+    NEW met2 ( 63250 63070 ) ( 63250 74290 )
+    NEW met2 ( 64170 84830 ) ( 64170 90610 )
+    NEW met2 ( 66930 90610 ) ( 66930 101150 )
+    NEW met2 ( 68770 48450 ) ( 68770 55930 )
     NEW met2 ( 69230 41650 ) ( 69230 50490 )
-    NEW met2 ( 69230 88570 ) ( 69230 95710 )
     NEW met2 ( 76590 95710 ) ( 76590 99450 )
 + USE SIGNAL ;
 - chany_in_3_ ( PIN chany_in_3_ ) ( ANTENNA__22__A DIODE ) ( _22_ A ) 
@@ -1813,28 +2029,29 @@ NETS 181 ;
     NEW met2 ( 69690 1190 ) ( 69690 1191 )
 + USE SIGNAL ;
 - chany_in_7_ ( PIN chany_in_7_ ) ( ANTENNA__26__A DIODE ) ( _26_ A ) 
-  + ROUTED met1 ( 79350 850 ) ( 83490 850 )
-    NEW met1 ( 72450 10370 ) ( 79350 10370 )
-    NEW met1 ( 27830 18530 ) ( 72450 18530 )
+  + ROUTED met1 ( 79350 170 ) ( 83030 170 )
+    NEW met1 ( 72910 6290 ) ( 79350 6290 )
+    NEW met1 ( 65550 10370 ) ( 72910 10370 )
+    NEW met1 ( 27830 18530 ) ( 65550 18530 )
     NEW met1 ( 25070 20230 ) ( 27830 20230 )
-    NEW met2 ( 72450 10370 ) ( 72450 19550 )
-    NEW met2 ( 79350 850 ) ( 79350 10370 )
-    NEW met2 ( 83490 850 ) ( 83490 851 )
+    NEW met2 ( 65550 10370 ) ( 65550 18530 )
+    NEW met2 ( 72910 6630 ) ( 72910 10370 )
+    NEW met2 ( 83030 170 ) ( 83030 171 )
 + USE SIGNAL ;
 - ccff_head ( PIN ccff_head ) ( ANTENNA_mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) 
-  + ROUTED met1 ( 34270 106930 ) ( 36570 106930 )
+  + ROUTED met1 ( 33810 104550 ) ( 34730 104550 )
     NEW met2 ( 27830 113850 ) ( 27830 121215 )
-    NEW met2 ( 34270 106930 ) ( 34270 113850 )
+    NEW met2 ( 33810 103870 ) ( 33810 113850 )
 + USE SIGNAL ;
 - chany_in_2_ ( PIN chany_in_2_ ) ( ANTENNA__21__A DIODE ) ( _21_ A ) 
-  + ROUTED met1 ( 93150 35870 ) ( 99590 35870 )
-    NEW met2 ( 93150 28220 ) ( 93150 35870 )
+  + ROUTED met1 ( 93150 36550 ) ( 96830 36550 )
+    NEW met2 ( 93150 28220 ) ( 93150 36550 )
     NEW met3 ( 3450 28220 ) ( 93150 28220 )
 + USE SIGNAL ;
 - right_grid_pin_12_ ( PIN right_grid_pin_12_ ) ( _07_ LO ) 
-  + ROUTED met1 ( 97750 101830 ) ( 97751 101830 )
+  + ROUTED met1 ( 97290 101830 ) ( 97750 101830 )
     NEW met2 ( 96830 113850 ) ( 96830 121215 )
-    NEW met2 ( 97750 101830 ) ( 97750 113850 )
+    NEW met2 ( 97290 101830 ) ( 97290 113850 )
 + USE SIGNAL ;
 - chany_out_10_ ( PIN chany_out_10_ ) ( _12_ X ) 
   + ROUTED met1 ( 97750 82110 ) ( 97751 82110 )
@@ -1847,15 +2064,17 @@ NETS 181 ;
     NEW met3 ( 3450 90100 ) ( 93150 90100 )
 + USE SIGNAL ;
 - chany_in_9_ ( PIN chany_in_9_ ) ( ANTENNA__28__A DIODE ) ( _28_ A ) 
-  + ROUTED met1 ( 86250 10370 ) ( 89930 10370 )
-    NEW met1 ( 79350 17850 ) ( 86250 17850 )
-    NEW met2 ( 86250 10370 ) ( 86250 17850 )
-    NEW met2 ( 89930 3450 ) ( 89930 10370 )
+  + ROUTED met1 ( 86250 170 ) ( 89930 170 )
+    NEW met1 ( 82570 6630 ) ( 86250 6630 )
+    NEW met1 ( 79350 17850 ) ( 79351 17850 )
+    NEW met2 ( 79350 10350 ) ( 79350 17850 )
+    NEW met2 ( 82570 6630 ) ( 82570 10350 )
+    NEW met2 ( 89930 170 ) ( 89930 171 )
 + USE SIGNAL ;
 - chany_in_16_ ( PIN chany_in_16_ ) ( ANTENNA__18__A DIODE ) ( _18_ A ) 
-  + ROUTED met1 ( 93150 106930 ) ( 99590 106930 )
+  + ROUTED met1 ( 93150 107270 ) ( 96830 107270 )
     NEW met2 ( 690 109820 ) ( 690 110500 )
-    NEW met2 ( 93150 106590 ) ( 93150 109820 )
+    NEW met2 ( 93150 107270 ) ( 93150 109820 )
     NEW met3 ( 690 109820 ) ( 93150 109820 )
     NEW met3 ( 690 110500 ) ( 691 110500 )
 + USE SIGNAL ;
@@ -1871,13 +2090,13 @@ NETS 181 ;
     NEW met2 ( 20010 10350 ) ( 20010 19550 )
 + USE SIGNAL ;
 - chany_out_0_ ( PIN chany_out_0_ ) ( _11_ X ) 
-  + ROUTED met1 ( 97750 24990 ) ( 103730 24990 )
-    NEW met2 ( 103730 20740 ) ( 103730 24990 )
-    NEW met3 ( 103730 20740 ) ( 103731 20740 )
+  + ROUTED met1 ( 97750 25330 ) ( 97751 25330 )
+    NEW met2 ( 97750 24990 ) ( 97750 25500 )
+    NEW met3 ( 97750 25500 ) ( 108955 25500 )
 + USE SIGNAL ;
 - chany_in_4_ ( PIN chany_in_4_ ) ( ANTENNA__23__A DIODE ) ( _23_ A ) 
-  + ROUTED met1 ( 93150 47090 ) ( 99590 47090 )
-    NEW met2 ( 93150 41820 ) ( 93150 46750 )
+  + ROUTED met1 ( 93150 47430 ) ( 96830 47430 )
+    NEW met2 ( 93150 41820 ) ( 93150 47430 )
     NEW met3 ( 3450 41820 ) ( 93150 41820 )
 + USE SIGNAL ;
 - chany_out_4_ ( PIN chany_out_4_ ) ( _23_ X ) 
@@ -1891,10 +2110,9 @@ NETS 181 ;
     NEW met3 ( 103730 117300 ) ( 103731 117300 )
 + USE SIGNAL ;
 - chany_in_17_ ( PIN chany_in_17_ ) ( ANTENNA__19__A DIODE ) ( _19_ A ) 
-  + ROUTED met1 ( 76130 19890 ) ( 100050 19890 )
-    NEW met1 ( 73370 20230 ) ( 76130 20230 )
-    NEW met2 ( 100050 13940 ) ( 100050 19550 )
-    NEW met3 ( 100050 13940 ) ( 108955 13940 )
+  + ROUTED met1 ( 73370 20230 ) ( 76130 20230 )
+    NEW met2 ( 76130 20060 ) ( 76130 20230 )
+    NEW met3 ( 76130 20060 ) ( 108955 20060 )
 + USE SIGNAL ;
 - left_grid_pin_5_ ( PIN left_grid_pin_5_ ) ( _03_ LO ) 
   + ROUTED met1 ( 13110 107270 ) ( 13111 107270 )
@@ -1907,15 +2125,15 @@ NETS 181 ;
     NEW met2 ( 79350 103870 ) ( 79350 113850 )
 + USE SIGNAL ;
 - chany_in_15_ ( PIN chany_in_15_ ) ( ANTENNA__17__A DIODE ) ( _17_ A ) 
-  + ROUTED met1 ( 89010 6630 ) ( 100050 6630 )
+  + ROUTED met1 ( 89470 6630 ) ( 100050 6630 )
     NEW met1 ( 82570 20230 ) ( 85330 20230 )
     NEW met2 ( 85330 10350 ) ( 85330 20230 )
-    NEW met2 ( 89010 6630 ) ( 89010 10350 )
+    NEW met2 ( 89470 6630 ) ( 89470 10350 )
     NEW met2 ( 100050 340 ) ( 100050 6630 )
     NEW met3 ( 100050 340 ) ( 108955 340 )
 + USE SIGNAL ;
 - prog_clk ( PIN prog_clk ) ( ANTENNA_clkbuf_0_prog_clk_A DIODE ) ( clkbuf_0_prog_clk A ) 
-  + ROUTED met1 ( 46690 74290 ) ( 46691 74290 )
+  + ROUTED met1 ( 46690 74630 ) ( 46691 74630 )
     NEW met1 ( 41170 77010 ) ( 46690 77010 )
     NEW met2 ( 34730 113850 ) ( 34730 121215 )
     NEW met2 ( 41170 76670 ) ( 41170 113850 )
@@ -1929,16 +2147,16 @@ NETS 181 ;
 + USE SIGNAL ;
 - ccff_tail ( PIN ccff_tail ) ( mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 27370 103870 ) ( 33810 103870 )
-    NEW met2 ( 20930 113850 ) ( 20930 121215 )
+    NEW met2 ( 23230 113850 ) ( 23230 121215 )
     NEW met2 ( 27370 103870 ) ( 27370 113850 )
 + USE SIGNAL ;
 - chany_in_13_ ( PIN chany_in_13_ ) ( ANTENNA__15__A DIODE ) ( _15_ A ) 
   + ROUTED met1 ( 100050 170 ) ( 103730 170 )
     NEW met1 ( 79350 3230 ) ( 100050 3230 )
-    NEW met1 ( 75670 6630 ) ( 79350 6630 )
+    NEW met1 ( 75210 6630 ) ( 79350 6630 )
     NEW met1 ( 67850 20230 ) ( 70610 20230 )
     NEW met2 ( 70610 10350 ) ( 70610 20230 )
-    NEW met2 ( 75670 6630 ) ( 75670 10350 )
+    NEW met2 ( 75210 6630 ) ( 75210 10350 )
     NEW met2 ( 103730 170 ) ( 103730 171 )
 + USE SIGNAL ;
 - right_grid_pin_10_ ( PIN right_grid_pin_10_ ) ( _06_ LO ) 
@@ -1949,8 +2167,8 @@ NETS 181 ;
 - chany_in_10_ ( PIN chany_in_10_ ) ( ANTENNA__12__A DIODE ) ( _12_ A ) 
   + ROUTED met1 ( 96370 79390 ) ( 96830 79390 )
     NEW met1 ( 96370 83130 ) ( 96830 83130 )
-    NEW met2 ( 96370 76500 ) ( 96370 83130 )
-    NEW met3 ( 3450 76500 ) ( 96370 76500 )
+    NEW met2 ( 96370 77180 ) ( 96370 83130 )
+    NEW met3 ( 3450 77180 ) ( 96370 77180 )
 + USE SIGNAL ;
 - chany_out_17_ ( PIN chany_out_17_ ) ( _19_ X ) 
   + ROUTED met1 ( 54510 14790 ) ( 65550 14790 )
@@ -1969,27 +2187,29 @@ NETS 181 ;
     NEW met2 ( 86710 103870 ) ( 86710 113850 )
 + USE SIGNAL ;
 - right_grid_pin_14_ ( PIN right_grid_pin_14_ ) ( _08_ LO ) 
-  + ROUTED met1 ( 97750 109310 ) ( 104190 109310 )
-    NEW met2 ( 104190 109310 ) ( 104190 121215 )
+  + ROUTED met1 ( 97750 109310 ) ( 99590 109310 )
+    NEW met1 ( 99590 113730 ) ( 104190 113730 )
+    NEW met2 ( 99590 109310 ) ( 99590 113730 )
+    NEW met2 ( 104190 113730 ) ( 104190 121215 )
 + USE SIGNAL ;
 - chany_out_2_ ( PIN chany_out_2_ ) ( _21_ X ) 
-  + ROUTED met1 ( 97750 36210 ) ( 103730 36210 )
-    NEW met2 ( 103730 35020 ) ( 103730 35870 )
-    NEW met3 ( 103730 35020 ) ( 103731 35020 )
+  + ROUTED met1 ( 97750 35870 ) ( 97751 35870 )
+    NEW met2 ( 97750 35870 ) ( 97750 36380 )
+    NEW met3 ( 97750 36380 ) ( 108955 36380 )
 + USE SIGNAL ;
 - chany_out_11_ ( PIN chany_out_11_ ) ( _13_ X ) 
-  + ROUTED met1 ( 27830 1530 ) ( 83030 1530 )
-    NEW met1 ( 89470 19550 ) ( 92230 19550 )
+  + ROUTED met1 ( 27830 1530 ) ( 83490 1530 )
+    NEW met1 ( 89010 19550 ) ( 92230 19550 )
     NEW met2 ( 27830 170 ) ( 27830 171 )
-    NEW met2 ( 83030 170 ) ( 83030 10350 )
-    NEW met2 ( 89470 10350 ) ( 89470 19550 )
+    NEW met2 ( 83490 170 ) ( 83490 10350 )
+    NEW met2 ( 89010 10350 ) ( 89010 19550 )
 + USE SIGNAL ;
 - chany_out_9_ ( PIN chany_out_9_ ) ( _28_ X ) 
   + ROUTED met1 ( 20930 510 ) ( 69230 510 )
-    NEW met1 ( 75210 16830 ) ( 80270 16830 )
+    NEW met1 ( 75670 16830 ) ( 80270 16830 )
     NEW met2 ( 20930 510 ) ( 20930 511 )
     NEW met2 ( 69230 510 ) ( 69230 10350 )
-    NEW met2 ( 75210 10350 ) ( 75210 16830 )
+    NEW met2 ( 75670 10350 ) ( 75670 16830 )
 + USE SIGNAL ;
 - chany_in_11_ ( PIN chany_in_11_ ) ( ANTENNA__13__A DIODE ) ( _13_ A ) 
   + ROUTED met1 ( 96370 170 ) ( 96830 170 )
@@ -1999,14 +2219,11 @@ NETS 181 ;
     NEW met2 ( 96830 170 ) ( 96830 171 )
 + USE SIGNAL ;
 - chany_in_5_ ( PIN chany_in_5_ ) ( ANTENNA__24__A DIODE ) ( _24_ A ) 
-  + ROUTED met1 ( 72450 170 ) ( 76130 170 )
-    NEW met1 ( 51750 6290 ) ( 72450 6290 )
-    NEW met1 ( 44850 10370 ) ( 51750 10370 )
-    NEW met1 ( 22310 18190 ) ( 44850 18190 )
+  + ROUTED met1 ( 72450 11390 ) ( 76590 11390 )
+    NEW met1 ( 22310 18190 ) ( 72450 18190 )
     NEW met1 ( 19550 20230 ) ( 22310 20230 )
-    NEW met2 ( 44850 10370 ) ( 44850 19550 )
-    NEW met2 ( 51750 6630 ) ( 51750 10370 )
-    NEW met2 ( 76130 170 ) ( 76130 171 )
+    NEW met2 ( 72450 11390 ) ( 72450 19550 )
+    NEW met2 ( 76590 3450 ) ( 76590 11390 )
 + USE SIGNAL ;
 - chany_in_1_ ( PIN chany_in_1_ ) ( ANTENNA__20__A DIODE ) ( _20_ A ) 
   + ROUTED met1 ( 58650 170 ) ( 62330 170 )
@@ -2018,10 +2235,10 @@ NETS 181 ;
 + USE SIGNAL ;
 - chany_out_15_ ( PIN chany_out_15_ ) ( _17_ X ) 
   + ROUTED met1 ( 41630 850 ) ( 76130 850 )
-    NEW met1 ( 82570 19550 ) ( 83490 19550 )
+    NEW met1 ( 82110 19550 ) ( 83490 19550 )
     NEW met2 ( 41630 850 ) ( 41630 851 )
     NEW met2 ( 76130 850 ) ( 76130 10350 )
-    NEW met2 ( 82570 10350 ) ( 82570 19550 )
+    NEW met2 ( 82110 10350 ) ( 82110 19550 )
 + USE SIGNAL ;
 - chany_in_6_ ( PIN chany_in_6_ ) ( ANTENNA__25__A DIODE ) ( _25_ A ) 
   + ROUTED met1 ( 93150 61370 ) ( 96830 61370 )
@@ -2082,30 +2299,30 @@ NETS 181 ;
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_0_.Q ( ANTENNA_mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 31970 101150 ) ( 36570 101150 )
-    NEW met1 ( 36110 101490 ) ( 36570 101490 )
-    NEW met1 ( 36110 105570 ) ( 43930 105570 )
-    NEW met2 ( 36110 101150 ) ( 36110 107270 )
+    NEW met1 ( 36570 101490 ) ( 36571 101490 )
+    NEW met1 ( 36570 105570 ) ( 43930 105570 )
+    NEW met2 ( 36570 101150 ) ( 36570 107270 )
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_0_.Qb ( mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_1_.Q ( ANTENNA_mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 43930 101830 ) ( 50370 101830 )
-    NEW met1 ( 50370 104550 ) ( 50830 104550 )
-    NEW met2 ( 50370 101830 ) ( 50370 104550 )
+    NEW met1 ( 43930 106590 ) ( 50830 106590 )
+    NEW met2 ( 43930 101830 ) ( 43930 104550 )
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_1_.Qb ( mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_2_.Q ( ANTENNA_mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 50370 97070 ) ( 51290 97070 )
-    NEW met1 ( 51290 103870 ) ( 58190 103870 )
-    NEW met2 ( 51290 97070 ) ( 51290 103870 )
+  + ROUTED met1 ( 50830 99110 ) ( 50831 99110 )
+    NEW met1 ( 50830 103870 ) ( 58190 103870 )
+    NEW met2 ( 50830 99110 ) ( 50830 103870 )
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_2_.Qb ( mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_3_.Q ( ANTENNA_mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 54510 98430 ) ( 58190 98430 )
-    NEW met1 ( 54510 109990 ) ( 54970 109990 )
-    NEW met2 ( 54510 98430 ) ( 54510 109990 )
+  + ROUTED met1 ( 52210 98430 ) ( 58190 98430 )
+    NEW met1 ( 52210 106590 ) ( 52211 106590 )
+    NEW met2 ( 52210 98430 ) ( 52210 106590 )
 + USE SIGNAL ;
 - mem_left_ipin_0.sc_dff_compact_3_.Qb ( mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2119,14 +2336,14 @@ NETS 181 ;
 - mem_left_ipin_0.sc_dff_compact_5_.Qb ( mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_1.ccff_tail ( ANTENNA_mem_left_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 47610 79730 ) ( 50830 79730 )
+  + ROUTED met1 ( 47610 79390 ) ( 50830 79390 )
     NEW met1 ( 50830 83470 ) ( 51290 83470 )
     NEW met1 ( 51290 90270 ) ( 59570 90270 )
     NEW met2 ( 50830 79390 ) ( 50830 83130 )
     NEW met2 ( 51290 83130 ) ( 51290 90950 )
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_0_.Q ( ANTENNA_mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 71990 97070 ) ( 78890 97070 )
+  + ROUTED met1 ( 71990 97070 ) ( 78430 97070 )
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_0_.Qb ( mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2138,24 +2355,24 @@ NETS 181 ;
 - mem_left_ipin_1.sc_dff_compact_1_.Qb ( mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_2_.Q ( ANTENNA_mem_left_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 65090 85170 ) ( 65091 85170 )
-    NEW met1 ( 64630 91290 ) ( 70610 91290 )
+  + ROUTED met1 ( 65090 84830 ) ( 65091 84830 )
+    NEW met1 ( 64630 90270 ) ( 70610 90270 )
     NEW met2 ( 65090 84830 ) ( 65090 90610 )
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_2_.Qb ( mem_left_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_3_.Q ( ANTENNA_mem_left_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 59570 84830 ) ( 65550 84830 )
-    NEW met1 ( 65550 91970 ) ( 71990 91970 )
+  + ROUTED met1 ( 59570 85170 ) ( 65550 85170 )
+    NEW met1 ( 65550 91290 ) ( 71990 91290 )
     NEW met2 ( 65550 84830 ) ( 65550 90950 )
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_3_.Qb ( mem_left_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_4_.Q ( ANTENNA_mem_left_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 58650 87550 ) ( 67850 87550 )
-    NEW met1 ( 52210 89250 ) ( 58650 89250 )
-    NEW met1 ( 43470 91290 ) ( 52210 91290 )
-    NEW met2 ( 52210 89250 ) ( 52210 90270 )
+    NEW met1 ( 51750 89250 ) ( 58650 89250 )
+    NEW met1 ( 46690 91970 ) ( 51750 91970 )
+    NEW met2 ( 51750 89250 ) ( 51750 90610 )
 + USE SIGNAL ;
 - mem_left_ipin_1.sc_dff_compact_4_.Qb ( mem_left_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2178,9 +2395,9 @@ NETS 181 ;
 - mem_left_ipin_2.sc_dff_compact_0_.Qb ( mem_left_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_2.sc_dff_compact_1_.Q ( ANTENNA_mem_left_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 36570 79730 ) ( 36571 79730 )
-    NEW met1 ( 36570 84830 ) ( 43930 84830 )
-    NEW met2 ( 36570 79730 ) ( 36570 85510 )
+  + ROUTED met1 ( 35650 77010 ) ( 35651 77010 )
+    NEW met1 ( 35650 84830 ) ( 43930 84830 )
+    NEW met2 ( 35650 76670 ) ( 35650 85510 )
 + USE SIGNAL ;
 - mem_left_ipin_2.sc_dff_compact_1_.Qb ( mem_left_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2212,20 +2429,20 @@ NETS 181 ;
 - mem_left_ipin_2.sc_dff_compact_5_.Qb ( mem_left_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_3.ccff_tail ( ANTENNA_mem_left_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 15870 46750 ) ( 20930 46750 )
+  + ROUTED met1 ( 15870 47090 ) ( 20930 47090 )
     NEW met1 ( 20930 48450 ) ( 32890 48450 )
     NEW met2 ( 20930 46750 ) ( 20930 48450 )
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_0_.Q ( ANTENNA_mem_left_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 22770 61030 ) ( 22771 61030 )
-    NEW met1 ( 19550 68850 ) ( 22770 68850 )
-    NEW met2 ( 22770 61030 ) ( 22770 68850 )
+  + ROUTED met1 ( 22770 61030 ) ( 23230 61030 )
+    NEW met1 ( 19550 68850 ) ( 23230 68850 )
+    NEW met2 ( 23230 61030 ) ( 23230 68850 )
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_0_.Qb ( mem_left_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_1_.Q ( ANTENNA_mem_left_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 24150 60350 ) ( 30130 60350 )
-    NEW met1 ( 12190 63070 ) ( 12191 63070 )
+    NEW met1 ( 12190 63750 ) ( 12191 63750 )
     NEW met2 ( 12190 61540 ) ( 12190 62390 )
     NEW met2 ( 24150 60350 ) ( 24150 61540 )
     NEW met3 ( 12190 61540 ) ( 24150 61540 )
@@ -2233,16 +2450,16 @@ NETS 181 ;
 - mem_left_ipin_3.sc_dff_compact_1_.Qb ( mem_left_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_2_.Q ( ANTENNA_mem_left_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 14950 55250 ) ( 14951 55250 )
-    NEW met1 ( 14950 66130 ) ( 20470 66130 )
-    NEW met2 ( 14950 55250 ) ( 14950 63750 )
+  + ROUTED met1 ( 14490 55250 ) ( 14950 55250 )
+    NEW met1 ( 14490 64770 ) ( 20470 64770 )
+    NEW met2 ( 14490 55250 ) ( 14490 63750 )
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_2_.Qb ( mem_left_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_3_.Q ( ANTENNA_mem_left_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 20010 43010 ) ( 20011 43010 )
+  + ROUTED met1 ( 14950 41650 ) ( 14951 41650 )
     NEW met1 ( 20470 57630 ) ( 25530 57630 )
-    NEW met2 ( 20010 41650 ) ( 20010 51750 )
+    NEW met2 ( 14950 41650 ) ( 14950 51750 )
     NEW met2 ( 20470 51750 ) ( 20470 58310 )
 + USE SIGNAL ;
 - mem_left_ipin_3.sc_dff_compact_3_.Qb ( mem_left_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
@@ -2257,9 +2474,9 @@ NETS 181 ;
 - mem_left_ipin_3.sc_dff_compact_5_.Qb ( mem_left_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_4.ccff_tail ( ANTENNA_mem_left_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 53130 41990 ) ( 53131 41990 )
-    NEW met1 ( 43930 51170 ) ( 53130 51170 )
-    NEW met2 ( 53130 41990 ) ( 53130 52190 )
+  + ROUTED met1 ( 43930 42330 ) ( 53130 42330 )
+    NEW met1 ( 43930 52190 ) ( 48990 52190 )
+    NEW met2 ( 43930 41990 ) ( 43930 52190 )
 + USE SIGNAL ;
 - mem_left_ipin_4.sc_dff_compact_0_.Q ( ANTENNA_mem_left_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 32890 47090 ) ( 36570 47090 )
@@ -2267,16 +2484,16 @@ NETS 181 ;
 - mem_left_ipin_4.sc_dff_compact_0_.Qb ( mem_left_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_4.sc_dff_compact_1_.Q ( ANTENNA_mem_left_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 35650 46750 ) ( 45770 46750 )
-    NEW met1 ( 35190 54910 ) ( 35650 54910 )
-    NEW met2 ( 35650 47430 ) ( 35650 54910 )
+  + ROUTED met1 ( 37030 46750 ) ( 45770 46750 )
+    NEW met1 ( 37030 52190 ) ( 37031 52190 )
+    NEW met2 ( 37030 47430 ) ( 37030 52190 )
 + USE SIGNAL ;
 - mem_left_ipin_4.sc_dff_compact_1_.Qb ( mem_left_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_4.sc_dff_compact_2_.Q ( ANTENNA_mem_left_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 37030 41650 ) ( 37031 41650 )
-    NEW met1 ( 37030 54910 ) ( 42550 54910 )
-    NEW met2 ( 37030 41650 ) ( 37030 54910 )
+  + ROUTED met1 ( 37030 41650 ) ( 37490 41650 )
+    NEW met1 ( 37490 54910 ) ( 42550 54910 )
+    NEW met2 ( 37490 41650 ) ( 37490 54910 )
 + USE SIGNAL ;
 - mem_left_ipin_4.sc_dff_compact_2_.Qb ( mem_left_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2355,7 +2572,7 @@ NETS 181 ;
 - mem_left_ipin_6.sc_dff_compact_1_.Qb ( mem_left_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_6.sc_dff_compact_2_.Q ( ANTENNA_mem_left_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 66470 64090 ) ( 70610 64090 )
+  + ROUTED met1 ( 67390 63070 ) ( 70610 63070 )
 + USE SIGNAL ;
 - mem_left_ipin_6.sc_dff_compact_2_.Qb ( mem_left_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2367,8 +2584,11 @@ NETS 181 ;
 - mem_left_ipin_6.sc_dff_compact_3_.Qb ( mem_left_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_6.sc_dff_compact_4_.Q ( ANTENNA_mem_left_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 58190 69530 ) ( 79350 69530 )
+  + ROUTED met1 ( 58190 68510 ) ( 64630 68510 )
     NEW met1 ( 79350 71230 ) ( 86250 71230 )
+    NEW met2 ( 64630 68340 ) ( 64630 68510 )
+    NEW met2 ( 79350 68340 ) ( 79350 71230 )
+    NEW met3 ( 64630 68340 ) ( 79350 68340 )
 + USE SIGNAL ;
 - mem_left_ipin_6.sc_dff_compact_4_.Qb ( mem_left_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2381,7 +2601,7 @@ NETS 181 ;
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_0_.Q ( ANTENNA_mem_left_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 46230 71230 ) ( 50830 71230 )
-    NEW met1 ( 65550 75650 ) ( 71990 75650 )
+    NEW met1 ( 65550 74970 ) ( 71990 74970 )
     NEW met1 ( 50830 76670 ) ( 50831 76670 )
     NEW met2 ( 50830 71230 ) ( 50830 77350 )
     NEW met2 ( 65550 74630 ) ( 65550 75820 )
@@ -2390,9 +2610,9 @@ NETS 181 ;
 - mem_left_ipin_7.sc_dff_compact_0_.Qb ( mem_left_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_1_.Q ( ANTENNA_mem_left_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 43930 63410 ) ( 44390 63410 )
+  + ROUTED met1 ( 43930 64430 ) ( 44390 64430 )
     NEW met1 ( 51750 76670 ) ( 61870 76670 )
-    NEW met2 ( 44390 63410 ) ( 44390 72420 )
+    NEW met2 ( 44390 64430 ) ( 44390 72420 )
     NEW met2 ( 51750 72420 ) ( 51750 76670 )
     NEW met3 ( 44390 72420 ) ( 51750 72420 )
 + USE SIGNAL ;
@@ -2400,23 +2620,23 @@ NETS 181 ;
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_2_.Q ( ANTENNA_mem_left_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 48070 64090 ) ( 52670 64090 )
-    NEW met1 ( 48070 70210 ) ( 50830 70210 )
+    NEW met1 ( 48070 69870 ) ( 50830 69870 )
     NEW met2 ( 48070 63750 ) ( 48070 71910 )
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_2_.Qb ( mem_left_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_3_.Q ( ANTENNA_mem_left_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 34730 65790 ) ( 34731 65790 )
-    NEW met1 ( 34730 69530 ) ( 51750 69530 )
+  + ROUTED met1 ( 34730 65790 ) ( 35650 65790 )
+    NEW met1 ( 35650 70210 ) ( 51750 70210 )
     NEW met1 ( 51750 71230 ) ( 61870 71230 )
-    NEW met2 ( 34730 65790 ) ( 34730 69190 )
+    NEW met2 ( 35650 65790 ) ( 35650 69190 )
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_3_.Qb ( mem_left_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_left_ipin_7.sc_dff_compact_4_.Q ( ANTENNA_mem_left_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_left_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_left_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 37950 70210 ) ( 43930 70210 )
-    NEW met1 ( 31050 72590 ) ( 37950 72590 )
-    NEW met1 ( 25990 74290 ) ( 31050 74290 )
+  + ROUTED met1 ( 37950 69530 ) ( 43930 69530 )
+    NEW met1 ( 31050 72250 ) ( 37950 72250 )
+    NEW met1 ( 25990 73950 ) ( 31050 73950 )
     NEW met1 ( 25530 77350 ) ( 25990 77350 )
     NEW met2 ( 25990 73950 ) ( 25990 77350 )
 + USE SIGNAL ;
@@ -2425,43 +2645,43 @@ NETS 181 ;
 - mem_left_ipin_7.sc_dff_compact_5_.Qb ( mem_left_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_right_ipin_0.ccff_tail ( ANTENNA_mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 17250 95710 ) ( 25530 95710 )
+  + ROUTED met1 ( 17250 94690 ) ( 25530 94690 )
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_0_.Q ( ANTENNA_mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 38870 74970 ) ( 45770 74970 )
-    NEW met1 ( 22770 82790 ) ( 22771 82790 )
-    NEW met2 ( 22770 75820 ) ( 22770 82790 )
+    NEW met1 ( 22770 82790 ) ( 23230 82790 )
+    NEW met2 ( 23230 75820 ) ( 23230 82790 )
     NEW met2 ( 38870 74630 ) ( 38870 75820 )
-    NEW met3 ( 22770 75820 ) ( 38870 75820 )
+    NEW met3 ( 23230 75820 ) ( 38870 75820 )
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_0_.Qb ( mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_1_.Q ( ANTENNA_mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 13110 76670 ) ( 14490 76670 )
-    NEW met1 ( 14490 80410 ) ( 24150 80410 )
+    NEW met1 ( 14490 79390 ) ( 24150 79390 )
     NEW met1 ( 24150 82110 ) ( 30130 82110 )
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_1_.Qb ( mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_2_.Q ( ANTENNA_mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 14030 82110 ) ( 23690 82110 )
-    NEW met1 ( 14490 85170 ) ( 14950 85170 )
-    NEW met2 ( 14490 82110 ) ( 14490 85170 )
+    NEW met1 ( 14950 83810 ) ( 20930 83810 )
+    NEW met2 ( 20930 82110 ) ( 20930 85170 )
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_2_.Qb ( mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_3_.Q ( ANTENNA_mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) 
   + ROUTED met1 ( 20470 85850 ) ( 25990 85850 )
-    NEW met1 ( 20470 90270 ) ( 26450 90270 )
-    NEW met2 ( 20470 85510 ) ( 20470 90270 )
+    NEW met1 ( 20470 91970 ) ( 22770 91970 )
+    NEW met2 ( 20470 85510 ) ( 20470 93670 )
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_3_.Qb ( mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_4_.Q ( ANTENNA_mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) 
-  + ROUTED met1 ( 14950 87550 ) ( 15410 87550 )
-    NEW met1 ( 15410 91290 ) ( 24150 91290 )
+  + ROUTED met1 ( 14950 87550 ) ( 14951 87550 )
+    NEW met1 ( 14950 91290 ) ( 24150 91290 )
     NEW met1 ( 24150 92990 ) ( 31970 92990 )
-    NEW met2 ( 15410 87550 ) ( 15410 90610 )
+    NEW met2 ( 14950 87550 ) ( 14950 90610 )
 + USE SIGNAL ;
 - mem_right_ipin_0.sc_dff_compact_4_.Qb ( mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) 
 + USE SIGNAL ;
@@ -2489,24 +2709,24 @@ NETS 181 ;
 + USE SIGNAL ;
 - clknet_0_prog_clk ( ANTENNA_clkbuf_1_0_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_1_1_0_prog_clk_A DIODE ) ( clkbuf_1_1_0_prog_clk A ) ( clkbuf_1_0_0_prog_clk A ) 
 ( clkbuf_0_prog_clk X ) 
-  + ROUTED met1 ( 28750 73950 ) ( 29210 73950 )
+  + ROUTED met1 ( 28750 74290 ) ( 28751 74290 )
     NEW met1 ( 45310 78370 ) ( 53130 78370 )
-    NEW met2 ( 29210 73950 ) ( 29210 74460 )
+    NEW met2 ( 28750 73950 ) ( 28750 74460 )
     NEW met2 ( 45310 74460 ) ( 45310 75990 )
-    NEW met3 ( 29210 74460 ) ( 45310 74460 )
+    NEW met3 ( 28750 74460 ) ( 45310 74460 )
 + USE CLOCK ;
 - clknet_1_0_0_prog_clk ( ANTENNA_clkbuf_2_0_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_2_1_0_prog_clk_A DIODE ) ( clkbuf_2_1_0_prog_clk A ) ( clkbuf_2_0_0_prog_clk A ) 
 ( clkbuf_1_0_0_prog_clk X ) 
   + ROUTED met1 ( 27370 69190 ) ( 28750 69190 )
     NEW met1 ( 27370 85510 ) ( 28750 85510 )
-    NEW met2 ( 28750 69190 ) ( 28750 85510 )
+    NEW met2 ( 27370 69190 ) ( 27370 85510 )
 + USE CLOCK ;
 - clknet_1_1_0_prog_clk ( ANTENNA_clkbuf_2_2_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_2_3_0_prog_clk_A DIODE ) ( clkbuf_2_3_0_prog_clk A ) ( clkbuf_2_2_0_prog_clk A ) 
 ( clkbuf_1_1_0_prog_clk X ) 
-  + ROUTED met1 ( 54970 65790 ) ( 57270 65790 )
+  + ROUTED met1 ( 54970 63750 ) ( 58190 63750 )
     NEW met1 ( 54970 73950 ) ( 56810 73950 )
     NEW met1 ( 55430 87550 ) ( 55431 87550 )
-    NEW met2 ( 54970 65790 ) ( 54970 73950 )
+    NEW met2 ( 54970 63750 ) ( 54970 73950 )
     NEW met2 ( 55430 79350 ) ( 55430 87550 )
     NEW met2 ( 56810 73950 ) ( 56810 79350 )
 + USE CLOCK ;
@@ -2519,106 +2739,103 @@ NETS 181 ;
 + USE CLOCK ;
 - clknet_2_1_0_prog_clk ( ANTENNA_clkbuf_3_2_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_3_0_prog_clk_A DIODE ) ( clkbuf_3_3_0_prog_clk A ) ( clkbuf_3_2_0_prog_clk A ) 
 ( clkbuf_2_1_0_prog_clk X ) 
-  + ROUTED met1 ( 18170 87890 ) ( 22310 87890 )
-    NEW met1 ( 22310 91970 ) ( 33810 91970 )
-    NEW met2 ( 22310 87550 ) ( 22310 94010 )
+  + ROUTED met1 ( 18170 87550 ) ( 23230 87550 )
+    NEW met1 ( 23230 95710 ) ( 31050 95710 )
+    NEW met2 ( 23230 87550 ) ( 23230 95710 )
 + USE CLOCK ;
 - clknet_2_2_0_prog_clk ( ANTENNA_clkbuf_3_4_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_5_0_prog_clk_A DIODE ) ( clkbuf_3_5_0_prog_clk A ) ( clkbuf_3_4_0_prog_clk A ) 
 ( clkbuf_2_2_0_prog_clk X ) 
-  + ROUTED met1 ( 52210 55590 ) ( 58650 55590 )
+  + ROUTED met1 ( 53130 58310 ) ( 58650 58310 )
     NEW met1 ( 58650 61370 ) ( 69230 61370 )
-    NEW met1 ( 52210 63070 ) ( 57270 63070 )
-    NEW met2 ( 52210 55590 ) ( 52210 63070 )
+    NEW met1 ( 53130 63070 ) ( 57270 63070 )
+    NEW met2 ( 53130 58310 ) ( 53130 63070 )
 + USE CLOCK ;
 - clknet_2_3_0_prog_clk ( ANTENNA_clkbuf_3_6_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_7_0_prog_clk_A DIODE ) ( clkbuf_3_7_0_prog_clk A ) ( clkbuf_3_6_0_prog_clk A ) 
 ( clkbuf_2_3_0_prog_clk X ) 
-  + ROUTED met1 ( 51750 84830 ) ( 55430 84830 )
-    NEW met1 ( 51750 94010 ) ( 58190 94010 )
-    NEW met2 ( 51750 84830 ) ( 51750 94010 )
+  + ROUTED met1 ( 53130 84830 ) ( 55430 84830 )
+    NEW met1 ( 53130 92990 ) ( 60490 92990 )
+    NEW met2 ( 53130 84830 ) ( 53130 92990 )
 + USE CLOCK ;
 - clknet_3_0_0_prog_clk ( ANTENNA_mem_left_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( mem_left_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_left_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_0_0_prog_clk X ) 
-  + ROUTED met1 ( 21390 38590 ) ( 21391 38590 )
-    NEW met1 ( 19550 47090 ) ( 21390 47090 )
-    NEW met1 ( 19550 47430 ) ( 19551 47430 )
-    NEW met1 ( 19550 52530 ) ( 21390 52530 )
-    NEW met1 ( 19550 52870 ) ( 19551 52870 )
-    NEW met1 ( 11270 57630 ) ( 19550 57630 )
-    NEW met1 ( 14490 58650 ) ( 19550 58650 )
-    NEW met1 ( 14490 63070 ) ( 21390 63070 )
-    NEW met1 ( 10810 65790 ) ( 17710 65790 )
+  + ROUTED met1 ( 18630 38590 ) ( 21390 38590 )
+    NEW met1 ( 18630 41650 ) ( 21390 41650 )
+    NEW met1 ( 18630 53210 ) ( 24150 53210 )
+    NEW met1 ( 11270 57970 ) ( 14950 57970 )
+    NEW met1 ( 14950 58650 ) ( 24150 58650 )
+    NEW met1 ( 12190 63070 ) ( 27370 63070 )
     NEW met1 ( 17710 71910 ) ( 21390 71910 )
     NEW met1 ( 11270 74970 ) ( 17710 74970 )
     NEW met1 ( 11270 76670 ) ( 11271 76670 )
     NEW met2 ( 11270 74630 ) ( 11270 76670 )
-    NEW met2 ( 14490 57630 ) ( 14490 65790 )
+    NEW met2 ( 14950 57630 ) ( 14950 63070 )
     NEW met2 ( 17710 63070 ) ( 17710 74630 )
-    NEW met2 ( 19550 47430 ) ( 19550 58310 )
-    NEW met2 ( 21390 38590 ) ( 21390 47430 )
+    NEW met2 ( 18630 38590 ) ( 18630 52870 )
+    NEW met2 ( 24150 52870 ) ( 24150 58310 )
 + USE CLOCK ;
 - clknet_3_1_0_prog_clk ( ANTENNA_mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_left_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_left_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( clkbuf_3_1_0_prog_clk X ) 
-  + ROUTED met1 ( 31970 42330 ) ( 35190 42330 )
+  + ROUTED met1 ( 33810 44710 ) ( 35190 44710 )
     NEW met1 ( 35190 47770 ) ( 46690 47770 )
-    NEW met1 ( 30130 49470 ) ( 32430 49470 )
+    NEW met1 ( 33810 50150 ) ( 33811 50150 )
     NEW met1 ( 26450 57630 ) ( 33810 57630 )
     NEW met1 ( 33810 68850 ) ( 35190 68850 )
-    NEW met1 ( 34270 74630 ) ( 35190 74630 )
-    NEW met1 ( 34270 76670 ) ( 37490 76670 )
-    NEW met2 ( 30130 49470 ) ( 30130 57630 )
-    NEW met2 ( 32430 42330 ) ( 32430 49470 )
-    NEW met2 ( 33810 57630 ) ( 33810 68850 )
-    NEW met2 ( 34270 74630 ) ( 34270 76670 )
-    NEW met2 ( 35190 68850 ) ( 35190 74630 )
+    NEW met1 ( 35190 74630 ) ( 35191 74630 )
+    NEW met1 ( 35190 76670 ) ( 37490 76670 )
+    NEW met2 ( 33810 44710 ) ( 33810 68850 )
+    NEW met2 ( 35190 68850 ) ( 35190 76670 )
 + USE CLOCK ;
 - clknet_3_2_0_prog_clk ( ANTENNA_mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_left_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_2_0_prog_clk X ) 
-  + ROUTED met1 ( 9430 79390 ) ( 28290 79390 )
-    NEW met1 ( 9430 84830 ) ( 17250 84830 )
-    NEW met1 ( 17250 87550 ) ( 21390 87550 )
-    NEW met1 ( 9890 90270 ) ( 14950 90270 )
-    NEW met1 ( 14950 98430 ) ( 20930 98430 )
-    NEW met1 ( 16330 104210 ) ( 20930 104210 )
-    NEW met2 ( 9430 79390 ) ( 9430 84830 )
+  + ROUTED met1 ( 13110 80410 ) ( 17250 80410 )
+    NEW met1 ( 21390 81090 ) ( 28290 81090 )
+    NEW met1 ( 17250 82790 ) ( 21390 82790 )
+    NEW met1 ( 9890 85850 ) ( 17250 85850 )
+    NEW met1 ( 17250 87890 ) ( 21390 87890 )
+    NEW met1 ( 9890 90270 ) ( 15870 90270 )
+    NEW met1 ( 15870 102850 ) ( 23230 102850 )
+    NEW met1 ( 16330 104550 ) ( 23230 104550 )
     NEW met2 ( 9890 84830 ) ( 9890 90270 )
-    NEW met2 ( 14950 90270 ) ( 14950 98430 )
-    NEW met2 ( 20930 98430 ) ( 20930 103870 )
+    NEW met2 ( 13110 80070 ) ( 13110 84830 )
+    NEW met2 ( 15870 90270 ) ( 15870 101830 )
+    NEW met2 ( 23230 101830 ) ( 23230 103870 )
 + USE CLOCK ;
 - clknet_3_3_0_prog_clk ( ANTENNA_mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_left_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_3_0_prog_clk X ) 
-  + ROUTED met1 ( 30130 79390 ) ( 35190 79390 )
+  + ROUTED met1 ( 30130 79730 ) ( 35190 79730 )
     NEW met1 ( 31970 84830 ) ( 35190 84830 )
     NEW met1 ( 18170 92990 ) ( 21390 92990 )
-    NEW met1 ( 21390 93670 ) ( 31970 93670 )
-    NEW met1 ( 21390 99110 ) ( 33810 99110 )
-    NEW met1 ( 28290 101830 ) ( 35190 101830 )
-    NEW met1 ( 33810 109310 ) ( 34730 109310 )
-    NEW met2 ( 28290 93670 ) ( 28290 101830 )
+    NEW met1 ( 21390 93670 ) ( 32890 93670 )
+    NEW met1 ( 21390 99110 ) ( 34270 99110 )
+    NEW met1 ( 32890 101830 ) ( 35190 101830 )
+    NEW met1 ( 34270 109310 ) ( 34730 109310 )
     NEW met2 ( 31970 84830 ) ( 31970 93670 )
-    NEW met2 ( 33810 99110 ) ( 33810 109310 )
+    NEW met2 ( 32890 93670 ) ( 32890 101830 )
+    NEW met2 ( 34270 99110 ) ( 34270 109310 )
     NEW met2 ( 35190 79390 ) ( 35190 84830 )
 + USE CLOCK ;
 - clknet_3_4_0_prog_clk ( ANTENNA_mem_left_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_left_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_left_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( clkbuf_3_4_0_prog_clk X ) 
-  + ROUTED met1 ( 45310 44030 ) ( 60030 44030 )
-    NEW met1 ( 49450 49810 ) ( 61870 49810 )
-    NEW met1 ( 47610 52530 ) ( 49450 52530 )
-    NEW met1 ( 43930 57630 ) ( 58650 57630 )
-    NEW met1 ( 58650 58310 ) ( 65090 58310 )
+  + ROUTED met1 ( 44390 43010 ) ( 49450 43010 )
+    NEW met1 ( 49450 44030 ) ( 60030 44030 )
+    NEW met1 ( 49450 49470 ) ( 61870 49470 )
+    NEW met1 ( 47610 53210 ) ( 49450 53210 )
+    NEW met1 ( 43930 55590 ) ( 58650 55590 )
+    NEW met1 ( 58650 57970 ) ( 65090 57970 )
     NEW met1 ( 65090 58650 ) ( 69230 58650 )
     NEW met1 ( 43930 65790 ) ( 52210 65790 )
     NEW met1 ( 43930 71910 ) ( 49450 71910 )
-    NEW met2 ( 43930 57630 ) ( 43930 71910 )
-    NEW met2 ( 49450 44030 ) ( 49450 57630 )
+    NEW met2 ( 43930 55590 ) ( 43930 71910 )
+    NEW met2 ( 49450 41990 ) ( 49450 55590 )
 + USE CLOCK ;
 - clknet_3_5_0_prog_clk ( ANTENNA_mem_left_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
@@ -2631,16 +2848,14 @@ NETS 181 ;
     NEW met1 ( 63710 53210 ) ( 71070 53210 )
     NEW met1 ( 60030 60350 ) ( 71070 60350 )
     NEW met1 ( 61870 65790 ) ( 65090 65790 )
-    NEW met1 ( 72450 69190 ) ( 80270 69190 )
-    NEW met1 ( 62790 74630 ) ( 63250 74630 )
-    NEW met1 ( 62790 74970 ) ( 72450 74970 )
-    NEW met1 ( 62330 76670 ) ( 63250 76670 )
-    NEW met2 ( 62790 66470 ) ( 62790 74630 )
-    NEW met2 ( 63250 74630 ) ( 63250 76670 )
+    NEW met1 ( 72450 69530 ) ( 80270 69530 )
+    NEW met1 ( 64170 71230 ) ( 72450 71230 )
+    NEW met1 ( 62330 76670 ) ( 64170 76670 )
     NEW met2 ( 63710 41990 ) ( 63710 52870 )
-    NEW met2 ( 65090 60350 ) ( 65090 66470 )
+    NEW met2 ( 64170 71230 ) ( 64170 76670 )
+    NEW met2 ( 65090 60350 ) ( 65090 71230 )
     NEW met2 ( 66010 38590 ) ( 66010 44710 )
-    NEW met2 ( 71070 52870 ) ( 71070 60350 )
+    NEW met2 ( 66010 52870 ) ( 66010 60350 )
 + USE CLOCK ;
 - clknet_3_6_0_prog_clk ( ANTENNA_mem_left_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
@@ -2650,22 +2865,21 @@ NETS 181 ;
     NEW met1 ( 49450 77350 ) ( 55890 77350 )
     NEW met1 ( 49450 83810 ) ( 61870 83810 )
     NEW met1 ( 61870 89250 ) ( 68770 89250 )
-    NEW met1 ( 47150 91970 ) ( 50830 91970 )
-    NEW met1 ( 50830 93330 ) ( 61870 93330 )
+    NEW met1 ( 47150 91290 ) ( 50830 91290 )
+    NEW met1 ( 50370 93330 ) ( 61870 93330 )
     NEW met1 ( 48070 96730 ) ( 52210 96730 )
-    NEW met1 ( 48070 109990 ) ( 53590 109990 )
-    NEW met2 ( 48070 96730 ) ( 48070 109990 )
+    NEW met1 ( 48070 104550 ) ( 49450 104550 )
+    NEW met2 ( 48070 96730 ) ( 48070 104550 )
     NEW met2 ( 49450 76670 ) ( 49450 83130 )
-    NEW met2 ( 50830 90950 ) ( 50830 96730 )
+    NEW met2 ( 50370 90950 ) ( 50370 96730 )
     NEW met2 ( 61870 83130 ) ( 61870 92990 )
 + USE CLOCK ;
 - clknet_3_7_0_prog_clk ( ANTENNA_mem_left_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) 
 ( ANTENNA_mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_left_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) 
 ( mem_left_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_7_0_prog_clk X ) 
   + ROUTED met1 ( 53590 85170 ) ( 57270 85170 )
-    NEW met1 ( 63250 86530 ) ( 70610 86530 )
-    NEW met1 ( 57270 88230 ) ( 63250 88230 )
-    NEW met1 ( 59570 92990 ) ( 63250 92990 )
+    NEW met1 ( 57270 88230 ) ( 70610 88230 )
+    NEW met1 ( 59570 91970 ) ( 63250 91970 )
     NEW met1 ( 72450 96730 ) ( 80270 96730 )
     NEW met1 ( 62790 98430 ) ( 72450 98430 )
     NEW met2 ( 62790 92990 ) ( 62790 98430 )

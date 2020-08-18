@@ -1755,13 +1755,16 @@ Notice 0:     Created 25 technology vias
 Notice 0:     Created 437 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/cby_2__1_/runs/pin_placement/tmp/merged_unpadded.lef
 Notice 0: 
-Reading DEF file: /openLANE_flow/designs/cby_2__1_/runs/pin_placement/results/cts/cby_2__1_.cts.def
+Reading DEF file: /openLANE_flow/designs/cby_2__1_/runs/pin_placement/tmp/floorplan/pdn.def
 Notice 0: Design: cby_2__1_
-Notice 0:     Created 51 pins.
+Notice 0:     Created 53 pins.
 Notice 0:     Created 318 components and 1014 component-terminals.
+Notice 0:     Created 2 special nets and 0 connections.
 Notice 0:     Created 181 nets and 367 connections.
-Notice 0: Finished DEF file: /openLANE_flow/designs/cby_2__1_/runs/pin_placement/results/cts/cby_2__1_.cts.def
+Notice 0: Finished DEF file: /openLANE_flow/designs/cby_2__1_/runs/pin_placement/tmp/floorplan/pdn.def
 [INFO]: Inserting sky130_fd_sc_hd__diode_2...
+[WARN]: Skipping VPWR
+[WARN]: Skipping VGND
 
 [INFO]: 207 of sky130_fd_sc_hd__diode_2 inserted!
 [INFO]: Legalizing...
@@ -1771,7 +1774,7 @@ Design Stats
 total instances           525
 multi row instances         0
 fixed instances           216
-nets                      181
+nets                      183
 design area           10650.2 u^2
 fixed area              460.4 u^2
 movable area           2396.0 u^2

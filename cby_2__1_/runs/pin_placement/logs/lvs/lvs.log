@@ -78,6 +78,8 @@ Circuit sky130_fd_sc_hd__clkbuf_16 contains 0 device instances.
 Circuit contains 0 nets.
 
 Circuit sky130_fd_sc_hd__clkbuf_16 contains no devices.
+Duplicate pin VPWR in cell cby_2__1_
+Duplicate pin VGND in cell cby_2__1_
 Contents of circuit 1:  Circuit: 'cby_2__1_'
 Circuit cby_2__1_ contains 449 device instances.
   Class: sky130_fd_sc_hd__clkbuf_16 instances:   1
@@ -87,7 +89,7 @@ Circuit cby_2__1_ contains 449 device instances.
   Class: sky130_fd_sc_hd__diode_2 instances: 207
   Class: sky130_fd_sc_hd__dfrbp_1 instances:  58
   Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 140
-Circuit contains 231 nets.
+Circuit contains 194 nets.
 Contents of circuit 2:  Circuit: 'cby_2__1_'
 Circuit cby_2__1_ contains 449 device instances.
   Class: sky130_fd_sc_hd__clkbuf_16 instances:   1
@@ -100,8 +102,11 @@ Circuit cby_2__1_ contains 449 device instances.
 Circuit contains 183 nets.
 
 Circuit 1 contains 449 devices, Circuit 2 contains 449 devices.
-Circuit 1 contains 220 nets,    Circuit 2 contains 183 nets. *** MISMATCH ***
+Circuit 1 contains 183 nets,    Circuit 2 contains 183 nets.
 
-Result: Netlists do not match.
+Circuits match with 23 symmetries.
+Netlists match with 17 symmetries.
+Circuits match correctly.
+Result: Circuits match uniquely.
 Logging to file "/openLANE_flow/designs/cby_2__1_/runs/pin_placement//results/lvs/cby_2__1_.lvs.log" disabled
 LVS Done.

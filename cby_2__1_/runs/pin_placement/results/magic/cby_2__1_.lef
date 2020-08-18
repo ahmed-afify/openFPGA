@@ -369,6 +369,22 @@ MACRO cby_2__1_
         RECT 0.090 0.000 0.370 4.000 ;
     END
   END chany_out_3_
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 26.490 108.560 28.090 ;
+    END
+  END VPWR
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 103.080 108.560 104.680 ;
+    END
+  END VGND
   OBS
       LAYER li1 ;
         RECT 5.520 10.795 108.560 114.325 ;
@@ -449,6 +465,8 @@ MACRO cby_2__1_
         RECT 4.400 10.520 111.010 11.920 ;
         RECT 0.310 5.120 111.010 10.520 ;
         RECT 0.310 4.720 110.010 5.120 ;
+      LAYER met4 ;
+        RECT 21.040 10.640 99.440 114.480 ;
   END
 END cby_2__1_
 END LIBRARY

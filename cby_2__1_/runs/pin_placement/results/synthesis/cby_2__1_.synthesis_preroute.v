@@ -48,7 +48,9 @@ module cby_2__1_ (chany_in_0_,
     right_grid_pin_4_,
     chany_out_14_,
     chany_out_6_,
-    chany_out_3_);
+    chany_out_3_,
+    VPWR,
+    VGND);
  input chany_in_0_;
  output left_grid_pin_1_;
  input chany_in_14_;
@@ -100,6 +102,8 @@ module cby_2__1_ (chany_in_0_,
  output chany_out_14_;
  output chany_out_6_;
  output chany_out_3_;
+ input VPWR;
+ input VGND;
 
  sky130_fd_sc_hd__conb_1 _00_ (.LO(right_grid_pin_6_));
  sky130_fd_sc_hd__conb_1 _01_ (.LO(right_grid_pin_8_));

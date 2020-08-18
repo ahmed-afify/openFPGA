@@ -55,7 +55,9 @@ module cby_2__1_(
     output right_grid_pin_4_,
     output chany_out_14_,
     output chany_out_6_,
-    output chany_out_3_
+    output chany_out_3_,
+    input VPWR,
+    input VGND
 );
 
 wire \mem_left_ipin_7.sc_dff_compact_2_.Qb  ;

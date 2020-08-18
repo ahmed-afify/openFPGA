@@ -34,6 +34,9 @@ node "VPB" 10147 1845.11 29 527 nw 0 0 0 0 615036 4474 0 0 0 0 0 0 0 0 0 0 0 0 0
 equiv "VPB" "VPB"
 substrate "VNB" 0 0 29 -17 pw 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 equiv "VNB" "VNB"
+cap "VPB" "a_110_47#" 1.58082
+cap "VPB" "A" 0.0148
+cap "X" "VGND" 2233
 cap "VPWR" "VGND" 72.4031
 cap "X" "VPWR" 3474.55
 cap "a_110_47#" "VGND" 949.929
@@ -45,9 +48,6 @@ cap "X" "VPB" 5.74147
 cap "A" "VPWR" 79.6988
 cap "A" "a_110_47#" 544.488
 cap "VPB" "VPWR" 115.671
-cap "VPB" "a_110_47#" 1.58082
-cap "VPB" "A" 0.0148
-cap "X" "VGND" 2233
 device mosfet nshort 1713 47 1714 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
 device mosfet nshort 1627 47 1628 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
 device mosfet nshort 1541 47 1542 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
