@@ -14,7 +14,7 @@ set ::env(FP_PDN_VOFFSET) 4
 set ::env(FP_PDN_VPITCH) 15
 set ::env(FP_PDN_HOFFSET) 4
 set ::env(FP_PDN_HPITCH) 15
-set ::env(FP_ASPECT_RATIO) 1/3
+set ::env(FP_ASPECT_RATIO) 0.3
 
 set filename $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/$::env(PDK)_$::env(PDK_VARIANT)_config.tcl
 if { [file exists $filename] == 1} {

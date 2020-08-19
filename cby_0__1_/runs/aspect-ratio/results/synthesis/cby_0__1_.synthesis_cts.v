@@ -174,17 +174,17 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_left_ipin_0.ccff_tail ),
     .Q_N(\mem_left_ipin_0.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_0_0_prog_clk));
+    .CLK(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_left_ipin_0.ccff_tail ),
     .Q(\mem_left_ipin_1.sc_dff_compact_0_.Q ),
     .Q_N(\mem_left_ipin_1.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_0_0_prog_clk));
+    .CLK(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_left_ipin_1.sc_dff_compact_0_.Q ),
     .Q(\mem_left_ipin_1.ccff_tail ),
     .Q_N(\mem_left_ipin_1.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_0_0_prog_clk));
+    .CLK(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_left_ipin_1.ccff_tail ),
     .Q(\mem_right_ipin_0.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_0.sc_dff_compact_0_.Qb ),
@@ -209,7 +209,7 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_0.sc_dff_compact_4_.Q ),
     .Q_N(\mem_right_ipin_0.sc_dff_compact_4_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_0.sc_dff_compact_4_.Q ),
     .Q(\mem_right_ipin_0.ccff_tail ),
     .Q_N(\mem_right_ipin_0.sc_dff_compact_5_.Qb ),
@@ -219,7 +219,7 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_1.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_1.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_0_0_prog_clk));
+    .CLK(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_1.sc_dff_compact_0_.Q ),
     .Q(\mem_right_ipin_1.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_1.sc_dff_compact_1_.Qb ),
@@ -239,7 +239,7 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_1.sc_dff_compact_4_.Q ),
     .Q_N(\mem_right_ipin_1.sc_dff_compact_4_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_0_0_prog_clk));
+    .CLK(clknet_2_1_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_1.sc_dff_compact_4_.Q ),
     .Q(\mem_right_ipin_1.ccff_tail ),
     .Q_N(\mem_right_ipin_1.sc_dff_compact_5_.Qb ),
@@ -259,7 +259,7 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_2.sc_dff_compact_2_.Q ),
     .Q_N(\mem_right_ipin_2.sc_dff_compact_2_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_0_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_2.sc_dff_compact_2_.Q ),
     .Q(\mem_right_ipin_2.sc_dff_compact_3_.Q ),
     .Q_N(\mem_right_ipin_2.sc_dff_compact_3_.Qb ),
@@ -279,37 +279,37 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_3.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.sc_dff_compact_0_.Q ),
     .Q(\mem_right_ipin_3.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.sc_dff_compact_1_.Q ),
     .Q(\mem_right_ipin_3.sc_dff_compact_2_.Q ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_2_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.sc_dff_compact_2_.Q ),
     .Q(\mem_right_ipin_3.sc_dff_compact_3_.Q ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_3_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.sc_dff_compact_3_.Q ),
     .Q(\mem_right_ipin_3.sc_dff_compact_4_.Q ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_4_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.sc_dff_compact_4_.Q ),
     .Q(\mem_right_ipin_3.ccff_tail ),
     .Q_N(\mem_right_ipin_3.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_3.ccff_tail ),
     .Q(\mem_right_ipin_4.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_4.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_2_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_4.sc_dff_compact_0_.Q ),
     .Q(\mem_right_ipin_4.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_4.sc_dff_compact_1_.Qb ),
@@ -339,62 +339,62 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_5.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_5.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_5.sc_dff_compact_0_.Q ),
     .Q(\mem_right_ipin_5.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_5.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_5.sc_dff_compact_1_.Q ),
     .Q(\mem_right_ipin_5.sc_dff_compact_2_.Q ),
     .Q_N(\mem_right_ipin_5.sc_dff_compact_2_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_5.sc_dff_compact_2_.Q ),
     .Q(\mem_right_ipin_5.sc_dff_compact_3_.Q ),
     .Q_N(\mem_right_ipin_5.sc_dff_compact_3_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_5.sc_dff_compact_3_.Q ),
     .Q(\mem_right_ipin_5.sc_dff_compact_4_.Q ),
     .Q_N(\mem_right_ipin_5.sc_dff_compact_4_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_5.sc_dff_compact_4_.Q ),
     .Q(\mem_right_ipin_5.ccff_tail ),
     .Q_N(\mem_right_ipin_5.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_5.ccff_tail ),
     .Q(\mem_right_ipin_6.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_0_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_3_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_0_.Q ),
     .Q(\mem_right_ipin_6.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_1_.Q ),
     .Q(\mem_right_ipin_6.sc_dff_compact_2_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_2_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_2_.Q ),
     .Q(\mem_right_ipin_6.sc_dff_compact_3_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_3_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_3_.Q ),
     .Q(\mem_right_ipin_6.sc_dff_compact_4_.Q ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_4_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_2_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.sc_dff_compact_4_.Q ),
     .Q(\mem_right_ipin_6.ccff_tail ),
     .Q_N(\mem_right_ipin_6.sc_dff_compact_5_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_6.ccff_tail ),
     .Q(\mem_right_ipin_7.sc_dff_compact_0_.Q ),
     .Q_N(\mem_right_ipin_7.sc_dff_compact_0_.Qb ),
@@ -404,7 +404,7 @@ module cby_0__1_ (ccff_head,
     .Q(\mem_right_ipin_7.sc_dff_compact_1_.Q ),
     .Q_N(\mem_right_ipin_7.sc_dff_compact_1_.Qb ),
     .RESET_B(pReset),
-    .CLK(clknet_2_1_0_prog_clk));
+    .CLK(clknet_2_3_0_prog_clk));
  sky130_fd_sc_hd__dfrbp_1 \mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1  (.D(\mem_right_ipin_7.sc_dff_compact_1_.Q ),
     .Q(\mem_right_ipin_7.sc_dff_compact_2_.Q ),
     .Q_N(\mem_right_ipin_7.sc_dff_compact_2_.Qb ),
@@ -461,18 +461,18 @@ module cby_0__1_ (ccff_head,
  sky130_fd_sc_hd__decap_3 PHY_33 ();
  sky130_fd_sc_hd__decap_3 PHY_34 ();
  sky130_fd_sc_hd__decap_3 PHY_35 ();
- sky130_fd_sc_hd__decap_3 PHY_36 ();
- sky130_fd_sc_hd__decap_3 PHY_37 ();
- sky130_fd_sc_hd__decap_3 PHY_38 ();
- sky130_fd_sc_hd__decap_3 PHY_39 ();
- sky130_fd_sc_hd__decap_3 PHY_40 ();
- sky130_fd_sc_hd__decap_3 PHY_41 ();
- sky130_fd_sc_hd__decap_3 PHY_42 ();
- sky130_fd_sc_hd__decap_3 PHY_43 ();
- sky130_fd_sc_hd__decap_3 PHY_44 ();
- sky130_fd_sc_hd__decap_3 PHY_45 ();
- sky130_fd_sc_hd__decap_3 PHY_46 ();
- sky130_fd_sc_hd__decap_3 PHY_47 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_36 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_37 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_38 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_39 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_40 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_41 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_42 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_43 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_44 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_45 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_46 ();
+ sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_47 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_48 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_49 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_50 ();
@@ -571,25 +571,6 @@ module cby_0__1_ (ccff_head,
  sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_143 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_144 ();
  sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_145 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_146 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_147 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_148 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_149 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_150 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_151 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_152 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_153 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_154 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_155 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_156 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_157 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_158 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_159 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_160 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_161 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_162 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_163 ();
- sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_164 ();
  sky130_fd_sc_hd__clkbuf_16 clkbuf_0_prog_clk (.A(prog_clk),
     .X(clknet_0_prog_clk));
  sky130_fd_sc_hd__clkbuf_1 clkbuf_1_0_0_prog_clk (.A(clknet_0_prog_clk),

@@ -13,12 +13,12 @@ Creating placeholder cell definition for module sky130_fd_sc_hd__tapvpwrvgnd_1.
 Creating placeholder cell definition for module sky130_fd_sc_hd__clkbuf_16.
 Creating placeholder cell definition for module sky130_fd_sc_hd__clkbuf_1.
 Creating placeholder cell definition for module sky130_fd_sc_hd__diode_2.
-Creating placeholder cell definition for module sky130_fd_sc_hd__decap_6.
-Creating placeholder cell definition for module sky130_fd_sc_hd__decap_8.
-Creating placeholder cell definition for module sky130_fd_sc_hd__fill_1.
 Creating placeholder cell definition for module sky130_fd_sc_hd__decap_12.
 Creating placeholder cell definition for module sky130_fd_sc_hd__fill_2.
+Creating placeholder cell definition for module sky130_fd_sc_hd__fill_1.
+Creating placeholder cell definition for module sky130_fd_sc_hd__decap_6.
 Creating placeholder cell definition for module sky130_fd_sc_hd__decap_4.
+Creating placeholder cell definition for module sky130_fd_sc_hd__decap_8.
 Reading setup file /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl
 Comparison output logged to file /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//results/lvs/cby_0__1_.lvs.log
 Logging to file "/openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//results/lvs/cby_0__1_.lvs.log" enabled
@@ -38,14 +38,6 @@ Circuit sky130_fd_sc_hd__diode_2 contains 0 device instances.
 Circuit contains 0 nets.
 
 Circuit sky130_fd_sc_hd__diode_2 contains no devices.
-Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
-Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
-Circuit contains 0 nets, and 2 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
-Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
-Circuit contains 0 nets.
-
-Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains no devices.
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
 Circuit sky130_fd_sc_hd__clkbuf_1 contains 0 device instances.
 Circuit contains 0 nets, and 4 disconnected pins.
@@ -54,6 +46,14 @@ Circuit sky130_fd_sc_hd__clkbuf_1 contains 0 device instances.
 Circuit contains 0 nets.
 
 Circuit sky130_fd_sc_hd__clkbuf_1 contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets, and 2 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__tapvpwrvgnd_1'
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_fd_sc_hd__tapvpwrvgnd_1 contains no devices.
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
 Circuit sky130_fd_sc_hd__buf_2 contains 0 device instances.
 Circuit contains 0 nets, and 4 disconnected pins.
@@ -81,27 +81,27 @@ Circuit sky130_fd_sc_hd__clkbuf_16 contains no devices.
 Duplicate pin VPWR in cell cby_0__1_
 Duplicate pin VGND in cell cby_0__1_
 Contents of circuit 1:  Circuit: 'cby_0__1_'
-Circuit cby_0__1_ contains 401 device instances.
+Circuit cby_0__1_ contains 394 device instances.
   Class: sky130_fd_sc_hd__clkbuf_16 instances:   1
   Class: sky130_fd_sc_hd__buf_2 instances:  18
   Class: sky130_fd_sc_hd__clkbuf_1 instances:   6
   Class: sky130_fd_sc_hd__conb_1 instances:  10
   Class: sky130_fd_sc_hd__diode_2 instances: 193
   Class: sky130_fd_sc_hd__dfrbp_1 instances:  56
-  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 117
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 110
 Circuit contains 180 nets.
 Contents of circuit 2:  Circuit: 'cby_0__1_'
-Circuit cby_0__1_ contains 401 device instances.
+Circuit cby_0__1_ contains 394 device instances.
   Class: sky130_fd_sc_hd__clkbuf_16 instances:   1
   Class: sky130_fd_sc_hd__buf_2 instances:  18
   Class: sky130_fd_sc_hd__clkbuf_1 instances:   6
   Class: sky130_fd_sc_hd__conb_1 instances:  10
   Class: sky130_fd_sc_hd__diode_2 instances: 193
   Class: sky130_fd_sc_hd__dfrbp_1 instances:  56
-  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 117
+  Class: sky130_fd_sc_hd__tapvpwrvgnd_1 instances: 110
 Circuit contains 170 nets.
 
-Circuit 1 contains 401 devices, Circuit 2 contains 401 devices.
+Circuit 1 contains 394 devices, Circuit 2 contains 394 devices.
 Circuit 1 contains 170 nets,    Circuit 2 contains 170 nets.
 
 Circuits match with 15 symmetries.

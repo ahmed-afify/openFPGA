@@ -1764,7 +1764,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio/results/placement/cby_0__1_.placement.def
 Notice 0: Design: cby_0__1_
 Notice 0:     Created 50 pins.
-Notice 0:     Created 249 components and 834 component-terminals.
+Notice 0:     Created 230 components and 796 component-terminals.
 Notice 0:     Created 161 nets and 326 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio/results/placement/cby_0__1_.placement.def
 [INFO]: Setting output delay to: 2.0
@@ -1814,21 +1814,21 @@ Number of created patterns = 313632.
  Generating H-Tree topology for net prog_clk...
     Tot. number of sinks: 56
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(9925, 14900), (90425, 72140)]
- Normalized sink region: [(0.763462, 1.14615), (6.95577, 5.54923)]
-    Width:  6.19231
-    Height: 4.40308
+ Original sink region: [(13605, 14900), (118485, 55820)]
+ Normalized sink region: [(1.04654, 1.14615), (9.11423, 4.29385)]
+    Width:  8.06769
+    Height: 3.14769
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 28
-    Sub-region size: 3.09615 X 4.40308
+    Sub-region size: 4.03385 X 3.14769
     Segment length (rounded): 1
     Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 14
-    Sub-region size: 3.09615 X 2.20154
+    Sub-region size: 4.03385 X 1.57385
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1838,7 +1838,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 20712.6 dbu.
+ Avg. source sink dist: 23364.3 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1848,6 +1848,6 @@ Number of created patterns = 313632.
  Minimum number of buffers in the clock path: 3.
  Maximum number of buffers in the clock path: 3.
     Created 7 clock nets.
-    Fanout distribution for the current clock = 2:3, 11:1, 12:1, 16:1, 17:1.
+    Fanout distribution for the current clock = 2:3, 13:1, 14:2, 15:1.
     Max level of the clock tree: 2.
  ... End of TritonCTS execution.

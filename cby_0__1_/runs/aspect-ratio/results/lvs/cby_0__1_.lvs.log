@@ -37,19 +37,6 @@ VPWR                                       |VPWR
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__diode_2 and sky130_fd_sc_hd__diode_2 are equivalent.
 
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VGND
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VPWR
-Warning: Equate pins:  cell sky130_fd_sc_hd__tapvpwrvgnd_1 has no definition, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
-
 Cell sky130_fd_sc_hd__clkbuf_1 disconnected node: A
 Cell sky130_fd_sc_hd__clkbuf_1 disconnected node: X
 Cell sky130_fd_sc_hd__clkbuf_1 disconnected node: VGND
@@ -66,6 +53,19 @@ VPWR                                       |VPWR
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__clkbuf_1 and sky130_fd_sc_hd__clkbuf_1 are equivalent.
+
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VPWR
+Warning: Equate pins:  cell sky130_fd_sc_hd__tapvpwrvgnd_1 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
 
 Cell sky130_fd_sc_hd__buf_2 disconnected node: A
 Cell sky130_fd_sc_hd__buf_2 disconnected node: X
@@ -122,12 +122,12 @@ Circuit 1: cby_0__1_                       |Circuit 2: cby_0__1_
 -------------------------------------------|-------------------------------------------
 sky130_fd_sc_hd__dfrbp_1 (56)              |sky130_fd_sc_hd__dfrbp_1 (56)              
 sky130_fd_sc_hd__diode_2 (193)             |sky130_fd_sc_hd__diode_2 (193)             
-sky130_fd_sc_hd__tapvpwrvgnd_1 (117)       |sky130_fd_sc_hd__tapvpwrvgnd_1 (117)       
 sky130_fd_sc_hd__clkbuf_1 (6)              |sky130_fd_sc_hd__clkbuf_1 (6)              
+sky130_fd_sc_hd__tapvpwrvgnd_1 (110)       |sky130_fd_sc_hd__tapvpwrvgnd_1 (110)       
 sky130_fd_sc_hd__buf_2 (18)                |sky130_fd_sc_hd__buf_2 (18)                
 sky130_fd_sc_hd__conb_1 (10)               |sky130_fd_sc_hd__conb_1 (10)               
 sky130_fd_sc_hd__clkbuf_16 (1)             |sky130_fd_sc_hd__clkbuf_16 (1)             
-Number of devices: 401                     |Number of devices: 401                     
+Number of devices: 394                     |Number of devices: 394                     
 Number of nets: 170                        |Number of nets: 170                        
 ---------------------------------------------------------------------------------------
 Netlists match with 9 symmetries.

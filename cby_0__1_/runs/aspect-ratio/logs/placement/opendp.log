@@ -137,20 +137,20 @@ Reading /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//tmp//merged.lef is D
  def               : /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//tmp/placement/replace.def
 -------------------------------------------------------------------
 CoreArea: 
-5520.000000 : 10880.000000 - 136620.000000 : 76160.000000
+5520.000000 : 10880.000000 - 174800.000000 : 59840.000000
 DieArea: 
-0.000000 : 0.000000 - 131100.000000 : 65280.000000
+0.000000 : 0.000000 - 169280.000000 : 48960.000000
 Reading /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//tmp/placement/replace.def is Done
 -------------------- DESIGN ANALYSIS ------------------------------
-  total cells              : 249
+  total cells              : 230
   multi cells              : 0
-  fixed cells              : 165
+  fixed cells              : 146
   total nets               : 161
-  design area              : 8.55821e+09
-  total f_area             : 3.26563e+08
+  design area              : 8.28795e+09
+  total f_area             : 2.72762e+08
   total m_area             : 2.57997e+09
-  design util              : 31.3421
-  num rows                 : 24
+  design util              : 32.1886
+  num rows                 : 18
   row height               : 2720
 -------------------------------------------------------------------
  non_group_cell_region_assign done ..
@@ -162,21 +162,21 @@ Reading /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//tmp/placement/replac
  location : /openLANE_flow/designs/cby_0__1_/runs/aspect-ratio//results/placement/cby_0__1_.placement.def
 -------------------------------------------------------------------
  tasks                          Wtime      Ctime
- Parser                         0.078      0.070
+ Parser                         0.077      0.070
  resgin assign                  0.078      0.070
  pre-placement                  0.078      0.070
  non Group cell placement       0.078      0.070
  All                            0.078      0.070
  - - - - - EVALUATION - - - - - 
- AVG_displacement : 1295.25
- SUM_displacement : 322518
- MAX_displacement : 12355
+ AVG_displacement : 1431.41
+ SUM_displacement : 329225
+ MAX_displacement : 10370
  - - - - - - - - - - - - - - - - 
- GP HPWL          : 2800.32
- HPWL             : 2975.95
- avg_Disp_site    : 2.81577
- avg_Disp_row     : 0.476196
- delta_HPWL       : 6.2719
+ GP HPWL          : 2973.24
+ HPWL             : 3094.73
+ avg_Disp_site    : 3.11177
+ avg_Disp_row     : 0.526255
+ delta_HPWL       : 4.08625
  ==== CHECK LEGALITY ==== 
  row_check ==>> PASS 
  site_check ==>> PASS 
