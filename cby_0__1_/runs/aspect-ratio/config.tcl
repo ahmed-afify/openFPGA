@@ -16,7 +16,7 @@ set ::env(SYNTH_DRIVING_CELL) sky130_fd_sc_hd__inv_8
 set ::env(SYNTH_CAP_LOAD) 17.65
 set ::env(SYNTH_MAX_FANOUT) 5
 set ::env(SYNTH_NO_FLAT) 0
-set ::env(SYNTH_MAX_TRAN) [expr {0.1*10}]
+set ::env(SYNTH_MAX_TRAN) 1.0
 set ::env(LIB_MIN) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib
 set ::env(LIB_MAX) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib
 set ::env(LIB_TYPICAL) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
