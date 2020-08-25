@@ -1,0 +1,20 @@
+Tue Aug 25 13:11:46 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//tmp//merged_unpadded.lef -o /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Tue Aug 25 13:11:56 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//tmp//merged.lef"
+
+Tue Aug 25 13:11:56 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//tmp//merged_unpadded.lef"
+
+Tue Aug 25 13:11:57 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//tmp//trimmed.lib"
+
+Tue Aug 25 13:11:57 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Tue Aug 25 13:11:57 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//logs/synthesis/opensta.log"
+
+Tue Aug 25 13:11:58 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//logs/floorplan/verilog2def.openroad.log"
+
+Tue Aug 25 13:11:59 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//logs/floorplan/ioPlacer.log"
+
+Tue Aug 25 13:11:59 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//logs/floorplan/tapcell.log"
+
+Tue Aug 25 13:12:00 UTC 2020 - Executing "replace < /openLANE_flow/scripts//replace_gp.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__1_/runs/25-08_13-11//logs/placement/replace.log"
+
