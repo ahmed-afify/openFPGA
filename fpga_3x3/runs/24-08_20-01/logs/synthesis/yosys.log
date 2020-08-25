@@ -1,0 +1,1211 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/arch_encoder.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/arch_encoder.v' to AST representation.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/cbx_1_0.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/cbx_1_0.v' to AST representation.
+Generating RTLIL representation for module `\cbx_1__0_'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/cbx_1_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/cbx_1_1.v' to AST representation.
+Generating RTLIL representation for module `\cbx_1__1_'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/cbx_1_3.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/cbx_1_3.v' to AST representation.
+Generating RTLIL representation for module `\cbx_1__3_'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/cby_0_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/cby_0_1.v' to AST representation.
+Generating RTLIL representation for module `\cby_0__1_'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/cby_1_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/cby_1_1.v' to AST representation.
+Generating RTLIL representation for module `\cby_1__1_'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/cby_3_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/cby_3_1.v' to AST representation.
+Generating RTLIL representation for module `\cby_3__1_'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/clb.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/clb.v' to AST representation.
+Generating RTLIL representation for module `\grid_clb'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/fpga_defines.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/fpga_defines.v' to AST representation.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v' to AST representation.
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:59)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:100)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:142)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:189)
+Generating RTLIL representation for module `\const0'.
+Generating RTLIL representation for module `\const1'.
+Generating RTLIL representation for module `\INVTX1'.
+/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:59: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\buf4'.
+/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:100: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\tap_buf4'.
+/openLANE_flow/designs/fpga_3x3/src/inv_buf_passgate.v:142: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\TGATE'.
+Successfully finished Verilog frontend.
+
+11. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/io_bottom.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/io_bottom.v' to AST representation.
+Generating RTLIL representation for module `\grid_io_bottom'.
+Successfully finished Verilog frontend.
+
+12. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/io_left.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/io_left.v' to AST representation.
+Generating RTLIL representation for module `\grid_io_left'.
+Successfully finished Verilog frontend.
+
+13. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/io_right.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/io_right.v' to AST representation.
+Generating RTLIL representation for module `\grid_io_right'.
+Successfully finished Verilog frontend.
+
+14. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/io_top.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/io_top.v' to AST representation.
+Generating RTLIL representation for module `\grid_io_top'.
+Successfully finished Verilog frontend.
+
+15. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/local_encoder.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/local_encoder.v' to AST representation.
+Successfully finished Verilog frontend.
+
+16. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/logical_tile_clb.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/logical_tile_clb.v' to AST representation.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_clb_'.
+Successfully finished Verilog frontend.
+
+17. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/logical_tile_io.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/logical_tile_io.v' to AST representation.
+Generating RTLIL representation for module `\logical_tile_io_mode_physical__iopad'.
+Generating RTLIL representation for module `\logical_tile_io_mode_io_'.
+Successfully finished Verilog frontend.
+
+18. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/luts.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/luts.v' to AST representation.
+Generating RTLIL representation for module `\lut4'.
+Successfully finished Verilog frontend.
+
+19. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/memories.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/memories.v' to AST representation.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4_mem'.
+Generating RTLIL representation for module `\mux_2level_size14_mem'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2_mem'.
+Generating RTLIL representation for module `\lut4_sc_dff_compact_mem'.
+Generating RTLIL representation for module `\iopad_sc_dff_compact_mem'.
+Successfully finished Verilog frontend.
+
+20. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/muxes.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/muxes.v' to AST representation.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9_basis_size4'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_size14_basis_size4'.
+Generating RTLIL representation for module `\mux_2level_size14_basis_size3'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2_basis_size3'.
+Generating RTLIL representation for module `\lut4_mux_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4'.
+Generating RTLIL representation for module `\mux_2level_size14'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2'.
+Generating RTLIL representation for module `\lut4_mux'.
+Successfully finished Verilog frontend.
+
+21. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/openlane_src_cells.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/openlane_src_cells.v' to AST representation.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp'.
+Generating RTLIL representation for module `\iopad'.
+Successfully finished Verilog frontend.
+
+22. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_0_0.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_0_0.v' to AST representation.
+Generating RTLIL representation for module `\sb_0__0_'.
+Successfully finished Verilog frontend.
+
+23. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_0_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_0_1.v' to AST representation.
+Generating RTLIL representation for module `\sb_0__1_'.
+Successfully finished Verilog frontend.
+
+24. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_0_3.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_0_3.v' to AST representation.
+Generating RTLIL representation for module `\sb_0__3_'.
+Successfully finished Verilog frontend.
+
+25. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_1_0.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_1_0.v' to AST representation.
+Generating RTLIL representation for module `\sb_1__0_'.
+Successfully finished Verilog frontend.
+
+26. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_1_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_1_1.v' to AST representation.
+Generating RTLIL representation for module `\sb_1__1_'.
+Successfully finished Verilog frontend.
+
+27. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_1_3.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_1_3.v' to AST representation.
+Generating RTLIL representation for module `\sb_1__3_'.
+Successfully finished Verilog frontend.
+
+28. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_3_0.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_3_0.v' to AST representation.
+Generating RTLIL representation for module `\sb_3__0_'.
+Successfully finished Verilog frontend.
+
+29. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_3_1.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_3_1.v' to AST representation.
+Generating RTLIL representation for module `\sb_3__1_'.
+Successfully finished Verilog frontend.
+
+30. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/sb_3_3.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/sb_3_3.v' to AST representation.
+Generating RTLIL representation for module `\sb_3__3_'.
+Successfully finished Verilog frontend.
+
+31. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/user_defined_templates.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/user_defined_templates.v' to AST representation.
+Generating RTLIL representation for module `\static_dff'.
+/openLANE_flow/designs/fpga_3x3/src/user_defined_templates.v:31: Warning: Identifier `\SET' is implicitly declared.
+Generating RTLIL representation for module `\sc_dff_compact'.
+Successfully finished Verilog frontend.
+
+32. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/wires.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/wires.v' to AST representation.
+Generating RTLIL representation for module `\direct_interc'.
+Successfully finished Verilog frontend.
+
+33. Executing Verilog-2005 frontend: /openLANE_flow/designs/fpga_3x3/src/fpga_3x3.v
+Parsing Verilog input from `/openLANE_flow/designs/fpga_3x3/src/fpga_3x3.v' to AST representation.
+Generating RTLIL representation for module `\fpga_3x3'.
+Successfully finished Verilog frontend.
+
+34. Executing HIERARCHY pass (managing design hierarchy).
+
+34.1. Analyzing design hierarchy..
+Top module:  \fpga_3x3
+Used module:     \cby_3__1_
+Used module:         \mux_2level_tapbuf_size2_mem
+Used module:             \sc_dff_compact
+Used module:         \mux_2level_tapbuf_size2
+Used module:             \mux_2level_tapbuf_size2_basis_size2
+Used module:                 \TGATE
+Used module:             \tap_buf4
+Used module:             \const1
+Used module:             \INVTX1
+Used module:         \mux_2level_tapbuf_size6_mem
+Used module:         \mux_2level_tapbuf_size6
+Used module:             \mux_2level_tapbuf_size6_basis_size3
+Used module:     \cby_1__1_
+Used module:     \cby_0__1_
+Used module:     \cbx_1__3_
+Used module:     \cbx_1__1_
+Used module:     \cbx_1__0_
+Used module:     \sb_3__3_
+Used module:     \sb_3__1_
+Used module:         \mux_2level_tapbuf_size3_mem
+Used module:         \mux_2level_tapbuf_size3
+Used module:             \mux_2level_tapbuf_size3_basis_size2
+Used module:         \mux_2level_tapbuf_size8_mem
+Used module:         \mux_2level_tapbuf_size8
+Used module:             \mux_2level_tapbuf_size8_basis_size3
+Used module:     \sb_3__0_
+Used module:     \sb_1__3_
+Used module:     \sb_1__1_
+Used module:         \mux_2level_tapbuf_size9_mem
+Used module:         \mux_2level_tapbuf_size9
+Used module:             \mux_2level_tapbuf_size9_basis_size4
+Used module:     \sb_1__0_
+Used module:         \mux_2level_tapbuf_size4_mem
+Used module:         \mux_2level_tapbuf_size4
+Used module:             \mux_2level_tapbuf_size4_basis_size3
+Used module:         \mux_2level_tapbuf_size5_mem
+Used module:         \mux_2level_tapbuf_size5
+Used module:             \mux_2level_tapbuf_size5_basis_size2
+Used module:             \mux_2level_tapbuf_size5_basis_size3
+Used module:     \sb_0__3_
+Used module:     \sb_0__1_
+Used module:     \sb_0__0_
+Used module:     \grid_io_left
+Used module:         \logical_tile_io_mode_io_
+Used module:             \direct_interc
+Used module:             \logical_tile_io_mode_physical__iopad
+Used module:                 \iopad_sc_dff_compact_mem
+Used module:     \grid_io_bottom
+Used module:     \grid_io_right
+Used module:     \grid_io_top
+Used module:     \grid_clb
+Used module:         \logical_tile_clb_mode_clb_
+Used module:             \mux_2level_size14_mem
+Used module:             \mux_2level_size14
+Used module:                 \mux_2level_size14_basis_size3
+Used module:                 \mux_2level_size14_basis_size4
+Used module:             \logical_tile_clb_mode_default__fle
+Used module:                 \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4
+Used module:                     \mux_1level_tapbuf_size2_mem
+Used module:                     \mux_1level_tapbuf_size2
+Used module:                         \mux_1level_tapbuf_size2_basis_size3
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff
+Used module:                         \static_dff
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4
+Used module:                         \lut4_sc_dff_compact_mem
+Used module:                         \lut4
+Used module:                             \lut4_mux
+Used module:                                 \lut4_mux_basis_size2
+Used module:                             \buf4
+
+34.2. Analyzing design hierarchy..
+Top module:  \fpga_3x3
+Used module:     \cby_3__1_
+Used module:         \mux_2level_tapbuf_size2_mem
+Used module:             \sc_dff_compact
+Used module:         \mux_2level_tapbuf_size2
+Used module:             \mux_2level_tapbuf_size2_basis_size2
+Used module:                 \TGATE
+Used module:             \tap_buf4
+Used module:             \const1
+Used module:             \INVTX1
+Used module:         \mux_2level_tapbuf_size6_mem
+Used module:         \mux_2level_tapbuf_size6
+Used module:             \mux_2level_tapbuf_size6_basis_size3
+Used module:     \cby_1__1_
+Used module:     \cby_0__1_
+Used module:     \cbx_1__3_
+Used module:     \cbx_1__1_
+Used module:     \cbx_1__0_
+Used module:     \sb_3__3_
+Used module:     \sb_3__1_
+Used module:         \mux_2level_tapbuf_size3_mem
+Used module:         \mux_2level_tapbuf_size3
+Used module:             \mux_2level_tapbuf_size3_basis_size2
+Used module:         \mux_2level_tapbuf_size8_mem
+Used module:         \mux_2level_tapbuf_size8
+Used module:             \mux_2level_tapbuf_size8_basis_size3
+Used module:     \sb_3__0_
+Used module:     \sb_1__3_
+Used module:     \sb_1__1_
+Used module:         \mux_2level_tapbuf_size9_mem
+Used module:         \mux_2level_tapbuf_size9
+Used module:             \mux_2level_tapbuf_size9_basis_size4
+Used module:     \sb_1__0_
+Used module:         \mux_2level_tapbuf_size4_mem
+Used module:         \mux_2level_tapbuf_size4
+Used module:             \mux_2level_tapbuf_size4_basis_size3
+Used module:         \mux_2level_tapbuf_size5_mem
+Used module:         \mux_2level_tapbuf_size5
+Used module:             \mux_2level_tapbuf_size5_basis_size2
+Used module:             \mux_2level_tapbuf_size5_basis_size3
+Used module:     \sb_0__3_
+Used module:     \sb_0__1_
+Used module:     \sb_0__0_
+Used module:     \grid_io_left
+Used module:         \logical_tile_io_mode_io_
+Used module:             \direct_interc
+Used module:             \logical_tile_io_mode_physical__iopad
+Used module:                 \iopad_sc_dff_compact_mem
+Used module:     \grid_io_bottom
+Used module:     \grid_io_right
+Used module:     \grid_io_top
+Used module:     \grid_clb
+Used module:         \logical_tile_clb_mode_clb_
+Used module:             \mux_2level_size14_mem
+Used module:             \mux_2level_size14
+Used module:                 \mux_2level_size14_basis_size3
+Used module:                 \mux_2level_size14_basis_size4
+Used module:             \logical_tile_clb_mode_default__fle
+Used module:                 \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4
+Used module:                     \mux_1level_tapbuf_size2_mem
+Used module:                     \mux_1level_tapbuf_size2
+Used module:                         \mux_1level_tapbuf_size2_basis_size3
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff
+Used module:                         \static_dff
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4
+Used module:                         \lut4_sc_dff_compact_mem
+Used module:                         \lut4
+Used module:                             \lut4_mux
+Used module:                                 \lut4_mux_basis_size2
+Used module:                             \buf4
+Removing unused module `\const0'.
+Removed 1 unused modules.
+
+35. Executing SYNTH pass.
+
+35.1. Executing HIERARCHY pass (managing design hierarchy).
+
+35.1.1. Analyzing design hierarchy..
+Top module:  \fpga_3x3
+Used module:     \cby_3__1_
+Used module:         \mux_2level_tapbuf_size2_mem
+Used module:             \sc_dff_compact
+Used module:         \mux_2level_tapbuf_size2
+Used module:             \mux_2level_tapbuf_size2_basis_size2
+Used module:                 \TGATE
+Used module:             \tap_buf4
+Used module:             \const1
+Used module:             \INVTX1
+Used module:         \mux_2level_tapbuf_size6_mem
+Used module:         \mux_2level_tapbuf_size6
+Used module:             \mux_2level_tapbuf_size6_basis_size3
+Used module:     \cby_1__1_
+Used module:     \cby_0__1_
+Used module:     \cbx_1__3_
+Used module:     \cbx_1__1_
+Used module:     \cbx_1__0_
+Used module:     \sb_3__3_
+Used module:     \sb_3__1_
+Used module:         \mux_2level_tapbuf_size3_mem
+Used module:         \mux_2level_tapbuf_size3
+Used module:             \mux_2level_tapbuf_size3_basis_size2
+Used module:         \mux_2level_tapbuf_size8_mem
+Used module:         \mux_2level_tapbuf_size8
+Used module:             \mux_2level_tapbuf_size8_basis_size3
+Used module:     \sb_3__0_
+Used module:     \sb_1__3_
+Used module:     \sb_1__1_
+Used module:         \mux_2level_tapbuf_size9_mem
+Used module:         \mux_2level_tapbuf_size9
+Used module:             \mux_2level_tapbuf_size9_basis_size4
+Used module:     \sb_1__0_
+Used module:         \mux_2level_tapbuf_size4_mem
+Used module:         \mux_2level_tapbuf_size4
+Used module:             \mux_2level_tapbuf_size4_basis_size3
+Used module:         \mux_2level_tapbuf_size5_mem
+Used module:         \mux_2level_tapbuf_size5
+Used module:             \mux_2level_tapbuf_size5_basis_size2
+Used module:             \mux_2level_tapbuf_size5_basis_size3
+Used module:     \sb_0__3_
+Used module:     \sb_0__1_
+Used module:     \sb_0__0_
+Used module:     \grid_io_left
+Used module:         \logical_tile_io_mode_io_
+Used module:             \direct_interc
+Used module:             \logical_tile_io_mode_physical__iopad
+Used module:                 \iopad_sc_dff_compact_mem
+Used module:     \grid_io_bottom
+Used module:     \grid_io_right
+Used module:     \grid_io_top
+Used module:     \grid_clb
+Used module:         \logical_tile_clb_mode_clb_
+Used module:             \mux_2level_size14_mem
+Used module:             \mux_2level_size14
+Used module:                 \mux_2level_size14_basis_size3
+Used module:                 \mux_2level_size14_basis_size4
+Used module:             \logical_tile_clb_mode_default__fle
+Used module:                 \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4
+Used module:                     \mux_1level_tapbuf_size2_mem
+Used module:                     \mux_1level_tapbuf_size2
+Used module:                         \mux_1level_tapbuf_size2_basis_size3
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff
+Used module:                         \static_dff
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4
+Used module:                         \lut4_sc_dff_compact_mem
+Used module:                         \lut4
+Used module:                             \lut4_mux
+Used module:                                 \lut4_mux_basis_size2
+Used module:                             \buf4
+
+35.1.2. Analyzing design hierarchy..
+Top module:  \fpga_3x3
+Used module:     \cby_3__1_
+Used module:         \mux_2level_tapbuf_size2_mem
+Used module:             \sc_dff_compact
+Used module:         \mux_2level_tapbuf_size2
+Used module:             \mux_2level_tapbuf_size2_basis_size2
+Used module:                 \TGATE
+Used module:             \tap_buf4
+Used module:             \const1
+Used module:             \INVTX1
+Used module:         \mux_2level_tapbuf_size6_mem
+Used module:         \mux_2level_tapbuf_size6
+Used module:             \mux_2level_tapbuf_size6_basis_size3
+Used module:     \cby_1__1_
+Used module:     \cby_0__1_
+Used module:     \cbx_1__3_
+Used module:     \cbx_1__1_
+Used module:     \cbx_1__0_
+Used module:     \sb_3__3_
+Used module:     \sb_3__1_
+Used module:         \mux_2level_tapbuf_size3_mem
+Used module:         \mux_2level_tapbuf_size3
+Used module:             \mux_2level_tapbuf_size3_basis_size2
+Used module:         \mux_2level_tapbuf_size8_mem
+Used module:         \mux_2level_tapbuf_size8
+Used module:             \mux_2level_tapbuf_size8_basis_size3
+Used module:     \sb_3__0_
+Used module:     \sb_1__3_
+Used module:     \sb_1__1_
+Used module:         \mux_2level_tapbuf_size9_mem
+Used module:         \mux_2level_tapbuf_size9
+Used module:             \mux_2level_tapbuf_size9_basis_size4
+Used module:     \sb_1__0_
+Used module:         \mux_2level_tapbuf_size4_mem
+Used module:         \mux_2level_tapbuf_size4
+Used module:             \mux_2level_tapbuf_size4_basis_size3
+Used module:         \mux_2level_tapbuf_size5_mem
+Used module:         \mux_2level_tapbuf_size5
+Used module:             \mux_2level_tapbuf_size5_basis_size2
+Used module:             \mux_2level_tapbuf_size5_basis_size3
+Used module:     \sb_0__3_
+Used module:     \sb_0__1_
+Used module:     \sb_0__0_
+Used module:     \grid_io_left
+Used module:         \logical_tile_io_mode_io_
+Used module:             \direct_interc
+Used module:             \logical_tile_io_mode_physical__iopad
+Used module:                 \iopad_sc_dff_compact_mem
+Used module:     \grid_io_bottom
+Used module:     \grid_io_right
+Used module:     \grid_io_top
+Used module:     \grid_clb
+Used module:         \logical_tile_clb_mode_clb_
+Used module:             \mux_2level_size14_mem
+Used module:             \mux_2level_size14
+Used module:                 \mux_2level_size14_basis_size3
+Used module:                 \mux_2level_size14_basis_size4
+Used module:             \logical_tile_clb_mode_default__fle
+Used module:                 \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4
+Used module:                     \mux_1level_tapbuf_size2_mem
+Used module:                     \mux_1level_tapbuf_size2
+Used module:                         \mux_1level_tapbuf_size2_basis_size3
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff
+Used module:                         \static_dff
+Used module:                     \logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4
+Used module:                         \lut4_sc_dff_compact_mem
+Used module:                         \lut4
+Used module:                             \lut4_mux
+Used module:                                 \lut4_mux_basis_size2
+Used module:                             \buf4
+Removed 0 unused modules.
+
+35.2. Executing PROC pass (convert processes to netlists).
+
+35.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+35.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+35.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+35.2.4. Executing PROC_INIT pass (extract init attributes).
+
+35.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+35.2.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+35.2.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+35.2.8. Executing PROC_DFF pass (convert process syncs to FFs).
+
+35.2.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+35.3. Executing FLATTEN pass (flatten design).
+Deleting now unused module direct_interc.
+Deleting now unused module sc_dff_compact.
+Deleting now unused module static_dff.
+Deleting now unused module sb_3__3_.
+Deleting now unused module sb_3__1_.
+Deleting now unused module sb_3__0_.
+Deleting now unused module sb_1__3_.
+Deleting now unused module sb_1__1_.
+Deleting now unused module sb_1__0_.
+Deleting now unused module sb_0__3_.
+Deleting now unused module sb_0__1_.
+Deleting now unused module sb_0__0_.
+Deleting now unused module lut4_mux.
+Deleting now unused module mux_1level_tapbuf_size2.
+Deleting now unused module mux_2level_size14.
+Deleting now unused module mux_2level_tapbuf_size4.
+Deleting now unused module mux_2level_tapbuf_size5.
+Deleting now unused module mux_2level_tapbuf_size3.
+Deleting now unused module mux_2level_tapbuf_size9.
+Deleting now unused module mux_2level_tapbuf_size8.
+Deleting now unused module mux_2level_tapbuf_size2.
+Deleting now unused module mux_2level_tapbuf_size6.
+Deleting now unused module lut4_mux_basis_size2.
+Deleting now unused module mux_1level_tapbuf_size2_basis_size3.
+Deleting now unused module mux_2level_size14_basis_size3.
+Deleting now unused module mux_2level_size14_basis_size4.
+Deleting now unused module mux_2level_tapbuf_size4_basis_size3.
+Deleting now unused module mux_2level_tapbuf_size5_basis_size2.
+Deleting now unused module mux_2level_tapbuf_size5_basis_size3.
+Deleting now unused module mux_2level_tapbuf_size3_basis_size2.
+Deleting now unused module mux_2level_tapbuf_size9_basis_size4.
+Deleting now unused module mux_2level_tapbuf_size8_basis_size3.
+Deleting now unused module mux_2level_tapbuf_size2_basis_size2.
+Deleting now unused module mux_2level_tapbuf_size6_basis_size3.
+Deleting now unused module iopad_sc_dff_compact_mem.
+Deleting now unused module lut4_sc_dff_compact_mem.
+Deleting now unused module mux_1level_tapbuf_size2_mem.
+Deleting now unused module mux_2level_size14_mem.
+Deleting now unused module mux_2level_tapbuf_size4_mem.
+Deleting now unused module mux_2level_tapbuf_size5_mem.
+Deleting now unused module mux_2level_tapbuf_size3_mem.
+Deleting now unused module mux_2level_tapbuf_size9_mem.
+Deleting now unused module mux_2level_tapbuf_size8_mem.
+Deleting now unused module mux_2level_tapbuf_size2_mem.
+Deleting now unused module mux_2level_tapbuf_size6_mem.
+Deleting now unused module lut4.
+Deleting now unused module logical_tile_io_mode_io_.
+Deleting now unused module logical_tile_io_mode_physical__iopad.
+Deleting now unused module logical_tile_clb_mode_clb_.
+Deleting now unused module logical_tile_clb_mode_default__fle.
+Deleting now unused module logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4.
+Deleting now unused module logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff.
+Deleting now unused module logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4.
+Deleting now unused module grid_io_top.
+Deleting now unused module grid_io_right.
+Deleting now unused module grid_io_left.
+Deleting now unused module grid_io_bottom.
+Deleting now unused module TGATE.
+Deleting now unused module tap_buf4.
+Deleting now unused module buf4.
+Deleting now unused module INVTX1.
+Deleting now unused module const1.
+Deleting now unused module grid_clb.
+Deleting now unused module cby_3__1_.
+Deleting now unused module cby_1__1_.
+Deleting now unused module cby_0__1_.
+Deleting now unused module cbx_1__3_.
+Deleting now unused module cbx_1__1_.
+Deleting now unused module cbx_1__0_.
+<suppressed ~782 debug messages>
+
+35.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+Removed 23950 unused cells and 43942 unused wires.
+<suppressed ~38340 debug messages>
+
+35.6. Executing CHECK pass (checking for obvious problems).
+checking module fpga_3x3..
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_3_4.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_2_4.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_top_1_4.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_3.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_2.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_right_4_1.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_3.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_2.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_left_0_1.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_3_0.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_2_0.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__7.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__6.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__5.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__4.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__3.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__2.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__1.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+Warning: Wire fpga_3x3.\grid_io_bottom_1_0.logical_tile_io_mode_io__0.logical_tile_io_mode_physical__iopad_0.iopad_inpad is used but has no driver.
+found and reported 96 problems.
+
+35.7. Executing OPT pass (performing simple optimizations).
+
+35.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \fpga_3x3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+35.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \fpga_3x3.
+Performed a total of 0 changes.
+
+35.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.7.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+Removed 0 unused cells and 26898 unused wires.
+<suppressed ~26898 debug messages>
+
+35.7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+35.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \fpga_3x3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+35.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \fpga_3x3.
+Performed a total of 0 changes.
+
+35.7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.7.13. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.7.16. Finished OPT passes. (There is nothing left to do.)
+
+35.8. Executing WREDUCE pass (reducing word size of cells).
+
+35.9. Executing PEEPOPT pass (run peephole optimizers).
+
+35.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.11. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module fpga_3x3:
+  created 0 $alu and 0 $macc cells.
+
+35.12. Executing SHARE pass (SAT-based resource sharing).
+
+35.13. Executing OPT pass (performing simple optimizations).
+
+35.13.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.13.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.13.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \fpga_3x3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+35.13.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \fpga_3x3.
+Performed a total of 0 changes.
+
+35.13.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.13.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.13.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.13.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.13.9. Finished OPT passes. (There is nothing left to do.)
+
+35.14. Executing FSM pass (extract and optimize FSM).
+
+35.14.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+35.14.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+35.14.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+35.14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.14.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+35.14.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+35.14.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+35.14.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+35.15. Executing OPT pass (performing simple optimizations).
+
+35.15.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.15.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.15.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.15.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.15.5. Finished fast OPT passes.
+
+35.16. Executing MEMORY pass.
+
+35.16.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+35.16.2. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+35.16.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.16.4. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+35.16.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.16.6. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+35.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.18. Executing OPT pass (performing simple optimizations).
+
+35.18.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+<suppressed ~3421 debug messages>
+
+35.18.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.18.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.18.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.18.5. Finished fast OPT passes.
+
+35.19. Executing MEMORY_MAP pass (converting $mem cells to logic and flip-flops).
+
+35.20. Executing OPT pass (performing simple optimizations).
+
+35.20.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.20.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.20.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \fpga_3x3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+35.20.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \fpga_3x3.
+Performed a total of 0 changes.
+
+35.20.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.20.6. Executing OPT_SHARE pass.
+
+35.20.7. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.20.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.20.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.20.10. Finished OPT passes. (There is nothing left to do.)
+
+35.21. Executing TECHMAP pass (map to technology primitives).
+
+35.21.1. Executing Verilog-2005 frontend: /build/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/build/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+35.21.2. Continuing TECHMAP pass.
+No more expansions possible.
+
+35.22. Executing OPT pass (performing simple optimizations).
+
+35.22.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.22.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.22.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.22.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.22.5. Finished fast OPT passes.
+
+35.23. Executing ABC pass (technology mapping using ABC).
+
+35.23.1. Extracting gate netlist of module `\fpga_3x3' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+35.24. Executing OPT pass (performing simple optimizations).
+
+35.24.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+35.24.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+35.24.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+35.24.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+35.24.5. Finished fast OPT passes.
+
+35.25. Executing HIERARCHY pass (managing design hierarchy).
+
+35.25.1. Analyzing design hierarchy..
+Top module:  \fpga_3x3
+
+35.25.2. Analyzing design hierarchy..
+Top module:  \fpga_3x3
+Removed 0 unused modules.
+
+35.26. Printing statistics.
+
+=== fpga_3x3 ===
+
+   Number of wires:              52228
+   Number of wire bits:          84483
+   Number of public wires:       52228
+   Number of public wire bits:   84483
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3902
+     iopad                          96
+     sky130_fd_sc_hd__dfrbp       3806
+
+35.27. Executing CHECK pass (checking for obvious problems).
+checking module fpga_3x3..
+found and reported 0 problems.
+
+36. Executing SHARE pass (SAT-based resource sharing).
+
+37. Executing OPT pass (performing simple optimizations).
+
+37.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+37.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+37.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \fpga_3x3..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+37.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \fpga_3x3.
+Performed a total of 0 changes.
+
+37.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\fpga_3x3'.
+Removed a total of 0 cells.
+
+37.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+37.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+37.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module fpga_3x3.
+
+37.9. Finished OPT passes. (There is nothing left to do.)
+
+38. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+Removed 0 unused cells and 44513 unused wires.
+<suppressed ~44513 debug messages>
+
+39. Printing statistics.
+
+=== fpga_3x3 ===
+
+   Number of wires:               7715
+   Number of wire bits:           7810
+   Number of public wires:        7715
+   Number of public wire bits:    7810
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3902
+     iopad                          96
+     sky130_fd_sc_hd__dfrbp       3806
+
+40. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_4 (noninv, pins=3, area=23.77) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtp_4 (noninv, pins=4, area=28.78) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_4 (noninv, pins=4, area=30.03) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__dfbbn_2 (noninv, pins=6, area=35.03) is a direct match for cell type $_DFFSR_NNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_4 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_4 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_4 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    \sky130_fd_sc_hd__dfbbn_2 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    unmapped dff cell: $_DFFSR_PNN_
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+40.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\fpga_3x3':
+
+41. Printing statistics.
+
+=== fpga_3x3 ===
+
+   Number of wires:               7715
+   Number of wire bits:           7810
+   Number of public wires:        7715
+   Number of public wire bits:    7810
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3902
+     iopad                          96
+     sky130_fd_sc_hd__dfrbp       3806
+
+42. Executing ABC pass (technology mapping using ABC).
+
+42.1. Extracting gate netlist of module `\fpga_3x3' to `/tmp/yosys-abc-y3g9dp/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+43. Executing HILOMAP pass (mapping to constant drivers).
+
+44. Executing SETUNDEF pass (replace undef values with defined constants).
+
+45. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+46. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \fpga_3x3..
+
+47. Executing INSBUF pass (insert buffer cells for connected wires).
+
+48. Executing CHECK pass (checking for obvious problems).
+checking module fpga_3x3..
+found and reported 0 problems.
+
+49. Printing statistics.
+
+=== fpga_3x3 ===
+
+   Number of wires:               7715
+   Number of wire bits:           7810
+   Number of public wires:        7715
+   Number of public wire bits:    7810
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3902
+     iopad                          96
+     sky130_fd_sc_hd__dfrbp       3806
+
+   Area for cell type \iopad is unknown!
+   Area for cell type \sky130_fd_sc_hd__dfrbp is unknown!
+
+50. Executing Verilog backend.
+Dumping module `\fpga_3x3'.
+
+Warnings: 102 unique messages, 104 total
+End of script. Logfile hash: 8a7e4807d9, CPU: user 51.52s system 0.46s, MEM: 830.95 MB peak
+Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+Time spent: 50% 17x opt_clean (26 sec), 25% 1x flatten (13 sec), ...

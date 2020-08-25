@@ -1,0 +1,112 @@
+Startpoint: pReset (input port clocked by vclk)
+Endpoint: cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (removal check against rising-edge clock vclk)
+Path Group: **async_default**
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+  19.61   21.61 ^ pReset (in)
+   0.00   21.61 ^ cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B (sky130_fd_sc_hd__dfrbp_1)
+          21.61   data arrival time
+
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   7.37    7.37   library removal time
+           7.37   data required time
+---------------------------------------------------------
+           7.37   data required time
+         -21.61   data arrival time
+---------------------------------------------------------
+          14.24   slack (MET)
+
+
+Startpoint: sb_1__0_.mem_left_track_17.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop clocked by vclk)
+Endpoint: cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (rising edge-triggered flip-flop clocked by vclk)
+Path Group: vclk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ sb_1__0_.mem_left_track_17.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.65    0.65 ^ sb_1__0_.mem_left_track_17.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    0.65 ^ cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D (sky130_fd_sc_hd__dfrbp_1)
+           0.65   data arrival time
+
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+  -0.09   -0.09   library hold time
+          -0.09   data required time
+---------------------------------------------------------
+          -0.09   data required time
+          -0.65   data arrival time
+---------------------------------------------------------
+           0.74   slack (MET)
+
+
+Startpoint: pReset (input port clocked by vclk)
+Endpoint: cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (recovery check against rising-edge clock vclk)
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+  10.56   12.56 ^ pReset (in)
+   0.00   12.56 ^ cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B (sky130_fd_sc_hd__dfrbp_1)
+          12.56   data arrival time
+
+  12.00   12.00   clock vclk (rise edge)
+   0.00   12.00   clock network delay (ideal)
+   0.00   12.00   clock reconvergence pessimism
+          12.00 ^ cbx_1__0_.mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+  -3.82    8.18   library recovery time
+           8.18   data required time
+---------------------------------------------------------
+           8.18   data required time
+         -12.56   data arrival time
+---------------------------------------------------------
+          -4.38   slack (VIOLATED)
+
+
+Startpoint: grid_clb_3_3.logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop clocked by vclk)
+Endpoint: ccff_tail (output port clocked by vclk)
+Path Group: vclk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ grid_clb_3_3.logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.30    0.30 v grid_clb_3_3.logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    0.30 v ccff_tail (out)
+           0.30   data arrival time
+
+  12.00   12.00   clock vclk (rise edge)
+   0.00   12.00   clock network delay (ideal)
+   0.00   12.00   clock reconvergence pessimism
+  -2.00   10.00   output external delay
+          10.00   data required time
+---------------------------------------------------------
+          10.00   data required time
+          -0.30   data arrival time
+---------------------------------------------------------
+           9.70   slack (MET)
+
+
