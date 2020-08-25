@@ -1764,7 +1764,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/cbx_1__0_/runs/final_pin_placement/results/placement/cbx_1__0_.placement.def
 Notice 0: Design: cbx_1__0_
 Notice 0:     Created 51 pins.
-Notice 0:     Created 213 components and 794 component-terminals.
+Notice 0:     Created 255 components and 878 component-terminals.
 Notice 0:     Created 174 nets and 357 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/cbx_1__0_/runs/final_pin_placement/results/placement/cbx_1__0_.placement.def
 [INFO]: Setting output delay to: 2.0
@@ -1814,27 +1814,27 @@ Number of created patterns = 313632.
  Generating H-Tree topology for net prog_clk...
     Tot. number of sinks: 62
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(12685, 14900), (135965, 50380)]
- Normalized sink region: [(0.975769, 1.14615), (10.4588, 3.87538)]
-    Width:  9.48308
-    Height: 2.72923
+ Original sink region: [(55925, 14900), (138265, 66700)]
+ Normalized sink region: [(4.30192, 1.14615), (10.6358, 5.13077)]
+    Width:  6.33385
+    Height: 3.98462
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 31
-    Sub-region size: 4.74154 X 2.72923
+    Sub-region size: 3.16692 X 3.98462
     Segment length (rounded): 1
     Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 16
-    Sub-region size: 4.74154 X 1.36462
+    Sub-region size: 3.16692 X 1.99231
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 3
     Direction: Horizontal
     # sinks per sub-region: 8
-    Sub-region size: 2.37077 X 1.36462
+    Sub-region size: 1.58346 X 1.99231
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1844,7 +1844,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 18143.4 dbu.
+ Avg. source sink dist: 13631.7 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1854,6 +1854,6 @@ Number of created patterns = 313632.
  Minimum number of buffers in the clock path: 4.
  Maximum number of buffers in the clock path: 4.
     Created 15 clock nets.
-    Fanout distribution for the current clock = 2:7, 4:1, 5:1, 7:2, 8:1, 9:1, 10:1, 12:1.
+    Fanout distribution for the current clock = 2:7, 6:2, 7:2, 9:4.
     Max level of the clock tree: 3.
  ... End of TritonCTS execution.

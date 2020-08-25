@@ -3,7 +3,7 @@
 //	Description: Essential gates
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Tue Aug  4 14:48:13 2020
+//	Date: Mon Aug 24 20:06:11 2020
 //-------------------------------------------
 //----- Time scale -----
 `timescale 1ns / 1ps
@@ -20,7 +20,7 @@ output [0:0] const0;
 //----- BEGIN Registered ports -----
 //----- END Registered ports -----
 
-	assign const0[0] = {1{1'b0}};
+	assign const0[0] = 1'b0;
 endmodule
 // ----- END Verilog module for const0 -----
 
@@ -36,7 +36,7 @@ output [0:0] const1;
 //----- BEGIN Registered ports -----
 //----- END Registered ports -----
 
-	assign const1[0] = {1{1'b1}};
+	assign const1[0] = 1'b1;
 endmodule
 // ----- END Verilog module for const1 -----
 
@@ -106,8 +106,8 @@ output [0:0] out;
 	endspecify
 // ------ END Pin-to-pin Timing constraints -----
 `endif
-
-/*`ifdef ENABLE_SIGNAL_INITIALIZATION
+/*
+`ifdef ENABLE_SIGNAL_INITIALIZATION
 // ------ BEGIN driver initialization -----
 	initial begin
 	`ifdef ENABLE_FORMAL_VERIFICATION
@@ -118,7 +118,8 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif*/
+`endif
+*/
 endmodule
 // ----- END Verilog module for buf4 -----
 
@@ -147,8 +148,8 @@ output [0:0] out;
 	endspecify
 // ------ END Pin-to-pin Timing constraints -----
 `endif
-
-/*`ifdef ENABLE_SIGNAL_INITIALIZATION
+/*
+`ifdef ENABLE_SIGNAL_INITIALIZATION
 // ------ BEGIN driver initialization -----
 	initial begin
 	`ifdef ENABLE_FORMAL_VERIFICATION
@@ -159,7 +160,8 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif*/
+`endif
+*/
 endmodule
 // ----- END Verilog module for tap_buf4 -----
 
@@ -186,7 +188,7 @@ output [0:0] out;
 
 	assign out = sel ? in : 1'bz;
 
-/*`ifdef ENABLE_TIMING
+`ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
 	specify
 		(in[0] => out[0]) = (0.01, 0.01);
@@ -195,7 +197,7 @@ output [0:0] out;
 	endspecify
 // ------ END Pin-to-pin Timing constraints -----
 `endif
-
+/*
 `ifdef ENABLE_SIGNAL_INITIALIZATION
 // ------ BEGIN driver initialization -----
 	initial begin
@@ -211,7 +213,7 @@ output [0:0] out;
 
 	end
 // ------ END driver initialization -----
-`endif*/
+`endif
+*/
 endmodule
 // ----- END Verilog module for TGATE -----
-

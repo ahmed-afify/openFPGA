@@ -27,12 +27,33 @@
 [TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
 [TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
 
-1. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/openlane_src_cells.v
+Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/openlane_src_cells.v' to AST representation.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp'.
+Generating RTLIL representation for module `\iopad'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/luts.v
+Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/luts.v' to AST representation.
+Generating RTLIL representation for module `\lut4'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v
 Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v' to AST representation.
 Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:59)
 Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:100)
-Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:141)
-Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:142)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189)
 Generating RTLIL representation for module `\const0'.
 Generating RTLIL representation for module `\const1'.
 Generating RTLIL representation for module `\INVTX1'.
@@ -40,22 +61,8 @@ Generating RTLIL representation for module `\INVTX1'.
 Generating RTLIL representation for module `\buf4'.
 /openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:100: Warning: Identifier `\$random' is implicitly declared.
 Generating RTLIL representation for module `\tap_buf4'.
-/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:141: Warning: Identifier `\$random' is implicitly declared.
+/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:142: Warning: Identifier `\$random' is implicitly declared.
 Generating RTLIL representation for module `\TGATE'.
-Successfully finished Verilog frontend.
-
-2. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/logical_tile_clb.v
-Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/logical_tile_clb.v' to AST representation.
-Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
-Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
-Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
-Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle'.
-Generating RTLIL representation for module `\logical_tile_clb_mode_clb_'.
-Successfully finished Verilog frontend.
-
-3. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/luts.v
-Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/luts.v' to AST representation.
-Generating RTLIL representation for module `\lut4'.
 Successfully finished Verilog frontend.
 
 4. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/memories.v
@@ -73,7 +80,22 @@ Generating RTLIL representation for module `\lut4_sc_dff_compact_mem'.
 Generating RTLIL representation for module `\iopad_sc_dff_compact_mem'.
 Successfully finished Verilog frontend.
 
-5. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/muxes.v
+5. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/user_defined_templates.v
+Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/user_defined_templates.v' to AST representation.
+Generating RTLIL representation for module `\static_dff'.
+Generating RTLIL representation for module `\sc_dff_compact'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/logical_tile_clb.v
+Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/logical_tile_clb.v' to AST representation.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_clb_'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/muxes.v
 Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/muxes.v' to AST representation.
 Generating RTLIL representation for module `\mux_2level_tapbuf_size6_basis_size3'.
 Generating RTLIL representation for module `\mux_2level_tapbuf_size2_basis_size2'.
@@ -99,35 +121,13 @@ Generating RTLIL representation for module `\mux_1level_tapbuf_size2'.
 Generating RTLIL representation for module `\lut4_mux'.
 Successfully finished Verilog frontend.
 
-6. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/openlane_src_cells.v
-Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/openlane_src_cells.v' to AST representation.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp'.
-Generating RTLIL representation for module `\iopad'.
-Successfully finished Verilog frontend.
-
-7. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/user_defined_templates.v
-Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/user_defined_templates.v' to AST representation.
-Generating RTLIL representation for module `\static_dff'.
-Generating RTLIL representation for module `\sc_dff_compact'.
-Successfully finished Verilog frontend.
-
 8. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/wires.v
 Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/wires.v' to AST representation.
 Generating RTLIL representation for module `\direct_interc'.
 Successfully finished Verilog frontend.
 
-9. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/cbx_1__0_.v
-Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/cbx_1__0_.v' to AST representation.
+9. Executing Verilog-2005 frontend: /openLANE_flow/designs/cbx_1__0_/src/cbx_1__0.v
+Parsing Verilog input from `/openLANE_flow/designs/cbx_1__0_/src/cbx_1__0.v' to AST representation.
 Generating RTLIL representation for module `\cbx_1__0_'.
 Successfully finished Verilog frontend.
 
@@ -161,7 +161,6 @@ Used module:     \mux_2level_tapbuf_size6_mem
 Used module:     \mux_2level_tapbuf_size6
 Used module:         \mux_2level_tapbuf_size6_basis_size3
 Removing unused module `\direct_interc'.
-Removing unused module `\static_dff'.
 Removing unused module `\lut4_mux'.
 Removing unused module `\mux_1level_tapbuf_size2'.
 Removing unused module `\mux_2level_size14'.
@@ -180,6 +179,12 @@ Removing unused module `\mux_2level_tapbuf_size5_basis_size3'.
 Removing unused module `\mux_2level_tapbuf_size3_basis_size2'.
 Removing unused module `\mux_2level_tapbuf_size9_basis_size4'.
 Removing unused module `\mux_2level_tapbuf_size8_basis_size3'.
+Removing unused module `\logical_tile_clb_mode_clb_'.
+Removing unused module `\logical_tile_clb_mode_default__fle'.
+Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
+Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
+Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
+Removing unused module `\static_dff'.
 Removing unused module `\iopad_sc_dff_compact_mem'.
 Removing unused module `\lut4_sc_dff_compact_mem'.
 Removing unused module `\mux_1level_tapbuf_size2_mem'.
@@ -189,14 +194,9 @@ Removing unused module `\mux_2level_tapbuf_size5_mem'.
 Removing unused module `\mux_2level_tapbuf_size3_mem'.
 Removing unused module `\mux_2level_tapbuf_size9_mem'.
 Removing unused module `\mux_2level_tapbuf_size8_mem'.
-Removing unused module `\lut4'.
-Removing unused module `\logical_tile_clb_mode_clb_'.
-Removing unused module `\logical_tile_clb_mode_default__fle'.
-Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
-Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
-Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
 Removing unused module `\buf4'.
 Removing unused module `\const0'.
+Removing unused module `\lut4'.
 Removed 37 unused modules.
 
 11. Executing SYNTH pass.
@@ -258,17 +258,17 @@ Promoted 0 assignments to connections.
 Cleaned up 0 empty switches.
 
 11.3. Executing FLATTEN pass (flatten design).
-Deleting now unused module mux_2level_tapbuf_size6_basis_size3.
-Deleting now unused module mux_2level_tapbuf_size2.
 Deleting now unused module mux_2level_tapbuf_size6.
+Deleting now unused module mux_2level_tapbuf_size2_basis_size2.
 Deleting now unused module mux_2level_tapbuf_size2_mem.
 Deleting now unused module mux_2level_tapbuf_size6_mem.
-Deleting now unused module sc_dff_compact.
 Deleting now unused module TGATE.
 Deleting now unused module tap_buf4.
+Deleting now unused module mux_2level_tapbuf_size6_basis_size3.
 Deleting now unused module INVTX1.
 Deleting now unused module const1.
-Deleting now unused module mux_2level_tapbuf_size2_basis_size2.
+Deleting now unused module sc_dff_compact.
+Deleting now unused module mux_2level_tapbuf_size2.
 <suppressed ~52 debug messages>
 
 11.4. Executing OPT_EXPR pass (perform const folding).
@@ -282,131 +282,131 @@ Removed 0 unused cells and 167 unused wires.
 11.6. Executing CHECK pass (checking for obvious problems).
 checking module cbx_1__0_..
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_7.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_7.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_7.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_7.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_6.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_6.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_6.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_6.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_5.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_5.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_5.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_5.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_4.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_4.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_4.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_4.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_3.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_3.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_3.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_3.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_2.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_2.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_2.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_2.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_1.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_1.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_1.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_1.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_0.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_0.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_top_ipin_0.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_top_ipin_0.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_2.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_2.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_2.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_2.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_1.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_1.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_1.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_0.tap_buf4_0_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_0.mux_l2_in_0_.TGATE_1_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: multiple conflicting drivers for cbx_1__0_.\mux_bottom_ipin_0.mux_l2_in_0_.TGATE_0_.in:
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
-    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:187$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_bottom_ipin_0.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cbx_1__0_/src/inv_buf_passgate.v:189$9 ($mux)
 Warning: Wire cbx_1__0_.\mux_top_ipin_7.tap_buf4_0_.$random is used but has no driver.
 Warning: Wire cbx_1__0_.\mux_top_ipin_7.INVTX1_5_.$random is used but has no driver.
 Warning: Wire cbx_1__0_.\mux_top_ipin_7.INVTX1_4_.$random is used but has no driver.
@@ -837,9 +837,9 @@ Removed 0 unused modules.
 
 === cbx_1__0_ ===
 
-   Number of wires:               1269
+   Number of wires:               1237
    Number of wire bits:           1808
-   Number of public wires:        1269
+   Number of public wires:        1237
    Number of public wire bits:    1808
    Number of memories:               0
    Number of memory bits:            0
@@ -895,9 +895,9 @@ Removed 0 unused cells and 1095 unused wires.
 
 === cbx_1__0_ ===
 
-   Number of wires:                174
+   Number of wires:                142
    Number of wire bits:            174
-   Number of public wires:         174
+   Number of public wires:         142
    Number of public wire bits:     174
    Number of memories:               0
    Number of memory bits:            0
@@ -937,9 +937,9 @@ Mapping DFF cells in module `\cbx_1__0_':
 
 === cbx_1__0_ ===
 
-   Number of wires:                174
+   Number of wires:                142
    Number of wire bits:            174
-   Number of public wires:         174
+   Number of public wires:         142
    Number of public wire bits:     174
    Number of memories:               0
    Number of memory bits:            0
@@ -949,7 +949,7 @@ Mapping DFF cells in module `\cbx_1__0_':
 
 18. Executing ABC pass (technology mapping using ABC).
 
-18.1. Extracting gate netlist of module `\cbx_1__0_' to `/tmp/yosys-abc-lX1N4n/input.blif'..
+18.1. Extracting gate netlist of module `\cbx_1__0_' to `/tmp/yosys-abc-W2xY7y/input.blif'..
 Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
 Don't call ABC as there is nothing to map.
 Removing temp directory.
@@ -966,24 +966,24 @@ Removed 0 unused cells and 11 unused wires.
 <suppressed ~1 debug messages>
 
 23. Executing INSBUF pass (insert buffer cells for connected wires).
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$104: \chanx_in_0_ -> \chanx_out_0_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$105: \chanx_in_10_ -> \chanx_out_10_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$106: \chanx_in_11_ -> \chanx_out_11_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$107: \chanx_in_12_ -> \chanx_out_12_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$108: \chanx_in_13_ -> \chanx_out_13_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$109: \chanx_in_14_ -> \chanx_out_14_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$110: \chanx_in_15_ -> \chanx_out_15_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$111: \chanx_in_16_ -> \chanx_out_16_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$112: \chanx_in_17_ -> \chanx_out_17_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$113: \chanx_in_1_ -> \chanx_out_1_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$114: \chanx_in_2_ -> \chanx_out_2_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$115: \chanx_in_3_ -> \chanx_out_3_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$116: \chanx_in_4_ -> \chanx_out_4_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$117: \chanx_in_5_ -> \chanx_out_5_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$118: \chanx_in_6_ -> \chanx_out_6_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$119: \chanx_in_7_ -> \chanx_out_7_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$120: \chanx_in_8_ -> \chanx_out_8_
-Added cbx_1__0_.$auto$insbuf.cc:79:execute$121: \chanx_in_9_ -> \chanx_out_9_
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$104: \chanx_right_in [0] -> \chanx_left_out [0]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$105: \chanx_right_in [1] -> \chanx_left_out [1]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$106: \chanx_right_in [2] -> \chanx_left_out [2]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$107: \chanx_right_in [3] -> \chanx_left_out [3]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$108: \chanx_right_in [4] -> \chanx_left_out [4]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$109: \chanx_right_in [5] -> \chanx_left_out [5]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$110: \chanx_right_in [6] -> \chanx_left_out [6]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$111: \chanx_right_in [7] -> \chanx_left_out [7]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$112: \chanx_right_in [8] -> \chanx_left_out [8]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$113: \chanx_left_in [0] -> \chanx_right_out [0]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$114: \chanx_left_in [1] -> \chanx_right_out [1]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$115: \chanx_left_in [2] -> \chanx_right_out [2]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$116: \chanx_left_in [3] -> \chanx_right_out [3]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$117: \chanx_left_in [4] -> \chanx_right_out [4]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$118: \chanx_left_in [5] -> \chanx_right_out [5]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$119: \chanx_left_in [6] -> \chanx_right_out [6]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$120: \chanx_left_in [7] -> \chanx_right_out [7]
+Added cbx_1__0_.$auto$insbuf.cc:79:execute$121: \chanx_left_in [8] -> \chanx_right_out [8]
 
 24. Executing CHECK pass (checking for obvious problems).
 checking module cbx_1__0_..
@@ -1004,9 +1004,9 @@ found and reported 11 problems.
 
 === cbx_1__0_ ===
 
-   Number of wires:                174
+   Number of wires:                142
    Number of wire bits:            174
-   Number of public wires:         174
+   Number of public wires:         142
    Number of public wire bits:     174
    Number of memories:               0
    Number of memory bits:            0
@@ -1025,6 +1025,6 @@ found and reported 11 problems.
 Dumping module `\cbx_1__0_'.
 
 Warnings: 139 unique messages, 141 total
-End of script. Logfile hash: 822fe87288, CPU: user 0.76s system 0.01s, MEM: 14.08 MB peak
+End of script. Logfile hash: 526c610540, CPU: user 0.75s system 0.02s, MEM: 14.08 MB peak
 Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
-Time spent: 32% 18x opt_clean (0 sec), 13% 19x read_verilog (0 sec), ...
+Time spent: 32% 18x opt_clean (0 sec), 12% 19x read_verilog (0 sec), ...

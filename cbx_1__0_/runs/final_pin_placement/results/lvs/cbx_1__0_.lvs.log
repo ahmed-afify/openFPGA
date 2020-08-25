@@ -54,6 +54,19 @@ VPWR                                       |VPWR
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__clkbuf_1 and sky130_fd_sc_hd__clkbuf_1 are equivalent.
 
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VGND
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VPWR
+Warning: Equate pins:  cell sky130_fd_sc_hd__tapvpwrvgnd_1 has no definition, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
+-------------------------------------------|-------------------------------------------
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
+
 Cell sky130_fd_sc_hd__buf_2 disconnected node: A
 Cell sky130_fd_sc_hd__buf_2 disconnected node: X
 Cell sky130_fd_sc_hd__buf_2 disconnected node: VGND
@@ -70,19 +83,6 @@ VPWR                                       |VPWR
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__buf_2 and sky130_fd_sc_hd__buf_2 are equivalent.
-
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VGND
-Cell sky130_fd_sc_hd__tapvpwrvgnd_1 disconnected node: VPWR
-Warning: Equate pins:  cell sky130_fd_sc_hd__tapvpwrvgnd_1 has no definition, treated as a black box.
-
-Subcircuit pins:
-Circuit 1: sky130_fd_sc_hd__tapvpwrvgnd_1  |Circuit 2: sky130_fd_sc_hd__tapvpwrvgnd_1  
--------------------------------------------|-------------------------------------------
-VGND                                       |VGND                                       
-VPWR                                       |VPWR                                       
----------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes sky130_fd_sc_hd__tapvpwrvgnd_1 and sky130_fd_sc_hd__tapvpwrvgnd_1 are equivalent.
 
 Cell sky130_fd_sc_hd__conb_1 disconnected node: HI
 Cell sky130_fd_sc_hd__conb_1 disconnected node: LO
@@ -123,11 +123,11 @@ Circuit 1: cbx_1__0_                       |Circuit 2: cbx_1__0_
 sky130_fd_sc_hd__dfrbp_1 (62)              |sky130_fd_sc_hd__dfrbp_1 (62)              
 sky130_fd_sc_hd__diode_2 (219)             |sky130_fd_sc_hd__diode_2 (219)             
 sky130_fd_sc_hd__clkbuf_1 (14)             |sky130_fd_sc_hd__clkbuf_1 (14)             
+sky130_fd_sc_hd__tapvpwrvgnd_1 (120)       |sky130_fd_sc_hd__tapvpwrvgnd_1 (120)       
 sky130_fd_sc_hd__buf_2 (18)                |sky130_fd_sc_hd__buf_2 (18)                
-sky130_fd_sc_hd__tapvpwrvgnd_1 (90)        |sky130_fd_sc_hd__tapvpwrvgnd_1 (90)        
 sky130_fd_sc_hd__conb_1 (11)               |sky130_fd_sc_hd__conb_1 (11)               
 sky130_fd_sc_hd__clkbuf_16 (1)             |sky130_fd_sc_hd__clkbuf_16 (1)             
-Number of devices: 415                     |Number of devices: 415                     
+Number of devices: 445                     |Number of devices: 445                     
 Number of nets: 191                        |Number of nets: 191                        
 ---------------------------------------------------------------------------------------
 Netlists match with 17 symmetries.
@@ -136,29 +136,28 @@ Circuits match correctly.
 Subcircuit pins:
 Circuit 1: cbx_1__0_                       |Circuit 2: cbx_1__0_                       
 -------------------------------------------|-------------------------------------------
-chanx_in_0_                                |chanx_in_0_                                
-chanx_in_10_                               |chanx_in_10_                               
-chanx_in_11_                               |chanx_in_11_                               
-chanx_in_12_                               |chanx_in_12_                               
-chanx_in_13_                               |chanx_in_13_                               
-chanx_in_14_                               |chanx_in_14_                               
-chanx_in_15_                               |chanx_in_15_                               
-chanx_in_16_                               |chanx_in_16_                               
-chanx_in_17_                               |chanx_in_17_                               
-chanx_in_1_                                |chanx_in_1_                                
-chanx_in_2_                                |chanx_in_2_                                
-chanx_in_3_                                |chanx_in_3_                                
-chanx_in_4_                                |chanx_in_4_                                
-chanx_in_5_                                |chanx_in_5_                                
-chanx_in_6_                                |chanx_in_6_                                
-chanx_in_7_                                |chanx_in_7_                                
-chanx_in_8_                                |chanx_in_8_                                
-chanx_in_9_                                |chanx_in_9_                                
+chanx_right_in[5]                          |chanx_right_in[5]                          
+chanx_right_in[8]                          |chanx_right_in[8]                          
+chanx_right_in[2]                          |chanx_right_in[2]                          
+chanx_right_in[0]                          |chanx_right_in[0]                          
+chanx_right_in[3]                          |chanx_right_in[3]                          
+chanx_right_in[6]                          |chanx_right_in[6]                          
+chanx_left_in[7]                           |chanx_left_in[7]                           
+chanx_left_in[6]                           |chanx_left_in[6]                           
+chanx_left_in[4]                           |chanx_left_in[4]                           
+chanx_left_in[3]                           |chanx_left_in[3]                           
+chanx_left_in[1]                           |chanx_left_in[1]                           
+chanx_left_in[2]                           |chanx_left_in[2]                           
+chanx_right_in[1]                          |chanx_right_in[1]                          
+chanx_left_in[0]                           |chanx_left_in[0]                           
+chanx_left_in[5]                           |chanx_left_in[5]                           
+chanx_right_in[4]                          |chanx_right_in[4]                          
+chanx_left_in[8]                           |chanx_left_in[8]                           
+chanx_right_in[7]                          |chanx_right_in[7]                          
 ccff_head                                  |ccff_head                                  
 prog_clk                                   |prog_clk                                   
-VGND                                       |VGND                                       
-VPWR                                       |VPWR                                       
 pReset                                     |pReset                                     
+top_grid_pin_14_                           |top_grid_pin_14_                           
 top_grid_pin_2_                            |top_grid_pin_2_                            
 top_grid_pin_6_                            |top_grid_pin_6_                            
 bottom_grid_pin_8_                         |bottom_grid_pin_8_                         
@@ -169,26 +168,27 @@ bottom_grid_pin_14_                        |bottom_grid_pin_14_
 bottom_grid_pin_12_                        |bottom_grid_pin_12_                        
 bottom_grid_pin_10_                        |bottom_grid_pin_10_                        
 bottom_grid_pin_0_                         |bottom_grid_pin_0_                         
-top_grid_pin_14_                           |top_grid_pin_14_                           
-chanx_out_0_                               |chanx_out_0_                               
-chanx_out_10_                              |chanx_out_10_                              
-chanx_out_11_                              |chanx_out_11_                              
-chanx_out_12_                              |chanx_out_12_                              
-chanx_out_13_                              |chanx_out_13_                              
-chanx_out_14_                              |chanx_out_14_                              
-chanx_out_15_                              |chanx_out_15_                              
-chanx_out_16_                              |chanx_out_16_                              
-chanx_out_17_                              |chanx_out_17_                              
-chanx_out_1_                               |chanx_out_1_                               
-chanx_out_2_                               |chanx_out_2_                               
-chanx_out_3_                               |chanx_out_3_                               
-chanx_out_4_                               |chanx_out_4_                               
-chanx_out_5_                               |chanx_out_5_                               
-chanx_out_6_                               |chanx_out_6_                               
-chanx_out_7_                               |chanx_out_7_                               
-chanx_out_8_                               |chanx_out_8_                               
-chanx_out_9_                               |chanx_out_9_                               
+chanx_left_out[8]                          |chanx_left_out[8]                          
+chanx_left_out[7]                          |chanx_left_out[7]                          
+chanx_left_out[6]                          |chanx_left_out[6]                          
+chanx_left_out[5]                          |chanx_left_out[5]                          
+chanx_left_out[4]                          |chanx_left_out[4]                          
+chanx_left_out[3]                          |chanx_left_out[3]                          
+chanx_left_out[2]                          |chanx_left_out[2]                          
+chanx_left_out[1]                          |chanx_left_out[1]                          
+chanx_left_out[0]                          |chanx_left_out[0]                          
+chanx_right_out[8]                         |chanx_right_out[8]                         
+chanx_right_out[7]                         |chanx_right_out[7]                         
+chanx_right_out[6]                         |chanx_right_out[6]                         
+chanx_right_out[5]                         |chanx_right_out[5]                         
+chanx_right_out[4]                         |chanx_right_out[4]                         
+chanx_right_out[3]                         |chanx_right_out[3]                         
+chanx_right_out[2]                         |chanx_right_out[2]                         
+chanx_right_out[1]                         |chanx_right_out[1]                         
+chanx_right_out[0]                         |chanx_right_out[0]                         
 ccff_tail                                  |ccff_tail                                  
+VGND                                       |VGND                                       
+VPWR                                       |VPWR                                       
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes cbx_1__0_ and cbx_1__0_ are equivalent.

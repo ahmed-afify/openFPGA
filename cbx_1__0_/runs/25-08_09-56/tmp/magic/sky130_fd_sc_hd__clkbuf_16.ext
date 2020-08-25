@@ -1,0 +1,95 @@
+timestamp 1597666934
+version 8.3
+tech sky130A
+style ngspice(lvs)
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29
+port "VGND" 2 29 -17 63 17 m1
+port "X" 6 1685 153 1719 187 coreli
+port "X" 6 1593 153 1627 187 coreli
+port "X" 6 1593 221 1627 255 coreli
+port "X" 6 1685 221 1719 255 coreli
+port "X" 6 1685 289 1719 323 coreli
+port "X" 6 1593 289 1627 323 coreli
+port "VPWR" 5 29 527 63 561 m1
+port "A" 1 29 221 63 255 coreli
+port "A" 1 29 153 63 187 coreli
+port "VPB" 4 46 544 46 544 nw
+port "VPB" 4 29 527 63 561 nw
+port "VNB" 3 46 0 46 0 pw
+port "VNB" 3 29 -17 63 17 pw
+node "clkbuf_16" 0 0 0 0 comment 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "VGND" 6141 1535.28 29 -17 m1 0 0 0 0 0 0 0 0 51156 3066 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119810 5922 176640 3872 0 0 0 0 0 0 0 0
+node "X" 13624 501.972 1593 289 coreli 0 0 0 0 0 0 0 0 37632 2240 89600 4096 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 236801 9112 0 0 0 0 0 0 0 0 0 0
+equiv "X" "X"
+equiv "X" "X"
+equiv "X" "X"
+equiv "X" "X"
+equiv "X" "X"
+node "VPWR" 13355 1451.04 29 527 m1 0 0 0 0 0 0 0 0 0 0 121800 5618 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 149441 7044 176640 3872 0 0 0 0 0 0 0 0
+node "a_110_47#" 13806 2776.36 110 47 ndif 0 0 0 0 0 0 0 0 9408 560 22400 1024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 303885 16452 0 0 109922 4506 0 0 0 0 0 0 0 0 0 0
+node "A" 2351 683.93 29 153 coreli 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83394 4098 0 0 7056 350 0 0 0 0 0 0 0 0 0 0
+equiv "A" "A"
+node "VPB" 10147 1845.11 29 527 nw 0 0 0 0 615036 4474 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "VPB" "VPB"
+substrate "VNB" 0 0 29 -17 pw 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "VNB" "VNB"
+cap "A" "X" 2.45745
+cap "A" "VPB" 0.0148
+cap "X" "VPB" 5.74147
+cap "A" "a_110_47#" 544.488
+cap "X" "a_110_47#" 3318.4
+cap "VPB" "a_110_47#" 1.58082
+cap "VPWR" "A" 79.6988
+cap "VPWR" "X" 3474.55
+cap "VPWR" "VPB" 115.671
+cap "VPWR" "a_110_47#" 1146.05
+cap "VGND" "A" 119.416
+cap "VGND" "X" 2233
+cap "VGND" "a_110_47#" 949.929
+cap "VGND" "VPWR" 72.4031
+device mosfet nshort 1713 47 1714 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 1627 47 1628 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 1541 47 1542 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 1455 47 1456 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 1369 47 1370 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 1283 47 1284 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 1197 47 1198 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 1111 47 1112 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 1026 47 1027 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 940 47 941 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 854 47 855 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 768 47 769 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 682 47 683 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 596 47 597 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 510 47 511 48 30 84 "VNB" "a_110_47#" 60 0 "X" 84 0 "VGND" 84 0
+device mosfet nshort 424 47 425 48 30 84 "VNB" "a_110_47#" 60 0 "VGND" 84 0 "X" 84 0
+device mosfet nshort 338 47 339 48 30 84 "VNB" "A" 60 0 "a_110_47#" 84 0 "VGND" 84 0
+device mosfet nshort 252 47 253 48 30 84 "VNB" "A" 60 0 "VGND" 84 0 "a_110_47#" 84 0
+device mosfet nshort 166 47 167 48 30 84 "VNB" "A" 60 0 "a_110_47#" 84 0 "VGND" 84 0
+device mosfet nshort 80 47 81 48 30 84 "VNB" "A" 60 0 "VGND" 84 0 "a_110_47#" 84 0
+device mosfet phighvt 1713 297 1714 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 1627 297 1628 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 1541 297 1542 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 1455 297 1456 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 1369 297 1370 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 1283 297 1284 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 1197 297 1198 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 1111 297 1112 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 1026 297 1027 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 940 297 941 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 854 297 855 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 768 297 769 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 682 297 683 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 596 297 597 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 510 297 511 298 30 200 "VPB" "a_110_47#" 60 0 "X" 200 0 "VPWR" 200 0
+device mosfet phighvt 424 297 425 298 30 200 "VPB" "a_110_47#" 60 0 "VPWR" 200 0 "X" 200 0
+device mosfet phighvt 338 297 339 298 30 200 "VPB" "A" 60 0 "a_110_47#" 200 0 "VPWR" 200 0
+device mosfet phighvt 252 297 253 298 30 200 "VPB" "A" 60 0 "VPWR" 200 0 "a_110_47#" 200 0
+device mosfet phighvt 166 297 167 298 30 200 "VPB" "A" 60 0 "a_110_47#" 200 0 "VPWR" 200 0
+device mosfet phighvt 80 297 81 298 30 200 "VPB" "A" 60 0 "VPWR" 200 0 "a_110_47#" 200 0
+subcap "VGND" -1395.79
+subcap "VPWR" -1282.41
+subcap "A" -516.579
+subcap "VPB" -1788.41
+subcap "X" -336.092

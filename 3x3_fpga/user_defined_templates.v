@@ -28,6 +28,7 @@ output [0:0] Q;
 
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
+sky130_fd_sc_hd__dfbbp sky130_fd_sc_hd__dfbbp(.CLK(clk), .D(D), .RESET_B(reset), .SET_B(SET), .Q(Q));
 
 
 //----- BEGIN Registered ports -----
@@ -58,7 +59,7 @@ input [0:0] D;
 output [0:0] Q;
 //----- OUTPUT PORTS -----
 output [0:0] Qb;
-sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1(.CLK(clk), .D(D), .RESET_B(reset),  .Q(Q),  .Q_N(Qb));
+sky130_fd_sc_hd__dfrbp sky130_fd_sc_hd__dfrbp_1(.CLK(clk), .D(D), .RESET_B(reset),  .Q(Q),  .Q_N(Qb));
 //----- BEGIN wire-connection ports -----
 //----- END wire-connection ports -----
 

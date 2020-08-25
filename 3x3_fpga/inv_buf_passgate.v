@@ -74,10 +74,10 @@ output [0:0] out;
 	`else
 		$deposit(in[0], $random);
 	`endif
-*/
+
 	end
 // ------ END driver initialization -----
-`endif
+`endif*/
 endmodule
 // ----- END Verilog module for INVTX1 -----
 
