@@ -1,0 +1,1799 @@
+VERSION 5.8 ;
+NAMESCASESENSITIVE ON ;
+DIVIDERCHAR "/" ;
+BUSBITCHARS "[]" ;
+DESIGN cbx_1__3_ ;
+UNITS DISTANCE MICRONS 1000 ;
+DIEAREA ( 0 0 ) ( 174480 87135 ) ;
+ROW ROW_0 unithd 5520 10880 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_1 unithd 5520 13600 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_2 unithd 5520 16320 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_3 unithd 5520 19040 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_4 unithd 5520 21760 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_5 unithd 5520 24480 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_6 unithd 5520 27200 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_7 unithd 5520 29920 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_8 unithd 5520 32640 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_9 unithd 5520 35360 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_10 unithd 5520 38080 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_11 unithd 5520 40800 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_12 unithd 5520 43520 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_13 unithd 5520 46240 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_14 unithd 5520 48960 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_15 unithd 5520 51680 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_16 unithd 5520 54400 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_17 unithd 5520 57120 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_18 unithd 5520 59840 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_19 unithd 5520 62560 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_20 unithd 5520 65280 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_21 unithd 5520 68000 N DO 355 BY 1 STEP 460 0 ;
+ROW ROW_22 unithd 5520 70720 FS DO 355 BY 1 STEP 460 0 ;
+ROW ROW_23 unithd 5520 73440 N DO 355 BY 1 STEP 460 0 ;
+TRACKS X 230 DO 379 STEP 460 LAYER li1 ;
+TRACKS Y 170 DO 256 STEP 340 LAYER li1 ;
+TRACKS X 170 DO 513 STEP 340 LAYER met1 ;
+TRACKS Y 170 DO 256 STEP 340 LAYER met1 ;
+TRACKS X 230 DO 379 STEP 460 LAYER met2 ;
+TRACKS Y 230 DO 189 STEP 460 LAYER met2 ;
+TRACKS X 340 DO 257 STEP 680 LAYER met3 ;
+TRACKS Y 340 DO 128 STEP 680 LAYER met3 ;
+TRACKS X 460 DO 190 STEP 920 LAYER met4 ;
+TRACKS Y 460 DO 95 STEP 920 LAYER met4 ;
+TRACKS X 1700 DO 51 STEP 3400 LAYER met5 ;
+TRACKS Y 1700 DO 26 STEP 3400 LAYER met5 ;
+VIAS 4 ;
+    - via_1600x480 + VIARULE M1M2_PR + CUTSIZE 150 150  + LAYERS met1 via met2  + CUTSPACING 170 170  + ENCLOSURE 245 165 55 165  + ROWCOL 1 4  ;
+    - via2_1600x480 + VIARULE M2M3_PR + CUTSIZE 200 200  + LAYERS met2 via2 met3  + CUTSPACING 200 200  + ENCLOSURE 40 140 100 65  + ROWCOL 1 4  ;
+    - via3_1600x480 + VIARULE M3M4_PR + CUTSIZE 200 200  + LAYERS met3 via3 met4  + CUTSPACING 200 200  + ENCLOSURE 100 60 100 140  + ROWCOL 1 4  ;
+    - via4_1600x1600 + VIARULE M4M5_PR + CUTSIZE 800 800  + LAYERS met4 via4 met5  + CUTSPACING 800 800  + ENCLOSURE 400 400 400 400  ;
+END VIAS
+COMPONENTS 500 ;
+    - _00_ sky130_fd_sc_hd__conb_1 + PLACED ( 49220 65280 ) FS ;
+    - _01_ sky130_fd_sc_hd__conb_1 + PLACED ( 63480 62560 ) N ;
+    - _02_ sky130_fd_sc_hd__conb_1 + PLACED ( 98440 10880 ) FS ;
+    - _03_ sky130_fd_sc_hd__conb_1 + PLACED ( 40940 10880 ) FS ;
+    - _04_ sky130_fd_sc_hd__conb_1 + PLACED ( 7820 10880 ) FS ;
+    - _05_ sky130_fd_sc_hd__conb_1 + PLACED ( 7820 65280 ) FS ;
+    - _06_ sky130_fd_sc_hd__conb_1 + PLACED ( 80960 65280 ) FS ;
+    - _07_ sky130_fd_sc_hd__conb_1 + PLACED ( 99360 68000 ) N ;
+    - _08_ sky130_fd_sc_hd__conb_1 + PLACED ( 119140 62560 ) N ;
+    - _09_ sky130_fd_sc_hd__conb_1 + PLACED ( 11960 65280 ) FS ;
+    - _10_ sky130_fd_sc_hd__conb_1 + PLACED ( 28060 65280 ) FS ;
+    - _11_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 59840 ) FS ;
+    - _12_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 54400 ) FS ;
+    - _13_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 48960 ) FS ;
+    - _14_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 27200 ) FS ;
+    - _15_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 24480 ) N ;
+    - _16_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 21760 ) FS ;
+    - _17_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 29920 ) N ;
+    - _18_ sky130_fd_sc_hd__buf_2 + PLACED ( 139840 21760 ) FS ;
+    - _19_ sky130_fd_sc_hd__buf_2 + PLACED ( 139840 24480 ) N ;
+    - _20_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 43520 ) FS ;
+    - _21_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 40800 ) N ;
+    - _22_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 38080 ) FS ;
+    - _23_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 35360 ) N ;
+    - _24_ sky130_fd_sc_hd__buf_2 + PLACED ( 7820 32640 ) FS ;
+    - _25_ sky130_fd_sc_hd__buf_2 + PLACED ( 12420 29920 ) N ;
+    - _26_ sky130_fd_sc_hd__buf_2 + PLACED ( 139840 27200 ) FS ;
+    - _27_ sky130_fd_sc_hd__buf_2 + PLACED ( 139840 19040 ) N ;
+    - _28_ sky130_fd_sc_hd__buf_2 + PLACED ( 139840 16320 ) FS ;
+    - mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 139840 54400 ) FS ;
+    - mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 139840 48960 ) FS ;
+    - mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 147200 51680 ) N ;
+    - mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 138920 43520 ) FS ;
+    - mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 131560 46240 ) N ;
+    - mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 147200 46240 ) N ;
+    - mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 130180 51680 ) N ;
+    - mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 125120 40800 ) N ;
+    - mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 117760 43520 ) FS ;
+    - mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 109940 48960 ) FS ;
+    - mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 105340 38080 ) FS ;
+    - mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 98900 35360 ) N ;
+    - mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 95680 29920 ) N ;
+    - mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 92460 51680 ) N ;
+    - mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 91080 40800 ) N ;
+    - mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 85560 38080 ) FS ;
+    - mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 91080 46240 ) N ;
+    - mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 78200 48960 ) FS ;
+    - mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 77280 43520 ) FS ;
+    - mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 70380 51680 ) N ;
+    - mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 66700 40800 ) N ;
+    - mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 63020 46240 ) N ;
+    - mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 49220 38080 ) FS ;
+    - mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 42320 35360 ) N ;
+    - mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 49220 43520 ) FS ;
+    - mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 39100 46240 ) N ;
+    - mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 43520 ) FS ;
+    - mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 37720 40800 ) N ;
+    - mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 49220 48960 ) FS ;
+    - mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 48960 ) FS ;
+    - mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 49220 54400 ) FS ;
+    - mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 54400 ) FS ;
+    - mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 37260 51680 ) N ;
+    - mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 59840 ) FS ;
+    - mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 39100 57120 ) N ;
+    - mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 40940 62560 ) N ;
+    - mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 43700 68000 ) N ;
+    - mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 33580 65280 ) FS ;
+    - mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 52900 70720 ) FS ;
+    - mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 58420 65280 ) FS ;
+    - mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 61640 59840 ) FS ;
+    - mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 69460 68000 ) N ;
+    - mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 74520 57120 ) N ;
+    - mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 79580 54400 ) FS ;
+    - mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 75440 62560 ) N ;
+    - mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 88320 65280 ) FS ;
+    - mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 89700 59840 ) FS ;
+    - mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 97520 62560 ) N ;
+    - mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 102580 57120 ) N ;
+    - mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 107180 70720 ) FS ;
+    - mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 112240 54400 ) FS ;
+    - mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 117300 65280 ) FS ;
+    - mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 117760 59840 ) FS ;
+    - mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 126960 57120 ) N ;
+    - mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 131100 68000 ) N ;
+    - mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 131560 62560 ) N ;
+    - mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 137540 59840 ) FS ;
+    - mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 sky130_fd_sc_hd__dfrbp_1 + PLACED ( 138920 65280 ) FS ;
+    - PHY_0 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 10880 ) FS ;
+    - PHY_1 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 10880 ) S ;
+    - PHY_2 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 13600 ) N ;
+    - PHY_3 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 13600 ) FN ;
+    - PHY_4 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 16320 ) FS ;
+    - PHY_5 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 16320 ) S ;
+    - PHY_6 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 19040 ) N ;
+    - PHY_7 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 19040 ) FN ;
+    - PHY_8 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 21760 ) FS ;
+    - PHY_9 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 21760 ) S ;
+    - PHY_10 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 24480 ) N ;
+    - PHY_11 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 24480 ) FN ;
+    - PHY_12 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 27200 ) FS ;
+    - PHY_13 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 27200 ) S ;
+    - PHY_14 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 29920 ) N ;
+    - PHY_15 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 29920 ) FN ;
+    - PHY_16 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 32640 ) FS ;
+    - PHY_17 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 32640 ) S ;
+    - PHY_18 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 35360 ) N ;
+    - PHY_19 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 35360 ) FN ;
+    - PHY_20 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 38080 ) FS ;
+    - PHY_21 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 38080 ) S ;
+    - PHY_22 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 40800 ) N ;
+    - PHY_23 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 40800 ) FN ;
+    - PHY_24 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 43520 ) FS ;
+    - PHY_25 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 43520 ) S ;
+    - PHY_26 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 46240 ) N ;
+    - PHY_27 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 46240 ) FN ;
+    - PHY_28 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 48960 ) FS ;
+    - PHY_29 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 48960 ) S ;
+    - PHY_30 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 51680 ) N ;
+    - PHY_31 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 51680 ) FN ;
+    - PHY_32 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 54400 ) FS ;
+    - PHY_33 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 54400 ) S ;
+    - PHY_34 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 57120 ) N ;
+    - PHY_35 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 57120 ) FN ;
+    - PHY_36 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 59840 ) FS ;
+    - PHY_37 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 59840 ) S ;
+    - PHY_38 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 62560 ) N ;
+    - PHY_39 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 62560 ) FN ;
+    - PHY_40 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 65280 ) FS ;
+    - PHY_41 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 65280 ) S ;
+    - PHY_42 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 68000 ) N ;
+    - PHY_43 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 68000 ) FN ;
+    - PHY_44 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 70720 ) FS ;
+    - PHY_45 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 70720 ) S ;
+    - PHY_46 sky130_fd_sc_hd__decap_3 + FIXED ( 5520 73440 ) N ;
+    - PHY_47 sky130_fd_sc_hd__decap_3 + FIXED ( 167440 73440 ) FN ;
+    - PHY_48 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 10880 ) FS ;
+    - PHY_49 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 34040 10880 ) FS ;
+    - PHY_50 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 48300 10880 ) FS ;
+    - PHY_51 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 62560 10880 ) FS ;
+    - PHY_52 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 76820 10880 ) FS ;
+    - PHY_53 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 91080 10880 ) FS ;
+    - PHY_54 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 105340 10880 ) FS ;
+    - PHY_55 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 119600 10880 ) FS ;
+    - PHY_56 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 133860 10880 ) FS ;
+    - PHY_57 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 148120 10880 ) FS ;
+    - PHY_58 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 162380 10880 ) FS ;
+    - PHY_59 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 13600 ) N ;
+    - PHY_60 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 13600 ) N ;
+    - PHY_61 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 13600 ) N ;
+    - PHY_62 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 13600 ) N ;
+    - PHY_63 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 13600 ) N ;
+    - PHY_64 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 16320 ) FS ;
+    - PHY_65 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 16320 ) FS ;
+    - PHY_66 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 16320 ) FS ;
+    - PHY_67 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 16320 ) FS ;
+    - PHY_68 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 16320 ) FS ;
+    - PHY_69 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 16320 ) FS ;
+    - PHY_70 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 19040 ) N ;
+    - PHY_71 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 19040 ) N ;
+    - PHY_72 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 19040 ) N ;
+    - PHY_73 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 19040 ) N ;
+    - PHY_74 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 19040 ) N ;
+    - PHY_75 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 21760 ) FS ;
+    - PHY_76 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 21760 ) FS ;
+    - PHY_77 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 21760 ) FS ;
+    - PHY_78 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 21760 ) FS ;
+    - PHY_79 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 21760 ) FS ;
+    - PHY_80 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 21760 ) FS ;
+    - PHY_81 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 24480 ) N ;
+    - PHY_82 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 24480 ) N ;
+    - PHY_83 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 24480 ) N ;
+    - PHY_84 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 24480 ) N ;
+    - PHY_85 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 24480 ) N ;
+    - PHY_86 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 27200 ) FS ;
+    - PHY_87 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 27200 ) FS ;
+    - PHY_88 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 27200 ) FS ;
+    - PHY_89 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 27200 ) FS ;
+    - PHY_90 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 27200 ) FS ;
+    - PHY_91 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 27200 ) FS ;
+    - PHY_92 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 29920 ) N ;
+    - PHY_93 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 29920 ) N ;
+    - PHY_94 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 29920 ) N ;
+    - PHY_95 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 29920 ) N ;
+    - PHY_96 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 29920 ) N ;
+    - PHY_97 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 32640 ) FS ;
+    - PHY_98 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 32640 ) FS ;
+    - PHY_99 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 32640 ) FS ;
+    - PHY_100 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 32640 ) FS ;
+    - PHY_101 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 32640 ) FS ;
+    - PHY_102 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 32640 ) FS ;
+    - PHY_103 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 35360 ) N ;
+    - PHY_104 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 35360 ) N ;
+    - PHY_105 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 35360 ) N ;
+    - PHY_106 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 35360 ) N ;
+    - PHY_107 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 35360 ) N ;
+    - PHY_108 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 38080 ) FS ;
+    - PHY_109 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 38080 ) FS ;
+    - PHY_110 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 38080 ) FS ;
+    - PHY_111 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 38080 ) FS ;
+    - PHY_112 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 38080 ) FS ;
+    - PHY_113 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 38080 ) FS ;
+    - PHY_114 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 40800 ) N ;
+    - PHY_115 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 40800 ) N ;
+    - PHY_116 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 40800 ) N ;
+    - PHY_117 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 40800 ) N ;
+    - PHY_118 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 40800 ) N ;
+    - PHY_119 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 43520 ) FS ;
+    - PHY_120 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 43520 ) FS ;
+    - PHY_121 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 43520 ) FS ;
+    - PHY_122 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 43520 ) FS ;
+    - PHY_123 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 43520 ) FS ;
+    - PHY_124 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 43520 ) FS ;
+    - PHY_125 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 46240 ) N ;
+    - PHY_126 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 46240 ) N ;
+    - PHY_127 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 46240 ) N ;
+    - PHY_128 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 46240 ) N ;
+    - PHY_129 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 46240 ) N ;
+    - PHY_130 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 48960 ) FS ;
+    - PHY_131 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 48960 ) FS ;
+    - PHY_132 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 48960 ) FS ;
+    - PHY_133 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 48960 ) FS ;
+    - PHY_134 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 48960 ) FS ;
+    - PHY_135 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 48960 ) FS ;
+    - PHY_136 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 51680 ) N ;
+    - PHY_137 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 51680 ) N ;
+    - PHY_138 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 51680 ) N ;
+    - PHY_139 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 51680 ) N ;
+    - PHY_140 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 51680 ) N ;
+    - PHY_141 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 54400 ) FS ;
+    - PHY_142 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 54400 ) FS ;
+    - PHY_143 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 54400 ) FS ;
+    - PHY_144 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 54400 ) FS ;
+    - PHY_145 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 54400 ) FS ;
+    - PHY_146 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 54400 ) FS ;
+    - PHY_147 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 57120 ) N ;
+    - PHY_148 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 57120 ) N ;
+    - PHY_149 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 57120 ) N ;
+    - PHY_150 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 57120 ) N ;
+    - PHY_151 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 57120 ) N ;
+    - PHY_152 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 59840 ) FS ;
+    - PHY_153 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 59840 ) FS ;
+    - PHY_154 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 59840 ) FS ;
+    - PHY_155 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 59840 ) FS ;
+    - PHY_156 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 59840 ) FS ;
+    - PHY_157 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 59840 ) FS ;
+    - PHY_158 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 62560 ) N ;
+    - PHY_159 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 62560 ) N ;
+    - PHY_160 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 62560 ) N ;
+    - PHY_161 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 62560 ) N ;
+    - PHY_162 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 62560 ) N ;
+    - PHY_163 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 65280 ) FS ;
+    - PHY_164 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 65280 ) FS ;
+    - PHY_165 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 65280 ) FS ;
+    - PHY_166 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 65280 ) FS ;
+    - PHY_167 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 65280 ) FS ;
+    - PHY_168 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 65280 ) FS ;
+    - PHY_169 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 33580 68000 ) N ;
+    - PHY_170 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 61640 68000 ) N ;
+    - PHY_171 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 89700 68000 ) N ;
+    - PHY_172 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 117760 68000 ) N ;
+    - PHY_173 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 145820 68000 ) N ;
+    - PHY_174 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 70720 ) FS ;
+    - PHY_175 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 47840 70720 ) FS ;
+    - PHY_176 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 75900 70720 ) FS ;
+    - PHY_177 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 103960 70720 ) FS ;
+    - PHY_178 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 132020 70720 ) FS ;
+    - PHY_179 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 160080 70720 ) FS ;
+    - PHY_180 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 19780 73440 ) N ;
+    - PHY_181 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 34040 73440 ) N ;
+    - PHY_182 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 48300 73440 ) N ;
+    - PHY_183 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 62560 73440 ) N ;
+    - PHY_184 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 76820 73440 ) N ;
+    - PHY_185 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 91080 73440 ) N ;
+    - PHY_186 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 105340 73440 ) N ;
+    - PHY_187 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 119600 73440 ) N ;
+    - PHY_188 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 133860 73440 ) N ;
+    - PHY_189 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 148120 73440 ) N ;
+    - PHY_190 sky130_fd_sc_hd__tapvpwrvgnd_1 + FIXED ( 162380 73440 ) N ;
+    - clkbuf_0_prog_clk sky130_fd_sc_hd__clkbuf_16 + PLACED ( 90160 48960 ) FS ;
+    - clkbuf_1_0_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 81880 51680 ) N ;
+    - clkbuf_1_1_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 103960 51680 ) N ;
+    - clkbuf_2_0_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 68080 48960 ) FS ;
+    - clkbuf_2_1_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 69460 54400 ) FS ;
+    - clkbuf_2_2_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 110400 46240 ) N ;
+    - clkbuf_2_3_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 114080 57120 ) N ;
+    - clkbuf_3_0_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 56580 46240 ) N ;
+    - clkbuf_3_1_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 70840 38080 ) FS ;
+    - clkbuf_3_2_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 58880 57120 ) N ;
+    - clkbuf_3_3_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 78200 59840 ) FS ;
+    - clkbuf_3_4_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 102580 40800 ) N ;
+    - clkbuf_3_5_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 122820 46240 ) N ;
+    - clkbuf_3_6_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 105340 59840 ) FS ;
+    - clkbuf_3_7_0_prog_clk sky130_fd_sc_hd__clkbuf_1 + PLACED ( 121900 57120 ) N ;
+    - ANTENNA__28__A sky130_fd_sc_hd__diode_2 + PLACED ( 139840 13600 ) N ;
+    - ANTENNA__27__A sky130_fd_sc_hd__diode_2 + PLACED ( 142600 19040 ) N ;
+    - ANTENNA__26__A sky130_fd_sc_hd__diode_2 + PLACED ( 142600 24480 ) N ;
+    - ANTENNA__25__A sky130_fd_sc_hd__diode_2 + PLACED ( 15180 29920 ) N ;
+    - ANTENNA__24__A sky130_fd_sc_hd__diode_2 + PLACED ( 10580 29920 ) N ;
+    - ANTENNA__23__A sky130_fd_sc_hd__diode_2 + PLACED ( 10580 35360 ) N ;
+    - ANTENNA__22__A sky130_fd_sc_hd__diode_2 + PLACED ( 12420 35360 ) N ;
+    - ANTENNA__21__A sky130_fd_sc_hd__diode_2 + PLACED ( 10580 40800 ) N ;
+    - ANTENNA__20__A sky130_fd_sc_hd__diode_2 + PLACED ( 12420 40800 ) N ;
+    - ANTENNA__19__A sky130_fd_sc_hd__diode_2 + PLACED ( 138000 24480 ) N ;
+    - ANTENNA__18__A sky130_fd_sc_hd__diode_2 + PLACED ( 138000 19040 ) N ;
+    - ANTENNA__17__A sky130_fd_sc_hd__diode_2 + PLACED ( 10580 27200 ) FS ;
+    - ANTENNA__16__A sky130_fd_sc_hd__diode_2 + PLACED ( 7820 19040 ) N ;
+    - ANTENNA__15__A sky130_fd_sc_hd__diode_2 + PLACED ( 10580 24480 ) N ;
+    - ANTENNA__14__A sky130_fd_sc_hd__diode_2 + PLACED ( 12420 24480 ) N ;
+    - ANTENNA__13__A sky130_fd_sc_hd__diode_2 + PLACED ( 7820 46240 ) N ;
+    - ANTENNA__12__A sky130_fd_sc_hd__diode_2 + PLACED ( 7820 51680 ) N ;
+    - ANTENNA__11__A sky130_fd_sc_hd__diode_2 + PLACED ( 7820 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 141680 51680 ) N ;
+    - ANTENNA_clkbuf_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 87860 51680 ) N ;
+    - ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 143060 62560 ) N ;
+    - ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 138460 57120 ) N ;
+    - ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 129720 62560 ) N ;
+    - ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 129260 68000 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 125120 57120 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 119140 57120 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 121440 62560 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 112240 51680 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 107180 68000 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 100740 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 95680 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 91080 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 91080 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 73600 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 84180 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 72680 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 67620 68000 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 63020 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 58420 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 55200 68000 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 34960 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 41860 68000 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 39100 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 37260 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 34960 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 35420 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 31740 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 48760 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 34960 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 50600 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 35880 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 31740 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 37260 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 49220 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 40480 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 49220 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 59800 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 64860 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 68540 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 78200 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 78200 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 87860 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 85560 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 87860 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 92460 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 93840 29920 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 97060 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 105340 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 112700 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 119140 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 123280 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 128340 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 143980 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 129720 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 138920 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 143980 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 138000 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B sky130_fd_sc_hd__diode_2 + PLACED ( 138000 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 130180 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 137080 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 147200 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 140760 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 127880 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 150420 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 95680 27200 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 125120 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 120980 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 108560 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 107180 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 98900 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 80040 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 94300 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 90160 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 87400 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 86020 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 80040 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 51060 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 70380 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 66700 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 62100 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 51060 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 42320 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 50600 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 31740 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 33580 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 37720 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 52440 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 29900 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 43700 70720 ) FS ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 29900 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 28060 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 31740 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 45080 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 37260 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 70840 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 31740 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 57040 68000 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 56580 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 64860 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 69460 70720 ) FS ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 98900 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 86020 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 71760 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 87860 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 92920 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 93840 62560 ) N ;
+    - ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 127420 68000 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 109020 68000 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 114080 51680 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 115920 62560 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 115920 59840 ) FS ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 126960 54400 ) FS ;
+    - ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 140300 57120 ) N ;
+    - ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 127880 62560 ) N ;
+    - ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D sky130_fd_sc_hd__diode_2 + PLACED ( 147200 62560 ) N ;
+    - ANTENNA_clkbuf_1_1_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 106260 51680 ) N ;
+    - ANTENNA_clkbuf_1_0_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 77740 54400 ) FS ;
+    - ANTENNA_clkbuf_2_1_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 71760 54400 ) FS ;
+    - ANTENNA_clkbuf_2_0_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 72220 48960 ) FS ;
+    - ANTENNA_clkbuf_2_3_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 110400 54400 ) FS ;
+    - ANTENNA_clkbuf_2_2_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 114540 46240 ) N ;
+    - ANTENNA_clkbuf_3_1_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 73140 38080 ) FS ;
+    - ANTENNA_clkbuf_3_0_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 54740 46240 ) N ;
+    - ANTENNA_clkbuf_3_3_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 80500 59840 ) FS ;
+    - ANTENNA_clkbuf_3_2_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 58880 59840 ) FS ;
+    - ANTENNA_clkbuf_3_5_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 125120 46240 ) N ;
+    - ANTENNA_clkbuf_3_4_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 104880 40800 ) N ;
+    - ANTENNA_clkbuf_3_7_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 123740 54400 ) FS ;
+    - ANTENNA_clkbuf_3_6_0_prog_clk_A sky130_fd_sc_hd__diode_2 + PLACED ( 107640 59840 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 42320 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 52900 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 45080 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 29900 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 39560 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 46000 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 31740 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 31740 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 83720 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 81880 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 77280 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 66700 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 62100 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 53820 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 52440 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 31740 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 29900 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 45080 59840 ) FS ;
+    - ANTENNA_mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 45080 65280 ) FS ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 40020 68000 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 29900 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 52900 65280 ) FS ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 54740 62560 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 61640 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 66700 51680 ) N ;
+    - ANTENNA_mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 69920 65280 ) FS ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 74060 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 83720 46240 ) N ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 77280 65280 ) FS ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 87860 59840 ) FS ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 87860 57120 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 109940 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 110400 35360 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 98900 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 95680 32640 ) FS ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 86020 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 92000 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 136160 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 142600 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 133400 43520 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 147200 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 126960 38080 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 115920 40800 ) N ;
+    - ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 96140 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 99820 65280 ) FS ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 105340 54400 ) FS ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 110860 68000 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 115920 51680 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 114080 59840 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 136160 54400 ) FS ;
+    - ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 151340 48960 ) FS ;
+    - ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 130180 54400 ) FS ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 114080 62560 ) N ;
+    - ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 129260 59840 ) FS ;
+    - ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 133400 65280 ) FS ;
+    - ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 133400 59840 ) FS ;
+    - ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 142140 57120 ) N ;
+    - ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK sky130_fd_sc_hd__diode_2 + PLACED ( 137080 65280 ) FS ;
+END COMPONENTS
+PINS 53 ;
+    - chanx_left_in[0] + NET chanx_left_in[0] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 13260 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[1] + NET chanx_left_in[1] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 16660 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[2] + NET chanx_left_in[2] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 20060 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[3] + NET chanx_left_in[3] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 23460 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[4] + NET chanx_left_in[4] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 26860 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[5] + NET chanx_left_in[5] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 30260 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[6] + NET chanx_left_in[6] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 33660 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[7] + NET chanx_left_in[7] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 37060 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_in[8] + NET chanx_left_in[8] + DIRECTION INPUT + USE SIGNAL + PLACED ( 2000 40460 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[0] + NET chanx_left_out[0] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 43860 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[1] + NET chanx_left_out[1] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 47260 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[2] + NET chanx_left_out[2] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 50660 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[3] + NET chanx_left_out[3] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 54060 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[4] + NET chanx_left_out[4] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 57460 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[5] + NET chanx_left_out[5] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 60860 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[6] + NET chanx_left_out[6] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 64260 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[7] + NET chanx_left_out[7] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 67660 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_left_out[8] + NET chanx_left_out[8] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 2000 71060 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - top_grid_pin_0_ + NET top_grid_pin_0_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 5290 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_2_ + NET top_grid_pin_2_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 23230 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_4_ + NET top_grid_pin_4_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 41170 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_6_ + NET top_grid_pin_6_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 59110 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_8_ + NET top_grid_pin_8_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 77050 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_10_ + NET top_grid_pin_10_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 94990 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_12_ + NET top_grid_pin_12_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 112930 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - top_grid_pin_14_ + NET top_grid_pin_14_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 130870 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - ccff_tail + NET ccff_tail + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 148810 85135 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - chanx_right_in[0] + NET chanx_right_in[0] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 12580 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[1] + NET chanx_right_in[1] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 15300 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[2] + NET chanx_right_in[2] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 18020 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[3] + NET chanx_right_in[3] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 20740 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[4] + NET chanx_right_in[4] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 23460 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[5] + NET chanx_right_in[5] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 26180 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[6] + NET chanx_right_in[6] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 28900 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[7] + NET chanx_right_in[7] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 31620 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_in[8] + NET chanx_right_in[8] + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 34340 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[0] + NET chanx_right_out[0] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 37060 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[1] + NET chanx_right_out[1] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 39780 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[2] + NET chanx_right_out[2] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 42500 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[3] + NET chanx_right_out[3] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 45220 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[4] + NET chanx_right_out[4] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 47940 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[5] + NET chanx_right_out[5] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 50660 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[6] + NET chanx_right_out[6] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 53380 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[7] + NET chanx_right_out[7] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 56100 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - chanx_right_out[8] + NET chanx_right_out[8] + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 172480 58820 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - ccff_head + NET ccff_head + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 61540 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - prog_clk + NET prog_clk + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 64260 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - pReset + NET pReset + DIRECTION INPUT + USE SIGNAL + PLACED ( 172480 66980 ) N + LAYER met3 ( -2000 -300 ) ( 2000 300 ) ;
+    - bottom_grid_pin_0_ + NET bottom_grid_pin_0_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 230 2000 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - bottom_grid_pin_4_ + NET bottom_grid_pin_4_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 57730 2000 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - bottom_grid_pin_8_ + NET bottom_grid_pin_8_ + DIRECTION OUTPUT + USE SIGNAL + PLACED ( 115230 2000 ) N + LAYER met2 ( -140 -2000 ) ( 140 2000 ) ;
+    - VPWR + NET VPWR + SPECIAL + DIRECTION INPUT + USE SIGNAL + FIXED ( 87170 14640 ) N + LAYER met5 ( -81650 -800 ) ( 81650 800 ) ;
+    - VGND + NET VGND + SPECIAL + DIRECTION INPUT + USE SIGNAL + FIXED ( 87170 22140 ) N + LAYER met5 ( -81650 -800 ) ( 81650 800 ) ;
+END PINS
+SPECIALNETS 2 ;
+    - VPWR ( PIN VPWR ) + USE POWER
+      + ROUTED met4 0 + SHAPE STRIPE ( 159520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 144520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 129520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 114520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 99520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 84520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 69520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 54520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 39520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 24520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 9520 74640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 159520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 144520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 129520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 114520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 99520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 84520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 69520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 54520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 39520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 24520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 9520 59640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 159520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 144520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 129520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 114520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 99520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 84520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 69520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 54520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 39520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 24520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 9520 44640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 159520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 144520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 129520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 114520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 99520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 84520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 69520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 54520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 39520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 24520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 9520 29640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 159520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 144520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 129520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 114520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 99520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 84520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 69520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 54520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 39520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 24520 14640 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 9520 14640 ) via4_1600x1600
+      NEW met3 0 + SHAPE STRIPE ( 159520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 76160 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 76160 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 76160 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 70720 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 70720 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 70720 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 65280 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 65280 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 65280 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 59840 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 59840 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 59840 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 54400 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 54400 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 54400 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 48960 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 48960 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 48960 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 43520 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 43520 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 43520 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 38080 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 38080 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 38080 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 32640 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 32640 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 32640 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 27200 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 27200 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 27200 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 21760 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 21760 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 21760 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 16320 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 16320 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 16320 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 159520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 159520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 159520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 144520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 144520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 144520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 129520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 129520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 129520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 114520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 114520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 114520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 99520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 99520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 99520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 84520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 84520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 84520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 69520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 69520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 69520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 54520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 54520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 54520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 39520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 39520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 39520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 24520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 24520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 24520 10880 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 9520 10880 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 9520 10880 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 9520 10880 ) via_1600x480
+      NEW met5 1600 + SHAPE STRIPE ( 5520 74640 ) ( 168820 74640 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 59640 ) ( 168820 59640 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 44640 ) ( 168820 44640 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 29640 ) ( 168820 29640 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 14640 ) ( 168820 14640 )
+      NEW met4 1600 + SHAPE STRIPE ( 159520 10640 ) ( 159520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 144520 10640 ) ( 144520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 129520 10640 ) ( 129520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 114520 10640 ) ( 114520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 99520 10640 ) ( 99520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 84520 10640 ) ( 84520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 69520 10640 ) ( 69520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 54520 10640 ) ( 54520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 39520 10640 ) ( 39520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 24520 10640 ) ( 24520 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 9520 10640 ) ( 9520 76400 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 76160 ) ( 168820 76160 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 70720 ) ( 168820 70720 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 65280 ) ( 168820 65280 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 59840 ) ( 168820 59840 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 54400 ) ( 168820 54400 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 48960 ) ( 168820 48960 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 43520 ) ( 168820 43520 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 38080 ) ( 168820 38080 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 32640 ) ( 168820 32640 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 27200 ) ( 168820 27200 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 21760 ) ( 168820 21760 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 16320 ) ( 168820 16320 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 10880 ) ( 168820 10880 ) ;
+    - VGND ( PIN VGND ) + USE GROUND
+      + ROUTED met4 0 + SHAPE STRIPE ( 167020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 152020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 137020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 122020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 107020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 92020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 77020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 62020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 47020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 32020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 17020 67140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 167020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 152020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 137020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 122020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 107020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 92020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 77020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 62020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 47020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 32020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 17020 52140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 167020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 152020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 137020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 122020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 107020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 92020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 77020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 62020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 47020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 32020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 17020 37140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 167020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 152020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 137020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 122020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 107020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 92020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 77020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 62020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 47020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 32020 22140 ) via4_1600x1600
+      NEW met4 0 + SHAPE STRIPE ( 17020 22140 ) via4_1600x1600
+      NEW met3 0 + SHAPE STRIPE ( 167020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 73440 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 73440 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 73440 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 68000 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 68000 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 68000 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 62560 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 62560 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 62560 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 57120 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 57120 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 57120 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 51680 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 51680 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 51680 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 46240 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 46240 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 46240 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 40800 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 40800 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 40800 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 35360 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 35360 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 35360 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 29920 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 29920 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 29920 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 24480 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 24480 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 24480 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 19040 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 19040 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 19040 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 167020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 167020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 167020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 152020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 152020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 152020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 137020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 137020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 137020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 122020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 122020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 122020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 107020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 107020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 107020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 92020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 92020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 92020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 77020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 77020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 77020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 62020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 62020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 62020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 47020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 47020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 47020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 32020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 32020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 32020 13600 ) via_1600x480
+      NEW met3 0 + SHAPE STRIPE ( 17020 13600 ) via3_1600x480
+      NEW met2 0 + SHAPE STRIPE ( 17020 13600 ) via2_1600x480
+      NEW met1 0 + SHAPE STRIPE ( 17020 13600 ) via_1600x480
+      NEW met5 1600 + SHAPE STRIPE ( 5520 67140 ) ( 168820 67140 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 52140 ) ( 168820 52140 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 37140 ) ( 168820 37140 )
+      NEW met5 1600 + SHAPE STRIPE ( 5520 22140 ) ( 168820 22140 )
+      NEW met4 1600 + SHAPE STRIPE ( 167020 10640 ) ( 167020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 152020 10640 ) ( 152020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 137020 10640 ) ( 137020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 122020 10640 ) ( 122020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 107020 10640 ) ( 107020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 92020 10640 ) ( 92020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 77020 10640 ) ( 77020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 62020 10640 ) ( 62020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 47020 10640 ) ( 47020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 32020 10640 ) ( 32020 76400 )
+      NEW met4 1600 + SHAPE STRIPE ( 17020 10640 ) ( 17020 76400 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 73440 ) ( 168820 73440 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 68000 ) ( 168820 68000 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 62560 ) ( 168820 62560 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 57120 ) ( 168820 57120 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 51680 ) ( 168820 51680 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 46240 ) ( 168820 46240 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 40800 ) ( 168820 40800 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 35360 ) ( 168820 35360 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 29920 ) ( 168820 29920 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 24480 ) ( 168820 24480 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 19040 ) ( 168820 19040 )
+      NEW met1 480 + SHAPE FOLLOWPIN ( 5520 13600 ) ( 168820 13600 ) ;
+END SPECIALNETS
+NETS 181 ;
+    - chanx_left_in[0] ( PIN chanx_left_in[0] ) ( ANTENNA__28__A DIODE ) ( _28_ A ) + USE SIGNAL ;
+    - chanx_left_in[1] ( PIN chanx_left_in[1] ) ( ANTENNA__27__A DIODE ) ( _27_ A ) + USE SIGNAL ;
+    - chanx_left_in[2] ( PIN chanx_left_in[2] ) ( ANTENNA__26__A DIODE ) ( _26_ A ) + USE SIGNAL ;
+    - chanx_left_in[3] ( PIN chanx_left_in[3] ) ( ANTENNA__25__A DIODE ) ( _25_ A ) + USE SIGNAL ;
+    - chanx_left_in[4] ( PIN chanx_left_in[4] ) ( ANTENNA__24__A DIODE ) ( _24_ A ) + USE SIGNAL ;
+    - chanx_left_in[5] ( PIN chanx_left_in[5] ) ( ANTENNA__23__A DIODE ) ( _23_ A ) + USE SIGNAL ;
+    - chanx_left_in[6] ( PIN chanx_left_in[6] ) ( ANTENNA__22__A DIODE ) ( _22_ A ) + USE SIGNAL ;
+    - chanx_left_in[7] ( PIN chanx_left_in[7] ) ( ANTENNA__21__A DIODE ) ( _21_ A ) + USE SIGNAL ;
+    - chanx_left_in[8] ( PIN chanx_left_in[8] ) ( ANTENNA__20__A DIODE ) ( _20_ A ) + USE SIGNAL ;
+    - chanx_left_out[0] ( PIN chanx_left_out[0] ) ( _19_ X ) + USE SIGNAL ;
+    - chanx_left_out[1] ( PIN chanx_left_out[1] ) ( _18_ X ) + USE SIGNAL ;
+    - chanx_left_out[2] ( PIN chanx_left_out[2] ) ( _17_ X ) + USE SIGNAL ;
+    - chanx_left_out[3] ( PIN chanx_left_out[3] ) ( _16_ X ) + USE SIGNAL ;
+    - chanx_left_out[4] ( PIN chanx_left_out[4] ) ( _15_ X ) + USE SIGNAL ;
+    - chanx_left_out[5] ( PIN chanx_left_out[5] ) ( _14_ X ) + USE SIGNAL ;
+    - chanx_left_out[6] ( PIN chanx_left_out[6] ) ( _13_ X ) + USE SIGNAL ;
+    - chanx_left_out[7] ( PIN chanx_left_out[7] ) ( _12_ X ) + USE SIGNAL ;
+    - chanx_left_out[8] ( PIN chanx_left_out[8] ) ( _11_ X ) + USE SIGNAL ;
+    - top_grid_pin_0_ ( PIN top_grid_pin_0_ ) ( _05_ LO ) + USE SIGNAL ;
+    - top_grid_pin_2_ ( PIN top_grid_pin_2_ ) ( _09_ LO ) + USE SIGNAL ;
+    - top_grid_pin_4_ ( PIN top_grid_pin_4_ ) ( _10_ LO ) + USE SIGNAL ;
+    - top_grid_pin_6_ ( PIN top_grid_pin_6_ ) ( _00_ LO ) + USE SIGNAL ;
+    - top_grid_pin_8_ ( PIN top_grid_pin_8_ ) ( _01_ LO ) + USE SIGNAL ;
+    - top_grid_pin_10_ ( PIN top_grid_pin_10_ ) ( _06_ LO ) + USE SIGNAL ;
+    - top_grid_pin_12_ ( PIN top_grid_pin_12_ ) ( _07_ LO ) + USE SIGNAL ;
+    - top_grid_pin_14_ ( PIN top_grid_pin_14_ ) ( _08_ LO ) + USE SIGNAL ;
+    - ccff_tail ( PIN ccff_tail ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - chanx_right_in[0] ( PIN chanx_right_in[0] ) ( ANTENNA__19__A DIODE ) ( _19_ A ) + USE SIGNAL ;
+    - chanx_right_in[1] ( PIN chanx_right_in[1] ) ( ANTENNA__18__A DIODE ) ( _18_ A ) + USE SIGNAL ;
+    - chanx_right_in[2] ( PIN chanx_right_in[2] ) ( ANTENNA__17__A DIODE ) ( _17_ A ) + USE SIGNAL ;
+    - chanx_right_in[3] ( PIN chanx_right_in[3] ) ( ANTENNA__16__A DIODE ) ( _16_ A ) + USE SIGNAL ;
+    - chanx_right_in[4] ( PIN chanx_right_in[4] ) ( ANTENNA__15__A DIODE ) ( _15_ A ) + USE SIGNAL ;
+    - chanx_right_in[5] ( PIN chanx_right_in[5] ) ( ANTENNA__14__A DIODE ) ( _14_ A ) + USE SIGNAL ;
+    - chanx_right_in[6] ( PIN chanx_right_in[6] ) ( ANTENNA__13__A DIODE ) ( _13_ A ) + USE SIGNAL ;
+    - chanx_right_in[7] ( PIN chanx_right_in[7] ) ( ANTENNA__12__A DIODE ) ( _12_ A ) + USE SIGNAL ;
+    - chanx_right_in[8] ( PIN chanx_right_in[8] ) ( ANTENNA__11__A DIODE ) ( _11_ A ) + USE SIGNAL ;
+    - chanx_right_out[0] ( PIN chanx_right_out[0] ) ( _28_ X ) + USE SIGNAL ;
+    - chanx_right_out[1] ( PIN chanx_right_out[1] ) ( _27_ X ) + USE SIGNAL ;
+    - chanx_right_out[2] ( PIN chanx_right_out[2] ) ( _26_ X ) + USE SIGNAL ;
+    - chanx_right_out[3] ( PIN chanx_right_out[3] ) ( _25_ X ) + USE SIGNAL ;
+    - chanx_right_out[4] ( PIN chanx_right_out[4] ) ( _24_ X ) + USE SIGNAL ;
+    - chanx_right_out[5] ( PIN chanx_right_out[5] ) ( _23_ X ) + USE SIGNAL ;
+    - chanx_right_out[6] ( PIN chanx_right_out[6] ) ( _22_ X ) + USE SIGNAL ;
+    - chanx_right_out[7] ( PIN chanx_right_out[7] ) ( _21_ X ) + USE SIGNAL ;
+    - chanx_right_out[8] ( PIN chanx_right_out[8] ) ( _20_ X ) + USE SIGNAL ;
+    - ccff_head ( PIN ccff_head ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) + USE SIGNAL ;
+    - prog_clk ( PIN prog_clk ) ( ANTENNA_clkbuf_0_prog_clk_A DIODE ) ( clkbuf_0_prog_clk A ) + USE CLOCK ;
+    - pReset ( PIN pReset ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE )
+      ( ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_RESET_B DIODE ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B )
+      ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 RESET_B ) + USE SIGNAL ;
+    - bottom_grid_pin_0_ ( PIN bottom_grid_pin_0_ ) ( _04_ LO ) + USE SIGNAL ;
+    - bottom_grid_pin_4_ ( PIN bottom_grid_pin_4_ ) ( _03_ LO ) + USE SIGNAL ;
+    - bottom_grid_pin_8_ ( PIN bottom_grid_pin_8_ ) ( _02_ LO ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.ccff_tail ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_0_.Qb ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_1_.Qb ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_2_.Qb ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_3_.Qb ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_4_.Qb ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_0.sc_dff_compact_5_.Qb ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.ccff_tail ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_0_.Qb ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_1_.Qb ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_2_.Qb ( mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_3_.Qb ( mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_4_.Qb ( mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_1.sc_dff_compact_5_.Qb ( mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.ccff_tail ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_0_.Qb ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_1_.Qb ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_2_.Qb ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_3_.Qb ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_4_.Qb ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_2.sc_dff_compact_5_.Qb ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.ccff_tail ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_0_.Qb ( mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_1_.Qb ( mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_2_.Qb ( mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_3_.Qb ( mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_4_.Qb ( mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_3.sc_dff_compact_5_.Qb ( mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.ccff_tail ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_0_.Qb ( mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_1_.Qb ( mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_2_.Qb ( mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_3_.Qb ( mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_4_.Qb ( mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_4.sc_dff_compact_5_.Qb ( mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.ccff_tail ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_0_.Qb ( mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_1_.Qb ( mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_2_.Qb ( mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_3_.Qb ( mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_4_.Qb ( mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_5.sc_dff_compact_5_.Qb ( mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.ccff_tail ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_0_.Qb ( mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_1_.Qb ( mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_2_.Qb ( mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_3_.Qb ( mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_4_.Qb ( mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_6.sc_dff_compact_5_.Qb ( mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.ccff_tail ( ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_0_.Q ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_0_.Qb ( mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_1_.Q ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_1_.Qb ( mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_2_.Q ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_2_.Qb ( mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_3_.Q ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_3_.Qb ( mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_4_.Q ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_4_.Qb ( mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_bottom_ipin_7.sc_dff_compact_5_.Qb ( mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_0.ccff_tail ( ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_0_.Q ( ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_0_.Qb ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_1_.Q ( ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_1_.Qb ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_2_.Q ( ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_2_.Qb ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_3_.Q ( ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_3_.Qb ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_4_.Q ( ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_4_.Qb ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_0.sc_dff_compact_5_.Qb ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_1.ccff_tail ( ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_1.sc_dff_compact_0_.Q ( ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_1.sc_dff_compact_0_.Qb ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_1.sc_dff_compact_1_.Qb ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_2.sc_dff_compact_0_.Q ( ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_D DIODE ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 D ) ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q ) + USE SIGNAL ;
+    - mem_top_ipin_2.sc_dff_compact_0_.Qb ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - mem_top_ipin_2.sc_dff_compact_1_.Qb ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 Q_N ) + USE SIGNAL ;
+    - clknet_0_prog_clk ( ANTENNA_clkbuf_1_0_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_1_1_0_prog_clk_A DIODE ) ( clkbuf_1_1_0_prog_clk A ) ( clkbuf_1_0_0_prog_clk A ) ( clkbuf_0_prog_clk X ) + USE CLOCK ;
+    - clknet_1_0_0_prog_clk ( ANTENNA_clkbuf_2_0_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_2_1_0_prog_clk_A DIODE ) ( clkbuf_2_1_0_prog_clk A ) ( clkbuf_2_0_0_prog_clk A ) ( clkbuf_1_0_0_prog_clk X ) + USE CLOCK ;
+    - clknet_1_1_0_prog_clk ( ANTENNA_clkbuf_2_2_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_2_3_0_prog_clk_A DIODE ) ( clkbuf_2_3_0_prog_clk A ) ( clkbuf_2_2_0_prog_clk A ) ( clkbuf_1_1_0_prog_clk X ) + USE CLOCK ;
+    - clknet_2_0_0_prog_clk ( ANTENNA_clkbuf_3_0_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_1_0_prog_clk_A DIODE ) ( clkbuf_3_1_0_prog_clk A ) ( clkbuf_3_0_0_prog_clk A ) ( clkbuf_2_0_0_prog_clk X ) + USE CLOCK ;
+    - clknet_2_1_0_prog_clk ( ANTENNA_clkbuf_3_2_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_3_0_prog_clk_A DIODE ) ( clkbuf_3_3_0_prog_clk A ) ( clkbuf_3_2_0_prog_clk A ) ( clkbuf_2_1_0_prog_clk X ) + USE CLOCK ;
+    - clknet_2_2_0_prog_clk ( ANTENNA_clkbuf_3_4_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_5_0_prog_clk_A DIODE ) ( clkbuf_3_5_0_prog_clk A ) ( clkbuf_3_4_0_prog_clk A ) ( clkbuf_2_2_0_prog_clk X ) + USE CLOCK ;
+    - clknet_2_3_0_prog_clk ( ANTENNA_clkbuf_3_6_0_prog_clk_A DIODE ) ( ANTENNA_clkbuf_3_7_0_prog_clk_A DIODE ) ( clkbuf_3_7_0_prog_clk A ) ( clkbuf_3_6_0_prog_clk A ) ( clkbuf_2_3_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_0_0_prog_clk ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE )
+      ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_bottom_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_0_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_1_0_prog_clk ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_bottom_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_1_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_2_0_prog_clk ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE )
+      ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_bottom_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_2_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_3_0_prog_clk ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE )
+      ( mem_bottom_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_3_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_4_0_prog_clk ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_bottom_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_4_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_5_0_prog_clk ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_bottom_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_5_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_6_0_prog_clk ( ANTENNA_mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_bottom_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_6_0_prog_clk X ) + USE CLOCK ;
+    - clknet_3_7_0_prog_clk ( ANTENNA_mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE )
+      ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( ANTENNA_mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK DIODE ) ( mem_bottom_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_bottom_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK )
+      ( mem_top_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( mem_top_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 CLK ) ( clkbuf_3_7_0_prog_clk X ) + USE CLOCK ;
+END NETS
+END DESIGN

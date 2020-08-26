@@ -1,0 +1,48 @@
+Tue Aug 25 21:09:56 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//merged_unpadded.lef -o /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Tue Aug 25 21:10:06 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//merged.lef"
+
+Tue Aug 25 21:10:06 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//merged_unpadded.lef"
+
+Tue Aug 25 21:10:07 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//trimmed.lib"
+
+Tue Aug 25 21:10:07 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Tue Aug 25 21:10:08 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/synthesis/opensta.log"
+
+Tue Aug 25 21:10:08 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/floorplan/verilog2def.openroad.log"
+
+Tue Aug 25 21:10:09 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/floorplan/ioPlacer.log"
+
+Tue Aug 25 21:10:10 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/floorplan/tapcell.log"
+
+Tue Aug 25 21:10:10 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/placement/replace.log"
+
+Tue Aug 25 21:10:11 UTC 2020 - Executing "opendp -lef /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//merged.lef -def /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp/placement/replace.def -output_def /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//results/placement/cbx_1__3_.placement.def |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/placement/opendp.log"
+
+Tue Aug 25 21:10:11 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/cts/cts.log"
+
+Tue Aug 25 21:11:38 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/floorplan/pdn.log"
+
+Tue Aug 25 21:11:39 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_diodes.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs//placement/diodes.log"
+
+Tue Aug 25 21:11:40 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_fill.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/routing/addspacers.log"
+
+Tue Aug 25 21:11:40 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs//write_verilog.log"
+
+Tue Aug 25 21:11:41 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/routing/fastroute.log"
+
+Tue Aug 25 21:11:48 UTC 2020 - Executing "envsubst < /openLANE_flow/scripts//tritonRoute.param > /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp/routing/tritonRoute.param"
+
+Tue Aug 25 21:11:48 UTC 2020 - Executing "TritonRoute /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp/routing/tritonRoute.param |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/routing/tritonRoute.log"
+
+Tue Aug 25 21:11:51 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//tmp.magicrc /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//magic_spice.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/magic/magic_spice.log"
+
+Tue Aug 25 21:11:58 UTC 2020 - Executing "vlog2Verilog -v VPWR -g VGND -l /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//merged.lef /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//results/synthesis/cbx_1__3_.synthesis_preroute.v |& tee /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//results/lvs/cbx_1__3_.lvs.v"
+
+Tue Aug 25 21:11:58 UTC 2020 - Executing "netgen -batch lvs {/openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//results/magic/cbx_1__3_.spice cbx_1__3_} {/openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//results/lvs/cbx_1__3_.lvs.v cbx_1__3_} /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//results/lvs/cbx_1__3_.lvs.log -json |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/lvs/lvs.log"
+
+Tue Aug 25 21:11:58 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//magic_antenna.magicrc /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//tmp//magic_antenna.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/magic/magic_antenna.log"
+
+Tue Aug 25 21:12:13 UTC 2020 - Executing "awk {/Cell:/ {print $2}} /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//logs/magic/magic_antenna.log > /openLANE_flow/designs/cbx_1__3_/runs/25-08_21-09//reports/magic/magic.antenna_violators.rpt"
+
