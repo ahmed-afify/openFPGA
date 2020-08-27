@@ -1,0 +1,1891 @@
+timestamp 1597969991
+version 8.3
+tech sky130A
+style ngspice(lvs)
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 2668 0 1 2720
+use sky130_fd_sc_hd__decap_3 PHY_0 1 0 1104 0 -1 2720
+use sky130_fd_sc_hd__decap_3 PHY_2 1 0 1104 0 1 2720
+use sky130_fd_sc_hd__conb_1 _01_ 1 0 4048 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_36 1 0 3956 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_37 1 0 6808 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_47 1 0 6716 0 1 2720
+use sky130_fd_sc_hd__conb_1 _06_ 1 0 10672 0 1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_38 1 0 9660 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_39 1 0 12512 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_48 1 0 12328 0 1 2720
+use sky130_fd_sc_hd__conb_1 _07_ 1 0 14444 0 1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_40 1 0 15364 0 -1 2720
+use sky130_fd_sc_hd__conb_1 _08_ 1 0 18032 0 1 2720
+use sky130_fd_sc_hd__buf_2 _20_ 1 0 16836 0 1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_49 1 0 17940 0 1 2720
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 19780 0 1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_41 1 0 18216 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_42 1 0 21068 0 -1 2720
+use sky130_fd_sc_hd__buf_2 _13_ 1 0 24012 0 1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_43 1 0 23920 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_50 1 0 23552 0 1 2720
+use sky130_fd_sc_hd__buf_2 _10_ 1 0 26496 0 1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_44 1 0 26772 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_45 1 0 29624 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_51 1 0 29164 0 1 2720
+use sky130_fd_sc_hd__conb_1 _00_ 1 0 32476 0 1 2720
+use sky130_fd_sc_hd__buf_2 _24_ 1 0 31372 0 1 2720
+use sky130_fd_sc_hd__buf_2 _26_ 1 0 31372 0 -1 2720
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_46 1 0 32476 0 -1 2720
+use sky130_fd_sc_hd__decap_3 PHY_1 -1 0 34960 0 -1 2720
+use sky130_fd_sc_hd__decap_3 PHY_3 -1 0 34960 0 1 2720
+use sky130_fd_sc_hd__conb_1 _04_ 1 0 2944 0 -1 3808
+use sky130_fd_sc_hd__decap_3 PHY_4 1 0 1104 0 -1 3808
+use sky130_fd_sc_hd__buf_2 _25_ 1 0 4048 0 -1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_52 1 0 3956 0 -1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_53 1 0 9568 0 -1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 12328 0 -1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_54 1 0 15180 0 -1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 20884 0 -1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_55 1 0 20792 0 -1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_56 1 0 26404 0 -1 3808
+use sky130_fd_sc_hd__conb_1 _02_ 1 0 32108 0 -1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_57 1 0 32016 0 -1 3808
+use sky130_fd_sc_hd__decap_3 PHY_5 -1 0 34960 0 -1 3808
+use sky130_fd_sc_hd__decap_3 PHY_6 1 0 1104 0 1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 3312 0 1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_58 1 0 6716 0 1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 9476 0 1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_59 1 0 12328 0 1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 13892 0 1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_60 1 0 17940 0 1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 18308 0 1 3808
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 23644 0 1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_61 1 0 23552 0 1 3808
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_62 1 0 29164 0 1 3808
+use sky130_fd_sc_hd__decap_3 PHY_7 -1 0 34960 0 1 3808
+use sky130_fd_sc_hd__decap_3 PHY_8 1 0 1104 0 -1 4896
+use sky130_fd_sc_hd__decap_3 PHY_10 1 0 1104 0 1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 4048 0 -1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 3312 0 1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_63 1 0 3956 0 -1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_69 1 0 6716 0 1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 9384 0 1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_64 1 0 9568 0 -1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 11592 0 -1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_70 1 0 12328 0 1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 14812 0 1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_65 1 0 15180 0 -1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 16836 0 -1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_71 1 0 17940 0 1 4896
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 21712 0 -1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_66 1 0 20792 0 -1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_72 1 0 23552 0 1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_67 1 0 26404 0 -1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_73 1 0 29164 0 1 4896
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_68 1 0 32016 0 -1 4896
+use sky130_fd_sc_hd__decap_3 PHY_9 -1 0 34960 0 -1 4896
+use sky130_fd_sc_hd__decap_3 PHY_11 -1 0 34960 0 1 4896
+use sky130_fd_sc_hd__decap_3 PHY_12 1 0 1104 0 -1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_74 1 0 3956 0 -1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_75 1 0 9568 0 -1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 9660 0 -1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 15640 0 -1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_76 1 0 15180 0 -1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_77 1 0 20792 0 -1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 22540 0 -1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_78 1 0 26404 0 -1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_79 1 0 32016 0 -1 5984
+use sky130_fd_sc_hd__decap_3 PHY_13 -1 0 34960 0 -1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 3036 0 1 5984
+use sky130_fd_sc_hd__decap_3 PHY_14 1 0 1104 0 1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_80 1 0 6716 0 1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 8648 0 1 5984
+use sky130_fd_sc_hd__clkbuf_1 clkbuf_2_0_0_prog_clk 1 0 9069 0 1 6225
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_81 1 0 12328 0 1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 14628 0 1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_82 1 0 17940 0 1 5984
+use sky130_fd_sc_hd__clkbuf_1 clkbuf_2_2_0_prog_clk 1 0 17375 0 1 6038
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 23644 0 1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_83 1 0 23552 0 1 5984
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_84 1 0 29164 0 1 5984
+use sky130_fd_sc_hd__decap_3 PHY_15 -1 0 34960 0 1 5984
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 2852 0 1 7072
+use sky130_fd_sc_hd__decap_3 PHY_16 1 0 1104 0 -1 7072
+use sky130_fd_sc_hd__decap_3 PHY_18 1 0 1104 0 1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_85 1 0 3956 0 -1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 6716 0 -1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_91 1 0 6716 0 1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 8280 0 1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_86 1 0 9568 0 -1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 9660 0 -1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_92 1 0 12328 0 1 7072
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_0_prog_clk 1 0 13209 0 1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 15640 0 -1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 13892 0 1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_87 1 0 15180 0 -1 7072
+use sky130_fd_sc_hd__clkbuf_1 clkbuf_1_1_0_prog_clk 1 0 15776 0 1 7039
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_93 1 0 17940 0 1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_88 1 0 20792 0 -1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 23644 0 1 7072
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 22632 0 -1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_94 1 0 23552 0 1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_89 1 0 26404 0 -1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_95 1 0 29164 0 1 7072
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_90 1 0 32016 0 -1 7072
+use sky130_fd_sc_hd__decap_3 PHY_17 -1 0 34960 0 -1 7072
+use sky130_fd_sc_hd__decap_3 PHY_19 -1 0 34960 0 1 7072
+use sky130_fd_sc_hd__decap_3 PHY_20 1 0 1104 0 -1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_96 1 0 3956 0 -1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 6716 0 -1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_97 1 0 9568 0 -1 8160
+use sky130_fd_sc_hd__clkbuf_1 clkbuf_1_0_0_prog_clk 1 0 10716 0 1 7179
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_98 1 0 15180 0 -1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 16468 0 -1 8160
+use sky130_fd_sc_hd__buf_2 _14_ 1 0 19320 0 -1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_99 1 0 20792 0 -1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 22724 0 -1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_100 1 0 26404 0 -1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_101 1 0 32016 0 -1 8160
+use sky130_fd_sc_hd__decap_3 PHY_21 -1 0 34960 0 -1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 2760 0 1 8160
+use sky130_fd_sc_hd__decap_3 PHY_22 1 0 1104 0 1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_102 1 0 6716 0 1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 7912 0 1 8160
+use sky130_fd_sc_hd__clkbuf_1 clkbuf_2_1_0_prog_clk 1 0 9097 0 1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 13248 0 1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_103 1 0 12328 0 1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_104 1 0 17940 0 1 8160
+use sky130_fd_sc_hd__clkbuf_1 clkbuf_2_3_0_prog_clk 1 0 17535 0 1 7881
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 18492 0 1 8160
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 23644 0 1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_105 1 0 23552 0 1 8160
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_106 1 0 29164 0 1 8160
+use sky130_fd_sc_hd__buf_2 _23_ 1 0 30912 0 1 8160
+use sky130_fd_sc_hd__decap_3 PHY_23 -1 0 34960 0 1 8160
+use sky130_fd_sc_hd__decap_3 PHY_24 1 0 1104 0 -1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 4048 0 -1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_107 1 0 3956 0 -1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_108 1 0 9568 0 -1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 12328 0 -1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_109 1 0 15180 0 -1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 17480 0 -1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_110 1 0 20792 0 -1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 22632 0 -1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_111 1 0 26404 0 -1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_112 1 0 32016 0 -1 9248
+use sky130_fd_sc_hd__decap_3 PHY_25 -1 0 34960 0 -1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 2944 0 1 9248
+use sky130_fd_sc_hd__decap_3 PHY_26 1 0 1104 0 1 9248
+use sky130_fd_sc_hd__decap_3 PHY_28 1 0 1104 0 -1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 4140 0 -1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_118 1 0 3956 0 -1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 6808 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_113 1 0 6716 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_119 1 0 9568 0 -1 10336
+use sky130_fd_sc_hd__buf_2 _15_ 1 0 11224 0 1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 11040 0 -1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 12880 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_114 1 0 12328 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_120 1 0 15180 0 -1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 17940 0 -1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_115 1 0 17940 0 1 9248
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1 1 0 20332 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_121 1 0 20792 0 -1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1 1 0 22448 0 -1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_116 1 0 23552 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_122 1 0 26404 0 -1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_117 1 0 29164 0 1 9248
+use sky130_fd_sc_hd__buf_2 _18_ 1 0 32108 0 -1 10336
+use sky130_fd_sc_hd__buf_2 _27_ 1 0 31004 0 1 9248
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_123 1 0 32016 0 -1 10336
+use sky130_fd_sc_hd__decap_3 PHY_27 -1 0 34960 0 1 9248
+use sky130_fd_sc_hd__decap_3 PHY_29 -1 0 34960 0 -1 10336
+use sky130_fd_sc_hd__decap_3 PHY_30 1 0 1104 0 1 10336
+use sky130_fd_sc_hd__buf_2 _11_ 1 0 4416 0 1 10336
+use sky130_fd_sc_hd__buf_2 _16_ 1 0 3312 0 1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_124 1 0 6716 0 1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1 1 0 12420 0 1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_125 1 0 12328 0 1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_126 1 0 17940 0 1 10336
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 20700 0 1 10336
+use sky130_fd_sc_hd__buf_2 _12_ 1 0 23644 0 1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_127 1 0 23552 0 1 10336
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_128 1 0 29164 0 1 10336
+use sky130_fd_sc_hd__decap_3 PHY_31 -1 0 34960 0 1 10336
+use sky130_fd_sc_hd__buf_2 _19_ 1 0 2852 0 -1 11424
+use sky130_fd_sc_hd__decap_3 PHY_32 1 0 1104 0 -1 11424
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1 1 0 4968 0 -1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_129 1 0 3956 0 -1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_130 1 0 9568 0 -1 11424
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1 1 0 9660 0 -1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_131 1 0 15180 0 -1 11424
+use sky130_fd_sc_hd__dfrbp_1 mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1 1 0 21988 0 -1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_132 1 0 20792 0 -1 11424
+use sky130_fd_sc_hd__buf_2 _22_ 1 0 25208 0 -1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_133 1 0 26404 0 -1 11424
+use sky130_fd_sc_hd__buf_2 _17_ 1 0 28888 0 -1 11424
+use sky130_fd_sc_hd__conb_1 _09_ 1 0 31004 0 -1 11424
+use sky130_fd_sc_hd__buf_2 _21_ 1 0 32108 0 -1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_134 1 0 32016 0 -1 11424
+use sky130_fd_sc_hd__decap_3 PHY_33 -1 0 34960 0 -1 11424
+use sky130_fd_sc_hd__decap_3 PHY_34 1 0 1104 0 1 11424
+use sky130_fd_sc_hd__conb_1 _05_ 1 0 4048 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_135 1 0 3956 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_136 1 0 6808 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_137 1 0 9660 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_138 1 0 12512 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_139 1 0 15364 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_140 1 0 18216 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_141 1 0 21068 0 1 11424
+use sky130_fd_sc_hd__conb_1 _03_ 1 0 22908 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_142 1 0 23920 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_143 1 0 26772 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_144 1 0 29624 0 1 11424
+use sky130_fd_sc_hd__tapvpwrvgnd_1 PHY_145 1 0 32476 0 1 11424
+use sky130_fd_sc_hd__decap_3 PHY_35 -1 0 34960 0 1 11424
+port "chany_in_8_" 18 34422 340 35222 460 m3
+port "left_grid_pin_2_" 42 1394 340 2194 460 m3
+port "left_grid_pin_8_" 45 -354 340 446 460 m3
+port "right_grid_pin_7_" 49 35270 824 36070 944 m3
+port "ccff_head" 0 0 2592 800 2712 m3
+port "VPWR" 50 17632 2868 18432 2988 m3
+port "chany_in_16_" 9 32030 14051 32830 14171 m3
+port "chany_out_4_" 32 28350 14051 29150 14171 m3
+port "chany_in_11_" 4 19150 14051 19950 14171 m3
+port "ccff_tail" 1 8202 14051 9002 14171 m3
+port "chany_in_1_" 11 2682 14051 3482 14171 m3
+port "chany_out_6_" 34 32954 0 33010 800 m2
+port "chany_in_6_" 16 31114 0 31170 800 m2
+port "chany_out_0_" 20 29274 0 29330 800 m2
+port "chany_out_12_" 23 27434 0 27490 800 m2
+port "chany_out_16_" 27 25594 0 25650 800 m2
+port "chany_out_9_" 37 23754 0 23810 800 m2
+port "chany_in_2_" 12 22006 0 22062 800 m2
+port "chany_in_13_" 6 20166 0 20222 800 m2
+port "left_grid_pin_0_" 38 18326 0 18382 800 m2
+port "chany_in_12_" 5 16486 0 16542 800 m2
+port "left_grid_pin_10_" 39 14646 0 14702 800 m2
+port "chany_out_2_" 30 12806 0 12862 800 m2
+port "left_grid_pin_12_" 40 10966 0 11022 800 m2
+port "chany_out_14_" 25 9126 0 9182 800 m2
+port "chany_out_7_" 35 7286 0 7342 800 m2
+port "chany_out_8_" 36 5446 0 5502 800 m2
+port "chany_in_5_" 15 3606 0 3662 800 m2
+port "left_grid_pin_6_" 44 35642 3204 35698 4004 m2
+port "chany_in_15_" 8 372 4972 428 5772 m2
+port "chany_in_17_" 10 35642 5924 35698 6724 m2
+port "chany_in_7_" 17 372 7692 428 8492 m2
+port "chany_out_3_" 31 35642 8644 35698 9444 m2
+port "left_grid_pin_14_" 41 372 10412 428 11212 m2
+port "right_grid_pin_3_" 48 35642 11364 35698 12164 m2
+port "chany_in_9_" 19 35990 13711 36046 14511 m2
+port "chany_out_5_" 33 34242 13711 34298 14511 m2
+port "chany_out_17_" 28 30562 13711 30618 14511 m2
+port "chany_out_11_" 22 26882 13711 26938 14511 m2
+port "prog_clk" 47 25042 13711 25098 14511 m2
+port "left_grid_pin_4_" 43 23202 13711 23258 14511 m2
+port "chany_in_4_" 14 21362 13711 21418 14511 m2
+port "chany_out_13_" 24 17682 13711 17738 14511 m2
+port "chany_in_14_" 7 15842 13711 15898 14511 m2
+port "chany_out_15_" 26 14002 13711 14058 14511 m2
+port "pReset" 46 12254 13711 12310 14511 m2
+port "chany_out_10_" 21 10414 13711 10470 14511 m2
+port "chany_in_3_" 13 6734 13711 6790 14511 m2
+port "chany_in_0_" 2 4894 13711 4950 14511 m2
+port "chany_out_1_" 29 1214 13711 1270 14511 m2
+port "chany_in_10_" 3 372 13132 428 13932 m2
+port "VGND" 51 1104 4268 34960 4588 m5
+node "chany_in_8_" 0 406 34422 340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "left_grid_pin_2_" 0 406 1394 340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "left_grid_pin_8_" 0 406 -354 340 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "right_grid_pin_7_" 0 406 35270 824 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "ccff_head" 0 406 0 2592 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "VPWR" 0 406 17632 2868 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "chany_in_16_" 0 406 32030 14051 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "chany_out_4_" 0 406 28350 14051 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "chany_in_11_" 0 406 19150 14051 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "ccff_tail" 0 406 8202 14051 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "chany_in_1_" 0 406 2682 14051 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96000 1840 0 0 0 0
+node "chany_out_6_" 2 370 32954 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_6_" 2 370 31114 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_0_" 2 370 29274 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_12_" 2 370 27434 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_16_" 2 370 25594 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_9_" 2 370 23754 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_2_" 2 370 22006 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_13_" 2 370 20166 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "left_grid_pin_0_" 2 370 18326 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_12_" 2 370 16486 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "left_grid_pin_10_" 2 370 14646 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_2_" 2 370 12806 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "left_grid_pin_12_" 2 370 10966 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_14_" 2 370 9126 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_7_" 2 370 7286 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_8_" 2 370 5446 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_5_" 2 370 3606 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "left_grid_pin_6_" 2 370 35642 3204 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_15_" 2 370 372 4972 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_17_" 2 370 35642 5924 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_7_" 2 370 372 7692 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_3_" 2 370 35642 8644 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "left_grid_pin_14_" 2 370 372 10412 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "right_grid_pin_3_" 2 370 35642 11364 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_9_" 2 370 35990 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_5_" 2 370 34242 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_17_" 2 370 30562 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_11_" 2 370 26882 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "prog_clk" 2 370 25042 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "left_grid_pin_4_" 2 370 23202 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_4_" 2 370 21362 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_13_" 2 370 17682 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_14_" 2 370 15842 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_15_" 2 370 14002 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "pReset" 2 370 12254 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_10_" 2 370 10414 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_3_" 2 370 6734 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_0_" 2 370 4894 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_out_1_" 2 370 1214 13711 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "chany_in_10_" 2 370 372 13132 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44800 1712 0 0 0 0 0 0
+node "VGND" 1 210904 1104 4268 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29251584 611136 2813184 77616 2090880 76428 34805760 224576 32501760 205056
+node "m1_1104_2128#" 0 228106 1104 2128 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 32501760 679040 3125760 86240 2323200 84920 34805760 224576 32501760 205056
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "VPWR" "VGND" 299.607
+cap "m1_1104_2128#" "VGND" 95413.6
+cap "m1_1104_2128#" "VPWR" 294.32
+subcap "left_grid_pin_2_" -418.528
+subcap "chany_in_2_" -176
+subcap "chany_out_9_" -474.72
+subcap "chany_in_2_" -194
+subcap "chany_in_8_" -281.496
+subcap "chany_in_8_" -124.504
+subcap "right_grid_pin_7_" -35.304
+subcap "m1_1104_2128#" -228211
+subcap "m1_1104_2128#" -226995
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_0/VPWR" 53.7188
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "m1_1104_2128#" 57.4508
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_01_/HI" 5.69114
+cap "_01_/VPWR" "_01_/LO" 38.1802
+cap "_01_/VPWR" "_01_/HI" 52.4118
+cap "_01_/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 42.5884
+cap "_01_/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 4.97
+cap "_01_/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" 11.8051
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "_01_/HI" 107.735
+cap "PHY_37/VPWR" "PHY_37/VGND" -1.13687e-13
+cap "m1_1104_2128#" "PHY_37/VGND" 17.1412
+cap "PHY_38/VPWR" "PHY_38/VGND" -50.74
+cap "_06_/HI" "PHY_38/VPWR" 19.3753
+cap "_06_/VGND" "PHY_38/VPWR" -205.093
+cap "_06_/VGND" "PHY_39/VPWR" -441.91
+cap "PHY_39/VGND" "PHY_39/VPWR" 36.621
+cap "PHY_40/VPWR" "_07_/VGND" 16.9352
+cap "PHY_40/VPWR" "_07_/HI" 7.0832
+cap "PHY_40/VPWR" "_07_/VGND" 39.4148
+subcap "VPWR" -410.366
+cap "PHY_41/VPWR" "_08_/VGND" 64.5764
+cap "PHY_41/VPWR" "_20_/X" 12.7522
+subcap "VPWR" -417.954
+cap "_08_/VGND" "_08_/HI" 28.1471
+cap "PHY_41/VPWR" "_08_/VGND" 75.9982
+cap "m1_1104_2128#" "_08_/HI" 11.2432
+cap "m1_1104_2128#" "_08_/VGND" 36.726
+cap "m1_1104_2128#" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 75.776
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "m1_1104_2128#" 4.725
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "m1_1104_2128#" 4.8354
+cap "m1_1104_2128#" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 53.2632
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 9.0675
+cap "m1_1104_2128#" "_13_/VGND" 51.5936
+cap "_13_/X" "_13_/VGND" 9.0697
+cap "_13_/X" "m1_1104_2128#" 5.156
+cap "PHY_44/VPWR" "_10_/VGND" 30.0652
+cap "PHY_44/VPWR" "_10_/X" 4.6558
+cap "m1_1104_2128#" "PHY_51/VGND" -7.74
+cap "PHY_45/VPWR" "PHY_45/VGND" -152.149
+cap "_24_/X" "_26_/VPWR" 4.6558
+cap "_26_/A" "_24_/A" 2.97335
+cap "_26_/VPWR" "_24_/VGND" -214.695
+cap "_24_/X" "_26_/X" 18.8182
+cap "_00_/VGND" "_26_/VPWR" -59.0048
+cap "_26_/VPWR" "_00_/HI" 12.631
+cap "PHY_1/VPWR" "PHY_1/VGND" -65.02
+cap "PHY_1/VGND" "m1_1104_2128#" 59.2388
+subcap "VGND" -210904
+subcap "VGND" -210918
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 81.3472
+cap "PHY_4/VGND" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" -9.9476e-14
+cap "m1_1104_2128#" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 73.8378
+cap "m1_1104_2128#" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" 17.82
+cap "_04_/HI" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 5.676
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 55.289
+cap "m1_1104_2128#" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 12.6674
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" "m1_1104_2128#" 42.3448
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 63.5472
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" 22.73
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 86.8368
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_01_/HI" 5.69114
+cap "_25_/X" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 15.9956
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 46.9176
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 89.6232
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 78.0952
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" 136.945
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -7.10535
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_25_/A" 5.94
+cap "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_25_/X" 28.4976
+cap "PHY_47/VPWR" "PHY_37/VGND" -1.13687e-13
+cap "PHY_37/VGND" "m1_1104_2128#" 21.7212
+cap "PHY_47/VPWR" "m1_1104_2128#" 20.9884
+cap "PHY_38/VGND" "PHY_53/VPWR" -50.74
+cap "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" "_06_/VGND" 16.23
+cap "_06_/LO" "_06_/VPWR" 15.922
+cap "_06_/VPWR" "_06_/HI" 108.548
+cap "_06_/VGND" "_06_/VPWR" -267.871
+cap "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_06_/VPWR" 23.411
+cap "_06_/VGND" "_06_/VPWR" -371.172
+cap "_06_/VPWR" "_06_/LO" -48.555
+cap "_06_/VPWR" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 18.3613
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" "PHY_39/VGND" 22.73
+cap "PHY_39/VGND" "PHY_48/VPWR" 40.4362
+cap "_07_/LO" "_07_/VPWR" 44.128
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_07_/VPWR" 80.0793
+cap "_07_/VPWR" "_07_/VGND" 78.0506
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" "_07_/VPWR" 112.14
+cap "_07_/HI" "_07_/VPWR" 35.3344
+cap "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "_07_/VPWR" 22.73
+cap "_07_/VPWR" "_07_/VGND" 70.2166
+cap "_07_/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 81.4603
+subcap "VPWR" -285.956
+cap "_08_/VGND" "_08_/VPWR" 20.1094
+cap "_20_/X" "_08_/VPWR" 110.113
+cap "_20_/A" "_08_/VPWR" 27.6762
+subcap "VPWR" -216.494
+cap "VPWR" "_08_/VGND" 41.772
+cap "VPWR" "_08_/LO" 49.631
+cap "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 4.71429
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" "_08_/VGND" 22.73
+cap "_08_/HI" "_08_/VPWR" 52.4118
+cap "_08_/HI" "_08_/VGND" 79.5882
+cap "PHY_60/VPWR" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" 3.28939
+cap "m1_1104_2128#" "_08_/HI" 32.8384
+cap "_08_/VGND" "_08_/VPWR" 14.9
+cap "m1_1104_2128#" "_08_/VPWR" 20.9884
+cap "m1_1104_2128#" "_08_/VGND" 44.514
+cap "_08_/LO" "_08_/VPWR" 38.1802
+cap "_08_/LO" "_08_/VGND" 85.3725
+cap "VPWR" "_08_/HI" 73.432
+cap "PHY_60/VPWR" "_08_/VGND" -1.77636e-15
+cap "m1_1104_2128#" "_08_/LO" 41.42
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 135.846
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 12.0162
+cap "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 60.3812
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 22.8209
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 38.73
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 85.6168
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 90.4276
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 116.63
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "m1_1104_2128#" 22.5536
+cap "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 1.97792
+cap "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 22.2796
+cap "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 59.109
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "m1_1104_2128#" 43.8642
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 77.0768
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "m1_1104_2128#" 38.9586
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 65.259
+cap "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 29.2286
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "m1_1104_2128#" -317.167
+cap "m1_1104_2128#" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 14.3192
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 46.8976
+cap "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 53.1526
+cap "_13_/A" "m1_1104_2128#" 12.6508
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 11.0504
+cap "_13_/VGND" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" -2.22045e-15
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 29.2286
+cap "_13_/VGND" "m1_1104_2128#" 60.2428
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "_13_/VGND" 4.29
+cap "_13_/VPWR" "m1_1104_2128#" 39.4084
+cap "_13_/VPWR" "_13_/VGND" 48.2044
+cap "_13_/X" "m1_1104_2128#" 37.5506
+cap "_13_/X" "_13_/VGND" 110.191
+cap "_13_/VGND" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 62.591
+cap "_10_/VPWR" "_10_/VGND" 10.1
+cap "_10_/VPWR" "_10_/X" 39.3362
+cap "_10_/VPWR" "_10_/A" 12.6508
+cap "_10_/VPWR" "_10_/VGND" 15.4236
+cap "PHY_51/VGND" "PHY_51/VPWR" -7.74
+cap "PHY_45/VGND" "PHY_51/VPWR" 21.7212
+cap "PHY_62/VGND" "PHY_51/VPWR" -166.97
+cap "_24_/VPWR" "_24_/VGND" -316.536
+cap "_24_/VPWR" "_24_/A" 12.6508
+cap "_24_/VPWR" "_24_/X" 39.3362
+cap "_26_/A" "_24_/A" 2.97335
+cap "_26_/X" "_24_/X" 7.91195
+cap "_00_/VPWR" "_00_/HI" 35.3344
+cap "_02_/HI" "_02_/VGND" 107.735
+cap "_00_/VPWR" "_02_/LO" 38.1802
+cap "_00_/VPWR" "_02_/HI" 52.4118
+cap "_00_/VPWR" "_00_/LO" 44.128
+cap "_00_/VPWR" "_02_/VGND" -57.4098
+cap "_00_/HI" "PHY_46/VPWR" 2.55882
+cap "_00_/VPWR" "_00_/VGND" 9.1784
+cap "PHY_3/VPWR" "PHY_1/VGND" -65.02
+cap "m1_1104_2128#" "PHY_3/VPWR" 77.752
+cap "m1_1104_2128#" "PHY_1/VGND" 81.3472
+subcap "chany_in_15_" -86.0936
+subcap "VGND" -210907
+subcap "VGND" -210485
+cap "PHY_8/VGND" "PHY_6/VPWR" -9.9476e-14
+cap "VGND" "PHY_6/VPWR" 114.224
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_04_/VGND" -101.184
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" "_04_/VGND" 18.715
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "_04_/VGND" 22.73
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_04_/VGND" 45.0662
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 115.843
+cap "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 29.2286
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 28.5696
+cap "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" "_25_/VGND" 18.748
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" 22.2796
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "_25_/VGND" 22.8084
+cap "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 78.959
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 5.97414
+cap "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" "_25_/VGND" 44.487
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_25_/VGND" 297.593
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 86.8368
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 10.2
+cap "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 26.6564
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 12.946
+cap "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 37.642
+cap "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" -128.866
+cap "PHY_58/VGND" "PHY_58/VPWR" -30.4324
+cap "PHY_53/VGND" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" 11.316
+cap "PHY_53/VGND" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" -238.87
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 12.1458
+cap "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_53/VGND" -160.215
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 18.9095
+cap "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" "PHY_53/VGND" 18.715
+cap "PHY_53/VGND" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" -32.486
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" 2.53846
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" -61.4904
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -68.37
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 23.0196
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 40.197
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" 12.946
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" -210.823
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" 18.748
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" 4.25637
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 10.4077
+cap "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" 37.642
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 71.457
+cap "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" 8.6152
+cap "PHY_59/VPWR" "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" -92.2144
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" -150.449
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" -113.647
+cap "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" 18.715
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_54/VGND" 14.1017
+cap "PHY_54/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 99.634
+cap "PHY_54/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" 23.0196
+cap "PHY_54/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" 12.946
+cap "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" 5.9879
+cap "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 1.13648
+cap "VGND" "PHY_60/VPWR" 105.248
+cap "PHY_60/VPWR" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 22.73
+cap "PHY_60/VPWR" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" 53.1526
+cap "VGND" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 18.51
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_60/VPWR" 66.8886
+cap "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" "VGND" 40.197
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" "PHY_60/VGND" 18.715
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 18.2286
+cap "PHY_60/VGND" "PHY_60/VPWR" -55.6246
+cap "PHY_60/VGND" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" 26.6564
+cap "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_60/VGND" 71.9123
+cap "PHY_60/VGND" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 89.1308
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "VGND" 12.946
+cap "VGND" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" 22.782
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" 28.8908
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "VGND" -110.702
+cap "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" -120.148
+cap "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" 20.6554
+cap "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 18.748
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "VGND" -127.913
+cap "VGND" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 5.988
+cap "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "VGND" -151.388
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 67.7881
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 16.439
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 66.6
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" 18.715
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 11.2292
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_72/VPWR" 61.0424
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" -140.356
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 18.3487
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" 26.6564
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" -6.602
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "PHY_56/VGND" 23.0196
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_56/VGND" 105.762
+cap "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" "PHY_56/VGND" 12.946
+cap "PHY_56/VGND" "PHY_67/VPWR" -133.079
+cap "PHY_62/VPWR" "PHY_62/VGND" -7.74
+cap "PHY_62/VPWR" "PHY_62/VGND" -391.762
+cap "_02_/VGND" "PHY_68/VPWR" -180.94
+cap "_02_/VGND" "PHY_68/VPWR" -155.965
+cap "PHY_11/VPWR" "PHY_5/VGND" -65.02
+cap "PHY_7/VPWR" "PHY_5/VGND" -285.57
+cap "VGND" "PHY_7/VPWR" -106.326
+cap "PHY_10/VPWR" "PHY_12/VGND" 112.899
+cap "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_74/VGND" 55.715
+cap "m1_1104_2128#" "PHY_74/VGND" 78.594
+cap "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "PHY_74/VGND" 54.6387
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 81.5714
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" 17.0952
+cap "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_74/VGND" -19.7094
+cap "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" -24.06
+cap "PHY_69/VPWR" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 53.641
+cap "PHY_69/VPWR" "PHY_80/VGND" -156.51
+cap "clkbuf_2_0_0_prog_clk/VPWR" "clkbuf_2_0_0_prog_clk/VGND" -7.7234
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_75/VGND" -66.8537
+cap "clkbuf_2_0_0_prog_clk/A" "PHY_75/VGND" 6.3484
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" "clkbuf_2_0_0_prog_clk/VPWR" 1.68468
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_75/VGND" -70.3916
+cap "clkbuf_2_0_0_prog_clk/A" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 178.542
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 12.9435
+cap "clkbuf_2_0_0_prog_clk/A" "clkbuf_2_0_0_prog_clk/VGND" -12.1
+cap "clkbuf_2_0_0_prog_clk/VGND" "PHY_75/VGND" 165.741
+cap "clkbuf_2_0_0_prog_clk/VGND" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 27.6598
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -87.921
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 28.7941
+cap "clkbuf_2_0_0_prog_clk/VPWR" "PHY_75/VGND" 113.645
+cap "clkbuf_2_0_0_prog_clk/VPWR" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 110.703
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" "clkbuf_2_0_0_prog_clk/VPWR" 17.1156
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "clkbuf_2_0_0_prog_clk/VGND" 8.30464
+cap "clkbuf_2_0_0_prog_clk/A" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 3.56491
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 4.44231
+cap "PHY_75/VGND" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" -164.712
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 1.85393
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 52.51
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 29.2286
+cap "clkbuf_1_0_0_prog_clk/VGND" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 13.6047
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 22.2796
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" 2.53846
+cap "PHY_75/VGND" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 4.29
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 41.8249
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 2.35714
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "PHY_75/VGND" 4.29
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_2_0_0_prog_clk/VPWR" 9.05707
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 17.0952
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" -23.459
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 48.3526
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_75/VGND" -176.137
+cap "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 20.7368
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" "clkbuf_2_0_0_prog_clk/VPWR" 1.68468
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "clkbuf_1_0_0_prog_clk/VGND" 15.2791
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" -44.6548
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 27.0218
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" 31.1752
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" 4.25637
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" 25.61
+cap "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 21.259
+cap "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 2.83054
+cap "PHY_70/VPWR" "PHY_81/VGND" 1.0048
+cap "PHY_76/VGND" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" -172.775
+cap "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 4.44231
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 2.35714
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 2.06969
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 4.90261
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" 31.6912
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -1.92005
+cap "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" 2.31
+cap "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 65.319
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 42.8265
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" 19.124
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 20.7368
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" 25.61
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_2_2_0_prog_clk/A" 2.40913
+cap "clkbuf_2_2_0_prog_clk/A" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 9.30769
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" 17.0952
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" -73.362
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 107.067
+cap "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 1.13648
+cap "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" -351.529
+cap "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 21.3376
+cap "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" 41.2814
+cap "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 23.6739
+cap "PHY_82/VPWR" "clkbuf_2_2_0_prog_clk/A" 1.56422
+cap "m1_1104_2128#" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" -255.445
+cap "PHY_77/VPWR" "PHY_77/VGND" -220.55
+cap "m1_1104_2128#" "PHY_77/VGND" -117.248
+cap "PHY_72/VPWR" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 19.124
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_72/VPWR" 13.7957
+cap "PHY_72/VPWR" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" 72.0297
+cap "PHY_72/VPWR" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 35.5504
+cap "PHY_72/VPWR" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 54.6387
+cap "PHY_72/VPWR" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" -83.45
+cap "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" 29.2286
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "m1_1104_2128#" -124.613
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" "m1_1104_2128#" 25.61
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" 59.4448
+cap "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 2.05333
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 47.9327
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 4.29
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "m1_1104_2128#" -168.291
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 75.288
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_72/VPWR" 11.067
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 62.591
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" "m1_1104_2128#" 29.05
+cap "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 22.2796
+cap "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 2.35714
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 5.8
+cap "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 17.0952
+cap "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 20.7368
+cap "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" -130.498
+cap "PHY_78/VPWR" "PHY_78/VGND" -25.1176
+cap "PHY_73/VPWR" "PHY_84/VGND" -7.74
+cap "PHY_84/VGND" "PHY_73/VPWR" -51.9804
+cap "PHY_79/VPWR" "PHY_79/VGND" -1.42109e-14
+cap "PHY_90/VGND" "PHY_79/VPWR" -43.6
+cap "PHY_79/VPWR" "PHY_79/VGND" 8.2258
+cap "PHY_90/VGND" "PHY_79/VPWR" 24.887
+cap "PHY_11/VPWR" "m1_1104_2128#" 26.992
+cap "PHY_13/VGND" "m1_1104_2128#" -86.7508
+subcap "chany_in_7_" -51.3896
+cap "PHY_16/VGND" "VGND" 33.4432
+cap "PHY_18/VPWR" "VGND" 95.7872
+cap "PHY_18/VPWR" "PHY_16/VGND" 7.10543e-14
+cap "PHY_18/VPWR" "PHY_20/VGND" 1.84741e-13
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 39.4912
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 29.276
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 130.699
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 50.7026
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 40.2477
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 53.1526
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 24.3424
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 48.5462
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 32.53
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" 45.6564
+cap "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 120.943
+cap "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_91/VPWR" 53.641
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_91/VPWR" 79.0517
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" "PHY_91/VPWR" 12.445
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_2_0_0_prog_clk/X" 2.64392
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -87.921
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 8.1699
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_2_0_0_prog_clk/VPWR" 46.9294
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" -388.335
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_2_1_0_prog_clk/X" -0.132
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 63.0496
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 54.5822
+cap "clkbuf_2_1_0_prog_clk/X" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 16.125
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 6.536
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 50.7026
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 29.276
+cap "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_2_1_0_prog_clk/X" -38.2261
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -3.79443
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 0.559322
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 45.6564
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_1_0_0_prog_clk/VGND" 51.4649
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_1_0_0_prog_clk/VGND" 595.23
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 1.85393
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_1_0_0_prog_clk/X" 291.177
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_1_0_0_prog_clk/X" 61.6802
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" "clkbuf_1_0_0_prog_clk/VGND" 3.2149
+cap "clkbuf_1_0_0_prog_clk/X" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" 27.6803
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_1_0_0_prog_clk/VPWR" 583.378
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_1_0_0_prog_clk/VPWR" 23.0004
+cap "clkbuf_1_0_0_prog_clk/VGND" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 13.6047
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 31.2552
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 0.559322
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" -266.674
+cap "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" 35.1064
+cap "PHY_92/VPWR" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" -198.706
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_1_0_0_prog_clk/VGND" 590.273
+cap "clkbuf_1_0_0_prog_clk/A" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 18.7888
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "clkbuf_1_0_0_prog_clk/VGND" 15.2791
+cap "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_1_0_0_prog_clk/VPWR" -52.5331
+cap "PHY_92/VPWR" "clkbuf_1_0_0_prog_clk/VGND" -53.6736
+cap "clkbuf_1_0_0_prog_clk/A" "PHY_92/VPWR" 15.4652
+cap "PHY_92/VPWR" "clkbuf_1_0_0_prog_clk/VPWR" 248.654
+cap "clkbuf_0_prog_clk/A" "PHY_92/VGND" 21.8244
+cap "clkbuf_0_prog_clk/X" "PHY_92/VPWR" -5.45635
+cap "PHY_92/VGND" "clkbuf_0_prog_clk/X" -3.18651
+cap "PHY_92/VGND" "PHY_92/VPWR" 86.6296
+cap "clkbuf_0_prog_clk/A" "clkbuf_0_prog_clk/X" -2.22045e-16
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 22
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" -1702.05
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 43.751
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 237.389
+cap "clkbuf_0_prog_clk/A" "clkbuf_0_prog_clk/X" -2.22045e-16
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" -2976.85
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 37.7643
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 29.6198
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 243.025
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 18.7977
+cap "clkbuf_0_prog_clk/VPWR" "clkbuf_0_prog_clk/X" 33
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 38.6759
+cap "clkbuf_0_prog_clk/VPWR" "clkbuf_0_prog_clk/X" 30.3243
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 10.9784
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 3.40944
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 35.7559
+cap "clkbuf_0_prog_clk/X" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 43.6107
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 55.467
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 1.93622
+cap "clkbuf_0_prog_clk/VPWR" "clkbuf_0_prog_clk/X" 8.4782
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 19.0169
+cap "clkbuf_0_prog_clk/VPWR" "clkbuf_0_prog_clk/X" 22.1801
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 1260.02
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 107.766
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 591.75
+cap "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/X" 1.375
+cap "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" "clkbuf_0_prog_clk/X" 41.425
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_0_prog_clk/X" 1.58571
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "clkbuf_0_prog_clk/X" 4.90261
+cap "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" 2.31
+cap "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" "clkbuf_0_prog_clk/X" 24.035
+cap "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" 2.06969
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "clkbuf_0_prog_clk/X" 24.3424
+cap "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 19.9065
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_93/VPWR" 51.3736
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 59.6715
+cap "PHY_93/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 57.5621
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "clkbuf_2_3_0_prog_clk/VGND" 0.0420918
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_2_3_0_prog_clk/VGND" -58.0445
+cap "clkbuf_2_3_0_prog_clk/VGND" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 96.8194
+cap "PHY_93/VPWR" "clkbuf_2_3_0_prog_clk/VGND" 96.9197
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_2_2_0_prog_clk/VPWR" 15.7614
+cap "PHY_93/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 77.4952
+cap "clkbuf_2_3_0_prog_clk/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 99.5144
+cap "clkbuf_2_3_0_prog_clk/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 33.2976
+cap "clkbuf_2_3_0_prog_clk/VPWR" "clkbuf_2_3_0_prog_clk/VGND" -7.7234
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_2_3_0_prog_clk/VPWR" 4.33865
+cap "PHY_93/VPWR" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 104.723
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "clkbuf_2_3_0_prog_clk/VGND" 8.73427
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "clkbuf_2_3_0_prog_clk/VGND" 0.0420918
+cap "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 17.379
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 5.04188
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 115.285
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 53.1526
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 5.9879
+cap "_14_/VPWR" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 80.3547
+cap "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_14_/A" 6.69429
+cap "_14_/VPWR" "_14_/VGND" 55.0498
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 1.17857
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 65.7356
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" 41.952
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 72.4723
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" 80.7277
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 54.9926
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 54.5299
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 62.591
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" 6.81888
+cap "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 1.17857
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" 61.4814
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" -4.44089e-16
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 190.37
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" 29.276
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" 10.4712
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" 4.44231
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 22.2796
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" 5.3366
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 4.29
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 101.861
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 29.2286
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 35.1064
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" 108.346
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" 45.6564
+cap "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 48.5462
+cap "PHY_95/VPWR" "PHY_95/VGND" -7.74
+cap "PHY_95/VPWR" "PHY_106/VGND" -7.74
+cap "PHY_95/VGND" "PHY_95/VPWR" -350.367
+cap "PHY_90/VGND" "PHY_101/VPWR" -361.88
+cap "PHY_101/VGND" "PHY_101/VPWR" -57.4098
+cap "PHY_90/VGND" "PHY_101/VPWR" -80.7468
+cap "VGND" "PHY_17/VGND" 33.4432
+cap "PHY_19/VPWR" "VGND" 95.7872
+cap "PHY_24/VGND" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 71.0752
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_96/VGND" 26.515
+cap "PHY_96/VGND" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 67.199
+cap "PHY_96/VGND" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 104.738
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 86.3196
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" 53.1526
+cap "PHY_96/VGND" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 83.1986
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" 47.0486
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 248.087
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 109.731
+cap "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 28.8102
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 5.8
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 3.22713
+cap "PHY_96/VGND" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 4.29
+cap "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 61.126
+cap "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 7.45
+cap "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 38.2888
+cap "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 44.7129
+cap "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" 4.29
+cap "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_102/VPWR" 49.1175
+cap "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_102/VPWR" 53.641
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" "PHY_102/VPWR" 17.285
+cap "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "PHY_102/VPWR" 22.2796
+cap "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "PHY_102/VPWR" 29.2286
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -55.841
+cap "clkbuf_2_1_0_prog_clk/X" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -4.19448
+cap "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 16.0017
+cap "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 2.15804
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_2_1_0_prog_clk/X" -81.6614
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 5.3489
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" -267.434
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -6.96968
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" 5.3489
+cap "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -4.44089e-16
+cap "PHY_97/VGND" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" -275.112
+cap "PHY_103/VPWR" "PHY_103/VGND" -435.13
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "_15_/A" 0.0504587
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -33.38
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 65.5458
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" 16
+cap "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 2.52475
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 204.869
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK" 22.73
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D" 64.04
+cap "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 10.0435
+cap "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 38.2888
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 64.2419
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 172.635
+cap "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 3.40944
+cap "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 90.3202
+cap "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" 8.25
+cap "PHY_98/VGND" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 70.789
+cap "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 35.4601
+cap "PHY_98/VGND" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 102.305
+cap "PHY_98/VGND" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" 28.8102
+cap "PHY_104/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 2.84665
+cap "PHY_104/VPWR" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" -1.42109e-14
+cap "clkbuf_2_3_0_prog_clk/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 43.029
+cap "PHY_104/VPWR" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 53.934
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "clkbuf_2_3_0_prog_clk/VPWR" 15.6818
+cap "clkbuf_2_3_0_prog_clk/VPWR" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 6.26582
+cap "PHY_104/VPWR" "clkbuf_2_3_0_prog_clk/VPWR" 105.044
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" "PHY_104/VPWR" 17.82
+cap "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 28.027
+cap "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 2.53413
+cap "m1_1104_2128#" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" -76.139
+cap "m1_1104_2128#" "PHY_104/VPWR" 112.055
+cap "PHY_104/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 65.8432
+cap "m1_1104_2128#" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" 28.936
+cap "m1_1104_2128#" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 299.806
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 101.295
+cap "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 13.9
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 1.17857
+cap "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 18.1556
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" -1.42109e-14
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 38.2888
+cap "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" -312.99
+cap "m1_1104_2128#" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 31.2476
+cap "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_99/VGND" 79.8462
+cap "m1_1104_2128#" "PHY_99/VGND" 14.3932
+cap "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_99/VGND" 26.9542
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" 73.3813
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 17.82
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/D" 114.464
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 18.6486
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "m1_1104_2128#" 31.4578
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 75.288
+cap "m1_1104_2128#" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 56.335
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 1.17857
+cap "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q" 61.4814
+cap "m1_1104_2128#" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/Q_N" 38.2888
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" 22.2796
+cap "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/CLK" 29.2286
+cap "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 9.7
+cap "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "m1_1104_2128#" -81.8799
+cap "PHY_111/VGND" "PHY_111/VPWR" 14.3932
+cap "PHY_117/VGND" "PHY_106/VPWR" -7.74
+cap "PHY_106/VGND" "PHY_106/VPWR" -243.08
+cap "PHY_101/VGND" "_23_/VPWR" -180.94
+cap "PHY_112/VPWR" "PHY_112/VGND" -43.029
+cap "PHY_27/VPWR" "PHY_21/VGND" -57.95
+cap "PHY_23/VPWR" "PHY_21/VGND" -65.02
+cap "PHY_23/VPWR" "m1_1104_2128#" 92.1328
+cap "PHY_25/VGND" "m1_1104_2128#" 71.0752
+subcap "left_grid_pin_14_" -16.6856
+cap "PHY_26/VPWR" "PHY_28/VGND" -9.9476e-14
+cap "VGND" "PHY_26/VPWR" 30.6208
+cap "VGND" "PHY_28/VGND" 111.906
+cap "_16_/X" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 146.972
+cap "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 7.5
+cap "_16_/A" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 37.8712
+cap "_16_/VPWR" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 51.2958
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 63.273
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" 19.221
+cap "_11_/X" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 27.5278
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 112.035
+cap "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 3.28316
+cap "_11_/A" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 7.32188
+cap "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" 8.05512
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 3.22713
+cap "_11_/A" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 22.576
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 16.9174
+cap "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 78.894
+cap "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 22.9612
+cap "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 13.848
+cap "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 17.3816
+cap "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_124/VGND" -7.74
+cap "PHY_119/VGND" "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" -76.11
+cap "PHY_119/VPWR" "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" 22.2796
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/CLK" "PHY_119/VPWR" -43.6
+cap "PHY_119/VPWR" "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" 29.2286
+cap "PHY_119/VPWR" "PHY_119/VGND" -363.87
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -580.349
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/CLK" "_15_/VPWR" 33.334
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/D" "_15_/A" 0.0504587
+cap "_15_/VPWR" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" -491.03
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 13.848
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 17.3816
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" 29.2286
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" 22.2796
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 127.992
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/Q" 3.70787
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/CLK" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 44.44
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 81.6636
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 39.0084
+cap "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" 59.7285
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_120/VGND" 6.8924
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" "PHY_120/VGND" 28.7924
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" "PHY_120/VGND" 34.5304
+cap "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 86.2343
+cap "PHY_120/VGND" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" 55.0498
+cap "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_120/VGND" 38.3666
+cap "PHY_131/VPWR" "PHY_120/VGND" 70.2166
+cap "VGND" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" -1.42109e-14
+cap "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 20.115
+cap "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 103.965
+cap "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" 52.4976
+cap "VGND" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" -182.517
+cap "VGND" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q" 17.3816
+cap "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 53.1526
+cap "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/Q_N" "VGND" 13.695
+cap "PHY_121/VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" 22.508
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_121/VGND" 152.486
+cap "PHY_121/VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" 34.7184
+cap "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_121/VGND" 6.3
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_121/VGND" 50.989
+cap "VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 27.0996
+cap "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 9.5625
+cap "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" 53.6118
+cap "VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" 34.5304
+cap "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" 93.1758
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/CLK" 4.62
+cap "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/D" 105.511
+cap "VGND" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" -178.167
+cap "VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -29.0155
+cap "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q_N" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 66.8476
+cap "_12_/A" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 22.576
+cap "_12_/X" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 43.5234
+cap "_12_/A" "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/Q" 2.44444
+cap "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/Q" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 128.026
+cap "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "_12_/X" 4.86047
+cap "_12_/VPWR" "_12_/X" 28.4976
+cap "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" 33.0094
+cap "_12_/VPWR" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" -1.42109e-14
+cap "PHY_122/VGND" "VGND" -196.588
+cap "PHY_128/VGND" "PHY_117/VPWR" -7.74
+cap "PHY_117/VPWR" "_17_/A" 12.8011
+cap "PHY_117/VPWR" "PHY_128/VGND" -270.13
+cap "_18_/VGND" "_18_/VPWR" -407.47
+cap "_18_/VPWR" "_18_/X" 28.4976
+cap "_18_/VGND" "_18_/VPWR" -57.4098
+cap "_18_/VPWR" "_21_/X" 28.4976
+cap "_18_/X" "VGND" 14.0284
+cap "_18_/VGND" "VGND" -139.17
+cap "_18_/VGND" "_18_/X" 15.9956
+cap "PHY_31/VPWR" "PHY_29/VGND" -65.02
+cap "PHY_29/VGND" "PHY_27/VPWR" -57.95
+cap "VGND" "PHY_29/VGND" -87.7444
+cap "VGND" "PHY_31/VPWR" 30.6208
+cap "PHY_32/VGND" "PHY_30/VPWR" 9.9476e-14
+cap "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "_11_/VPWR" 18.1
+cap "_05_/HI" "_11_/VPWR" 52.4118
+cap "_05_/LO" "_11_/VPWR" 38.1802
+cap "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/CLK" "_11_/VPWR" 10.509
+cap "_05_/HI" "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" 107.735
+cap "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 71.4571
+cap "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_124/VPWR" 1.42109e-14
+cap "PHY_137/VPWR" "PHY_130/VGND" -50.74
+cap "PHY_130/VPWR" "PHY_130/VGND" -251.84
+cap "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "PHY_130/VGND" 4.29
+cap "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "PHY_130/VPWR" -23.459
+cap "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 21.259
+cap "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" -322.23
+cap "PHY_138/VGND" "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" 9.051
+cap "PHY_131/VGND" "PHY_139/VPWR" 39.4148
+cap "PHY_140/VPWR" "PHY_140/VGND" 75.9982
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" 94.1582
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" 89.0381
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_03_/HI" 49.3664
+cap "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_03_/LO" 77.693
+cap "PHY_128/VPWR" "_17_/VGND" 6.981
+cap "_17_/A" "PHY_128/VPWR" 10.3751
+cap "_17_/VGND" "PHY_128/VPWR" -314.037
+cap "_09_/VGND" "_09_/VPWR" -180.94
+cap "_21_/X" "_21_/VGND" 15.9956
+cap "_21_/VPWR" "_21_/VGND" -57.4098
+cap "PHY_35/VPWR" "PHY_33/VGND" -65.02
+subcap "chany_out_1_" -385.779
+subcap "chany_out_1_" -233.152
+subcap "chany_in_0_" -233.152
+subcap "chany_in_3_" -233.152
+subcap "chany_out_10_" -233.152
+subcap "pReset" -233.152
+subcap "chany_out_15_" -233.152
+subcap "chany_in_14_" -233.152
+subcap "chany_out_13_" -233.152
+subcap "chany_in_4_" -233.152
+subcap "left_grid_pin_4_" -233.152
+subcap "prog_clk" -233.152
+subcap "chany_out_11_" -233.152
+subcap "chany_in_16_" -403.185
+subcap "chany_out_17_" -233.152
+subcap "chany_out_5_" -233.152
+subcap "chany_in_9_" -233.152
+subcap "chany_in_9_" -310.755
+subcap "chany_out_1_" -136.848
+subcap "chany_in_0_" -136.848
+subcap "chany_in_3_" -136.848
+subcap "chany_out_10_" -136.848
+subcap "pReset" -136.848
+subcap "chany_out_15_" -136.848
+subcap "chany_in_14_" -136.848
+subcap "chany_out_13_" -136.848
+subcap "chany_in_11_" -338.584
+subcap "chany_in_11_" -67.416
+subcap "chany_in_4_" -136.848
+subcap "left_grid_pin_4_" -136.848
+subcap "prog_clk" -136.848
+subcap "chany_out_11_" -136.848
+subcap "chany_out_4_" -70.984
+subcap "chany_out_17_" -136.848
+subcap "chany_out_5_" -136.848
+subcap "chany_in_9_" -136.848
+subcap "chany_in_9_" -265.245
+merge "PHY_35/VPWR" "PHY_145/VPWR" -128868 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6521715 -69466 -31231119 -363880 -661184 -420 -1639751 -348 3668168 -4453 2781744 -56220
+merge "PHY_145/VPWR" "PHY_144/VPWR"
+merge "PHY_144/VPWR" "PHY_143/VPWR"
+merge "PHY_143/VPWR" "PHY_142/VPWR"
+merge "PHY_142/VPWR" "_03_/VPWR"
+merge "_03_/VPWR" "PHY_141/VPWR"
+merge "PHY_141/VPWR" "PHY_140/VPWR"
+merge "PHY_140/VPWR" "PHY_139/VPWR"
+merge "PHY_139/VPWR" "PHY_138/VPWR"
+merge "PHY_138/VPWR" "PHY_137/VPWR"
+merge "PHY_137/VPWR" "PHY_136/VPWR"
+merge "PHY_136/VPWR" "PHY_135/VPWR"
+merge "PHY_135/VPWR" "_05_/VPWR"
+merge "_05_/VPWR" "PHY_34/VPWR"
+merge "PHY_34/VPWR" "PHY_35/VGND"
+merge "PHY_35/VGND" "PHY_33/VPWR"
+merge "PHY_33/VPWR" "PHY_33/VGND"
+merge "PHY_33/VGND" "PHY_31/VGND"
+merge "PHY_31/VGND" "PHY_31/VPWR"
+merge "PHY_31/VPWR" "PHY_29/VGND"
+merge "PHY_29/VGND" "PHY_145/VGND"
+merge "PHY_145/VGND" "PHY_134/VPWR"
+merge "PHY_134/VPWR" "PHY_134/VGND"
+merge "PHY_134/VGND" "_21_/VPWR"
+merge "_21_/VPWR" "_21_/VGND"
+merge "_21_/VGND" "_09_/VPWR"
+merge "_09_/VPWR" "_09_/VGND"
+merge "_09_/VGND" "PHY_123/VGND"
+merge "PHY_123/VGND" "_18_/VGND"
+merge "_18_/VGND" "PHY_144/VGND"
+merge "PHY_144/VGND" "_17_/VPWR"
+merge "_17_/VPWR" "_17_/VGND"
+merge "_17_/VGND" "PHY_128/VGND"
+merge "PHY_128/VGND" "PHY_128/VPWR"
+merge "PHY_128/VPWR" "PHY_143/VGND"
+merge "PHY_143/VGND" "PHY_133/VPWR"
+merge "PHY_133/VPWR" "PHY_133/VGND"
+merge "PHY_133/VGND" "PHY_122/VGND"
+merge "PHY_122/VGND" "PHY_142/VGND"
+merge "PHY_142/VGND" "_22_/VPWR"
+merge "_22_/VPWR" "_22_/VGND"
+merge "_22_/VGND" "_03_/VGND"
+merge "_03_/VGND" "PHY_127/VGND"
+merge "PHY_127/VGND" "PHY_127/VPWR"
+merge "PHY_127/VPWR" "_12_/VGND"
+merge "_12_/VGND" "_12_/VPWR"
+merge "_12_/VPWR" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_141/VGND"
+merge "PHY_141/VGND" "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_132/VPWR"
+merge "PHY_132/VPWR" "PHY_132/VGND"
+merge "PHY_132/VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_121/VGND"
+merge "PHY_121/VGND" "PHY_140/VGND"
+merge "PHY_140/VGND" "PHY_126/VGND"
+merge "PHY_126/VGND" "PHY_126/VPWR"
+merge "PHY_126/VPWR" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_139/VGND"
+merge "PHY_139/VGND" "PHY_131/VPWR"
+merge "PHY_131/VPWR" "PHY_131/VGND"
+merge "PHY_131/VGND" "PHY_120/VGND"
+merge "PHY_120/VGND" "PHY_138/VGND"
+merge "PHY_138/VGND" "PHY_125/VGND"
+merge "PHY_125/VGND" "PHY_125/VPWR"
+merge "PHY_125/VPWR" "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_137/VGND"
+merge "PHY_137/VGND" "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_130/VPWR"
+merge "PHY_130/VPWR" "PHY_130/VGND"
+merge "PHY_130/VGND" "PHY_119/VGND"
+merge "PHY_119/VGND" "PHY_136/VGND"
+merge "PHY_136/VGND" "PHY_124/VGND"
+merge "PHY_124/VGND" "PHY_124/VPWR"
+merge "PHY_124/VPWR" "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "_11_/VGND"
+merge "_11_/VGND" "_11_/VPWR"
+merge "_11_/VPWR" "PHY_135/VGND"
+merge "PHY_135/VGND" "_05_/VGND"
+merge "_05_/VGND" "PHY_129/VPWR"
+merge "PHY_129/VPWR" "PHY_129/VGND"
+merge "PHY_129/VGND" "_19_/VPWR"
+merge "_19_/VPWR" "_19_/VGND"
+merge "_19_/VGND" "_16_/VGND"
+merge "_16_/VGND" "_16_/VPWR"
+merge "_16_/VPWR" "PHY_118/VGND"
+merge "PHY_118/VGND" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_34/VGND"
+merge "PHY_34/VGND" "PHY_32/VPWR"
+merge "PHY_32/VPWR" "PHY_32/VGND"
+merge "PHY_32/VGND" "PHY_30/VGND"
+merge "PHY_30/VGND" "PHY_30/VPWR"
+merge "PHY_30/VPWR" "PHY_28/VGND"
+merge "PHY_28/VGND" "PHY_29/VPWR"
+merge "PHY_29/VPWR" "PHY_27/VGND"
+merge "PHY_27/VGND" "PHY_27/VPWR"
+merge "PHY_27/VPWR" "PHY_25/VGND"
+merge "PHY_25/VGND" "PHY_123/VPWR"
+merge "PHY_123/VPWR" "_27_/VGND"
+merge "_27_/VGND" "_27_/VPWR"
+merge "_27_/VPWR" "_18_/VPWR"
+merge "_18_/VPWR" "PHY_112/VGND"
+merge "PHY_112/VGND" "PHY_117/VGND"
+merge "PHY_117/VGND" "PHY_117/VPWR"
+merge "PHY_117/VPWR" "PHY_122/VPWR"
+merge "PHY_122/VPWR" "PHY_111/VGND"
+merge "PHY_111/VGND" "PHY_116/VGND"
+merge "PHY_116/VGND" "PHY_116/VPWR"
+merge "PHY_116/VPWR" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_121/VPWR"
+merge "PHY_121/VPWR" "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_110/VGND"
+merge "PHY_110/VGND" "PHY_115/VGND"
+merge "PHY_115/VGND" "PHY_115/VPWR"
+merge "PHY_115/VPWR" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_120/VPWR"
+merge "PHY_120/VPWR" "PHY_109/VGND"
+merge "PHY_109/VGND" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_114/VGND"
+merge "PHY_114/VGND" "PHY_114/VPWR"
+merge "PHY_114/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_15_/VGND"
+merge "_15_/VGND" "_15_/VPWR"
+merge "_15_/VPWR" "PHY_119/VPWR"
+merge "PHY_119/VPWR" "PHY_108/VGND"
+merge "PHY_108/VGND" "PHY_113/VGND"
+merge "PHY_113/VGND" "PHY_113/VPWR"
+merge "PHY_113/VPWR" "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_118/VPWR"
+merge "PHY_118/VPWR" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_107/VGND"
+merge "PHY_107/VGND" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_28/VPWR"
+merge "PHY_28/VPWR" "PHY_26/VGND"
+merge "PHY_26/VGND" "PHY_26/VPWR"
+merge "PHY_26/VPWR" "PHY_24/VGND"
+merge "PHY_24/VGND" "PHY_25/VPWR"
+merge "PHY_25/VPWR" "PHY_23/VGND"
+merge "PHY_23/VGND" "PHY_23/VPWR"
+merge "PHY_23/VPWR" "PHY_21/VPWR"
+merge "PHY_21/VPWR" "PHY_21/VGND"
+merge "PHY_21/VGND" "PHY_19/VPWR"
+merge "PHY_19/VPWR" "PHY_112/VPWR"
+merge "PHY_112/VPWR" "_23_/VGND"
+merge "_23_/VGND" "_23_/VPWR"
+merge "_23_/VPWR" "PHY_101/VPWR"
+merge "PHY_101/VPWR" "PHY_101/VGND"
+merge "PHY_101/VGND" "PHY_106/VGND"
+merge "PHY_106/VGND" "PHY_106/VPWR"
+merge "PHY_106/VPWR" "PHY_95/VPWR"
+merge "PHY_95/VPWR" "PHY_111/VPWR"
+merge "PHY_111/VPWR" "PHY_100/VPWR"
+merge "PHY_100/VPWR" "PHY_100/VGND"
+merge "PHY_100/VGND" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_105/VGND"
+merge "PHY_105/VGND" "PHY_105/VPWR"
+merge "PHY_105/VPWR" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_94/VPWR"
+merge "PHY_94/VPWR" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_110/VPWR"
+merge "PHY_110/VPWR" "PHY_99/VPWR"
+merge "PHY_99/VPWR" "PHY_99/VGND"
+merge "PHY_99/VGND" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_14_/VPWR"
+merge "_14_/VPWR" "_14_/VGND"
+merge "_14_/VGND" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "clkbuf_2_3_0_prog_clk/A"
+merge "clkbuf_2_3_0_prog_clk/A" "clkbuf_2_3_0_prog_clk/X"
+merge "clkbuf_2_3_0_prog_clk/X" "PHY_104/VGND"
+merge "PHY_104/VGND" "PHY_104/VPWR"
+merge "PHY_104/VPWR" "PHY_93/VPWR"
+merge "PHY_93/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "clkbuf_1_1_0_prog_clk/VPWR"
+merge "clkbuf_1_1_0_prog_clk/VPWR" "PHY_109/VPWR"
+merge "PHY_109/VPWR" "PHY_98/VPWR"
+merge "PHY_98/VPWR" "PHY_98/VGND"
+merge "PHY_98/VGND" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_103/VGND"
+merge "PHY_103/VGND" "clkbuf_2_1_0_prog_clk/VGND"
+merge "clkbuf_2_1_0_prog_clk/VGND" "PHY_97/VGND"
+merge "PHY_97/VGND" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_102/VGND"
+merge "PHY_102/VGND" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_96/VGND"
+merge "PHY_96/VGND" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_22/VGND"
+merge "PHY_22/VGND" "PHY_20/VGND"
+merge "PHY_20/VGND" "PHY_19/VGND"
+merge "PHY_19/VGND" "PHY_17/VGND"
+merge "PHY_17/VGND" "PHY_90/VGND"
+merge "PHY_90/VGND" "PHY_95/VGND"
+merge "PHY_95/VGND" "PHY_89/VGND"
+merge "PHY_89/VGND" "PHY_94/VGND"
+merge "PHY_94/VGND" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_88/VGND"
+merge "PHY_88/VGND" "PHY_93/VGND"
+merge "PHY_93/VGND" "clkbuf_1_1_0_prog_clk/VGND"
+merge "clkbuf_1_1_0_prog_clk/VGND" "clkbuf_1_1_0_prog_clk/A"
+merge "clkbuf_1_1_0_prog_clk/A" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q_N" "clkbuf_1_1_0_prog_clk/X"
+merge "clkbuf_1_1_0_prog_clk/X" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_87/VGND"
+merge "PHY_87/VGND" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/RESET_B" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/D" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK" "clkbuf_0_prog_clk/X"
+merge "clkbuf_0_prog_clk/X" "clkbuf_0_prog_clk/VGND"
+merge "clkbuf_0_prog_clk/VGND" "PHY_92/VGND"
+merge "PHY_92/VGND" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_86/VGND"
+merge "PHY_86/VGND" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_91/VGND"
+merge "PHY_91/VGND" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_85/VGND"
+merge "PHY_85/VGND" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_18/VGND"
+merge "PHY_18/VGND" "PHY_16/VGND"
+merge "PHY_16/VGND" "PHY_15/VGND"
+merge "PHY_15/VGND" "PHY_13/VGND"
+merge "PHY_13/VGND" "PHY_11/VGND"
+merge "PHY_11/VGND" "PHY_9/VGND"
+merge "PHY_9/VGND" "PHY_79/VGND"
+merge "PHY_79/VGND" "PHY_68/VGND"
+merge "PHY_68/VGND" "PHY_84/VGND"
+merge "PHY_84/VGND" "PHY_73/VGND"
+merge "PHY_73/VGND" "PHY_78/VGND"
+merge "PHY_78/VGND" "PHY_67/VGND"
+merge "PHY_67/VGND" "PHY_83/VGND"
+merge "PHY_83/VGND" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_72/VGND"
+merge "PHY_72/VGND" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_77/VGND"
+merge "PHY_77/VGND" "PHY_66/VGND"
+merge "PHY_66/VGND" "clkbuf_2_2_0_prog_clk/VGND"
+merge "clkbuf_2_2_0_prog_clk/VGND" "PHY_82/VGND"
+merge "PHY_82/VGND" "PHY_71/VGND"
+merge "PHY_71/VGND" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_76/VGND"
+merge "PHY_76/VGND" "PHY_65/VGND"
+merge "PHY_65/VGND" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_81/VGND"
+merge "PHY_81/VGND" "PHY_70/VGND"
+merge "PHY_70/VGND" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_75/VGND"
+merge "PHY_75/VGND" "PHY_64/VGND"
+merge "PHY_64/VGND" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_80/VGND"
+merge "PHY_80/VGND" "PHY_69/VGND"
+merge "PHY_69/VGND" "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_74/VGND"
+merge "PHY_74/VGND" "PHY_63/VGND"
+merge "PHY_63/VGND" "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_14/VGND"
+merge "PHY_14/VGND" "PHY_12/VGND"
+merge "PHY_12/VGND" "PHY_10/VGND"
+merge "PHY_10/VGND" "PHY_8/VGND"
+merge "PHY_8/VGND" "PHY_7/VGND"
+merge "PHY_7/VGND" "PHY_5/VGND"
+merge "PHY_5/VGND" "PHY_57/VGND"
+merge "PHY_57/VGND" "_02_/VGND"
+merge "_02_/VGND" "PHY_62/VGND"
+merge "PHY_62/VGND" "PHY_56/VGND"
+merge "PHY_56/VGND" "PHY_61/VGND"
+merge "PHY_61/VGND" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_55/VGND"
+merge "PHY_55/VGND" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_60/VGND"
+merge "PHY_60/VGND" "PHY_54/VGND"
+merge "PHY_54/VGND" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_59/VGND"
+merge "PHY_59/VGND" "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VGND" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_53/VGND"
+merge "PHY_53/VGND" "PHY_58/VGND"
+merge "PHY_58/VGND" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_52/VGND"
+merge "PHY_52/VGND" "_25_/VGND"
+merge "_25_/VGND" "_04_/VGND"
+merge "_04_/VGND" "PHY_6/VGND"
+merge "PHY_6/VGND" "PHY_4/VGND"
+merge "PHY_4/VGND" "PHY_3/VGND"
+merge "PHY_3/VGND" "PHY_1/VGND"
+merge "PHY_1/VGND" "PHY_46/VGND"
+merge "PHY_46/VGND" "_00_/VGND"
+merge "_00_/VGND" "_26_/VGND"
+merge "_26_/VGND" "_24_/VGND"
+merge "_24_/VGND" "PHY_45/VGND"
+merge "PHY_45/VGND" "PHY_51/VGND"
+merge "PHY_51/VGND" "PHY_44/VGND"
+merge "PHY_44/VGND" "_10_/VGND"
+merge "_10_/VGND" "PHY_43/VGND"
+merge "PHY_43/VGND" "_13_/VGND"
+merge "_13_/VGND" "PHY_50/VGND"
+merge "PHY_50/VGND" "PHY_42/VGND"
+merge "PHY_42/VGND" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_41/VGND"
+merge "PHY_41/VGND" "PHY_49/VGND"
+merge "PHY_49/VGND" "_08_/VGND"
+merge "_08_/VGND" "_20_/VGND"
+merge "_20_/VGND" "PHY_40/VGND"
+merge "PHY_40/VGND" "_07_/VGND"
+merge "_07_/VGND" "PHY_48/VGND"
+merge "PHY_48/VGND" "PHY_39/VGND"
+merge "PHY_39/VGND" "_06_/VGND"
+merge "_06_/VGND" "PHY_38/VGND"
+merge "PHY_38/VGND" "PHY_47/VGND"
+merge "PHY_47/VGND" "PHY_37/VGND"
+merge "PHY_37/VGND" "PHY_36/VGND"
+merge "PHY_36/VGND" "_01_/VGND"
+merge "_01_/VGND" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND"
+merge "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VGND" "PHY_2/VGND"
+merge "PHY_2/VGND" "PHY_0/VGND"
+merge "PHY_0/VGND" "VGND"
+merge "VGND" "clkbuf_0_prog_clk/VPWR"
+merge "clkbuf_0_prog_clk/VPWR" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_103/VPWR"
+merge "PHY_103/VPWR" "PHY_92/VPWR"
+merge "PHY_92/VPWR" "PHY_108/VPWR"
+merge "PHY_108/VPWR" "clkbuf_2_1_0_prog_clk/VPWR"
+merge "clkbuf_2_1_0_prog_clk/VPWR" "PHY_97/VPWR"
+merge "PHY_97/VPWR" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_102/VPWR"
+merge "PHY_102/VPWR" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_91/VPWR"
+merge "PHY_91/VPWR" "PHY_107/VPWR"
+merge "PHY_107/VPWR" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_96/VPWR"
+merge "PHY_96/VPWR" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_24/VPWR"
+merge "PHY_24/VPWR" "PHY_22/VPWR"
+merge "PHY_22/VPWR" "PHY_20/VPWR"
+merge "PHY_20/VPWR" "PHY_18/VPWR"
+merge "PHY_18/VPWR" "PHY_17/VPWR"
+merge "PHY_17/VPWR" "PHY_15/VPWR"
+merge "PHY_15/VPWR" "PHY_90/VPWR"
+merge "PHY_90/VPWR" "PHY_84/VPWR"
+merge "PHY_84/VPWR" "PHY_89/VPWR"
+merge "PHY_89/VPWR" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_83/VPWR"
+merge "PHY_83/VPWR" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_88/VPWR"
+merge "PHY_88/VPWR" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q"
+merge "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q" "clkbuf_2_2_0_prog_clk/VPWR"
+merge "clkbuf_2_2_0_prog_clk/VPWR" "PHY_82/VPWR"
+merge "PHY_82/VPWR" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_87/VPWR"
+merge "PHY_87/VPWR" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_81/VPWR"
+merge "PHY_81/VPWR" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_86/VPWR"
+merge "PHY_86/VPWR" "clkbuf_2_0_0_prog_clk/X"
+merge "clkbuf_2_0_0_prog_clk/X" "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_80/VPWR"
+merge "PHY_80/VPWR" "PHY_85/VPWR"
+merge "PHY_85/VPWR" "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_16/VPWR"
+merge "PHY_16/VPWR" "PHY_14/VPWR"
+merge "PHY_14/VPWR" "PHY_13/VPWR"
+merge "PHY_13/VPWR" "PHY_11/VPWR"
+merge "PHY_11/VPWR" "PHY_79/VPWR"
+merge "PHY_79/VPWR" "PHY_73/VPWR"
+merge "PHY_73/VPWR" "PHY_78/VPWR"
+merge "PHY_78/VPWR" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_72/VPWR"
+merge "PHY_72/VPWR" "PHY_77/VPWR"
+merge "PHY_77/VPWR" "PHY_71/VPWR"
+merge "PHY_71/VPWR" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_76/VPWR"
+merge "PHY_76/VPWR" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_70/VPWR"
+merge "PHY_70/VPWR" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_75/VPWR"
+merge "PHY_75/VPWR" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_69/VPWR"
+merge "PHY_69/VPWR" "PHY_74/VPWR"
+merge "PHY_74/VPWR" "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_12/VPWR"
+merge "PHY_12/VPWR" "PHY_10/VPWR"
+merge "PHY_10/VPWR" "PHY_9/VPWR"
+merge "PHY_9/VPWR" "PHY_7/VPWR"
+merge "PHY_7/VPWR" "PHY_5/VPWR"
+merge "PHY_5/VPWR" "PHY_3/VPWR"
+merge "PHY_3/VPWR" "_00_/VPWR"
+merge "_00_/VPWR" "PHY_68/VPWR"
+merge "PHY_68/VPWR" "PHY_57/VPWR"
+merge "PHY_57/VPWR" "_02_/VPWR"
+merge "_02_/VPWR" "_24_/VPWR"
+merge "_24_/VPWR" "PHY_62/VPWR"
+merge "PHY_62/VPWR" "PHY_51/VPWR"
+merge "PHY_51/VPWR" "PHY_67/VPWR"
+merge "PHY_67/VPWR" "PHY_56/VPWR"
+merge "PHY_56/VPWR" "_10_/VPWR"
+merge "_10_/VPWR" "_13_/VPWR"
+merge "_13_/VPWR" "PHY_61/VPWR"
+merge "PHY_61/VPWR" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_50/VPWR"
+merge "PHY_50/VPWR" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_66/VPWR"
+merge "PHY_66/VPWR" "PHY_55/VPWR"
+merge "PHY_55/VPWR" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_60/VPWR"
+merge "PHY_60/VPWR" "PHY_49/VPWR"
+merge "PHY_49/VPWR" "_08_/VPWR"
+merge "_08_/VPWR" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "_20_/VPWR"
+merge "_20_/VPWR" "PHY_65/VPWR"
+merge "PHY_65/VPWR" "PHY_54/VPWR"
+merge "PHY_54/VPWR" "_07_/VPWR"
+merge "_07_/VPWR" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_59/VPWR"
+merge "PHY_59/VPWR" "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_48/VPWR"
+merge "PHY_48/VPWR" "_06_/VPWR"
+merge "_06_/VPWR" "PHY_64/VPWR"
+merge "PHY_64/VPWR" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_53/VPWR"
+merge "PHY_53/VPWR" "PHY_58/VPWR"
+merge "PHY_58/VPWR" "PHY_47/VPWR"
+merge "PHY_47/VPWR" "PHY_63/VPWR"
+merge "PHY_63/VPWR" "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VPWR" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_52/VPWR"
+merge "PHY_52/VPWR" "_25_/VPWR"
+merge "_25_/VPWR" "_04_/VPWR"
+merge "_04_/VPWR" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR"
+merge "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VPWR" "PHY_8/VPWR"
+merge "PHY_8/VPWR" "PHY_6/VPWR"
+merge "PHY_6/VPWR" "PHY_4/VPWR"
+merge "PHY_4/VPWR" "PHY_2/VPWR"
+merge "PHY_2/VPWR" "PHY_1/VPWR"
+merge "PHY_1/VPWR" "PHY_46/VPWR"
+merge "PHY_46/VPWR" "_26_/VPWR"
+merge "_26_/VPWR" "PHY_45/VPWR"
+merge "PHY_45/VPWR" "PHY_44/VPWR"
+merge "PHY_44/VPWR" "PHY_43/VPWR"
+merge "PHY_43/VPWR" "PHY_42/VPWR"
+merge "PHY_42/VPWR" "PHY_41/VPWR"
+merge "PHY_41/VPWR" "PHY_40/VPWR"
+merge "PHY_40/VPWR" "PHY_39/VPWR"
+merge "PHY_39/VPWR" "PHY_38/VPWR"
+merge "PHY_38/VPWR" "PHY_37/VPWR"
+merge "PHY_37/VPWR" "PHY_36/VPWR"
+merge "PHY_36/VPWR" "_01_/VPWR"
+merge "_01_/VPWR" "PHY_0/VPWR"
+merge "PHY_0/VPWR" "m1_1104_2128#"
+merge "m1_1104_2128#" "clkbuf_2_2_0_prog_clk/X"
+merge "PHY_35/VSUBS" "PHY_33/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "PHY_33/VSUBS" "PHY_31/VSUBS"
+merge "PHY_31/VSUBS" "PHY_145/VSUBS"
+merge "PHY_145/VSUBS" "PHY_134/VSUBS"
+merge "PHY_134/VSUBS" "_21_/VSUBS"
+merge "_21_/VSUBS" "_09_/VSUBS"
+merge "_09_/VSUBS" "PHY_144/VSUBS"
+merge "PHY_144/VSUBS" "_17_/VSUBS"
+merge "_17_/VSUBS" "PHY_128/VSUBS"
+merge "PHY_128/VSUBS" "PHY_143/VSUBS"
+merge "PHY_143/VSUBS" "PHY_133/VSUBS"
+merge "PHY_133/VSUBS" "PHY_142/VSUBS"
+merge "PHY_142/VSUBS" "_22_/VSUBS"
+merge "_22_/VSUBS" "_03_/VSUBS"
+merge "_03_/VSUBS" "PHY_127/VSUBS"
+merge "PHY_127/VSUBS" "_12_/VSUBS"
+merge "_12_/VSUBS" "PHY_141/VSUBS"
+merge "PHY_141/VSUBS" "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_132/VSUBS"
+merge "PHY_132/VSUBS" "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_3.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_140/VSUBS"
+merge "PHY_140/VSUBS" "PHY_126/VSUBS"
+merge "PHY_126/VSUBS" "PHY_139/VSUBS"
+merge "PHY_139/VSUBS" "PHY_131/VSUBS"
+merge "PHY_131/VSUBS" "PHY_138/VSUBS"
+merge "PHY_138/VSUBS" "PHY_125/VSUBS"
+merge "PHY_125/VSUBS" "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_7.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_137/VSUBS"
+merge "PHY_137/VSUBS" "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_7.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_130/VSUBS"
+merge "PHY_130/VSUBS" "PHY_136/VSUBS"
+merge "PHY_136/VSUBS" "PHY_124/VSUBS"
+merge "PHY_124/VSUBS" "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "_11_/VSUBS"
+merge "_11_/VSUBS" "PHY_135/VSUBS"
+merge "PHY_135/VSUBS" "_05_/VSUBS"
+merge "_05_/VSUBS" "PHY_129/VSUBS"
+merge "PHY_129/VSUBS" "_19_/VSUBS"
+merge "_19_/VSUBS" "_16_/VSUBS"
+merge "_16_/VSUBS" "PHY_34/VSUBS"
+merge "PHY_34/VSUBS" "PHY_32/VSUBS"
+merge "PHY_32/VSUBS" "PHY_30/VSUBS"
+merge "PHY_30/VSUBS" "PHY_29/VSUBS"
+merge "PHY_29/VSUBS" "PHY_27/VSUBS"
+merge "PHY_27/VSUBS" "PHY_123/VSUBS"
+merge "PHY_123/VSUBS" "_27_/VSUBS"
+merge "_27_/VSUBS" "_18_/VSUBS"
+merge "_18_/VSUBS" "PHY_117/VSUBS"
+merge "PHY_117/VSUBS" "PHY_122/VSUBS"
+merge "PHY_122/VSUBS" "PHY_116/VSUBS"
+merge "PHY_116/VSUBS" "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_121/VSUBS"
+merge "PHY_121/VSUBS" "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_3.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_115/VSUBS"
+merge "PHY_115/VSUBS" "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_3.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_120/VSUBS"
+merge "PHY_120/VSUBS" "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_7.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_114/VSUBS"
+merge "PHY_114/VSUBS" "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_7.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "_15_/VSUBS"
+merge "_15_/VSUBS" "PHY_119/VSUBS"
+merge "PHY_119/VSUBS" "PHY_113/VSUBS"
+merge "PHY_113/VSUBS" "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_118/VSUBS"
+merge "PHY_118/VSUBS" "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_28/VSUBS"
+merge "PHY_28/VSUBS" "PHY_26/VSUBS"
+merge "PHY_26/VSUBS" "PHY_25/VSUBS"
+merge "PHY_25/VSUBS" "PHY_23/VSUBS"
+merge "PHY_23/VSUBS" "PHY_21/VSUBS"
+merge "PHY_21/VSUBS" "PHY_112/VSUBS"
+merge "PHY_112/VSUBS" "_23_/VSUBS"
+merge "_23_/VSUBS" "PHY_101/VSUBS"
+merge "PHY_101/VSUBS" "PHY_106/VSUBS"
+merge "PHY_106/VSUBS" "PHY_111/VSUBS"
+merge "PHY_111/VSUBS" "PHY_100/VSUBS"
+merge "PHY_100/VSUBS" "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_4.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_105/VSUBS"
+merge "PHY_105/VSUBS" "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_4.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_4.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_110/VSUBS"
+merge "PHY_110/VSUBS" "PHY_99/VSUBS"
+merge "PHY_99/VSUBS" "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_3.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "_14_/VSUBS"
+merge "_14_/VSUBS" "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_3.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "clkbuf_2_3_0_prog_clk/VSUBS"
+merge "clkbuf_2_3_0_prog_clk/VSUBS" "PHY_104/VSUBS"
+merge "PHY_104/VSUBS" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_109/VSUBS"
+merge "PHY_109/VSUBS" "PHY_98/VSUBS"
+merge "PHY_98/VSUBS" "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_7.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_7.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_103/VSUBS"
+merge "PHY_103/VSUBS" "PHY_108/VSUBS"
+merge "PHY_108/VSUBS" "clkbuf_2_1_0_prog_clk/VSUBS"
+merge "clkbuf_2_1_0_prog_clk/VSUBS" "PHY_97/VSUBS"
+merge "PHY_97/VSUBS" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_102/VSUBS"
+merge "PHY_102/VSUBS" "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_107/VSUBS"
+merge "PHY_107/VSUBS" "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_96/VSUBS"
+merge "PHY_96/VSUBS" "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_24/VSUBS"
+merge "PHY_24/VSUBS" "PHY_22/VSUBS"
+merge "PHY_22/VSUBS" "PHY_20/VSUBS"
+merge "PHY_20/VSUBS" "PHY_19/VSUBS"
+merge "PHY_19/VSUBS" "PHY_17/VSUBS"
+merge "PHY_17/VSUBS" "PHY_90/VSUBS"
+merge "PHY_90/VSUBS" "PHY_95/VSUBS"
+merge "PHY_95/VSUBS" "PHY_89/VSUBS"
+merge "PHY_89/VSUBS" "PHY_94/VSUBS"
+merge "PHY_94/VSUBS" "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_5.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_4.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_88/VSUBS"
+merge "PHY_88/VSUBS" "PHY_93/VSUBS"
+merge "PHY_93/VSUBS" "clkbuf_1_1_0_prog_clk/VSUBS"
+merge "clkbuf_1_1_0_prog_clk/VSUBS" "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_2.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_87/VSUBS"
+merge "PHY_87/VSUBS" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "clkbuf_0_prog_clk/VSUBS"
+merge "clkbuf_0_prog_clk/VSUBS" "PHY_92/VSUBS"
+merge "PHY_92/VSUBS" "clkbuf_1_0_0_prog_clk/VSUBS"
+merge "clkbuf_1_0_0_prog_clk/VSUBS" "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_1.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_86/VSUBS"
+merge "PHY_86/VSUBS" "clkbuf_2_0_0_prog_clk/VSUBS"
+merge "clkbuf_2_0_0_prog_clk/VSUBS" "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_1.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_91/VSUBS"
+merge "PHY_91/VSUBS" "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_85/VSUBS"
+merge "PHY_85/VSUBS" "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_0.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_18/VSUBS"
+merge "PHY_18/VSUBS" "PHY_16/VSUBS"
+merge "PHY_16/VSUBS" "PHY_15/VSUBS"
+merge "PHY_15/VSUBS" "PHY_13/VSUBS"
+merge "PHY_13/VSUBS" "PHY_11/VSUBS"
+merge "PHY_11/VSUBS" "PHY_79/VSUBS"
+merge "PHY_79/VSUBS" "PHY_84/VSUBS"
+merge "PHY_84/VSUBS" "PHY_73/VSUBS"
+merge "PHY_73/VSUBS" "PHY_78/VSUBS"
+merge "PHY_78/VSUBS" "PHY_83/VSUBS"
+merge "PHY_83/VSUBS" "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_5.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_5.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_72/VSUBS"
+merge "PHY_72/VSUBS" "PHY_77/VSUBS"
+merge "PHY_77/VSUBS" "clkbuf_2_2_0_prog_clk/VSUBS"
+merge "clkbuf_2_2_0_prog_clk/VSUBS" "PHY_82/VSUBS"
+merge "PHY_82/VSUBS" "PHY_71/VSUBS"
+merge "PHY_71/VSUBS" "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_76/VSUBS"
+merge "PHY_76/VSUBS" "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_2.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_81/VSUBS"
+merge "PHY_81/VSUBS" "PHY_70/VSUBS"
+merge "PHY_70/VSUBS" "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_1.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_75/VSUBS"
+merge "PHY_75/VSUBS" "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_1.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_80/VSUBS"
+merge "PHY_80/VSUBS" "PHY_69/VSUBS"
+merge "PHY_69/VSUBS" "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_0.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_74/VSUBS"
+merge "PHY_74/VSUBS" "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_0.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_14/VSUBS"
+merge "PHY_14/VSUBS" "PHY_12/VSUBS"
+merge "PHY_12/VSUBS" "PHY_10/VSUBS"
+merge "PHY_10/VSUBS" "PHY_9/VSUBS"
+merge "PHY_9/VSUBS" "PHY_7/VSUBS"
+merge "PHY_7/VSUBS" "PHY_5/VSUBS"
+merge "PHY_5/VSUBS" "PHY_68/VSUBS"
+merge "PHY_68/VSUBS" "PHY_57/VSUBS"
+merge "PHY_57/VSUBS" "_02_/VSUBS"
+merge "_02_/VSUBS" "PHY_62/VSUBS"
+merge "PHY_62/VSUBS" "PHY_67/VSUBS"
+merge "PHY_67/VSUBS" "PHY_56/VSUBS"
+merge "PHY_56/VSUBS" "PHY_61/VSUBS"
+merge "PHY_61/VSUBS" "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_5.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_5.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_66/VSUBS"
+merge "PHY_66/VSUBS" "PHY_55/VSUBS"
+merge "PHY_55/VSUBS" "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_5.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_60/VSUBS"
+merge "PHY_60/VSUBS" "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_65/VSUBS"
+merge "PHY_65/VSUBS" "PHY_54/VSUBS"
+merge "PHY_54/VSUBS" "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_2.sc_dff_compact_3_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_59/VSUBS"
+merge "PHY_59/VSUBS" "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_2.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_64/VSUBS"
+merge "PHY_64/VSUBS" "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_53/VSUBS"
+merge "PHY_53/VSUBS" "PHY_58/VSUBS"
+merge "PHY_58/VSUBS" "PHY_63/VSUBS"
+merge "PHY_63/VSUBS" "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_0.sc_dff_compact_2_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_52/VSUBS"
+merge "PHY_52/VSUBS" "_25_/VSUBS"
+merge "_25_/VSUBS" "_04_/VSUBS"
+merge "_04_/VSUBS" "PHY_8/VSUBS"
+merge "PHY_8/VSUBS" "PHY_6/VSUBS"
+merge "PHY_6/VSUBS" "PHY_4/VSUBS"
+merge "PHY_4/VSUBS" "PHY_3/VSUBS"
+merge "PHY_3/VSUBS" "PHY_1/VSUBS"
+merge "PHY_1/VSUBS" "PHY_46/VSUBS"
+merge "PHY_46/VSUBS" "_00_/VSUBS"
+merge "_00_/VSUBS" "_26_/VSUBS"
+merge "_26_/VSUBS" "_24_/VSUBS"
+merge "_24_/VSUBS" "PHY_45/VSUBS"
+merge "PHY_45/VSUBS" "PHY_51/VSUBS"
+merge "PHY_51/VSUBS" "PHY_44/VSUBS"
+merge "PHY_44/VSUBS" "_10_/VSUBS"
+merge "_10_/VSUBS" "PHY_43/VSUBS"
+merge "PHY_43/VSUBS" "_13_/VSUBS"
+merge "_13_/VSUBS" "PHY_50/VSUBS"
+merge "PHY_50/VSUBS" "PHY_42/VSUBS"
+merge "PHY_42/VSUBS" "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_41/VSUBS"
+merge "PHY_41/VSUBS" "PHY_49/VSUBS"
+merge "PHY_49/VSUBS" "_08_/VSUBS"
+merge "_08_/VSUBS" "_20_/VSUBS"
+merge "_20_/VSUBS" "PHY_40/VSUBS"
+merge "PHY_40/VSUBS" "_07_/VSUBS"
+merge "_07_/VSUBS" "PHY_48/VSUBS"
+merge "PHY_48/VSUBS" "PHY_39/VSUBS"
+merge "PHY_39/VSUBS" "_06_/VSUBS"
+merge "_06_/VSUBS" "PHY_38/VSUBS"
+merge "PHY_38/VSUBS" "PHY_47/VSUBS"
+merge "PHY_47/VSUBS" "PHY_37/VSUBS"
+merge "PHY_37/VSUBS" "PHY_36/VSUBS"
+merge "PHY_36/VSUBS" "_01_/VSUBS"
+merge "_01_/VSUBS" "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS"
+merge "mem_left_ipin_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/VSUBS" "PHY_2/VSUBS"
+merge "PHY_2/VSUBS" "PHY_0/VSUBS"
+merge "PHY_0/VSUBS" "VSUBS"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_547_427#" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_522_315#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_522_315#" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_477_153#"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_477_153#" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_409_61#"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_409_61#" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_203_69#"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_203_69#" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_18_69#"
+merge "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_18_69#" "clkbuf_0_prog_clk/li_114_53#"
+merge "clkbuf_2_1_0_prog_clk/A" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B" -89.654 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2909 -166 0 0 0 0 0 0 0 0 0 0
+merge "clkbuf_2_3_0_prog_clk/li_85_212#" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/li_1117_51#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/li_1117_51#" "mem_right_ipin_3.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/li_1169_141#"
+merge "clkbuf_2_1_0_prog_clk/li_85_212#" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/li_1117_51#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/li_1117_51#" "mem_right_ipin_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/li_1341_139#"
+merge "clkbuf_2_0_0_prog_clk/li_85_212#" "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/li_547_427#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/li_547_427#" "mem_right_ipin_1.sc_dff_compact_4_.sky130_fd_sc_hd__dfrbp_1/li_522_315#"
+merge "clkbuf_1_1_0_prog_clk/li_85_212#" "mem_right_ipin_6.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/li_1839_69#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

@@ -1,0 +1,1010 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/openlane_src_cells.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/openlane_src_cells.v' to AST representation.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp'.
+Generating RTLIL representation for module `\iopad'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/luts.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/luts.v' to AST representation.
+Generating RTLIL representation for module `\lut4'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/cby_0_1.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/cby_0_1.v' to AST representation.
+Generating RTLIL representation for module `\cby_0__1_'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v' to AST representation.
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:100)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:142)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189)
+Generating RTLIL representation for module `\const0'.
+Generating RTLIL representation for module `\const1'.
+Generating RTLIL representation for module `\INVTX1'.
+/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\buf4'.
+/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:100: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\tap_buf4'.
+/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:142: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\TGATE'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/memories.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/memories.v' to AST representation.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4_mem'.
+Generating RTLIL representation for module `\mux_2level_size14_mem'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2_mem'.
+Generating RTLIL representation for module `\lut4_sc_dff_compact_mem'.
+Generating RTLIL representation for module `\iopad_sc_dff_compact_mem'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/user_defined_templates.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/user_defined_templates.v' to AST representation.
+Generating RTLIL representation for module `\static_dff'.
+/openLANE_flow/designs/cby_0__1_/src/user_defined_templates.v:31: Warning: Identifier `\SET' is implicitly declared.
+Generating RTLIL representation for module `\sc_dff_compact'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/logical_tile_clb.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/logical_tile_clb.v' to AST representation.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_clb_'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/muxes.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/muxes.v' to AST representation.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9_basis_size4'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_size14_basis_size4'.
+Generating RTLIL representation for module `\mux_2level_size14_basis_size3'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2_basis_size3'.
+Generating RTLIL representation for module `\lut4_mux_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4'.
+Generating RTLIL representation for module `\mux_2level_size14'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2'.
+Generating RTLIL representation for module `\lut4_mux'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /openLANE_flow/designs/cby_0__1_/src/wires.v
+Parsing Verilog input from `/openLANE_flow/designs/cby_0__1_/src/wires.v' to AST representation.
+Generating RTLIL representation for module `\direct_interc'.
+Successfully finished Verilog frontend.
+
+10. Executing HIERARCHY pass (managing design hierarchy).
+
+10.1. Analyzing design hierarchy..
+Top module:  \cby_0__1_
+Used module:     \mux_2level_tapbuf_size2_mem
+Used module:         \sc_dff_compact
+Used module:     \mux_2level_tapbuf_size2
+Used module:         \mux_2level_tapbuf_size2_basis_size2
+Used module:             \TGATE
+Used module:         \tap_buf4
+Used module:         \const1
+Used module:         \INVTX1
+Used module:     \mux_2level_tapbuf_size6_mem
+Used module:     \mux_2level_tapbuf_size6
+Used module:         \mux_2level_tapbuf_size6_basis_size3
+
+10.2. Analyzing design hierarchy..
+Top module:  \cby_0__1_
+Used module:     \mux_2level_tapbuf_size2_mem
+Used module:         \sc_dff_compact
+Used module:     \mux_2level_tapbuf_size2
+Used module:         \mux_2level_tapbuf_size2_basis_size2
+Used module:             \TGATE
+Used module:         \tap_buf4
+Used module:         \const1
+Used module:         \INVTX1
+Used module:     \mux_2level_tapbuf_size6_mem
+Used module:     \mux_2level_tapbuf_size6
+Used module:         \mux_2level_tapbuf_size6_basis_size3
+Removing unused module `\direct_interc'.
+Removing unused module `\lut4_mux'.
+Removing unused module `\mux_1level_tapbuf_size2'.
+Removing unused module `\mux_2level_size14'.
+Removing unused module `\mux_2level_tapbuf_size4'.
+Removing unused module `\mux_2level_tapbuf_size5'.
+Removing unused module `\mux_2level_tapbuf_size3'.
+Removing unused module `\mux_2level_tapbuf_size9'.
+Removing unused module `\mux_2level_tapbuf_size8'.
+Removing unused module `\lut4_mux_basis_size2'.
+Removing unused module `\mux_1level_tapbuf_size2_basis_size3'.
+Removing unused module `\mux_2level_size14_basis_size3'.
+Removing unused module `\mux_2level_size14_basis_size4'.
+Removing unused module `\mux_2level_tapbuf_size4_basis_size3'.
+Removing unused module `\mux_2level_tapbuf_size5_basis_size2'.
+Removing unused module `\mux_2level_tapbuf_size5_basis_size3'.
+Removing unused module `\mux_2level_tapbuf_size3_basis_size2'.
+Removing unused module `\mux_2level_tapbuf_size9_basis_size4'.
+Removing unused module `\mux_2level_tapbuf_size8_basis_size3'.
+Removing unused module `\logical_tile_clb_mode_clb_'.
+Removing unused module `\logical_tile_clb_mode_default__fle'.
+Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
+Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
+Removing unused module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
+Removing unused module `\static_dff'.
+Removing unused module `\iopad_sc_dff_compact_mem'.
+Removing unused module `\lut4_sc_dff_compact_mem'.
+Removing unused module `\mux_1level_tapbuf_size2_mem'.
+Removing unused module `\mux_2level_size14_mem'.
+Removing unused module `\mux_2level_tapbuf_size4_mem'.
+Removing unused module `\mux_2level_tapbuf_size5_mem'.
+Removing unused module `\mux_2level_tapbuf_size3_mem'.
+Removing unused module `\mux_2level_tapbuf_size9_mem'.
+Removing unused module `\mux_2level_tapbuf_size8_mem'.
+Removing unused module `\buf4'.
+Removing unused module `\const0'.
+Removing unused module `\lut4'.
+Removed 37 unused modules.
+
+11. Executing SYNTH pass.
+
+11.1. Executing HIERARCHY pass (managing design hierarchy).
+
+11.1.1. Analyzing design hierarchy..
+Top module:  \cby_0__1_
+Used module:     \mux_2level_tapbuf_size2_mem
+Used module:         \sc_dff_compact
+Used module:     \mux_2level_tapbuf_size2
+Used module:         \mux_2level_tapbuf_size2_basis_size2
+Used module:             \TGATE
+Used module:         \tap_buf4
+Used module:         \const1
+Used module:         \INVTX1
+Used module:     \mux_2level_tapbuf_size6_mem
+Used module:     \mux_2level_tapbuf_size6
+Used module:         \mux_2level_tapbuf_size6_basis_size3
+
+11.1.2. Analyzing design hierarchy..
+Top module:  \cby_0__1_
+Used module:     \mux_2level_tapbuf_size2_mem
+Used module:         \sc_dff_compact
+Used module:     \mux_2level_tapbuf_size2
+Used module:         \mux_2level_tapbuf_size2_basis_size2
+Used module:             \TGATE
+Used module:         \tap_buf4
+Used module:         \const1
+Used module:         \INVTX1
+Used module:     \mux_2level_tapbuf_size6_mem
+Used module:     \mux_2level_tapbuf_size6
+Used module:         \mux_2level_tapbuf_size6_basis_size3
+Removed 0 unused modules.
+
+11.2. Executing PROC pass (convert processes to netlists).
+
+11.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+11.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+11.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+11.2.4. Executing PROC_INIT pass (extract init attributes).
+
+11.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+11.2.6. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+11.2.7. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+11.2.8. Executing PROC_DFF pass (convert process syncs to FFs).
+
+11.2.9. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+11.3. Executing FLATTEN pass (flatten design).
+Deleting now unused module mux_2level_tapbuf_size2.
+Deleting now unused module sc_dff_compact.
+Deleting now unused module mux_2level_tapbuf_size2_mem.
+Deleting now unused module mux_2level_tapbuf_size6_mem.
+Deleting now unused module TGATE.
+Deleting now unused module tap_buf4.
+Deleting now unused module mux_2level_tapbuf_size6.
+Deleting now unused module INVTX1.
+Deleting now unused module const1.
+Deleting now unused module mux_2level_tapbuf_size2_basis_size2.
+Deleting now unused module mux_2level_tapbuf_size6_basis_size3.
+<suppressed ~50 debug messages>
+
+11.4. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+Removed 0 unused cells and 151 unused wires.
+<suppressed ~1 debug messages>
+
+11.6. Executing CHECK pass (checking for obvious problems).
+checking module cby_0__1_..
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_7.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_7.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_7.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_7.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_6.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_6.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_6.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_6.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_5.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_5.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_5.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_5.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_4.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_4.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_4.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_4.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_3.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_3.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_3.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_3.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_2.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_2.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_2.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_2.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_1.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_1.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_1.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_1.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_0.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_0.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_right_ipin_0.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_right_ipin_0.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_left_ipin_1.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_left_ipin_1.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_1.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_left_ipin_1.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_left_ipin_1.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_1.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_left_ipin_0.tap_buf4_0_.in:
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l2_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l2_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l2_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_left_ipin_0.mux_l2_in_0_.TGATE_1_.in:
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l1_in_1_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l1_in_1_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l1_in_1_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: multiple conflicting drivers for cby_0__1_.\mux_left_ipin_0.mux_l2_in_0_.TGATE_0_.in:
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l1_in_0_.\TGATE_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l1_in_0_.\TGATE_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+    port Y[0] of cell $flatten\mux_left_ipin_0.\mux_l1_in_0_.\TGATE_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:189$9 ($mux)
+Warning: Wire cby_0__1_.\mux_right_ipin_7.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_7.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_7.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_7.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_7.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_7.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_7.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_6.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_5.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_4.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_3.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_2.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_1.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_right_ipin_0.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_1.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_1.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_1.INVTX1_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.tap_buf4_0_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.INVTX1_5_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.INVTX1_4_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.INVTX1_3_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.INVTX1_2_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.INVTX1_1_.$random is used but has no driver.
+Warning: Wire cby_0__1_.\mux_left_ipin_0.INVTX1_0_.$random is used but has no driver.
+found and reported 95 problems.
+
+11.7. Executing OPT pass (performing simple optimizations).
+
+11.7.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.7.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+<suppressed ~228 debug messages>
+Removed a total of 76 cells.
+
+11.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cby_0__1_..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~39 debug messages>
+
+11.7.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cby_0__1_.
+Performed a total of 0 changes.
+
+11.7.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.7.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+Removed 0 unused cells and 76 unused wires.
+<suppressed ~1 debug messages>
+
+11.7.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+11.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cby_0__1_..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~39 debug messages>
+
+11.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cby_0__1_.
+Performed a total of 0 changes.
+
+11.7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.7.13. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.7.16. Finished OPT passes. (There is nothing left to do.)
+
+11.8. Executing WREDUCE pass (reducing word size of cells).
+
+11.9. Executing PEEPOPT pass (run peephole optimizers).
+
+11.10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.11. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module cby_0__1_:
+  created 0 $alu and 0 $macc cells.
+
+11.12. Executing SHARE pass (SAT-based resource sharing).
+
+11.13. Executing OPT pass (performing simple optimizations).
+
+11.13.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.13.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.13.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cby_0__1_..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~39 debug messages>
+
+11.13.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cby_0__1_.
+Performed a total of 0 changes.
+
+11.13.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.13.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.13.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.13.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.13.9. Finished OPT passes. (There is nothing left to do.)
+
+11.14. Executing FSM pass (extract and optimize FSM).
+
+11.14.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+11.14.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+11.14.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+11.14.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.14.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+11.14.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+11.14.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+11.14.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+11.15. Executing OPT pass (performing simple optimizations).
+
+11.15.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.15.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.15.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.15.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.15.5. Finished fast OPT passes.
+
+11.16. Executing MEMORY pass.
+
+11.16.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+11.16.2. Executing MEMORY_DFF pass (merging $dff cells to $memrd and $memwr).
+
+11.16.3. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.16.4. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+11.16.5. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.16.6. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+11.17. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.18. Executing OPT pass (performing simple optimizations).
+
+11.18.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+<suppressed ~161 debug messages>
+
+11.18.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+<suppressed ~168 debug messages>
+Removed a total of 56 cells.
+
+11.18.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.18.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+Warning: Driver-driver conflict for \mux_right_ipin_3.mux_l1_in_0_.TGATE_0_.in between cell $flatten\mux_right_ipin_3.\INVTX1_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_3.mux_l1_in_0_.TGATE_1_.in between cell $flatten\mux_right_ipin_3.\INVTX1_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_2.mux_l1_in_0_.TGATE_2_.in between cell $flatten\mux_right_ipin_2.\INVTX1_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_2.mux_l1_in_1_.TGATE_0_.in between cell $flatten\mux_right_ipin_2.\INVTX1_3_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_5.mux_l1_in_1_.TGATE_1_.in between cell $flatten\mux_right_ipin_5.\INVTX1_4_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_5.mux_l1_in_1_.TGATE_2_.in between cell $flatten\mux_right_ipin_5.\INVTX1_5_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_3.mux_l1_in_1_.TGATE_1_.in between cell $flatten\mux_right_ipin_3.\INVTX1_4_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_3.mux_l1_in_1_.TGATE_2_.in between cell $flatten\mux_right_ipin_3.\INVTX1_5_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_0.mux_l1_in_0_.TGATE_2_.in between cell $flatten\mux_right_ipin_0.\INVTX1_2_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_2.mux_l1_in_1_.TGATE_1_.in between cell $flatten\mux_right_ipin_2.\INVTX1_4_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_2.mux_l1_in_1_.TGATE_2_.in between cell $flatten\mux_right_ipin_2.\INVTX1_5_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_2.mux_l1_in_0_.TGATE_0_.in between cell $flatten\mux_right_ipin_2.\INVTX1_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_left_ipin_1.mux_l1_in_0_.TGATE_1_.in between cell $flatten\mux_left_ipin_1.\INVTX1_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_left_ipin_1.mux_l1_in_0_.TGATE_0_.in between cell $flatten\mux_left_ipin_1.\INVTX1_0_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_4.mux_l1_in_1_.TGATE_1_.in between cell $flatten\mux_right_ipin_4.\INVTX1_4_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_4.mux_l1_in_1_.TGATE_2_.in between cell $flatten\mux_right_ipin_4.\INVTX1_5_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_2.mux_l1_in_0_.TGATE_1_.in between cell $flatten\mux_right_ipin_2.\INVTX1_1_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Warning: Driver-driver conflict for \mux_right_ipin_0.mux_l1_in_1_.TGATE_0_.in between cell $flatten\mux_right_ipin_0.\INVTX1_3_.$ternary$/openLANE_flow/designs/cby_0__1_/src/inv_buf_passgate.v:59$3.Y and constant 1'1 in cby_0__1_: Resolved using constant.
+Removed 54 unused cells and 121 unused wires.
+<suppressed ~55 debug messages>
+
+11.18.5. Finished fast OPT passes.
+
+11.19. Executing MEMORY_MAP pass (converting $mem cells to logic and flip-flops).
+
+11.20. Executing OPT pass (performing simple optimizations).
+
+11.20.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+<suppressed ~1 debug messages>
+
+11.20.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.20.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cby_0__1_..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+11.20.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cby_0__1_.
+Performed a total of 0 changes.
+
+11.20.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.20.6. Executing OPT_SHARE pass.
+
+11.20.7. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.20.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+Removed 1 unused cells and 1 unused wires.
+<suppressed ~2 debug messages>
+
+11.20.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.20.10. Rerunning OPT passes. (Maybe there is more to do..)
+
+11.20.11. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cby_0__1_..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+11.20.12. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cby_0__1_.
+Performed a total of 0 changes.
+
+11.20.13. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.20.14. Executing OPT_SHARE pass.
+
+11.20.15. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.20.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.20.17. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.20.18. Finished OPT passes. (There is nothing left to do.)
+
+11.21. Executing TECHMAP pass (map to technology primitives).
+
+11.21.1. Executing Verilog-2005 frontend: /build/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/build/bin/../share/yosys/techmap.v' to AST representation.
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_lut'.
+Successfully finished Verilog frontend.
+
+11.21.2. Continuing TECHMAP pass.
+No more expansions possible.
+
+11.22. Executing OPT pass (performing simple optimizations).
+
+11.22.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.22.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.22.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.22.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.22.5. Finished fast OPT passes.
+
+11.23. Executing ABC pass (technology mapping using ABC).
+
+11.23.1. Extracting gate netlist of module `\cby_0__1_' to `<abc-temp-dir>/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+11.24. Executing OPT pass (performing simple optimizations).
+
+11.24.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+11.24.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+11.24.3. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.24.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+11.24.5. Finished fast OPT passes.
+
+11.25. Executing HIERARCHY pass (managing design hierarchy).
+
+11.25.1. Analyzing design hierarchy..
+Top module:  \cby_0__1_
+
+11.25.2. Analyzing design hierarchy..
+Top module:  \cby_0__1_
+Removed 0 unused modules.
+
+11.26. Printing statistics.
+
+=== cby_0__1_ ===
+
+   Number of wires:               1120
+   Number of wire bits:           1638
+   Number of public wires:        1120
+   Number of public wire bits:    1638
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 56
+     sky130_fd_sc_hd__dfrbp         56
+
+11.27. Executing CHECK pass (checking for obvious problems).
+checking module cby_0__1_..
+found and reported 0 problems.
+
+12. Executing SHARE pass (SAT-based resource sharing).
+
+13. Executing OPT pass (performing simple optimizations).
+
+13.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+13.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+13.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \cby_0__1_..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+13.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \cby_0__1_.
+Performed a total of 0 changes.
+
+13.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\cby_0__1_'.
+Removed a total of 0 cells.
+
+13.6. Executing OPT_RMDFF pass (remove dff with constant values).
+
+13.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+
+13.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module cby_0__1_.
+
+13.9. Finished OPT passes. (There is nothing left to do.)
+
+14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+Removed 0 unused cells and 991 unused wires.
+<suppressed ~991 debug messages>
+
+15. Printing statistics.
+
+=== cby_0__1_ ===
+
+   Number of wires:                129
+   Number of wire bits:            161
+   Number of public wires:         129
+   Number of public wire bits:     161
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 56
+     sky130_fd_sc_hd__dfrbp         56
+
+16. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
+  cell sky130_fd_sc_hd__dfxtp_4 (noninv, pins=3, area=23.77) is a direct match for cell type $_DFF_P_.
+  cell sky130_fd_sc_hd__dfrtp_4 (noninv, pins=4, area=28.78) is a direct match for cell type $_DFF_PN0_.
+  cell sky130_fd_sc_hd__dfstp_4 (noninv, pins=4, area=30.03) is a direct match for cell type $_DFF_PN1_.
+  cell sky130_fd_sc_hd__dfbbn_2 (noninv, pins=6, area=35.03) is a direct match for cell type $_DFFSR_NNN_.
+  final dff cell mappings:
+    unmapped dff cell: $_DFF_N_
+    \sky130_fd_sc_hd__dfxtp_4 _DFF_P_ (.CLK( C), .D( D), .Q( Q));
+    unmapped dff cell: $_DFF_NN0_
+    unmapped dff cell: $_DFF_NN1_
+    unmapped dff cell: $_DFF_NP0_
+    unmapped dff cell: $_DFF_NP1_
+    \sky130_fd_sc_hd__dfrtp_4 _DFF_PN0_ (.CLK( C), .D( D), .Q( Q), .RESET_B( R));
+    \sky130_fd_sc_hd__dfstp_4 _DFF_PN1_ (.CLK( C), .D( D), .Q( Q), .SET_B( R));
+    unmapped dff cell: $_DFF_PP0_
+    unmapped dff cell: $_DFF_PP1_
+    \sky130_fd_sc_hd__dfbbn_2 _DFFSR_NNN_ (.CLK_N( C), .D( D), .Q( Q), .Q_N(~Q), .RESET_B( R), .SET_B( S));
+    unmapped dff cell: $_DFFSR_NNP_
+    unmapped dff cell: $_DFFSR_NPN_
+    unmapped dff cell: $_DFFSR_NPP_
+    unmapped dff cell: $_DFFSR_PNN_
+    unmapped dff cell: $_DFFSR_PNP_
+    unmapped dff cell: $_DFFSR_PPN_
+    unmapped dff cell: $_DFFSR_PPP_
+
+16.1. Executing DFFLEGALIZE pass (convert FFs to types supported by the target).
+Mapping DFF cells in module `\cby_0__1_':
+
+17. Printing statistics.
+
+=== cby_0__1_ ===
+
+   Number of wires:                129
+   Number of wire bits:            161
+   Number of public wires:         129
+   Number of public wire bits:     161
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 56
+     sky130_fd_sc_hd__dfrbp         56
+
+18. Executing ABC pass (technology mapping using ABC).
+
+18.1. Extracting gate netlist of module `\cby_0__1_' to `/tmp/yosys-abc-dkP6pV/input.blif'..
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Don't call ABC as there is nothing to map.
+Removing temp directory.
+
+19. Executing HILOMAP pass (mapping to constant drivers).
+
+20. Executing SETUNDEF pass (replace undef values with defined constants).
+
+21. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+22. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \cby_0__1_..
+Removed 0 unused cells and 10 unused wires.
+<suppressed ~1 debug messages>
+
+23. Executing INSBUF pass (insert buffer cells for connected wires).
+Added cby_0__1_.$auto$insbuf.cc:79:execute$102: \chany_top_in [0] -> \chany_bottom_out [0]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$103: \chany_top_in [1] -> \chany_bottom_out [1]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$104: \chany_top_in [2] -> \chany_bottom_out [2]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$105: \chany_top_in [3] -> \chany_bottom_out [3]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$106: \chany_top_in [4] -> \chany_bottom_out [4]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$107: \chany_top_in [5] -> \chany_bottom_out [5]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$108: \chany_top_in [6] -> \chany_bottom_out [6]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$109: \chany_top_in [7] -> \chany_bottom_out [7]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$110: \chany_top_in [8] -> \chany_bottom_out [8]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$111: \chany_bottom_in [0] -> \chany_top_out [0]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$112: \chany_bottom_in [1] -> \chany_top_out [1]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$113: \chany_bottom_in [2] -> \chany_top_out [2]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$114: \chany_bottom_in [3] -> \chany_top_out [3]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$115: \chany_bottom_in [4] -> \chany_top_out [4]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$116: \chany_bottom_in [5] -> \chany_top_out [5]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$117: \chany_bottom_in [6] -> \chany_top_out [6]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$118: \chany_bottom_in [7] -> \chany_top_out [7]
+Added cby_0__1_.$auto$insbuf.cc:79:execute$119: \chany_bottom_in [8] -> \chany_top_out [8]
+
+24. Executing CHECK pass (checking for obvious problems).
+checking module cby_0__1_..
+Warning: Wire cby_0__1_.\right_grid_pin_7_ is used but has no driver.
+Warning: Wire cby_0__1_.\right_grid_pin_3_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_8_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_6_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_4_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_2_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_14_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_12_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_10_ is used but has no driver.
+Warning: Wire cby_0__1_.\left_grid_pin_0_ is used but has no driver.
+found and reported 10 problems.
+
+25. Printing statistics.
+
+=== cby_0__1_ ===
+
+   Number of wires:                129
+   Number of wire bits:            161
+   Number of public wires:         129
+   Number of public wire bits:     161
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 84
+     sky130_fd_sc_hd__buf_2         18
+     sky130_fd_sc_hd__conb_1        10
+     sky130_fd_sc_hd__dfrbp         56
+
+   Area for cell type \sky130_fd_sc_hd__buf_2 is unknown!
+   Area for cell type \sky130_fd_sc_hd__dfrbp is unknown!
+
+   Chip area for module '\cby_0__1_': 37.536000
+
+26. Executing Verilog backend.
+Dumping module `\cby_0__1_'.
+
+Warnings: 129 unique messages, 131 total
+End of script. Logfile hash: ca84586846, CPU: user 0.70s system 0.02s, MEM: 13.49 MB peak
+Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+Time spent: 32% 18x opt_clean (0 sec), 13% 19x read_verilog (0 sec), ...

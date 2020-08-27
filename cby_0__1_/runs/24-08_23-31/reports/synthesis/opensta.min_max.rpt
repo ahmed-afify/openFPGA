@@ -1,0 +1,54 @@
+Startpoint: chany_top_in[0] (input port clocked by vclk)
+Endpoint: chany_bottom_out[0] (output port clocked by vclk)
+Path Group: vclk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ chany_top_in[0] (in)
+   0.23    2.24 ^ _18_/X (sky130_fd_sc_hd__buf_2)
+   0.00    2.24 ^ chany_bottom_out[0] (out)
+           2.24   data arrival time
+
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+  -2.00   -2.00   output external delay
+          -2.00   data required time
+---------------------------------------------------------
+          -2.00   data required time
+          -2.24   data arrival time
+---------------------------------------------------------
+           4.24   slack (MET)
+
+
+Startpoint: chany_top_in[0] (input port clocked by vclk)
+Endpoint: chany_bottom_out[0] (output port clocked by vclk)
+Path Group: vclk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock vclk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.00    2.00 ^ chany_top_in[0] (in)
+   0.09    2.09 ^ _18_/X (sky130_fd_sc_hd__buf_2)
+   0.00    2.09 ^ chany_bottom_out[0] (out)
+           2.09   data arrival time
+
+  12.00   12.00   clock vclk (rise edge)
+   0.00   12.00   clock network delay (ideal)
+   0.00   12.00   clock reconvergence pessimism
+  -2.00   10.00   output external delay
+          10.00   data required time
+---------------------------------------------------------
+          10.00   data required time
+          -2.09   data arrival time
+---------------------------------------------------------
+           7.91   slack (MET)
+
+
