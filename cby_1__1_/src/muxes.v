@@ -3,7 +3,7 @@
 //	Description: Multiplexers
 //	Author: Xifan TANG
 //	Organization: University of Utah
-//	Date: Tue Aug  4 14:48:13 2020
+//	Date: Mon Aug 24 20:06:11 2020
 //-------------------------------------------
 //----- Time scale -----
 `timescale 1ns / 1ps

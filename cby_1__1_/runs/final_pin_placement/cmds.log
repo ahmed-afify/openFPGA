@@ -1,0 +1,48 @@
+Thu Aug 27 11:58:17 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//merged_unpadded.lef -o /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Thu Aug 27 11:58:27 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//merged.lef"
+
+Thu Aug 27 11:58:27 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//merged_unpadded.lef"
+
+Thu Aug 27 11:58:27 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//trimmed.lib"
+
+Thu Aug 27 11:58:32 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Thu Aug 27 11:58:33 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/synthesis/opensta.log"
+
+Thu Aug 27 11:58:38 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/floorplan/verilog2def.openroad.log"
+
+Thu Aug 27 11:58:39 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/floorplan/ioPlacer.log"
+
+Thu Aug 27 11:58:39 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/floorplan/tapcell.log"
+
+Thu Aug 27 11:59:39 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/placement/replace.log"
+
+Thu Aug 27 11:59:40 UTC 2020 - Executing "opendp -lef /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//merged.lef -def /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp/placement/replace.def -output_def /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//results/placement/cby_1__1_.placement.def |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/placement/opendp.log"
+
+Thu Aug 27 11:59:46 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/cts/cts.log"
+
+Thu Aug 27 12:01:36 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/floorplan/pdn.log"
+
+Thu Aug 27 12:01:42 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_diodes.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs//placement/diodes.log"
+
+Thu Aug 27 12:01:42 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_fill.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/routing/addspacers.log"
+
+Thu Aug 27 12:01:43 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs//write_verilog.log"
+
+Thu Aug 27 12:01:44 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/routing/fastroute.log"
+
+Thu Aug 27 12:01:50 UTC 2020 - Executing "envsubst < /openLANE_flow/scripts//tritonRoute.param > /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp/routing/tritonRoute.param"
+
+Thu Aug 27 12:01:50 UTC 2020 - Executing "TritonRoute /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp/routing/tritonRoute.param |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/routing/tritonRoute.log"
+
+Thu Aug 27 12:02:06 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//tmp.magicrc /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//magic_spice.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/magic/magic_spice.log"
+
+Thu Aug 27 12:02:22 UTC 2020 - Executing "vlog2Verilog -v VPWR -g VGND -l /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//merged.lef /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//results/synthesis/cby_1__1_.synthesis_preroute.v |& tee /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//results/lvs/cby_1__1_.lvs.v"
+
+Thu Aug 27 12:02:22 UTC 2020 - Executing "netgen -batch lvs {/openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//results/magic/cby_1__1_.spice cby_1__1_} {/openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//results/lvs/cby_1__1_.lvs.v cby_1__1_} /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//results/lvs/cby_1__1_.lvs.log -json |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/lvs/lvs.log"
+
+Thu Aug 27 12:02:39 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//magic_antenna.magicrc /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//tmp//magic_antenna.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/magic/magic_antenna.log"
+
+Thu Aug 27 12:02:45 UTC 2020 - Executing "awk {/Cell:/ {print $2}} /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//logs/magic/magic_antenna.log > /openLANE_flow/designs/cby_1__1_/runs/final_pin_placement//reports/magic/magic.antenna_violators.rpt"
+
