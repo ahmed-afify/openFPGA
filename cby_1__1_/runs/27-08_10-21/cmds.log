@@ -1,0 +1,18 @@
+Thu Aug 27 10:21:12 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//tmp//merged_unpadded.lef -o /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Thu Aug 27 10:21:22 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//tmp//merged.lef"
+
+Thu Aug 27 10:21:22 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//tmp//merged_unpadded.lef"
+
+Thu Aug 27 10:21:22 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//tmp//trimmed.lib"
+
+Thu Aug 27 10:21:29 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Thu Aug 27 10:21:30 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//logs/synthesis/opensta.log"
+
+Thu Aug 27 10:21:34 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//logs/floorplan/verilog2def.openroad.log"
+
+Thu Aug 27 10:21:35 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//logs/floorplan/ioPlacer.log"
+
+Thu Aug 27 10:21:35 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/cby_1__1_/runs/27-08_10-21//logs/floorplan/tapcell.log"
+
