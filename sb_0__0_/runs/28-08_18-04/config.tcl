@@ -1,0 +1,10 @@
+# General config
+set ::env(PDK) sky130A
+set ::env(PDK_VARIANT) sky130_fd_sc_hd
+set ::env(PDK_ROOT) /home/aa/Desktop/Afify/openlane/pdks
+set ::env(CELL_PAD) 8
+set ::env(MERGED_LEF) /openLANE_flow/designs/sb_0__0_/runs/28-08_18-04//tmp//merged.lef
+set ::env(MERGED_LEF_UNPADDED) /openLANE_flow/designs/sb_0__0_/runs/28-08_18-04//tmp//merged_unpadded.lef
+set ::env(TRACKS_INFO_FILE) /openLANE_flow/designs/sb_0__0_/runs/28-08_18-04//tmp//tracks_copy.info
+set ::env(TECH_LEF) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
+# Design config

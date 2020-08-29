@@ -1,0 +1,20 @@
+Fri Aug 28 17:58:28 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//tmp//merged_unpadded.lef -o /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Fri Aug 28 17:58:38 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//tmp//merged.lef"
+
+Fri Aug 28 17:58:38 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//tmp//merged_unpadded.lef"
+
+Fri Aug 28 17:58:38 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//tmp//trimmed.lib"
+
+Fri Aug 28 17:58:38 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Fri Aug 28 17:58:39 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//logs/synthesis/opensta.log"
+
+Fri Aug 28 17:58:39 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//logs/floorplan/verilog2def.openroad.log"
+
+Fri Aug 28 17:58:40 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//logs/floorplan/ioPlacer.log"
+
+Fri Aug 28 17:58:41 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//logs/floorplan/tapcell.log"
+
+Fri Aug 28 17:58:41 UTC 2020 - Executing "replace < /openLANE_flow/scripts//replace_gp.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/28-08_17-58//logs/placement/replace.log"
+
