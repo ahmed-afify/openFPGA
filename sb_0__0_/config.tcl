@@ -8,8 +8,8 @@ set ::env(VERILOG_FILES) [glob $::env(OPENLANE_ROOT)/designs/sb_0__0_/src/*.v]
 # Fill this
 set ::env(CLOCK_PERIOD) "10"
 set ::env(CLOCK_PORT) "prog_clk"
-set ::env(FP_CORE_UTIL) 10
-set ::env(PL_TARGET_DENSITY) 0.1
+set ::env(FP_CORE_UTIL) 0.4
+set ::env(PL_TARGET_DENSITY) 0.4
 set ::env(FP_PDN_VOFFSET) 4
 set ::env(FP_PDN_VPITCH) 15
 set ::env(FP_PDN_HOFFSET) 4
