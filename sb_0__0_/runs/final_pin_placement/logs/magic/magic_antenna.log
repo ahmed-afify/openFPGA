@@ -40,11 +40,11 @@ LEF read: Processed 772 lines.
 Reading DEF data from file /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//results/routing/sb_0__0_.def.
 This action cannot be undone.
   Processed 4 vias total.
-  Processed 33273 subcell instances total.
+  Processed 33275 subcell instances total.
   Processed 60 pins total.
   Processed 2 special nets total.
   Processed 136 nets total.
-DEF read: Processed 69650 lines.
+DEF read: Processed 69616 lines.
 Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
 Completed 100%
 Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
@@ -96,11 +96,6 @@ Reading extract file.
 Building flattened netlist.
 Running antenna checks.
    100 gates analyzed.
-Cell: mem_top_track_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
-Antenna violation detected at plane metal1
-Effective antenna ratio 754.182 > limit 400
-Gate rect (22970 74031) to (23000 74115)
-Antenna rect (22833 74335) to (22891 74341)
    200 gates analyzed.
    300 gates analyzed.
 antennacheck finished.
