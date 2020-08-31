@@ -1758,7 +1758,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__1_/runs/final_pin_placement/tmp/routing/addspacers.def
 Notice 0: Design: sb_0__1_
 Notice 0:     Created 80 pins.
-Notice 0:     Created 47128 components and 94744 component-terminals.
+Notice 0:     Created 21400 components and 43288 component-terminals.
 Notice 0:     Created 2 special nets and 0 connections.
 Notice 0:     Created 184 nets and 474 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__1_/runs/final_pin_placement/tmp/routing/addspacers.def
@@ -1801,29 +1801,29 @@ Adjusting grid... Done!
 Computing track adjustments...
 Computing track adjustments... Done!
 Computing obstacles adjustments...
-[INFO] Processing 268593 obstacles in layer 1
-[INFO] Processing 95537 obstacles in layer 2
-[INFO] Processing 101 obstacles in layer 5
-[INFO] Processing 101 obstacles in layer 6
+[INFO] Processing 123537 obstacles in layer 1
+[INFO] Processing 43988 obstacles in layer 2
+[INFO] Processing 7 obstacles in layer 5
+[INFO] Processing 7 obstacles in layer 6
 Computing obstacles adjustments... Done!
 Computing user defined adjustments...
 Computing user defined adjustments... Done!
 Computing user defined layers adjustments...
 [INFO] Reducing resources of layer 1 by 99%
 Computing user defined layers adjustments... Done!
-[INFO] Elapsed time: 0.193899
+[INFO] Elapsed time: 0.077565
 Running FastRoute...
 
-[INFO] WIRELEN : 2206, WIRELEN1 : 0
-[INFO] NumSeg  : 273
+[INFO] WIRELEN : 1596, WIRELEN1 : 0
+[INFO] NumSeg  : 287
 [INFO] NumShift: 0
 First L Route
-[INFO] WIRELEN : 2205, WIRELEN1 : 2205
-[INFO] NumSeg  : 273
-[INFO] NumShift: 5
-[Overflow Report] Total hCap    : 222645
-[Overflow Report] Total vCap    : 265536
-[Overflow Report] Total Usage   : 2205
+[INFO] WIRELEN : 1596, WIRELEN1 : 1596
+[INFO] NumSeg  : 288
+[INFO] NumShift: 2
+[Overflow Report] Total hCap    : 100499
+[Overflow Report] Total vCap    : 123607
+[Overflow Report] Total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1833,9 +1833,9 @@ First L Route
 [Overflow Report] Final Overflow: 0
 
 Second L Route
-[Overflow Report] Total hCap    : 222645
-[Overflow Report] Total vCap    : 265536
-[Overflow Report] Total Usage   : 2205
+[Overflow Report] Total hCap    : 100499
+[Overflow Report] Total vCap    : 123607
+[Overflow Report] Total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1845,9 +1845,9 @@ Second L Route
 [Overflow Report] Final Overflow: 0
 
 First Z Route
-[Overflow Report] Total hCap    : 222645
-[Overflow Report] Total vCap    : 265536
-[Overflow Report] Total Usage   : 2205
+[Overflow Report] Total hCap    : 100499
+[Overflow Report] Total vCap    : 123607
+[Overflow Report] Total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1858,7 +1858,7 @@ First Z Route
 
 [INFO] LV routing round 0, enlarge 10 
 [INFO] 10 threshold, 10 expand
-[Overflow Report] total Usage   : 2205
+[Overflow Report] total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1869,7 +1869,7 @@ First Z Route
 
 [INFO] LV routing round 1, enlarge 15 
 [INFO] 5 threshold, 15 expand
-[Overflow Report] total Usage   : 2205
+[Overflow Report] total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1880,7 +1880,7 @@ First Z Route
 
 [INFO] LV routing round 2, enlarge 20 
 [INFO] 1 threshold, 20 expand
-[Overflow Report] total Usage   : 2205
+[Overflow Report] total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1893,7 +1893,7 @@ Usage checked
 Maze routing finished
 [INFO] P3 runtime: 0.000000 sec
 [INFO] Final 2D results: 
-[Overflow Report] total Usage   : 2205
+[Overflow Report] total Usage   : 1596
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1904,36 +1904,36 @@ Maze routing finished
 
 Layer Assignment Begins
 Layer assignment finished
-[INFO] 2D + Layer Assignment Runtime: 6.230000 sec
+[INFO] 2D + Layer Assignment Runtime: 5.400000 sec
 Post Processing Begins 
 Post Processsing finished
  Starting via filling
-[INFO] Via related to pin nodes 755
-[INFO] Via related stiner nodes 6
+[INFO] Via related to pin nodes 817
+[INFO] Via related stiner nodes 8
 Via filling finished
 
 Final usage/overflow report: 
 [INFO] Usage per layer: 
     Layer 1 usage: 0
-    Layer 2 usage: 499
-    Layer 3 usage: 1582
-    Layer 4 usage: 126
+    Layer 2 usage: 248
+    Layer 3 usage: 1141
+    Layer 4 usage: 216
     Layer 5 usage: 0
     Layer 6 usage: 0
 
 [INFO] Capacity per layer: 
     Layer 1 capacity: 0
-    Layer 2 capacity: 71463
-    Layer 3 capacity: 188272
-    Layer 4 capacity: 126096
-    Layer 5 capacity: 77264
-    Layer 6 capacity: 25086
+    Layer 2 capacity: 32493
+    Layer 3 capacity: 84600
+    Layer 4 capacity: 56758
+    Layer 5 capacity: 39007
+    Layer 6 capacity: 11248
 
 [INFO] Use percentage per layer: 
     Layer 1 use percentage: 0.0%
-    Layer 2 use percentage: 0.70%
-    Layer 3 use percentage: 0.84%
-    Layer 4 use percentage: 0.10%
+    Layer 2 use percentage: 0.76%
+    Layer 3 use percentage: 1.35%
+    Layer 4 use percentage: 0.38%
     Layer 5 use percentage: 0.00%
     Layer 6 use percentage: 0.00%
 
@@ -1945,8 +1945,8 @@ Final usage/overflow report:
     Layer 5 overflow: 0
     Layer 6 overflow: 0
 
-[Overflow Report] Total Usage   : 2207
-[Overflow Report] Total Capacity: 488181
+[Overflow Report] Total Usage   : 1605
+[Overflow Report] Total Capacity: 224106
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0
@@ -1954,17 +1954,17 @@ Final usage/overflow report:
 [Overflow Report] V   Overflow  : 0
 [Overflow Report] Final Overflow: 0
 
-[INFO] Final usage          : 2207
-[INFO] Final number of vias : 822
-[INFO] Final usage 3D       : 4673
+[INFO] Final usage          : 1605
+[INFO] Final number of vias : 893
+[INFO] Final usage 3D       : 4284
 Getting results...
 Getting results... Done!
 
 Running FastRoute... Done!
  > Fixing long segments...
 [WARNING] Max routing length not defined. Skipping...
-[INFO] Total wirelength: 30456.599609 um
-[INFO] Elapsed time: 6.229179
+[INFO] Total wirelength: 22149.000000 um
+[INFO] Elapsed time: 5.407092
 Writing guides...
 [INFO] Num routed nets: 100
 Writing guides... Done!

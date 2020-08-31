@@ -1758,11 +1758,11 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__1_/runs/final_pin_placement/results/cts/sb_0__1_.cts.def
 Notice 0: Design: sb_0__1_
 Notice 0:     Created 78 pins.
-Notice 0:     Created 8256 components and 16830 component-terminals.
+Notice 0:     Created 3858 components and 8034 component-terminals.
 Notice 0:     Created 184 nets and 304 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__1_/runs/final_pin_placement/results/cts/sb_0__1_.cts.def
 [INFO] [PDNG-0016] Power Delivery Network Generator: Generating PDN
-[INFO] [PDNG-0016]   config: /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/common_pdn.tcl
+[INFO] [PDNG-0016]   config: /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A/libs.tech/openlane/common_pdn.tcl
 [INFO] [PDNG-0008] Design Name is sb_0__1_
 [INFO] [PDNG-0009] Reading technology data
 [INFO] [PDNG-0011] ****** INFO ******
@@ -1770,8 +1770,8 @@ Type: stdcell, grid
     Stdcell Rails
       Layer: met1 -  width: 0.480  pitch: 2.720  offset: 0.000 
     Straps
-      Layer: met4 -  width: 1.600  pitch: 15.000  offset: 4.000 
-      Layer: met5 -  width: 1.600  pitch: 15.000  offset: 4.000 
+      Layer: met4 -  width: 1.600  pitch: 153.600  offset: 16.320 
+      Layer: met5 -  width: 1.600  pitch: 153.180  offset: 16.650 
     Connect: {met1 met4} {met4 met5}
 Type: macro, macro_1
     Macro orientation: R0 R180 MX MY R90 R270 MXR90 MYR90

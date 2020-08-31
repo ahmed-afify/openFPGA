@@ -1,4 +1,4 @@
-timestamp 1597666934
+timestamp 1598868724
 version 8.3
 tech sky130A
 style ngspice(lvs)
@@ -38,10 +38,10 @@ equiv "DIODE" "DIODE"
 equiv "DIODE" "DIODE"
 node "VPB" 2099 250.38 29 527 nw 0 0 0 0 83460 1162 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VNB" 0 0 29 -17 pw 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "DIODE" "VPWR" 145.588
-cap "VPB" "VPWR" 12.006
 cap "DIODE" "VGND" 172.155
+cap "DIODE" "VPWR" 145.588
 cap "VPB" "DIODE" 32.19
+cap "VPB" "VPWR" 12.006
 device ndiode ndiode 31 39 32 40 a=17388 p=1072 "VNB" "DIODE" 544 0 "VNB" 128 0
 subcap "VGND" -45.3323
 subcap "VPWR" -41.746

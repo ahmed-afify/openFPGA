@@ -1,4 +1,4 @@
-timestamp 1597666934
+timestamp 1598868724
 version 8.3
 tech sky130A
 style ngspice(lvs)
@@ -14,8 +14,8 @@ node "VGND" 1041 649.524 29 -17 m1 0 0 0 0 0 0 0 0 11440 648 0 0 0 0 0 0 0 0 0 0
 node "VPB" 2351 427.572 29 527 nw 0 0 0 0 142524 1530 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VNB" 0 0 29 -17 pw 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 cap "VPWR" "VPB" 32.0079
-cap "VGND" "VPWR" 979.168
-cap "VGND" "VPB" 0.1036
+cap "VPB" "VGND" 0.1036
+cap "VPWR" "VGND" 979.168
 device mosfet nshort 79 47 80 48 210 110 "VNB" "VPWR" 420 0 "VGND" 220 0 "VGND" 0 0
 device mosfet phighvt 79 323 80 324 210 174 "VPB" "VGND" 420 0 "VPWR" 348 0 "VPWR" 0 0
 subcap "VPWR" -445.084

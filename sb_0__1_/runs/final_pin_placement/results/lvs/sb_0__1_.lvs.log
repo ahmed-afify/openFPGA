@@ -189,14 +189,14 @@ Cell sb_0__1_ disconnected node: chany_top_in[3]
 Subcircuit summary:
 Circuit 1: sb_0__1_                        |Circuit 2: sb_0__1_                        
 -------------------------------------------|-------------------------------------------
-sky130_fd_sc_hd__tapvpwrvgnd_1 (7612)      |sky130_fd_sc_hd__tapvpwrvgnd_1 (7612)      
+sky130_fd_sc_hd__tapvpwrvgnd_1 (3400)      |sky130_fd_sc_hd__tapvpwrvgnd_1 (3400)      
 sky130_fd_sc_hd__dfrbp_1 (50)              |sky130_fd_sc_hd__dfrbp_1 (50)              
 sky130_fd_sc_hd__diode_2 (170)             |sky130_fd_sc_hd__diode_2 (170)             
 sky130_fd_sc_hd__clkbuf_1 (6)              |sky130_fd_sc_hd__clkbuf_1 (6)              
 sky130_fd_sc_hd__buf_2 (14)                |sky130_fd_sc_hd__buf_2 (14)                
 sky130_fd_sc_hd__conb_1 (13)               |sky130_fd_sc_hd__conb_1 (13)               
 sky130_fd_sc_hd__clkbuf_16 (1)             |sky130_fd_sc_hd__clkbuf_16 (1)             
-Number of devices: 7866                    |Number of devices: 7866                    
+Number of devices: 3654                    |Number of devices: 3654                    
 Number of nets: 152                        |Number of nets: 152                        
 ---------------------------------------------------------------------------------------
 Netlists match with 9 symmetries.
@@ -208,9 +208,6 @@ Circuit 1: sb_0__1_                        |Circuit 2: sb_0__1_
 ccff_head                                  |ccff_head                                  
 prog_clk                                   |prog_clk                                   
 pReset                                     |pReset                                     
-chanx_right_out[7]                         |chanx_right_out[7]                         
-chanx_right_out[6]                         |chanx_right_out[6]                         
-chanx_right_out[5]                         |chanx_right_out[5]                         
 chanx_right_out[4]                         |chanx_right_out[4]                         
 chanx_right_out[3]                         |chanx_right_out[3]                         
 chanx_right_out[2]                         |chanx_right_out[2]                         
@@ -221,6 +218,9 @@ chany_top_out[0]                           |chany_top_out[0]
 chany_bottom_out[8]                        |chany_bottom_out[8]                        
 chany_bottom_out[4]                        |chany_bottom_out[4]                        
 chany_bottom_out[0]                        |chany_bottom_out[0]                        
+chanx_right_out[7]                         |chanx_right_out[7]                         
+chanx_right_out[6]                         |chanx_right_out[6]                         
+chanx_right_out[5]                         |chanx_right_out[5]                         
 chanx_right_out[8]                         |chanx_right_out[8]                         
 chanx_right_out[0]                         |chanx_right_out[0]                         
 chany_bottom_out[7]                        |chany_bottom_out[7]                        
@@ -236,19 +236,19 @@ chany_top_out[3]                           |chany_top_out[3]
 chany_top_out[2]                           |chany_top_out[2]                           
 chany_top_out[1]                           |chany_top_out[1]                           
 ccff_tail                                  |ccff_tail                                  
-right_top_grid_pin_10_                     |right_top_grid_pin_10_                     
-chany_top_in[4]                            |chany_top_in[4]                            
-chany_top_in[1]                            |chany_top_in[1]                            
-chany_top_in[5]                            |chany_top_in[5]                            
-chany_bottom_in[6]                         |chany_bottom_in[6]                         
-chany_bottom_in[5]                         |chany_bottom_in[5]                         
-chany_bottom_in[2]                         |chany_bottom_in[2]                         
-chany_bottom_in[1]                         |chany_bottom_in[1]                         
-chany_bottom_in[0]                         |chany_bottom_in[0]                         
-chany_top_in[2]                            |chany_top_in[2]                            
-chany_bottom_in[4]                         |chany_bottom_in[4]                         
-chany_top_in[6]                            |chany_top_in[6]                            
 chany_top_in[0]                            |chany_top_in[0]                            
+chany_top_in[1]                            |chany_top_in[1]                            
+chany_top_in[2]                            |chany_top_in[2]                            
+chany_top_in[4]                            |chany_top_in[4]                            
+chany_top_in[5]                            |chany_top_in[5]                            
+chany_top_in[6]                            |chany_top_in[6]                            
+right_top_grid_pin_10_                     |right_top_grid_pin_10_                     
+chany_bottom_in[0]                         |chany_bottom_in[0]                         
+chany_bottom_in[1]                         |chany_bottom_in[1]                         
+chany_bottom_in[2]                         |chany_bottom_in[2]                         
+chany_bottom_in[4]                         |chany_bottom_in[4]                         
+chany_bottom_in[5]                         |chany_bottom_in[5]                         
+chany_bottom_in[6]                         |chany_bottom_in[6]                         
 VGND                                       |VGND                                       
 VPWR                                       |VPWR                                       
 top_left_grid_pin_1_                       |top_left_grid_pin_1_                       

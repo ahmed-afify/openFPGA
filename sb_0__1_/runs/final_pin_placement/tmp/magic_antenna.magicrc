@@ -13,17 +13,17 @@ drc euclidean on
 
 # Allow override of PDK path from environment variable PDKPATH
 if {[catch {set PDKPATH $::env(PDKPATH)}]} {
-    set PDKPATH "/home/aa/Desktop/Afify/openlane/pdks/sky130A"
+    set PDKPATH "/home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A"
 }
 
 # loading technology
-tech load /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.tech/magic/current/sky130A.tech
+tech load /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.tech/magic/current/sky130A.tech
 
 # load device generator
-source /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.tech/magic/current/sky130A.tcl
+source /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.tech/magic/current/sky130A.tcl
 
 # load bind keys (optional)
-# source /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.tech/magic/current/sky130A-BindKeys
+# source /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.tech/magic/current/sky130A-BindKeys
 
 # set units to lambda grid 
 snap lambda
@@ -41,32 +41,32 @@ if {[catch {set MAGTYPE $::env(MAGTYPE)}]} {
 }
 
 # add path to reference cells
-if {[file isdir /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag]} {
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_pr_base
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_pr_rf
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_pr_rf2
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_io
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hd
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hdll
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hs
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hvl
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_lp
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_ls
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_ms
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/mag/sky130_osu130
+if {[file isdir /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag]} {
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_pr_base
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_pr_rf
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_pr_rf2
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_io
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hd
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hdll
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hs
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_hvl
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_lp
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_ls
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_fd_sc_ms
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/mag/sky130_osu130
 } else {
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_pr_base/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_pr_rf/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_pr_rf2/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_io/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hd/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hdll/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hs/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hvl/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_lp/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_ls/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_ms/mag
-    addpath /home/aa/Desktop/Afify/openlane/pdks/sky130A//libs.ref/sky130_osu130/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_pr_base/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_pr_rf/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_pr_rf2/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_io/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hd/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hdll/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hs/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_hvl/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_lp/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_ls/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_fd_sc_ms/mag
+    addpath /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A//libs.ref/sky130_osu130/mag
 }
 
 # add path to GDS cells

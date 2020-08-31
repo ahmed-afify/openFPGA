@@ -1,5 +1,5 @@
 
-lef read /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
+lef read /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef
 if {  [info exist ::env(EXTRA_LEFS)] } {
 	set lefs_in $::env(EXTRA_LEFS)
 	foreach lef_file $lefs_in {

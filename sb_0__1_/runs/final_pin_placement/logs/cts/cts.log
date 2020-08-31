@@ -1764,7 +1764,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__1_/runs/final_pin_placement/results/placement/sb_0__1_.placement.def
 Notice 0: Design: sb_0__1_
 Notice 0:     Created 78 pins.
-Notice 0:     Created 8249 components and 16802 component-terminals.
+Notice 0:     Created 3851 components and 8006 component-terminals.
 Notice 0:     Created 177 nets and 290 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__1_/runs/final_pin_placement/results/placement/sb_0__1_.placement.def
 [INFO]: Setting output delay to: 2.0
@@ -1814,21 +1814,21 @@ Number of created patterns = 313632.
  Generating H-Tree topology for net prog_clk...
     Tot. number of sinks: 50
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(89965, 746700), (273045, 768460)]
- Normalized sink region: [(6.92038, 57.4385), (21.0035, 59.1123)]
-    Width:  14.0831
-    Height: 1.67385
+ Original sink region: [(33845, 491020), (188865, 515380)]
+ Normalized sink region: [(2.60346, 37.7708), (14.5281, 39.6446)]
+    Width:  11.9246
+    Height: 1.87385
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 25
-    Sub-region size: 7.04154 X 1.67385
+    Sub-region size: 5.96231 X 1.87385
     Segment length (rounded): 1
     Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 13
-    Sub-region size: 7.04154 X 0.836923
+    Sub-region size: 5.96231 X 0.936923
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1838,7 +1838,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 33964.6 dbu.
+ Avg. source sink dist: 25872.8 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1848,6 +1848,6 @@ Number of created patterns = 313632.
  Minimum number of buffers in the clock path: 3.
  Maximum number of buffers in the clock path: 3.
     Created 7 clock nets.
-    Fanout distribution for the current clock = 2:3, 10:1, 12:1, 14:2.
+    Fanout distribution for the current clock = 2:3, 11:2, 12:1, 16:1.
     Max level of the clock tree: 2.
  ... End of TritonCTS execution.

@@ -1,4 +1,4 @@
-timestamp 1597666937
+timestamp 1598868726
 version 8.3
 tech sky130A
 style ngspice(lvs)
@@ -48,8 +48,8 @@ equiv "VPWR" "VPWR"
 equiv "VPWR" "VPWR"
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 cap "A" "VGND" 13.0167
-cap "VPWR" "VGND" 23.0448
-cap "VPWR" "A" 9.15234
-cap "X" "VGND" 218.509
-cap "X" "A" 17.3191
+cap "A" "VPWR" 9.15234
+cap "A" "X" 17.3191
+cap "VGND" "VPWR" 23.0448
+cap "VGND" "X" 218.509
 cap "VPWR" "X" 350.383
