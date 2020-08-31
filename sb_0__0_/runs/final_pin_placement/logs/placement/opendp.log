@@ -137,20 +137,20 @@ Reading /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp//merged.le
  def               : /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp/placement/replace.def
 -------------------------------------------------------------------
 CoreArea: 
-5520.000000 : 10880.000000 - 646300.000000 : 650080.000000
+5520.000000 : 10880.000000 - 432860.000000 : 437920.000000
 DieArea: 
-0.000000 : 0.000000 - 640780.000000 : 639200.000000
+0.000000 : 0.000000 - 427340.000000 : 427040.000000
 Reading /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp/placement/replace.def is Done
 -------------------- DESIGN ANALYSIS ------------------------------
-  total cells              : 5854
+  total cells              : 2751
   multi cells              : 0
-  fixed cells              : 5800
+  fixed cells              : 2697
   total nets               : 129
-  design area              : 4.09587e+11
-  total f_area             : 8.43309e+09
+  design area              : 1.82491e+11
+  total f_area             : 4.16024e+09
   total m_area             : 1.64408e+09
-  design util              : 0.409837
-  num rows                 : 235
+  design util              : 0.921924
+  num rows                 : 157
   row height               : 2720
 -------------------------------------------------------------------
  non_group_cell_region_assign done ..
@@ -162,21 +162,21 @@ Reading /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp/placement/
  location : /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//results/placement/sb_0__0_.placement.def
 -------------------------------------------------------------------
  tasks                          Wtime      Ctime
- Parser                         0.258      0.250
- resgin assign                  0.258      0.250
- pre-placement                  0.258      0.250
- non Group cell placement       0.258      0.250
- All                            0.259      0.250
+ Parser                         0.127      0.120
+ resgin assign                  0.127      0.120
+ pre-placement                  0.127      0.120
+ non Group cell placement       0.127      0.120
+ All                            0.127      0.120
  - - - - - EVALUATION - - - - - 
- AVG_displacement : 36.809
- SUM_displacement : 215480
- MAX_displacement : 11911
+ AVG_displacement : 148.801
+ SUM_displacement : 409351
+ MAX_displacement : 25559
  - - - - - - - - - - - - - - - - 
- GP HPWL          : 1236.71
- HPWL             : 1508.94
- avg_Disp_site    : 0.0800196
- avg_Disp_row     : 0.0135327
- delta_HPWL       : 22.0127
+ GP HPWL          : 945.333
+ HPWL             : 1338.88
+ avg_Disp_site    : 0.32348
+ avg_Disp_row     : 0.0547062
+ delta_HPWL       : 41.6305
  ==== CHECK LEGALITY ==== 
  row_check ==>> PASS 
  site_check ==>> PASS 

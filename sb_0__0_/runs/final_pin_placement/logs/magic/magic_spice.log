@@ -10,7 +10,7 @@ Input style vendorimport: scaleFactor=2, multiplier=2
 Scaled tech values by 2 / 1 to match internal grid scaling
 Loading sky130A Device Generator Menu ...
 Loading "/openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp//magic_spice.tcl" from command line.
-Reading LEF data from file /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef.
+Reading LEF data from file /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef.
 This action cannot be undone.
 LEF read, Line 61 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
 LEF read, Line 62 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
@@ -40,19 +40,19 @@ LEF read: Processed 772 lines.
 Reading DEF data from file /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//results/routing/sb_0__0_.def.
 This action cannot be undone.
   Processed 4 vias total.
-  Processed 33275 subcell instances total.
+  Processed 15170 subcell instances total.
   Processed 60 pins total.
   Processed 2 special nets total.
   Processed 136 nets total.
-DEF read: Processed 69616 lines.
+DEF read: Processed 18832 lines.
 Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
 Completed 100%
 Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
 Extracting sky130_fd_sc_hd__dfrbp_1 into sky130_fd_sc_hd__dfrbp_1.ext:
 Completed 100%
 Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
-Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
 Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
 Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
 Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
 Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:

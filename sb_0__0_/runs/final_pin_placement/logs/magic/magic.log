@@ -10,7 +10,7 @@ Input style vendorimport: scaleFactor=2, multiplier=2
 Scaled tech values by 2 / 1 to match internal grid scaling
 Loading sky130A Device Generator Menu ...
 Loading "/openLANE_flow/scripts//magic.tcl" from command line.
-Reading LEF data from file /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef.
+Reading LEF data from file /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef.
 This action cannot be undone.
 LEF read, Line 61 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
 LEF read, Line 62 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
@@ -40,18 +40,18 @@ LEF read: Processed 772 lines.
 Reading DEF data from file /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//results/routing/sb_0__0_.def.
 This action cannot be undone.
   Processed 4 vias total.
-  Processed 33275 subcell instances total.
+  Processed 15170 subcell instances total.
   Processed 60 pins total.
   Processed 2 special nets total.
   Processed 136 nets total.
-DEF read: Processed 69616 lines.
+DEF read: Processed 18832 lines.
 [INFO]: Zeroizing Origin
-[INFO]: Current Box Values: 0 0 129364 130446
+[INFO]: Current Box Values: 0 0 87123 87705
 [INFO]: GDS Write Complete
 Generating LEF output /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//results/magic/sb_0__0_.lef for cell sb_0__0_:
 Diagnostic:  Write LEF header for cell sb_0__0_
 Diagnostic:  Writing LEF output for cell sb_0__0_
 Diagnostic:  Scale value is 0.005000
 [INFO]: LEF Write Complete
-[INFO]: Saving .mag view With BBox Values: 0 0 129364 130446
+[INFO]: Saving .mag view With BBox Values: 0 0 87123 87705
 [INFO]: MAGIC TAPEOUT STEP DONE

@@ -1764,7 +1764,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement/results/placement/sb_0__0_.placement.def
 Notice 0: Design: sb_0__0_
 Notice 0:     Created 58 pins.
-Notice 0:     Created 5854 components and 11924 component-terminals.
+Notice 0:     Created 2751 components and 5718 component-terminals.
 Notice 0:     Created 129 nets and 198 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement/results/placement/sb_0__0_.placement.def
 [INFO]: Setting output delay to: 2.0
@@ -1814,21 +1814,21 @@ Number of created patterns = 313632.
  Generating H-Tree topology for net prog_clk...
     Tot. number of sinks: 36
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(89965, 629620), (251885, 645940)]
- Normalized sink region: [(6.92038, 48.4323), (19.3758, 49.6877)]
-    Width:  12.4554
-    Height: 1.25538
+ Original sink region: [(61905, 412020), (188865, 433780)]
+ Normalized sink region: [(4.76192, 31.6938), (14.5281, 33.3677)]
+    Width:  9.76615
+    Height: 1.67385
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 18
-    Sub-region size: 6.22769 X 1.25538
+    Sub-region size: 4.88308 X 1.67385
     Segment length (rounded): 1
     Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 9
-    Sub-region size: 6.22769 X 0.627692
+    Sub-region size: 4.88308 X 0.836923
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1838,7 +1838,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 28894.4 dbu.
+ Avg. source sink dist: 20378 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
