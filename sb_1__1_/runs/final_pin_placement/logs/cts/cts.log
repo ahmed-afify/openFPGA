@@ -1814,27 +1814,27 @@ Number of created patterns = 313632.
  Generating H-Tree topology for net prog_clk...
     Tot. number of sinks: 88
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(35685, 553460), (202205, 654220)]
- Normalized sink region: [(2.745, 42.5738), (15.5542, 50.3246)]
-    Width:  12.8092
-    Height: 7.75077
+ Original sink region: [(7165, 550860), (90425, 645940)]
+ Normalized sink region: [(0.551154, 42.3738), (6.95577, 49.6877)]
+    Width:  6.40462
+    Height: 7.31385
+ [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 44
-    Sub-region size: 6.40462 X 7.75077
-    Segment length (rounded): 4
-    Key: 328 outSlew: 11 load: 1 length: 4 isBuffered: 1
- [WARNING] Creating fake entries in the LUT.
+    Sub-region size: 3.20231 X 7.31385
+    Segment length (rounded): 1
+    Key: 313864 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 22
-    Sub-region size: 6.40462 X 3.87538
+    Sub-region size: 3.20231 X 3.65692
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 3
     Direction: Horizontal
     # sinks per sub-region: 11
-    Sub-region size: 3.20231 X 3.87538
+    Sub-region size: 1.60115 X 3.65692
     Segment length (rounded): 1
     Key: 313873 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1844,7 +1844,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 18956.5 dbu.
+ Avg. source sink dist: 17805.6 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1854,6 +1854,6 @@ Number of created patterns = 313632.
  Minimum number of buffers in the clock path: 4.
  Maximum number of buffers in the clock path: 4.
     Created 15 clock nets.
-    Fanout distribution for the current clock = 2:7, 5:1, 9:1, 10:2, 12:2, 14:1, 16:1.
+    Fanout distribution for the current clock = 2:7, 7:1, 8:1, 9:2, 12:1, 13:1, 14:1, 16:1.
     Max level of the clock tree: 3.
  ... End of TritonCTS execution.
