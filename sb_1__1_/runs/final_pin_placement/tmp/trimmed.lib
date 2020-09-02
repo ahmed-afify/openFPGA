@@ -28,6 +28,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
     default_arc_mode : "worst_edges";
     default_constraint_arc_mode : "worst";
     default_leakage_power_density : 0.0000000000;
+    default_operating_conditions : "tt_025C_1v80";
     operating_conditions ("tt_025C_1v80") {
         voltage : 1.8000000000;
         process : 1.0000000000;
@@ -92,7 +93,6 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
     in_place_swap_mode : "match_footprint";
     input_threshold_pct_fall : 50.000000000;
     input_threshold_pct_rise : 50.000000000;
-    leakage_sim_opt : "runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15 runlvl=5 accurate=1 method=bdf kcltest=1 gmin=1E-15";
     min_pulse_width_mode : "max";
     nom_process : 1.0000000000;
     nom_temperature : 25.000000000;
@@ -241,24 +241,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&B1&C1&!D1";
         }
         area : 21.270400000;
-        cell_footprint : "a2111o";
+        cell_footprint : "sky130_fd_sc_hd__a2111o";
         cell_leakage_power : 0.0091485880;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -878,24 +882,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&B1&C1&!D1";
         }
         area : 27.526400000;
-        cell_footprint : "a2111oi";
+        cell_footprint : "sky130_fd_sc_hd__a2111oi";
         cell_leakage_power : 0.0018227260;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -1449,24 +1457,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&B1&!C1";
         }
         area : 17.516800000;
-        cell_footprint : "a211o";
+        cell_footprint : "sky130_fd_sc_hd__a211o";
         cell_leakage_power : 0.0043549920;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -1900,24 +1912,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&!B1_N";
         }
         area : 16.265600000;
-        cell_footprint : "a21bo";
+        cell_footprint : "sky130_fd_sc_hd__a21bo";
         cell_leakage_power : 0.0068585080;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -2253,24 +2269,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&!B1_N";
         }
         area : 18.768000000;
-        cell_footprint : "a21boi";
+        cell_footprint : "sky130_fd_sc_hd__a21boi";
         cell_leakage_power : 0.0084973050;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -2604,24 +2624,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&!B1";
         }
         area : 15.014400000;
-        cell_footprint : "a21o";
+        cell_footprint : "sky130_fd_sc_hd__a21o";
         cell_leakage_power : 0.0058839750;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -2955,24 +2979,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&!B1";
         }
         area : 16.265600000;
-        cell_footprint : "a21oi";
+        cell_footprint : "sky130_fd_sc_hd__a21oi";
         cell_leakage_power : 0.0031957700;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -3358,24 +3386,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&B1&!B2";
         }
         area : 21.270400000;
-        cell_footprint : "a22oi";
+        cell_footprint : "sky130_fd_sc_hd__a22oi";
         cell_leakage_power : 0.0143172700;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -3835,24 +3867,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1_N&A2_N&B1&!B2";
         }
         area : 20.019200000;
-        cell_footprint : "a2bb2o";
+        cell_footprint : "sky130_fd_sc_hd__a2bb2o";
         cell_leakage_power : 0.0068295290;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1_N") {
@@ -4312,24 +4348,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1_N&A2_N&B1&!B2";
         }
         area : 26.275200000;
-        cell_footprint : "a2bb2oi";
+        cell_footprint : "sky130_fd_sc_hd__a2bb2oi";
         cell_leakage_power : 0.0074054400;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1_N") {
@@ -4877,24 +4917,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&B1&!B2";
         }
         area : 21.270400000;
-        cell_footprint : "a32o";
+        cell_footprint : "sky130_fd_sc_hd__a32o";
         cell_leakage_power : 0.0054417170;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -5512,24 +5556,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&B1&!B2";
         }
         area : 27.526400000;
-        cell_footprint : "a32oi";
+        cell_footprint : "sky130_fd_sc_hd__a32oi";
         cell_leakage_power : 0.0027910300;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -6147,24 +6195,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&A4&!B1";
         }
         area : 21.270400000;
-        cell_footprint : "a41o";
+        cell_footprint : "sky130_fd_sc_hd__a41o";
         cell_leakage_power : 0.0063521180;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -6782,24 +6834,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&!A2&A3&A4&!B1";
         }
         area : 27.526400000;
-        cell_footprint : "a41oi";
+        cell_footprint : "sky130_fd_sc_hd__a41oi";
         cell_leakage_power : 0.0027973540;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -7307,24 +7363,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&!B";
         }
         area : 8.7584000000;
-        cell_footprint : "and2";
+        cell_footprint : "sky130_fd_sc_hd__and2";
         cell_leakage_power : 0.0045468170;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -7570,24 +7630,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!A&!B&!C";
         }
         area : 11.260800000;
-        cell_footprint : "and3";
+        cell_footprint : "sky130_fd_sc_hd__and3";
         cell_leakage_power : 0.0041905290;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -7959,24 +8023,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&C&!D";
         }
         area : 11.260800000;
-        cell_footprint : "and4";
+        cell_footprint : "sky130_fd_sc_hd__and4";
         cell_leakage_power : 0.0043068320;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -8388,24 +8456,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!A";
         }
         area : 3.7536000000;
-        cell_footprint : "buf";
+        cell_footprint : "sky130_fd_sc_hd__buf";
         cell_leakage_power : 0.0011810180;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -8519,24 +8591,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!A";
         }
         area : 7.5072000000;
-        cell_footprint : "buf";
+        cell_footprint : "sky130_fd_sc_hd__buf";
         cell_leakage_power : 0.0048047400;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -8646,24 +8722,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!A";
         }
         area : 15.014400000;
-        cell_footprint : "buf";
+        cell_footprint : "sky130_fd_sc_hd__buf";
         cell_leakage_power : 0.0074201990;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -8811,22 +8891,26 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
 
     cell ("sky130_fd_sc_hd__conb_1") {
         area : 3.7536000000;
-        cell_footprint : "conb";
+        cell_footprint : "sky130_fd_sc_hd__conb";
         cell_leakage_power : 0.0032400370;
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("HI") {
@@ -8943,7 +9027,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!SET_B&!RESET_B&!CLK_N&!D&Q&!Q_N";
         }
         area : 35.033600000;
-        cell_footprint : "dfbbn";
+        cell_footprint : "sky130_fd_sc_hd__dfbbn";
         cell_leakage_power : 0.0128456200;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
@@ -8957,18 +9041,22 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
         }
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("CLK_N") {
@@ -9690,7 +9778,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!RESET_B&!CLK&D&!Q&Q_N";
         }
         area : 30.028800000;
-        cell_footprint : "dfrbp";
+        cell_footprint : "sky130_fd_sc_hd__dfrbp";
         cell_leakage_power : 0.0099507900;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
@@ -9701,18 +9789,22 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
         }
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("CLK") {
@@ -10179,7 +10271,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!RESET_B&!CLK&D&!Q";
         }
         area : 28.777600000;
-        cell_footprint : "dfrtp";
+        cell_footprint : "sky130_fd_sc_hd__dfrtp";
         cell_leakage_power : 0.0107504600;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
@@ -10190,18 +10282,22 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
         }
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("CLK") {
@@ -10543,7 +10639,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!CLK&D&!SET_B&Q";
         }
         area : 30.028800000;
-        cell_footprint : "dfstp";
+        cell_footprint : "sky130_fd_sc_hd__dfstp";
         cell_leakage_power : 0.0109455200;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
@@ -10554,18 +10650,22 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
         }
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("CLK") {
@@ -10885,7 +10985,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!CLK&!D&Q&!Q_N";
         }
         area : 26.275200000;
-        cell_footprint : "dfxbp";
+        cell_footprint : "sky130_fd_sc_hd__dfxbp";
         cell_leakage_power : 0.0123383900;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
@@ -10895,18 +10995,22 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
         }
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("CLK") {
@@ -11210,7 +11314,7 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!CLK&!D&!Q";
         }
         area : 23.772800000;
-        cell_footprint : "dfxtp";
+        cell_footprint : "sky130_fd_sc_hd__dfxtp";
         cell_leakage_power : 0.0087830730;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
@@ -11220,18 +11324,22 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
         }
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("CLK") {
@@ -11530,24 +11638,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!A";
         }
         area : 20.019200000;
-        cell_footprint : "inv";
+        cell_footprint : "sky130_fd_sc_hd__inv";
         cell_leakage_power : 0.0097863830;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -11661,24 +11773,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "!A";
         }
         area : 11.260800000;
-        cell_footprint : "inv";
+        cell_footprint : "sky130_fd_sc_hd__inv";
         cell_leakage_power : 0.0060500540;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -11884,24 +12000,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&!C";
         }
         area : 13.763200000;
-        cell_footprint : "maj3";
+        cell_footprint : "sky130_fd_sc_hd__maj3";
         cell_leakage_power : 0.0037688080;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -12473,24 +12593,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A0&A1&A2&A3&S0&!S1";
         }
         area : 25.024000000;
-        cell_footprint : "mux4";
+        cell_footprint : "sky130_fd_sc_hd__mux4";
         cell_leakage_power : 0.0072365410;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A0") {
@@ -13188,24 +13312,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&!B";
         }
         area : 11.260800000;
-        cell_footprint : "nand2";
+        cell_footprint : "sky130_fd_sc_hd__nand2";
         cell_leakage_power : 0.0071228910;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -13453,24 +13581,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&!C";
         }
         area : 17.516800000;
-        cell_footprint : "nand3";
+        cell_footprint : "sky130_fd_sc_hd__nand3";
         cell_leakage_power : 0.0025822140;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -13842,24 +13974,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&C&!D";
         }
         area : 21.270400000;
-        cell_footprint : "nand4";
+        cell_footprint : "sky130_fd_sc_hd__nand4";
         cell_leakage_power : 0.0032479900;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -14283,24 +14419,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&!B";
         }
         area : 11.260800000;
-        cell_footprint : "nor2";
+        cell_footprint : "sky130_fd_sc_hd__nor2";
         cell_leakage_power : 0.0027034450;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -14548,24 +14688,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&!C";
         }
         area : 16.265600000;
-        cell_footprint : "nor3";
+        cell_footprint : "sky130_fd_sc_hd__nor3";
         cell_leakage_power : 0.0042912730;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -14937,24 +15081,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&C&!D";
         }
         area : 21.270400000;
-        cell_footprint : "nor4";
+        cell_footprint : "sky130_fd_sc_hd__nor4";
         cell_leakage_power : 0.0025154460;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -15418,24 +15566,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&!B1";
         }
         area : 15.014400000;
-        cell_footprint : "o21a";
+        cell_footprint : "sky130_fd_sc_hd__o21a";
         cell_leakage_power : 0.0041518770;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -15771,24 +15923,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&!B1";
         }
         area : 16.265600000;
-        cell_footprint : "o21ai";
+        cell_footprint : "sky130_fd_sc_hd__o21ai";
         cell_leakage_power : 0.0031521180;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -16178,24 +16334,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&B1&!B2";
         }
         area : 17.516800000;
-        cell_footprint : "o22a";
+        cell_footprint : "sky130_fd_sc_hd__o22a";
         cell_leakage_power : 0.0038582540;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -16763,24 +16923,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&B1&!B2";
         }
         area : 22.521600000;
-        cell_footprint : "o32a";
+        cell_footprint : "sky130_fd_sc_hd__o32a";
         cell_leakage_power : 0.0067278040;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -17398,24 +17562,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&B1&!B2";
         }
         area : 27.526400000;
-        cell_footprint : "o32ai";
+        cell_footprint : "sky130_fd_sc_hd__o32ai";
         cell_leakage_power : 0.0042500690;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -18033,24 +18201,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&A4&!B1";
         }
         area : 21.270400000;
-        cell_footprint : "o41a";
+        cell_footprint : "sky130_fd_sc_hd__o41a";
         cell_leakage_power : 0.0069153160;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -18668,24 +18840,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A1&A2&A3&A4&!B1";
         }
         area : 27.526400000;
-        cell_footprint : "o41ai";
+        cell_footprint : "sky130_fd_sc_hd__o41ai";
         cell_leakage_power : 0.0097529590;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A1") {
@@ -19193,24 +19369,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&!B";
         }
         area : 8.7584000000;
-        cell_footprint : "or2";
+        cell_footprint : "sky130_fd_sc_hd__or2";
         cell_leakage_power : 0.0033370700;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -19456,24 +19636,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&!C";
         }
         area : 11.260800000;
-        cell_footprint : "or3";
+        cell_footprint : "sky130_fd_sc_hd__or3";
         cell_leakage_power : 0.0027063310;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -19845,24 +20029,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&B&C&!D";
         }
         area : 11.260800000;
-        cell_footprint : "or4";
+        cell_footprint : "sky130_fd_sc_hd__or4";
         cell_leakage_power : 0.0024227670;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -20344,24 +20532,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&!B";
         }
         area : 27.526400000;
-        cell_footprint : "xnor2";
+        cell_footprint : "sky130_fd_sc_hd__xnor2";
         cell_leakage_power : 0.0091197900;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {
@@ -20669,24 +20861,28 @@ library ("sky130_fd_sc_hd__tt_025C_1v80") {
             when : "A&!B";
         }
         area : 27.526400000;
-        cell_footprint : "xor2";
+        cell_footprint : "sky130_fd_sc_hd__xor2";
         cell_leakage_power : 0.0073803710;
         driver_waveform_fall : "ramp";
         driver_waveform_rise : "ramp";
         pg_pin ("VGND") {
             pg_type : "primary_ground";
+            related_bias_pin : "VPB";
             voltage_name : "VGND";
         }
         pg_pin ("VNB") {
-            pg_type : "primary_ground";
+            pg_type : "nwell";
+            physical_connection : "device_layer";
             voltage_name : "VNB";
         }
         pg_pin ("VPB") {
-            pg_type : "primary_power";
+            pg_type : "pwell";
+            physical_connection : "device_layer";
             voltage_name : "VPB";
         }
         pg_pin ("VPWR") {
             pg_type : "primary_power";
+            related_bias_pin : "VNB";
             voltage_name : "VPWR";
         }
         pin ("A") {

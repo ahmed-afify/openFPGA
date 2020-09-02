@@ -1,36 +1,86 @@
-Tue Sep 01 15:25:11 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged_unpadded.lef -o /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+Wed Sep 02 14:13:39 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged_unpadded.lef -o /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
 
-Tue Sep 01 15:25:19 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef"
+Wed Sep 02 14:13:45 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef"
 
-Tue Sep 01 15:25:20 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged_unpadded.lef"
+Wed Sep 02 14:13:45 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged_unpadded.lef"
 
-Tue Sep 01 15:25:20 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane-rc2/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//trimmed.lib"
+Wed Sep 02 14:13:45 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//trimmed.lib"
 
-Tue Sep 01 15:25:27 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/yosys.log |& tee >&@stdout"
+Wed Sep 02 14:14:06 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/yosys.log |& tee >&@stdout"
 
-Tue Sep 01 15:25:28 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/opensta.log"
+Wed Sep 02 14:14:07 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
 
-Tue Sep 01 15:25:32 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/verilog2def.openroad.log"
+Wed Sep 02 14:14:07 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_preroute.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
 
-Tue Sep 01 15:25:33 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/ioPlacer.log"
+Wed Sep 02 14:14:07 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/opensta.log"
 
-Tue Sep 01 15:25:33 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/tapcell.log"
+Wed Sep 02 14:14:18 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/verilog2def.openroad.log"
 
-Tue Sep 01 15:25:51 UTC 2020 - Executing "replace < /openLANE_flow/scripts//replace_gp.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/placement/replace.log"
+Wed Sep 02 14:14:18 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/ioPlacer.log"
 
-Tue Sep 01 15:25:52 UTC 2020 - Executing "cp /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/placement/replace_place.def /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/placement/replace.def"
+Wed Sep 02 14:14:19 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/tapcell.log"
 
-Tue Sep 01 15:25:52 UTC 2020 - Executing "opendp -lef /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef -def /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/placement/replace.def -output_def /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//results/placement/sb_1__1_.placement.def |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/placement/opendp.log"
+Wed Sep 02 14:14:50 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/placement/replace.log"
 
-Tue Sep 01 15:25:55 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/cts/cts.log"
+Wed Sep 02 14:14:53 UTC 2020 - Executing "opendp -lef /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef -def /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/placement/replace.def -output_def /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//results/placement/sb_1__1_.placement.def |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/placement/opendp.log"
 
-Tue Sep 01 15:27:22 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/pdn.log"
+Wed Sep 02 14:15:21 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_cts.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/cts/cts.log"
 
-Tue Sep 01 15:27:27 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_diodes.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//placement/diodes.log"
+Wed Sep 02 14:16:32 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//write_verilog.log"
 
-Tue Sep 01 15:27:28 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_fill.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/routing/addspacers.log"
+Wed Sep 02 14:16:33 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//yosys_rewrite_verilog.tcl -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/yosys_rewrite_verilog.log"
 
-Tue Sep 01 15:27:28 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//write_verilog.log"
+Wed Sep 02 14:16:34 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_cts.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
 
-Tue Sep 01 15:27:29 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/routing/fastroute.log"
+Wed Sep 02 14:16:34 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:16:40 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//new_pdn.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/floorplan/pdn.log"
+
+Wed Sep 02 14:16:49 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_diodes.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//placement/diodes.log"
+
+Wed Sep 02 14:16:49 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//write_verilog.log"
+
+Wed Sep 02 14:16:50 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//yosys_rewrite_verilog.tcl -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/yosys_rewrite_verilog.log"
+
+Wed Sep 02 14:16:51 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_diodes.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:16:51 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_cts.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:16:51 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_fill.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/routing/addspacers.log"
+
+Wed Sep 02 14:16:51 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//write_verilog.log"
+
+Wed Sep 02 14:16:52 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//yosys_rewrite_verilog.tcl -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/yosys_rewrite_verilog.log"
+
+Wed Sep 02 14:16:58 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_preroute.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:16:58 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_diodes.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:16:58 UTC 2020 - Executing "python3 /openLANE_flow/scripts//write_powered_def.py -d /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/routing/addspacers.def -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//merged.lef -v VPWR -g VGND -o /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//routing/sb_1__1_.powered.def |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//lvs/write_powered_verilog.log"
+
+Wed Sep 02 14:16:59 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_write_verilog.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs//write_verilog.log"
+
+Wed Sep 02 14:17:00 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//yosys_rewrite_verilog.tcl -l /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/synthesis/yosys_rewrite_verilog.log"
+
+Wed Sep 02 14:17:14 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/lvs\/sb_1__1_.lvs.powered.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:17:14 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/final_pin_placement\/\/results\/synthesis\/sb_1__1_.synthesis_preroute.v/} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//config.tcl"
+
+Wed Sep 02 14:17:14 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/routing/fastroute.log"
+
+Wed Sep 02 14:17:20 UTC 2020 - Executing "envsubst < /openLANE_flow/scripts//tritonRoute.param > /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/routing/tritonRoute.param"
+
+Wed Sep 02 14:17:20 UTC 2020 - Executing "TritonRoute14 /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp/routing/tritonRoute.param |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/routing/tritonRoute.log"
+
+Wed Sep 02 14:30:30 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts//magic.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/magic/magic.log"
+
+Wed Sep 02 16:02:16 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//magic_spice.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/magic/magic_spice.log"
+
+Wed Sep 02 16:02:37 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/scripts//magic_drc.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/magic/magic.drc.log"
+
+Wed Sep 02 16:03:19 UTC 2020 - Executing "netgen -batch lvs {/openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//results/magic/sb_1__1_.spice sb_1__1_} {/openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//results/lvs/sb_1__1_.lvs.powered.v sb_1__1_} /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/netgen/sky130A_setup.tcl /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//results/lvs/sb_1__1_.lvs.log -json |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/lvs/lvs.log"
+
+Wed Sep 02 16:03:36 UTC 2020 - Executing "magic -noconsole -dnull -rcfile /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/magic/sky130A.magicrc /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//tmp//magic_antenna.tcl </dev/null |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/magic/magic_antenna.log"
+
+Wed Sep 02 16:09:07 UTC 2020 - Executing "awk {/Cell:/ {print $2}} /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/magic/magic_antenna.log > /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//reports/magic/magic.antenna_violators.rpt"
 

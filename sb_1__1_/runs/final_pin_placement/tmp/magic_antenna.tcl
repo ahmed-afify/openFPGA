@@ -15,10 +15,14 @@ select top cell
 # but getting many warnings
 if { ! [file exists $::env(DESIGN_NAME).ext] } {
 	extract do local
+	extract no capacitance
+	extract no coupling
+	extract no resistance
+	extract no adjust
 	# extract warn all
 	extract
 	feedback save /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement//logs/magic/magic_ext2spice.antenna.feedback.txt
 }
 antennacheck debug
-antennacheck 
+antennacheck
 

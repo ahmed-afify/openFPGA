@@ -115,20 +115,20 @@ Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp'.
 Generating RTLIL representation for module `\iopad'.
 Successfully finished Verilog frontend.
 
-7. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/src/user_defined_templates.v
+7. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/src/sb_1_1.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_1__1_/src/sb_1_1.v' to AST representation.
+Generating RTLIL representation for module `\sb_1__1_'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/src/user_defined_templates.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_1__1_/src/user_defined_templates.v' to AST representation.
 Generating RTLIL representation for module `\static_dff'.
 Generating RTLIL representation for module `\sc_dff_compact'.
 Successfully finished Verilog frontend.
 
-8. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/src/wires.v
+9. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/src/wires.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_1__1_/src/wires.v' to AST representation.
 Generating RTLIL representation for module `\direct_interc'.
-Successfully finished Verilog frontend.
-
-9. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/src/sb_1_1.v
-Parsing Verilog input from `/openLANE_flow/designs/sb_1__1_/src/sb_1_1.v' to AST representation.
-Generating RTLIL representation for module `\sb_1__1_'.
 Successfully finished Verilog frontend.
 
 10. Executing HIERARCHY pass (managing design hierarchy).
@@ -1076,7 +1076,7 @@ Mapping DFF cells in module `\sb_1__1_':
 
 18. Executing ABC pass (technology mapping using ABC).
 
-18.1. Extracting gate netlist of module `\sb_1__1_' to `/tmp/yosys-abc-0bZYAQ/input.blif'..
+18.1. Extracting gate netlist of module `\sb_1__1_' to `/tmp/yosys-abc-k5dgPV/input.blif'..
 Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
 Don't call ABC as there is nothing to map.
 Removing temp directory.
@@ -1159,6 +1159,6 @@ found and reported 12 problems.
 Dumping module `\sb_1__1_'.
 
 Warnings: 217 unique messages, 219 total
-End of script. Logfile hash: 3bad2d6bb5, CPU: user 0.97s system 0.01s, MEM: 17.50 MB peak
+End of script. Logfile hash: a2c0f5e019, CPU: user 1.09s system 0.01s, MEM: 17.38 MB peak
 Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
-Time spent: 35% 18x opt_clean (0 sec), 11% 1x flatten (0 sec), ...
+Time spent: 37% 18x opt_clean (0 sec), 10% 1x flatten (0 sec), ...

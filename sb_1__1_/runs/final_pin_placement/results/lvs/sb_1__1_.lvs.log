@@ -117,35 +117,29 @@ VPWR                                       |VPWR
 Cell pin lists are equivalent.
 Device classes sky130_fd_sc_hd__clkbuf_16 and sky130_fd_sc_hd__clkbuf_16 are equivalent.
 
-Cell sb_1__1_ disconnected node: bottom_left_grid_pin_13_
-Cell sb_1__1_ disconnected node: bottom_right_grid_pin_11_
+Cell sb_1__1_ disconnected node: left_bottom_grid_pin_12_
 Cell sb_1__1_ disconnected node: chanx_left_in[3]
 Cell sb_1__1_ disconnected node: chanx_left_in[7]
 Cell sb_1__1_ disconnected node: chanx_left_in[8]
-Cell sb_1__1_ disconnected node: chanx_right_in[3]
-Cell sb_1__1_ disconnected node: chanx_right_in[7]
-Cell sb_1__1_ disconnected node: chanx_right_in[8]
-Cell sb_1__1_ disconnected node: chany_bottom_in[3]
-Cell sb_1__1_ disconnected node: chany_bottom_in[7]
-Cell sb_1__1_ disconnected node: chany_bottom_in[8]
+Cell sb_1__1_ disconnected node: left_top_grid_pin_10_
+Cell sb_1__1_ disconnected node: top_left_grid_pin_13_
 Cell sb_1__1_ disconnected node: chany_top_in[3]
 Cell sb_1__1_ disconnected node: chany_top_in[7]
 Cell sb_1__1_ disconnected node: chany_top_in[8]
-Cell sb_1__1_ disconnected node: left_bottom_grid_pin_12_
-Cell sb_1__1_ disconnected node: left_top_grid_pin_10_
-Cell sb_1__1_ disconnected node: right_bottom_grid_pin_12_
-Cell sb_1__1_ disconnected node: right_top_grid_pin_10_
-Cell sb_1__1_ disconnected node: top_left_grid_pin_13_
 Cell sb_1__1_ disconnected node: top_right_grid_pin_11_
+Cell sb_1__1_ disconnected node: right_bottom_grid_pin_12_
+Cell sb_1__1_ disconnected node: chanx_right_in[3]
+Cell sb_1__1_ disconnected node: chanx_right_in[7]
+Cell sb_1__1_ disconnected node: chanx_right_in[8]
+Cell sb_1__1_ disconnected node: right_top_grid_pin_10_
+Cell sb_1__1_ disconnected node: bottom_left_grid_pin_13_
+Cell sb_1__1_ disconnected node: chany_bottom_in[3]
+Cell sb_1__1_ disconnected node: chany_bottom_in[7]
+Cell sb_1__1_ disconnected node: chany_bottom_in[8]
+Cell sb_1__1_ disconnected node: bottom_right_grid_pin_11_
 
 Cell sb_1__1_ disconnected node: bottom_left_grid_pin_13_
 Cell sb_1__1_ disconnected node: bottom_right_grid_pin_11_
-Cell sb_1__1_ disconnected node: left_bottom_grid_pin_12_
-Cell sb_1__1_ disconnected node: left_top_grid_pin_10_
-Cell sb_1__1_ disconnected node: right_bottom_grid_pin_12_
-Cell sb_1__1_ disconnected node: right_top_grid_pin_10_
-Cell sb_1__1_ disconnected node: top_left_grid_pin_13_
-Cell sb_1__1_ disconnected node: top_right_grid_pin_11_
 Cell sb_1__1_ disconnected node: chanx_left_in[8]
 Cell sb_1__1_ disconnected node: chanx_left_in[7]
 Cell sb_1__1_ disconnected node: chanx_left_in[3]
@@ -158,20 +152,28 @@ Cell sb_1__1_ disconnected node: chany_bottom_in[3]
 Cell sb_1__1_ disconnected node: chany_top_in[8]
 Cell sb_1__1_ disconnected node: chany_top_in[7]
 Cell sb_1__1_ disconnected node: chany_top_in[3]
+Cell sb_1__1_ disconnected node: left_bottom_grid_pin_12_
+Cell sb_1__1_ disconnected node: left_top_grid_pin_10_
+Cell sb_1__1_ disconnected node: right_bottom_grid_pin_12_
+Cell sb_1__1_ disconnected node: right_top_grid_pin_10_
+Cell sb_1__1_ disconnected node: top_left_grid_pin_13_
+Cell sb_1__1_ disconnected node: top_right_grid_pin_11_
 
 Subcircuit summary:
 Circuit 1: sb_1__1_                        |Circuit 2: sb_1__1_                        
 -------------------------------------------|-------------------------------------------
-sky130_fd_sc_hd__tapvpwrvgnd_1 (6046)      |sky130_fd_sc_hd__tapvpwrvgnd_1 (6046)      
+sky130_fd_sc_hd__tapvpwrvgnd_1 (5755)      |sky130_fd_sc_hd__tapvpwrvgnd_1 (5755)      
 sky130_fd_sc_hd__dfrbp_1 (88)              |sky130_fd_sc_hd__dfrbp_1 (88)              
 sky130_fd_sc_hd__diode_2 (303)             |sky130_fd_sc_hd__diode_2 (303)             
 sky130_fd_sc_hd__clkbuf_1 (14)             |sky130_fd_sc_hd__clkbuf_1 (14)             
 sky130_fd_sc_hd__buf_2 (24)                |sky130_fd_sc_hd__buf_2 (24)                
 sky130_fd_sc_hd__conb_1 (12)               |sky130_fd_sc_hd__conb_1 (12)               
 sky130_fd_sc_hd__clkbuf_16 (1)             |sky130_fd_sc_hd__clkbuf_16 (1)             
-Number of devices: 6488                    |Number of devices: 6488                    
+Number of devices: 6197                    |Number of devices: 6197                    
 Number of nets: 256                        |Number of nets: 256                        
 ---------------------------------------------------------------------------------------
+Resolving automorphisms by property value.
+Resolving automorphisms by pin name.
 Netlists match with 17 symmetries.
 Circuits match correctly.
 
@@ -202,8 +204,8 @@ chanx_right_in[2]                          |chanx_right_in[2]
 chanx_left_in[4]                           |chanx_left_in[4]                           
 chany_top_in[0]                            |chany_top_in[0]                            
 chanx_right_in[6]                          |chanx_right_in[6]                          
-ccff_head                                  |ccff_head                                  
 prog_clk                                   |prog_clk                                   
+ccff_head                                  |ccff_head                                  
 pReset                                     |pReset                                     
 chanx_right_out[4]                         |chanx_right_out[4]                         
 chanx_right_out[0]                         |chanx_right_out[0]                         
@@ -244,26 +246,20 @@ chany_bottom_out[1]                        |chany_bottom_out[1]
 ccff_tail                                  |ccff_tail                                  
 VGND                                       |VGND                                       
 VPWR                                       |VPWR                                       
-bottom_left_grid_pin_13_                   |bottom_left_grid_pin_13_                   
-bottom_right_grid_pin_11_                  |bottom_right_grid_pin_11_                  
 chanx_left_in[3]                           |chanx_left_in[3]                           
 chanx_left_in[7]                           |chanx_left_in[7]                           
 chanx_left_in[8]                           |chanx_left_in[8]                           
-chanx_right_in[3]                          |chanx_right_in[3]                          
-chanx_right_in[7]                          |chanx_right_in[7]                          
-chanx_right_in[8]                          |chanx_right_in[8]                          
-chany_bottom_in[3]                         |chany_bottom_in[3]                         
-chany_bottom_in[7]                         |chany_bottom_in[7]                         
-chany_bottom_in[8]                         |chany_bottom_in[8]                         
 chany_top_in[3]                            |chany_top_in[3]                            
 chany_top_in[7]                            |chany_top_in[7]                            
 chany_top_in[8]                            |chany_top_in[8]                            
-left_bottom_grid_pin_12_                   |left_bottom_grid_pin_12_                   
-left_top_grid_pin_10_                      |left_top_grid_pin_10_                      
-right_bottom_grid_pin_12_                  |right_bottom_grid_pin_12_                  
-right_top_grid_pin_10_                     |right_top_grid_pin_10_                     
-top_left_grid_pin_13_                      |top_left_grid_pin_13_                      
-top_right_grid_pin_11_                     |top_right_grid_pin_11_                     
+chanx_right_in[3]                          |chanx_right_in[3]                          
+chanx_right_in[7]                          |chanx_right_in[7]                          
+chanx_right_in[8]                          |chanx_right_in[8]                          
+bottom_left_grid_pin_13_                   |bottom_left_grid_pin_13_                   
+chany_bottom_in[3]                         |chany_bottom_in[3]                         
+chany_bottom_in[7]                         |chany_bottom_in[7]                         
+chany_bottom_in[8]                         |chany_bottom_in[8]                         
+bottom_right_grid_pin_11_                  |bottom_right_grid_pin_11_                  
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes sb_1__1_ and sb_1__1_ are equivalent.
