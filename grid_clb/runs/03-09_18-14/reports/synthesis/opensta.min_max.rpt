@@ -1,0 +1,112 @@
+Startpoint: pReset (input port clocked by prog_clk)
+Endpoint: logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (removal check against rising-edge clock prog_clk)
+Path Group: **async_default**
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.57    2.57 ^ pReset (in)
+   0.00    2.57 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B (sky130_fd_sc_hd__dfrbp_1)
+           2.57   data arrival time
+
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.39    0.39   library removal time
+           0.39   data required time
+---------------------------------------------------------
+           0.39   data required time
+          -2.57   data arrival time
+---------------------------------------------------------
+           2.18   slack (MET)
+
+
+Startpoint: logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_9_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop clocked by prog_clk)
+Endpoint: logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_10_.sky130_fd_sc_hd__dfrbp_1
+          (rising edge-triggered flip-flop clocked by prog_clk)
+Path Group: prog_clk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_9_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.20    0.20 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_9_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    0.20 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_10_.sky130_fd_sc_hd__dfrbp_1/D (sky130_fd_sc_hd__dfrbp_1)
+           0.20   data arrival time
+
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_10_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+  -0.02   -0.02   library hold time
+          -0.02   data required time
+---------------------------------------------------------
+          -0.02   data required time
+          -0.20   data arrival time
+---------------------------------------------------------
+           0.22   slack (MET)
+
+
+Startpoint: pReset (input port clocked by prog_clk)
+Endpoint: logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (recovery check against rising-edge clock prog_clk)
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   1.06    3.06 ^ pReset (in)
+   0.00    3.06 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B (sky130_fd_sc_hd__dfrbp_1)
+           3.06   data arrival time
+
+  10.00   10.00   clock prog_clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ logical_tile_clb_mode_clb__0.logical_tile_clb_mode_default__fle_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_0.logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4_0.lut4_sc_dff_compact_mem.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+  -0.13    9.87   library recovery time
+           9.87   data required time
+---------------------------------------------------------
+           9.87   data required time
+          -3.06   data arrival time
+---------------------------------------------------------
+           6.81   slack (MET)
+
+
+Startpoint: logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop clocked by prog_clk)
+Endpoint: ccff_tail (output port clocked by prog_clk)
+Path Group: prog_clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.97    0.97 v logical_tile_clb_mode_clb__0.mem_fle_3_in_3.sc_dff_compact_7_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    0.97 v ccff_tail (out)
+           0.97   data arrival time
+
+  10.00   10.00   clock prog_clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+          -0.97   data arrival time
+---------------------------------------------------------
+           7.03   slack (MET)
+
+
