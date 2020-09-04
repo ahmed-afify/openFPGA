@@ -1758,38 +1758,38 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement/tmp/floorplan/pdn.def
 Notice 0: Design: sb_1__1_
 Notice 0:     Created 86 pins.
-Notice 0:     Created 6380 components and 13302 component-terminals.
+Notice 0:     Created 244 components and 1032 component-terminals.
 Notice 0:     Created 2 special nets and 0 connections.
-Notice 0:     Created 274 nets and 530 connections.
+Notice 0:     Created 275 nets and 492 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement/tmp/floorplan/pdn.def
 [INFO]: Inserting sky130_fd_sc_hd__diode_2...
 [WARN]: Skipping VPWR
 [WARN]: Skipping VGND
 
-[INFO]: 303 of sky130_fd_sc_hd__diode_2 inserted!
+[INFO]: 264 of sky130_fd_sc_hd__diode_2 inserted!
 [INFO]: Legalizing...
 Warning: Cannot find MACRO with VDD/VSS pins.
 Warning: could not find power special net
 Design Stats
 --------------------------------
-total instances          6683
-multi row instances      6683
-fixed instances          6241
-nets                      276
-design area          437211.8 u^2
-fixed area             9024.9 u^2
-movable area           3533.4 u^2
-utilization                 1 %
-utilization padded          1 %
-rows                      243
+total instances           508
+multi row instances       508
+fixed instances           104
+nets                      277
+design area            4754.6 u^2
+fixed area              255.2 u^2
+movable area           3447.1 u^2
+utilization                77 %
+utilization padded         91 %
+rows                       25
 row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement      914.5 u
-average displacement      0.1 u
-max displacement         12.4 u
-original HPWL         26251.7 u
-legalized HPWL        26385.0 u
-delta HPWL                  1 %
+total displacement     7456.3 u
+average displacement     14.7 u
+max displacement         93.8 u
+original HPWL          7152.8 u
+legalized HPWL         9453.9 u
+delta HPWL                 32 %
 

@@ -1,0 +1,231 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v' to AST representation.
+Generating RTLIL representation for module `\sb_1__1_'.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:178: Warning: Identifier `\mem_bottom_track_1.ccff_head' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:179: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:180: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:182: Warning: Identifier `\clknet_3_2_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:186: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:187: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:193: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:194: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:200: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:201: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:203: Warning: Identifier `\clknet_3_1_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:207: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:208: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:214: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:215: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:221: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:222: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:224: Warning: Identifier `\clknet_3_6_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:228: Warning: Identifier `\mem_bottom_track_1.ccff_tail' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:229: Warning: Identifier `\mem_bottom_track_1.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:234: Warning: Identifier `\mem_bottom_track_17.ccff_head' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:235: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:236: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:241: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:242: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:247: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:248: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:250: Warning: Identifier `\clknet_3_3_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:254: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:255: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:260: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:261: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:263: Warning: Identifier `\clknet_3_4_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:267: Warning: Identifier `\mem_bottom_track_17.ccff_tail' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:268: Warning: Identifier `\mem_bottom_track_17.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:273: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:274: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:280: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:281: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:287: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:288: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:294: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:295: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:301: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:302: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:307: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:308: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:314: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:315: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:322: Warning: Identifier `\mem_bottom_track_9.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:327: Warning: Identifier `\mem_left_track_1.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:328: Warning: Identifier `\mem_left_track_1.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:333: Warning: Identifier `\mem_left_track_1.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:334: Warning: Identifier `\mem_left_track_1.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:340: Warning: Identifier `\mem_left_track_1.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:341: Warning: Identifier `\mem_left_track_1.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:346: Warning: Identifier `\mem_left_track_1.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:347: Warning: Identifier `\mem_left_track_1.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:349: Warning: Identifier `\clknet_3_0_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:353: Warning: Identifier `\mem_left_track_1.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:354: Warning: Identifier `\mem_left_track_1.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:359: Warning: Identifier `\mem_left_track_1.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:360: Warning: Identifier `\mem_left_track_1.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:362: Warning: Identifier `\clknet_3_7_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:366: Warning: Identifier `\mem_left_track_1.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:367: Warning: Identifier `\mem_left_track_1.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:369: Warning: Identifier `\clknet_3_5_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:373: Warning: Identifier `\mem_left_track_1.ccff_tail' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:374: Warning: Identifier `\mem_left_track_1.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:379: Warning: Identifier `\mem_left_track_17.ccff_head' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:380: Warning: Identifier `\mem_left_track_17.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:381: Warning: Identifier `\mem_left_track_17.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:386: Warning: Identifier `\mem_left_track_17.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:387: Warning: Identifier `\mem_left_track_17.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:393: Warning: Identifier `\mem_left_track_17.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:394: Warning: Identifier `\mem_left_track_17.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:399: Warning: Identifier `\mem_left_track_17.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:400: Warning: Identifier `\mem_left_track_17.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:405: Warning: Identifier `\mem_left_track_17.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:406: Warning: Identifier `\mem_left_track_17.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:413: Warning: Identifier `\mem_left_track_17.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:419: Warning: Identifier `\mem_left_track_9.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:420: Warning: Identifier `\mem_left_track_9.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:426: Warning: Identifier `\mem_left_track_9.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:427: Warning: Identifier `\mem_left_track_9.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:433: Warning: Identifier `\mem_left_track_9.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:434: Warning: Identifier `\mem_left_track_9.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:440: Warning: Identifier `\mem_left_track_9.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:441: Warning: Identifier `\mem_left_track_9.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:447: Warning: Identifier `\mem_left_track_9.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:448: Warning: Identifier `\mem_left_track_9.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:454: Warning: Identifier `\mem_left_track_9.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:455: Warning: Identifier `\mem_left_track_9.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:461: Warning: Identifier `\mem_left_track_9.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:462: Warning: Identifier `\mem_left_track_9.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:469: Warning: Identifier `\mem_left_track_9.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:474: Warning: Identifier `\mem_right_track_0.ccff_head' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:475: Warning: Identifier `\mem_right_track_0.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:476: Warning: Identifier `\mem_right_track_0.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:481: Warning: Identifier `\mem_right_track_0.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:482: Warning: Identifier `\mem_right_track_0.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:488: Warning: Identifier `\mem_right_track_0.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:489: Warning: Identifier `\mem_right_track_0.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:494: Warning: Identifier `\mem_right_track_0.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:495: Warning: Identifier `\mem_right_track_0.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:501: Warning: Identifier `\mem_right_track_0.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:502: Warning: Identifier `\mem_right_track_0.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:508: Warning: Identifier `\mem_right_track_0.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:509: Warning: Identifier `\mem_right_track_0.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:515: Warning: Identifier `\mem_right_track_0.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:516: Warning: Identifier `\mem_right_track_0.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:521: Warning: Identifier `\mem_right_track_0.ccff_tail' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:522: Warning: Identifier `\mem_right_track_0.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:527: Warning: Identifier `\mem_right_track_16.ccff_head' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:528: Warning: Identifier `\mem_right_track_16.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:529: Warning: Identifier `\mem_right_track_16.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:535: Warning: Identifier `\mem_right_track_16.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:536: Warning: Identifier `\mem_right_track_16.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:541: Warning: Identifier `\mem_right_track_16.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:542: Warning: Identifier `\mem_right_track_16.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:548: Warning: Identifier `\mem_right_track_16.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:549: Warning: Identifier `\mem_right_track_16.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:555: Warning: Identifier `\mem_right_track_16.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:556: Warning: Identifier `\mem_right_track_16.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:563: Warning: Identifier `\mem_right_track_16.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:568: Warning: Identifier `\mem_right_track_8.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:569: Warning: Identifier `\mem_right_track_8.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:575: Warning: Identifier `\mem_right_track_8.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:576: Warning: Identifier `\mem_right_track_8.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:582: Warning: Identifier `\mem_right_track_8.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:583: Warning: Identifier `\mem_right_track_8.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:589: Warning: Identifier `\mem_right_track_8.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:590: Warning: Identifier `\mem_right_track_8.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:596: Warning: Identifier `\mem_right_track_8.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:597: Warning: Identifier `\mem_right_track_8.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:603: Warning: Identifier `\mem_right_track_8.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:604: Warning: Identifier `\mem_right_track_8.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:610: Warning: Identifier `\mem_right_track_8.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:611: Warning: Identifier `\mem_right_track_8.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:618: Warning: Identifier `\mem_right_track_8.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:624: Warning: Identifier `\mem_top_track_0.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:625: Warning: Identifier `\mem_top_track_0.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:631: Warning: Identifier `\mem_top_track_0.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:632: Warning: Identifier `\mem_top_track_0.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:638: Warning: Identifier `\mem_top_track_0.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:639: Warning: Identifier `\mem_top_track_0.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:645: Warning: Identifier `\mem_top_track_0.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:646: Warning: Identifier `\mem_top_track_0.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:652: Warning: Identifier `\mem_top_track_0.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:653: Warning: Identifier `\mem_top_track_0.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:659: Warning: Identifier `\mem_top_track_0.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:660: Warning: Identifier `\mem_top_track_0.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:665: Warning: Identifier `\mem_top_track_0.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:666: Warning: Identifier `\mem_top_track_0.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:672: Warning: Identifier `\mem_top_track_0.ccff_tail' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:673: Warning: Identifier `\mem_top_track_0.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:678: Warning: Identifier `\mem_top_track_16.ccff_head' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:679: Warning: Identifier `\mem_top_track_16.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:680: Warning: Identifier `\mem_top_track_16.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:686: Warning: Identifier `\mem_top_track_16.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:687: Warning: Identifier `\mem_top_track_16.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:692: Warning: Identifier `\mem_top_track_16.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:693: Warning: Identifier `\mem_top_track_16.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:699: Warning: Identifier `\mem_top_track_16.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:700: Warning: Identifier `\mem_top_track_16.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:705: Warning: Identifier `\mem_top_track_16.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:706: Warning: Identifier `\mem_top_track_16.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:712: Warning: Identifier `\mem_top_track_16.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:717: Warning: Identifier `\mem_top_track_8.sc_dff_compact_0_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:718: Warning: Identifier `\mem_top_track_8.sc_dff_compact_0_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:724: Warning: Identifier `\mem_top_track_8.sc_dff_compact_1_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:725: Warning: Identifier `\mem_top_track_8.sc_dff_compact_1_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:731: Warning: Identifier `\mem_top_track_8.sc_dff_compact_2_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:732: Warning: Identifier `\mem_top_track_8.sc_dff_compact_2_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:738: Warning: Identifier `\mem_top_track_8.sc_dff_compact_3_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:739: Warning: Identifier `\mem_top_track_8.sc_dff_compact_3_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:745: Warning: Identifier `\mem_top_track_8.sc_dff_compact_4_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:746: Warning: Identifier `\mem_top_track_8.sc_dff_compact_4_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:752: Warning: Identifier `\mem_top_track_8.sc_dff_compact_5_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:753: Warning: Identifier `\mem_top_track_8.sc_dff_compact_5_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:759: Warning: Identifier `\mem_top_track_8.sc_dff_compact_6_.Q' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:760: Warning: Identifier `\mem_top_track_8.sc_dff_compact_6_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:766: Warning: Identifier `\mem_top_track_8.sc_dff_compact_7_.Qb' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1024: Warning: Identifier `\clknet_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1028: Warning: Identifier `\clknet_1_0_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1032: Warning: Identifier `\clknet_1_1_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1036: Warning: Identifier `\clknet_2_0_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1040: Warning: Identifier `\clknet_2_1_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1044: Warning: Identifier `\clknet_2_2_0_prog_clk' is implicitly declared.
+/openLANE_flow/designs/sb_1__1_/runs/04-09_10-32//results/lvs/sb_1__1_.lvs.powered.v:1048: Warning: Identifier `\clknet_2_3_0_prog_clk' is implicitly declared.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog backend.
+Dumping module `\sb_1__1_'.
+
+Warnings: 190 unique messages, 190 total
+End of script. Logfile hash: 4a09be387a, CPU: user 0.44s system 0.01s, MEM: 11.52 MB peak
+Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+Time spent: 70% 2x write_verilog (0 sec), 29% 2x read_verilog (0 sec)

@@ -1759,8 +1759,8 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement/results/placement/sb_1__1_.placement.def
 Notice 0: Design: sb_1__1_
 Notice 0:     Created 84 pins.
-Notice 0:     Created 6365 components and 13242 component-terminals.
-Notice 0:     Created 259 nets and 500 connections.
+Notice 0:     Created 229 components and 972 component-terminals.
+Notice 0:     Created 260 nets and 502 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_1__1_/runs/final_pin_placement/results/placement/sb_1__1_.placement.def
 [INFO]: Setting output delay to: 2.0
 [INFO]: Setting input delay to: 2.0
@@ -1810,27 +1810,27 @@ Number of created patterns = 313632.
     Tot. number of sinks: 88
     Number of static layers: 0
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(7165, 534540), (90425, 635060)]
- Normalized sink region: [(0.551154, 41.1185), (6.95577, 48.8508)]
-    Width:  6.40462
-    Height: 7.73231
+ Original sink region: [(5785, 12180), (60065, 74740)]
+ Normalized sink region: [(0.445, 0.936923), (4.62038, 5.74923)]
+    Width:  4.17538
+    Height: 4.81231
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Vertical
     # sinks per sub-region: 44
-    Sub-region size: 6.40462 X 3.86615
+    Sub-region size: 4.17538 X 2.40615
     Segment length (rounded): 1
     Key: 216280 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Horizontal
     # sinks per sub-region: 22
-    Sub-region size: 3.20231 X 3.86615
+    Sub-region size: 2.08769 X 2.40615
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 3
     Direction: Vertical
     # sinks per sub-region: 11
-    Sub-region size: 3.20231 X 1.93308
+    Sub-region size: 2.08769 X 1.20308
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1840,7 +1840,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 17964.5 dbu.
+ Avg. source sink dist: 17015 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1850,7 +1850,7 @@ Number of created patterns = 313632.
     Minimum number of buffers in the clock path: 4.
     Maximum number of buffers in the clock path: 4.
     Created 15 clock nets.
-    Fanout distribution for the current clock = 7:1, 8:1, 9:1, 10:1, 12:2, 14:1, 16:1.
+    Fanout distribution for the current clock = 8:1, 9:2, 10:2, 11:1, 13:1, 18:1.
     Max level of the clock tree: 3.
  ... End of TritonCTS execution.
 [INFO]: Legalizing...
@@ -1858,24 +1858,24 @@ Warning: Cannot find MACRO with VDD/VSS pins.
 Warning: could not find power special net
 Design Stats
 --------------------------------
-total instances          6380
-multi row instances      6380
-fixed instances          6241
-nets                      274
-design area          437211.8 u^2
-fixed area             9024.9 u^2
-movable area           2775.2 u^2
-utilization                 1 %
-utilization padded          1 %
-rows                      243
+total instances           244
+multi row instances       244
+fixed instances           104
+nets                      275
+design area            4754.6 u^2
+fixed area              255.2 u^2
+movable area           2786.4 u^2
+utilization                62 %
+utilization padded         65 %
+rows                       25
 row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement       50.0 u
-average displacement      0.0 u
-max displacement          8.5 u
-original HPWL         26024.1 u
-legalized HPWL        26043.3 u
+total displacement     2268.3 u
+average displacement      9.3 u
+max displacement         64.7 u
+original HPWL          6952.6 u
+legalized HPWL         6954.9 u
 delta HPWL                  0 %
 
