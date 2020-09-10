@@ -56,8 +56,7 @@ output [0:0] out;
 //----- END Registered ports -----
 
 // ----- Verilog codes of a regular inverter -----
-	assign out = (in === 1'bz)? $random : ~in;
-
+	sky130_fd_sc_hd__inv_1 sky130_fd_sc_hd__inv_1( .A(in), .Y(out) );
 `ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
 	specify
@@ -97,7 +96,7 @@ output [0:0] out;
 //----- END Registered ports -----
 
 // ----- Verilog codes of a regular inverter -----
-	assign out = (in === 1'bz)? $random : in;
+	sky130_fd_sc_hd__buf_1 sky130_fd_sc_hd__buf_1( .A(in), .X(out) );
 
 `ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
@@ -139,7 +138,7 @@ output [0:0] out;
 //----- END Registered ports -----
 
 // ----- Verilog codes of a regular inverter -----
-	assign out = (in === 1'bz)? $random : ~in;
+	sky130_fd_sc_hd__inv_1 sky130_fd_sc_hd__inv_1( .A(in), .Y(out) );
 
 `ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----
@@ -185,8 +184,8 @@ output [0:0] out;
 
 //----- BEGIN Registered ports -----
 //----- END Registered ports -----
-
-	assign out = sel ? in : 1'bz;
+	sky130_fd_sc_hd__ebufn_1 sky130_fd_sc_hd__ebufn_1( .A(in), .Z(out), .TE_B(~sel) );
+	//assign out = sel ? in : 1'bz;
 
 `ifdef ENABLE_TIMING
 // ------ BEGIN Pin-to-pin Timing constraints -----

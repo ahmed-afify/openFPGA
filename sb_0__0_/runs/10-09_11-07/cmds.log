@@ -1,0 +1,24 @@
+Thu Sep 10 11:07:42 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//tmp//merged_unpadded.lef -o /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Thu Sep 10 11:07:48 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//tmp//merged.lef"
+
+Thu Sep 10 11:07:48 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//tmp//merged_unpadded.lef"
+
+Thu Sep 10 11:07:48 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//tmp//trimmed.lib"
+
+Thu Sep 10 11:07:48 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Thu Sep 10 11:07:49 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_0__0_\/runs\/10-09_11-07\/\/results\/synthesis\/sb_0__0_.synthesis.v/} /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//config.tcl"
+
+Thu Sep 10 11:07:49 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//config.tcl"
+
+Thu Sep 10 11:07:49 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//logs/synthesis/opensta.log"
+
+Thu Sep 10 11:07:50 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//logs/floorplan/verilog2def.openroad.log"
+
+Thu Sep 10 11:07:51 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_ioplacer.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//logs/floorplan/ioPlacer.log"
+
+Thu Sep 10 11:07:52 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_tapcell.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//logs/floorplan/tapcell.log"
+
+Thu Sep 10 11:07:52 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/sb_0__0_/runs/10-09_11-07//logs/placement/replace.log"
+

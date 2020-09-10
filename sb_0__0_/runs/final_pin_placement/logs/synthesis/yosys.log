@@ -27,12 +27,7 @@
 [TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
 [TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
 
-1. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/sb_0_0.v
-Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/sb_0_0.v' to AST representation.
-Generating RTLIL representation for module `\sb_0__0_'.
-Successfully finished Verilog frontend.
-
-2. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v' to AST representation.
 Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v:59)
 Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v:100)
@@ -49,7 +44,7 @@ Generating RTLIL representation for module `\tap_buf4'.
 Generating RTLIL representation for module `\TGATE'.
 Successfully finished Verilog frontend.
 
-3. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/logical_tile_clb.v
+2. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/logical_tile_clb.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/logical_tile_clb.v' to AST representation.
 Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
 Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
@@ -58,12 +53,12 @@ Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle'
 Generating RTLIL representation for module `\logical_tile_clb_mode_clb_'.
 Successfully finished Verilog frontend.
 
-4. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/luts.v
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/luts.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/luts.v' to AST representation.
 Generating RTLIL representation for module `\lut4'.
 Successfully finished Verilog frontend.
 
-5. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/memories.v
+4. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/memories.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/memories.v' to AST representation.
 Generating RTLIL representation for module `\mux_2level_tapbuf_size6_mem'.
 Generating RTLIL representation for module `\mux_2level_tapbuf_size2_mem'.
@@ -78,7 +73,7 @@ Generating RTLIL representation for module `\lut4_sc_dff_compact_mem'.
 Generating RTLIL representation for module `\iopad_sc_dff_compact_mem'.
 Successfully finished Verilog frontend.
 
-6. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/muxes.v
+5. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/muxes.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/muxes.v' to AST representation.
 Generating RTLIL representation for module `\mux_2level_tapbuf_size6_basis_size3'.
 Generating RTLIL representation for module `\mux_2level_tapbuf_size2_basis_size2'.
@@ -104,7 +99,23 @@ Generating RTLIL representation for module `\mux_1level_tapbuf_size2'.
 Generating RTLIL representation for module `\lut4_mux'.
 Successfully finished Verilog frontend.
 
-7. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/openlane_src_cells.v
+6. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/sb_0_0.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/sb_0_0.v' to AST representation.
+Generating RTLIL representation for module `\sb_0__0_'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/wires.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/wires.v' to AST representation.
+Generating RTLIL representation for module `\direct_interc'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v' to AST representation.
+Generating RTLIL representation for module `\static_dff'.
+Generating RTLIL representation for module `\sc_dff_compact'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/openlane_src_cells.v
 Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/openlane_src_cells.v' to AST representation.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
@@ -114,21 +125,9 @@ Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrtp_1'.
 Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
-Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
 Generating RTLIL representation for module `\iopad'.
-Successfully finished Verilog frontend.
-
-8. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v
-Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v' to AST representation.
-Generating RTLIL representation for module `\static_dff'.
-Generating RTLIL representation for module `\sc_dff_compact'.
-Successfully finished Verilog frontend.
-
-9. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/wires.v
-Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/wires.v' to AST representation.
-Generating RTLIL representation for module `\direct_interc'.
 Successfully finished Verilog frontend.
 
 10. Executing HIERARCHY pass (managing design hierarchy).
@@ -154,8 +153,8 @@ Used module:             \TGATE
 Used module:         \tap_buf4
 Used module:         \const1
 Used module:         \INVTX1
-Removing unused module `\direct_interc'.
 Removing unused module `\static_dff'.
+Removing unused module `\direct_interc'.
 Removing unused module `\lut4_mux'.
 Removing unused module `\mux_1level_tapbuf_size2'.
 Removing unused module `\mux_2level_size14'.
@@ -440,7 +439,8 @@ Optimizing module sb_0__0_.
 
 11.7.2. Executing OPT_MERGE pass (detect identical cells).
 Finding identical cells in module `\sb_0__0_'.
-Removed a total of 0 cells.
+<suppressed ~105 debug messages>
+Removed a total of 35 cells.
 
 11.7.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
 Running muxtree optimizer on module \sb_0__0_..
@@ -462,11 +462,39 @@ Removed a total of 0 cells.
 
 11.7.7. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \sb_0__0_..
+Removed 0 unused cells and 35 unused wires.
+<suppressed ~1 debug messages>
 
 11.7.8. Executing OPT_EXPR pass (perform const folding).
 Optimizing module sb_0__0_.
 
-11.7.9. Finished OPT passes. (There is nothing left to do.)
+11.7.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+11.7.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \sb_0__0_..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Removed 0 multiplexer ports.
+<suppressed ~54 debug messages>
+
+11.7.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \sb_0__0_.
+Performed a total of 0 changes.
+
+11.7.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\sb_0__0_'.
+Removed a total of 0 cells.
+
+11.7.13. Executing OPT_RMDFF pass (remove dff with constant values).
+
+11.7.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \sb_0__0_..
+
+11.7.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module sb_0__0_.
+
+11.7.16. Finished OPT passes. (There is nothing left to do.)
 
 11.8. Executing WREDUCE pass (reducing word size of cells).
 
@@ -689,7 +717,9 @@ Generating RTLIL representation for module `\_90_lut'.
 Successfully finished Verilog frontend.
 
 11.21.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $not.
 No more expansions possible.
+<suppressed ~1 debug messages>
 
 11.22. Executing OPT pass (performing simple optimizations).
 
@@ -710,8 +740,25 @@ Finding unused cells or wires in module \sb_0__0_..
 11.23. Executing ABC pass (technology mapping using ABC).
 
 11.23.1. Extracting gate netlist of module `\sb_0__0_' to `<abc-temp-dir>/input.blif'..
-Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
-Don't call ABC as there is nothing to map.
+Extracted 1 gates and 2 wires to a netlist network with 1 inputs and 1 outputs.
+
+11.23.1.1. Executing ABC.
+Running ABC command: <yosys-exe-dir>/yosys-abc -s -f <abc-temp-dir>/abc.script 2>&1
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library <abc-temp-dir>/stdcells.genlib 
+ABC: Entered genlib library with 13 gates from file "<abc-temp-dir>/stdcells.genlib".
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+11.23.1.2. Re-integrating ABC results.
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        1
+ABC RESULTS:          output signals:        1
 Removing temp directory.
 
 11.24. Executing OPT pass (performing simple optimizations).
@@ -727,6 +774,8 @@ Removed a total of 0 cells.
 
 11.24.4. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \sb_0__0_..
+Removed 0 unused cells and 2 unused wires.
+<suppressed ~1 debug messages>
 
 11.24.5. Finished fast OPT passes.
 
@@ -743,14 +792,15 @@ Removed 0 unused modules.
 
 === sb_0__0_ ===
 
-   Number of wires:               1087
-   Number of wire bits:           1281
+   Number of wires:               1088
+   Number of wire bits:           1282
    Number of public wires:        1087
    Number of public wire bits:    1281
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 36
+   Number of cells:                 37
+     $_NOT_                          1
      sky130_fd_sc_hd__dfrbp_1       36
 
 11.27. Executing CHECK pass (checking for obvious problems).
@@ -801,14 +851,15 @@ Removed 0 unused cells and 990 unused wires.
 
 === sb_0__0_ ===
 
-   Number of wires:                 97
-   Number of wire bits:            129
+   Number of wires:                 98
+   Number of wire bits:            130
    Number of public wires:          97
    Number of public wire bits:     129
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 36
+   Number of cells:                 37
+     $_NOT_                          1
      sky130_fd_sc_hd__dfrbp_1       36
 
 16. Executing DFFLIBMAP pass (mapping DFF cells to sequential cells from liberty file).
@@ -843,21 +894,79 @@ Mapping DFF cells in module `\sb_0__0_':
 
 === sb_0__0_ ===
 
-   Number of wires:                 97
-   Number of wire bits:            129
+   Number of wires:                 98
+   Number of wire bits:            130
    Number of public wires:          97
    Number of public wire bits:     129
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 36
+   Number of cells:                 37
+     $_NOT_                          1
      sky130_fd_sc_hd__dfrbp_1       36
 
 18. Executing ABC pass (technology mapping using ABC).
 
-18.1. Extracting gate netlist of module `\sb_0__0_' to `/tmp/yosys-abc-HjrqIH/input.blif'..
-Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
-Don't call ABC as there is nothing to map.
+18.1. Extracting gate netlist of module `\sb_0__0_' to `/tmp/yosys-abc-MKSvIo/input.blif'..
+Extracted 1 gates and 2 wires to a netlist network with 1 inputs and 1 outputs.
+
+18.1.1. Executing ABC.
+Running ABC command: /build/bin/yosys-abc -s -f /tmp/yosys-abc-MKSvIo/abc.script 2>&1
+ABC: ABC command line: "source /tmp/yosys-abc-MKSvIo/abc.script".
+ABC: 
+ABC: + read_blif /tmp/yosys-abc-MKSvIo/input.blif 
+ABC: + read_lib -w /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp//trimmed.lib 
+ABC: Parsing finished successfully.  Parsing time =     0.02 sec
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfbbn_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfrtp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfstp_4".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxbp_2".
+ABC: Scl_LibertyReadGenlib() skipped sequential cell "sky130_fd_sc_hd__dfxtp_4".
+ABC: Library "sky130_fd_sc_hd__tt_025C_1v80" from "/openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp//trimmed.lib" has 43 cells (6 skipped: 6 seq; 0 tri-state; 0 no func; 0 dont_use).  Time =     0.03 sec
+ABC: Memory =    1.92 MB. Time =     0.03 sec
+ABC: + read_constr -v /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp/synthesis/yosys.sdc 
+ABC: Setting driving cell to be "sky130_fd_sc_hd__inv_8".
+ABC: Setting output load to be 17.650000.
+ABC: + read_constr /openLANE_flow/designs/sb_0__0_/runs/final_pin_placement//tmp/synthesis/yosys.sdc 
+ABC: + fx 
+ABC: The network is unchanged by fast extract.
+ABC: + mfs 
+ABC: + strash 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + refactor 
+ABC: + balance 
+ABC: + rewrite 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + refactor -z 
+ABC: + rewrite -z 
+ABC: + balance 
+ABC: + retime -D -D 10000 -M 5 
+ABC: + scleanup 
+ABC: Error: The network is combinational.
+ABC: + amap -m -Q 0.1 -F 20 -A 20 -C 5000 
+ABC: + retime -D -D 10000 
+ABC: + buffer -N 5 -S 1000.0 
+ABC: + upsize -D 10000 
+ABC: Current delay (51.17 ps) does not exceed the target delay (10000.00 ps). Upsizing is not performed.
+ABC: + dnsize -D 10000 
+ABC: + stime -p 
+ABC: WireLoad = "none"  Gates =      1 (100.0 %)   Cap = 17.7 ff (  0.0 %)   Area =       11.26 (100.0 %)   Delay =    51.17 ps  (100.0 %)               
+ABC: Path  0 --       1 : 0    1 pi                     A =   0.00  Df =  21.9  -14.3 ps  S =  37.7 ps  Cin =  0.0 ff  Cout =  18.5 ff  Cmax =   0.0 ff  G =    0  
+ABC: Path  1 --       3 : 1    1 sky130_fd_sc_hd__inv_8 A =  11.26  Df =  51.2   -2.0 ps  S =  36.5 ps  Cin = 17.7 ff  Cout =  17.6 ff  Cmax =1035.5 ff  G =   99  
+ABC: Start-point = pi0 (\pReset).  End-point = po0 ($abc$84$flatten\mem_right_track_0.\sc_dff_compact_0_.$not$/openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v:61$12_Y).
+ABC: + print_stats -m 
+ABC: netlist                       : i/o =    1/    1  lat =    0  nd =     1  edge =      1  area =11.26  delay = 1.00  lev = 1
+ABC: + write_blif /tmp/yosys-abc-MKSvIo/output.blif 
+
+18.1.2. Re-integrating ABC results.
+ABC RESULTS:   sky130_fd_sc_hd__inv_8 cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        1
+ABC RESULTS:          output signals:        1
 Removing temp directory.
 
 19. Executing HILOMAP pass (mapping to constant drivers).
@@ -868,7 +977,7 @@ Removing temp directory.
 
 22. Executing OPT_CLEAN pass (remove unused cells and wires).
 Finding unused cells or wires in module \sb_0__0_..
-Removed 0 unused cells and 18 unused wires.
+Removed 0 unused cells and 20 unused wires.
 <suppressed ~1 debug messages>
 
 23. Executing INSBUF pass (insert buffer cells for connected wires).
@@ -893,31 +1002,33 @@ Warning: Wire sb_0__0_.\chanx_right_out [3] is used but has no driver.
 Warning: Wire sb_0__0_.\chanx_right_out [2] is used but has no driver.
 Warning: Wire sb_0__0_.\chanx_right_out [1] is used but has no driver.
 Warning: Wire sb_0__0_.\chanx_right_out [0] is used but has no driver.
-found and reported 18 problems.
+Warning: Wire sb_0__0_.$abc$84$flatten\mem_right_track_0.\sc_dff_compact_0_.$not$/openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v:61$12_Y is used but has no driver.
+found and reported 19 problems.
 
 25. Printing statistics.
 
 === sb_0__0_ ===
 
-   Number of wires:                 97
-   Number of wire bits:            129
+   Number of wires:                 98
+   Number of wire bits:            130
    Number of public wires:          97
    Number of public wire bits:     129
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 54
+   Number of cells:                 55
      sky130_fd_sc_hd__conb_1        18
      sky130_fd_sc_hd__dfrbp_1       36
+     sky130_fd_sc_hd__inv_8          1
 
    Area for cell type \sky130_fd_sc_hd__dfrbp_1 is unknown!
 
-   Chip area for module '\sb_0__0_': 67.564800
+   Chip area for module '\sb_0__0_': 78.825600
 
 26. Executing Verilog backend.
 Dumping module `\sb_0__0_'.
 
-Warnings: 115 unique messages, 117 total
-End of script. Logfile hash: a1f6d8985e, CPU: user 0.51s system 0.01s, MEM: 12.38 MB peak
+Warnings: 116 unique messages, 118 total
+End of script. Logfile hash: 47fe908c6c, CPU: user 0.56s system 0.02s, MEM: 12.66 MB peak
 Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
-Time spent: 29% 17x opt_clean (0 sec), 16% 19x read_verilog (0 sec), ...
+Time spent: 24% 18x opt_clean (0 sec), 20% 2x abc (0 sec), ...

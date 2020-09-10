@@ -1,0 +1,144 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+2406 (git sha1 347dd01, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v' to AST representation.
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v:141)
+Warning: Yosys has only limited support for tri-state logic at the moment. (/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v:188)
+Generating RTLIL representation for module `\const0'.
+Generating RTLIL representation for module `\const1'.
+Generating RTLIL representation for module `\INVTX1'.
+Generating RTLIL representation for module `\buf4'.
+Generating RTLIL representation for module `\tap_buf4'.
+/openLANE_flow/designs/sb_0__0_/src/inv_buf_passgate.v:141: Warning: Identifier `\$random' is implicitly declared.
+Generating RTLIL representation for module `\TGATE'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/logical_tile_clb.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/logical_tile_clb.v' to AST representation.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__lut4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4_mode_default__ff'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle_mode_n1_lut4__ble4'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_default__fle'.
+Generating RTLIL representation for module `\logical_tile_clb_mode_clb_'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/luts.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/luts.v' to AST representation.
+Generating RTLIL representation for module `\lut4'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/memories.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/memories.v' to AST representation.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_mem'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4_mem'.
+Generating RTLIL representation for module `\mux_2level_size14_mem'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2_mem'.
+Generating RTLIL representation for module `\lut4_sc_dff_compact_mem'.
+Generating RTLIL representation for module `\iopad_sc_dff_compact_mem'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/muxes.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/muxes.v' to AST representation.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9_basis_size4'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4_basis_size3'.
+Generating RTLIL representation for module `\mux_2level_size14_basis_size4'.
+Generating RTLIL representation for module `\mux_2level_size14_basis_size3'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2_basis_size3'.
+Generating RTLIL representation for module `\lut4_mux_basis_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size6'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size2'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size8'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size9'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size3'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size5'.
+Generating RTLIL representation for module `\mux_2level_tapbuf_size4'.
+Generating RTLIL representation for module `\mux_2level_size14'.
+Generating RTLIL representation for module `\mux_1level_tapbuf_size2'.
+Generating RTLIL representation for module `\lut4_mux'.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/sb_0_0.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/sb_0_0.v' to AST representation.
+Generating RTLIL representation for module `\sb_0__0_'.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/wires.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/wires.v' to AST representation.
+Generating RTLIL representation for module `\direct_interc'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/user_defined_templates.v' to AST representation.
+Generating RTLIL representation for module `\static_dff'.
+Generating RTLIL representation for module `\sc_dff_compact'.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /openLANE_flow/designs/sb_0__0_/src/openlane_src_cells.v
+Parsing Verilog input from `/openLANE_flow/designs/sb_0__0_/src/openlane_src_cells.v' to AST representation.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_2'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__buf_4'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__or2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__mux2_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfrbp_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__dfbbp_1'.
+Generating RTLIL representation for module `\iopad'.
+Replacing existing blackbox module `\sky130_fd_sc_hd__inv_1' at /openLANE_flow/designs/sb_0__0_/src/openlane_src_cells.v:26.1-26.62.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__inv_1'.
+Generating RTLIL representation for module `\sky130_fd_sc_hd__but_1'.
+Successfully finished Verilog frontend.
+
+10. Executing HIERARCHY pass (managing design hierarchy).
+
+10.1. Analyzing design hierarchy..
+Top module:  \sb_0__0_
+Used module:     \mux_2level_tapbuf_size2_mem
+Used module:         \sc_dff_compact
+Used module:     \mux_2level_tapbuf_size2
+Used module:         \mux_2level_tapbuf_size2_basis_size2
+Used module:             \TGATE
+Used module:         \tap_buf4
+Used module:         \const1
+Used module:         \INVTX1
+ERROR: Module `\sky130_fd_sc_hd__nv_1' referenced in module `\INVTX1' in cell `\sky130_fd_sc_hd__inv_1' is not part of the design.

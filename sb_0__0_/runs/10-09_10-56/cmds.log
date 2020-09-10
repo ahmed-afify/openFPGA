@@ -1,0 +1,10 @@
+Thu Sep 10 10:56:43 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/sb_0__0_/runs/10-09_10-56//tmp//merged_unpadded.lef -o /openLANE_flow/designs/sb_0__0_/runs/10-09_10-56//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Thu Sep 10 10:56:49 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_0__0_/runs/10-09_10-56//tmp//merged.lef"
+
+Thu Sep 10 10:56:49 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_0__0_/runs/10-09_10-56//tmp//merged_unpadded.lef"
+
+Thu Sep 10 10:56:49 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/sb_0__0_/runs/10-09_10-56//tmp//trimmed.lib"
+
+Thu Sep 10 10:56:49 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/sb_0__0_/runs/10-09_10-56//logs/synthesis/yosys.log |& tee >&@stdout"
+
