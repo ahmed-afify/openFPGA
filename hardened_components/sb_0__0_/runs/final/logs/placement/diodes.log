@@ -1758,38 +1758,38 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__0_/runs/final/tmp/floorplan/pdn.def
 Notice 0: Design: sb_0__0_
 Notice 0:     Created 60 pins.
-Notice 0:     Created 306 components and 1204 component-terminals.
+Notice 0:     Created 314 components and 1220 component-terminals.
 Notice 0:     Created 2 special nets and 0 connections.
-Notice 0:     Created 245 nets and 498 connections.
+Notice 0:     Created 245 nets and 502 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__0_/runs/final/tmp/floorplan/pdn.def
 [INFO]: Inserting sky130_fd_sc_hd__diode_2...
 [WARN]: Skipping VPWR
 [WARN]: Skipping VGND
 
-[INFO]: 256 of sky130_fd_sc_hd__diode_2 inserted!
+[INFO]: 260 of sky130_fd_sc_hd__diode_2 inserted!
 [INFO]: Legalizing...
 Warning: Cannot find MACRO with VDD/VSS pins.
 Warning: could not find power special net
 Design Stats
 --------------------------------
-total instances           562
-multi row instances       562
-fixed instances           100
+total instances           574
+multi row instances       574
+fixed instances           108
 nets                      247
-design area            4414.2 u^2
-fixed area              245.2 u^2
-movable area           2816.5 u^2
-utilization                68 %
-utilization padded         83 %
-rows                       24
+design area            5074.9 u^2
+fixed area              265.3 u^2
+movable area           2826.5 u^2
+utilization                59 %
+utilization padded         72 %
+rows                       26
 row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement     3487.7 u
-average displacement      6.2 u
-max displacement         77.1 u
-original HPWL          9129.6 u
-legalized HPWL        10078.0 u
-delta HPWL                 10 %
+total displacement      820.1 u
+average displacement      1.4 u
+max displacement         16.1 u
+original HPWL          8674.7 u
+legalized HPWL         8892.4 u
+delta HPWL                  3 %
 

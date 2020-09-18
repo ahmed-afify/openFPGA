@@ -136,20 +136,20 @@ Reading /openLANE_flow/designs/sb_0__0_/runs/final//tmp//merged.lef is Done
  def               : /openLANE_flow/designs/sb_0__0_/runs/final//tmp/placement/replace.def
 -------------------------------------------------------------------
 CoreArea: 
-5520.000000 : 10880.000000 - 73140.000000 : 76160.000000
+5520.000000 : 10880.000000 - 77280.000000 : 81600.000000
 DieArea: 
-0.000000 : 0.000000 - 67620.000000 : 65280.000000
+0.000000 : 0.000000 - 71760.000000 : 70720.000000
 Reading /openLANE_flow/designs/sb_0__0_/runs/final//tmp/placement/replace.def is Done
 -------------------- DESIGN ANALYSIS ------------------------------
-  total cells              : 299
+  total cells              : 307
   multi cells              : 0
-  fixed cells              : 100
+  fixed cells              : 108
   total nets               : 238
-  design area              : 4.41423e+09
-  total f_area             : 2.45235e+08
+  design area              : 5.07487e+09
+  total f_area             : 2.65254e+08
   total m_area             : 4.1202e+09
-  design util              : 98.8295
-  num rows                 : 24
+  design util              : 85.666
+  num rows                 : 26
   row height               : 2720
 -------------------------------------------------------------------
  non_group_cell_region_assign done ..
@@ -161,26 +161,26 @@ Reading /openLANE_flow/designs/sb_0__0_/runs/final//tmp/placement/replace.def is
  location : /openLANE_flow/designs/sb_0__0_/runs/final//results/placement/sb_0__0_.placement.def
 -------------------------------------------------------------------
  tasks                          Wtime      Ctime
- Parser                         0.083      0.080
- resgin assign                  0.083      0.080
- pre-placement                  0.083      0.080
- non Group cell placement       1.677      1.670
- All                            1.678      1.670
+ Parser                         0.076      0.070
+ resgin assign                  0.077      0.070
+ pre-placement                  0.077      0.070
+ non Group cell placement       0.082      0.080
+ All                            0.082      0.080
  - - - - - EVALUATION - - - - - 
- AVG_displacement : 22418.7
- SUM_displacement : 6.7032e+06
- MAX_displacement : 119044
+ AVG_displacement : 17168.9
+ SUM_displacement : 5.27086e+06
+ MAX_displacement : 93945
  - - - - - - - - - - - - - - - - 
- GP HPWL          : 2574.83
- HPWL             : 9451.9
- avg_Disp_site    : 33.5135
- avg_Disp_row     : 5.66773
- delta_HPWL       : 267.088
+ GP HPWL          : 2638.98
+ HPWL             : 8288.6
+ avg_Disp_site    : 37.3237
+ avg_Disp_row     : 6.3121
+ delta_HPWL       : 214.084
  ==== CHECK LEGALITY ==== 
  row_check ==>> PASS 
  site_check ==>> PASS 
  power_check ==>> PASS 
  edge_check ==>> PASS 
- placed_check ==>> FAIL (27)
- overlap_check ==>> FAIL 
+ placed_check ==>> PASS 
+ overlap_check ==>> PASS 
  - - - - - < Program END > - - - - - 

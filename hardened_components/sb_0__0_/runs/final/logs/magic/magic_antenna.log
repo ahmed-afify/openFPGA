@@ -43,68 +43,62 @@ LEF read: Processed 772 lines.
 Reading DEF data from file /openLANE_flow/designs/sb_0__0_/runs/final//results/routing/sb_0__0_.def.
 This action cannot be undone.
   Processed 6 vias total.
-  Processed 949 subcell instances total.
+  Processed 1034 subcell instances total.
   Processed 60 pins total.
   Processed 2 special nets total.
   Processed 245 nets total.
-DEF read: Processed 6150 lines.
-Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
-sky130_fd_sc_hd__decap_6: 2 warnings
+DEF read: Processed 5763 lines.
+Extracting sky130_fd_sc_hd__inv_8 into sky130_fd_sc_hd__inv_8.ext:
 Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
 Completed 100%
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__dfrbp_1 into sky130_fd_sc_hd__dfrbp_1.ext:
+Completed 100%
+Extracting sky130_fd_sc_hd__ebufn_1 into sky130_fd_sc_hd__ebufn_1.ext:
+Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
+sky130_fd_sc_hd__conb_1: 4 warnings
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+sky130_fd_sc_hd__decap_4: 2 warnings
+Extracting sky130_fd_sc_hd__inv_1 into sky130_fd_sc_hd__inv_1.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+sky130_fd_sc_hd__decap_6: 2 warnings
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
 Extracting sky130_fd_sc_hd__decap_12 into sky130_fd_sc_hd__decap_12.ext:
 sky130_fd_sc_hd__decap_12: 2 warnings
 Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
 sky130_fd_sc_hd__decap_8: 2 warnings
-Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
-Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
-sky130_fd_sc_hd__decap_4: 2 warnings
-Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
-Device has multiple lengths:  scaling all widths to length 126
-Extracting sky130_fd_sc_hd__inv_1 into sky130_fd_sc_hd__inv_1.ext:
-Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
-Extracting sky130_fd_sc_hd__conb_1 into sky130_fd_sc_hd__conb_1.ext:
-sky130_fd_sc_hd__conb_1: 4 warnings
-Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
-Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
-Extracting sky130_fd_sc_hd__ebufn_1 into sky130_fd_sc_hd__ebufn_1.ext:
-Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
-Extracting sky130_fd_sc_hd__inv_8 into sky130_fd_sc_hd__inv_8.ext:
 Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
 sky130_fd_sc_hd__decap_3: 2 warnings
-Extracting sky130_fd_sc_hd__dfrbp_1 into sky130_fd_sc_hd__dfrbp_1.ext:
-Completed 100%
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Device has multiple lengths:  scaling all widths to length 126
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
 Extracting sb_0__0_ into sb_0__0_.ext:
 Completed 5%
-Completed 10%
-Completed 15%
+Completed 11%
+Completed 16%
 Completed 21%
-Completed 26%
-Completed 31%
-Completed 36%
-Completed 41%
-Completed 46%
-Completed 51%
-Completed 56%
-Completed 62%
-Completed 67%
-Completed 72%
-Completed 77%
-Completed 82%
-Completed 87%
-Completed 92%
-Completed 97%
+Completed 27%
+Completed 32%
+Completed 38%
+Completed 43%
+Completed 48%
+Completed 54%
+Completed 59%
+Completed 64%
+Completed 70%
+Completed 75%
+Completed 80%
+Completed 86%
+Completed 91%
+Completed 96%
 Completed 100%
 Total of 14 warnings.
 Reading extract file.
 Building flattened netlist.
 Running antenna checks.
    100 gates analyzed.
-Cell: mem_right_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1
-Antenna violation detected at plane metal3
-Effective antenna ratio 445.601 > limit 400
-Gate rect (1798 3855) to (1828 3939)
-Antenna rect (3049 7107) to (3115 7110)
    200 gates analyzed.
    300 gates analyzed.
    400 gates analyzed.

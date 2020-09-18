@@ -1755,9 +1755,9 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__0_/runs/final//tmp/routing/addspacers.def
 Notice 0: Design: sb_0__0_
 Notice 0:     Created 60 pins.
-Notice 0:     Created 949 components and 2746 component-terminals.
+Notice 0:     Created 1034 components and 2920 component-terminals.
 Notice 0:     Created 2 special nets and 0 connections.
-Notice 0:     Created 245 nets and 754 connections.
+Notice 0:     Created 245 nets and 762 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__0_/runs/final//tmp/routing/addspacers.def
 Top-level design name: sb_0__0_
 Found port VPWR of type POWER
@@ -3396,22 +3396,10 @@ Warning: No pins in the LEF view of ANTENNA_clkbuf_2_3_0_prog_clk_A  marked for 
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_clkbuf_2_3_0_prog_clk_A
 Warning: No pins in the LEF view of ANTENNA_clkbuf_2_2_0_prog_clk_A  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_clkbuf_2_2_0_prog_clk_A
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_14.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_14.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_8.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_8.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_top_track_10.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_10.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_top_track_12.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_12.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_top_track_12.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
@@ -3422,42 +3410,62 @@ Warning: No pins in the LEF view of ANTENNA_mem_top_track_14.sc_dff_compact_1_.s
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_14.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_top_track_16.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_16.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_10.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_10.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_12.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_12.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_12.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_12.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_8.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_8.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_14.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_14.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_right_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_10.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_10.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_10.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_12.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_12.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_0.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_2.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_4.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_12.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_12.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_14.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_14.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_14.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_14.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_16.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_16.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_16.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_4.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_6.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_6.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
 Warning: No pins in the LEF view of ANTENNA_mem_right_track_8.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
 Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_8.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Warning: No pins in the LEF view of ANTENNA_mem_top_track_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
-Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_2.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1_CLK
-Connected 949 instances to power (Remaining: 0 ).
+Warning: No pins in the LEF view of ANTENNA_mem_right_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_right_track_8.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Warning: No pins in the LEF view of ANTENNA_mem_top_track_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK  marked for use as power nor ground
+Warning: Attempting to match power pins by name (using top-level port name) for cell: ANTENNA_mem_top_track_0.sc_dff_compact_1_.sky130_fd_sc_hd__dfrbp_1_CLK
+Connected 1034 instances to power (Remaining: 0 ).

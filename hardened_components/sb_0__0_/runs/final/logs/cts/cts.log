@@ -1759,7 +1759,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_0__0_/runs/final/results/placement/sb_0__0_.placement.def
 Notice 0: Design: sb_0__0_
 Notice 0:     Created 58 pins.
-Notice 0:     Created 299 components and 1176 component-terminals.
+Notice 0:     Created 307 components and 1192 component-terminals.
 Notice 0:     Created 238 nets and 488 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_0__0_/runs/final/results/placement/sb_0__0_.placement.def
 [INFO]: Setting output delay to: 2.0
@@ -1810,21 +1810,21 @@ Number of created patterns = 313632.
     Tot. number of sinks: 36
     Number of static layers: 0
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(5785, 12180), (50405, 72140)]
- Normalized sink region: [(0.445, 0.936923), (3.87731, 5.54923)]
-    Width:  3.43231
-    Height: 4.61231
+ Original sink region: [(7165, 17740), (59605, 77580)]
+ Normalized sink region: [(0.551154, 1.36462), (4.585, 5.96769)]
+    Width:  4.03385
+    Height: 4.60308
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Vertical
     # sinks per sub-region: 18
-    Sub-region size: 3.43231 X 2.30615
+    Sub-region size: 4.03385 X 2.30154
     Segment length (rounded): 1
     Key: 216280 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Horizontal
     # sinks per sub-region: 9
-    Sub-region size: 1.71615 X 2.30615
+    Sub-region size: 2.01692 X 2.30154
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1834,7 +1834,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 15561.3 dbu.
+ Avg. source sink dist: 13779.3 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1844,7 +1844,7 @@ Number of created patterns = 313632.
     Minimum number of buffers in the clock path: 3.
     Maximum number of buffers in the clock path: 3.
     Created 7 clock nets.
-    Fanout distribution for the current clock = 8:2, 10:2.
+    Fanout distribution for the current clock = 6:1, 9:1, 10:1, 11:1.
     Max level of the clock tree: 2.
  ... End of TritonCTS execution.
 [INFO]: Legalizing...
@@ -1852,24 +1852,24 @@ Warning: Cannot find MACRO with VDD/VSS pins.
 Warning: could not find power special net
 Design Stats
 --------------------------------
-total instances           306
-multi row instances       306
-fixed instances           100
+total instances           314
+multi row instances       314
+fixed instances           108
 nets                      245
-design area            4414.2 u^2
-fixed area              245.2 u^2
+design area            5074.9 u^2
+fixed area              265.3 u^2
 movable area           2175.8 u^2
-utilization                52 %
-utilization padded         54 %
-rows                       24
+utilization                45 %
+utilization padded         47 %
+rows                       26
 row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement      921.6 u
-average displacement      3.0 u
-max displacement         36.7 u
-original HPWL          9590.3 u
-legalized HPWL         8937.4 u
-delta HPWL                 -7 %
+total displacement       78.0 u
+average displacement      0.2 u
+max displacement         20.3 u
+original HPWL          8420.4 u
+legalized HPWL         8475.2 u
+delta HPWL                  1 %
 

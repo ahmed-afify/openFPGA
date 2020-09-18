@@ -1,0 +1,112 @@
+Startpoint: pReset (input port clocked by prog_clk)
+Endpoint: mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (removal check against rising-edge clock prog_clk)
+Path Group: **async_default**
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.25    2.25 ^ pReset (in)
+   0.00    2.25 ^ mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B (sky130_fd_sc_hd__dfrbp_1)
+           2.25   data arrival time
+
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.28    0.28   library removal time
+           0.28   data required time
+---------------------------------------------------------
+           0.28   data required time
+          -2.25   data arrival time
+---------------------------------------------------------
+           1.97   slack (MET)
+
+
+Startpoint: mem_right_track_16.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1
+            (rising edge-triggered flip-flop clocked by prog_clk)
+Endpoint: mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (rising edge-triggered flip-flop clocked by prog_clk)
+Path Group: prog_clk
+Path Type: min
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00 ^ mem_right_track_16.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.20    0.20 ^ mem_right_track_16.sc_dff_compact_5_.sky130_fd_sc_hd__dfrbp_1/Q (sky130_fd_sc_hd__dfrbp_1)
+   0.00    0.20 ^ mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/D (sky130_fd_sc_hd__dfrbp_1)
+           0.20   data arrival time
+
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   0.00    0.00   clock reconvergence pessimism
+           0.00 ^ mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+  -0.02   -0.02   library hold time
+          -0.02   data required time
+---------------------------------------------------------
+          -0.02   data required time
+          -0.20   data arrival time
+---------------------------------------------------------
+           0.22   slack (MET)
+
+
+Startpoint: pReset (input port clocked by prog_clk)
+Endpoint: mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1
+          (recovery check against rising-edge clock prog_clk)
+Path Group: **async_default**
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 ^ input external delay
+   0.46    2.46 ^ pReset (in)
+   0.00    2.46 ^ mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/RESET_B (sky130_fd_sc_hd__dfrbp_1)
+           2.46   data arrival time
+
+  10.00   10.00   clock prog_clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+          10.00 ^ mem_bottom_track_1.sc_dff_compact_0_.sky130_fd_sc_hd__dfrbp_1/CLK (sky130_fd_sc_hd__dfrbp_1)
+   0.21   10.21   library recovery time
+          10.21   data required time
+---------------------------------------------------------
+          10.21   data required time
+          -2.46   data arrival time
+---------------------------------------------------------
+           7.75   slack (MET)
+
+
+Startpoint: chanx_right_in[0] (input port clocked by prog_clk)
+Endpoint: chanx_left_out[1] (output port clocked by prog_clk)
+Path Group: prog_clk
+Path Type: max
+
+  Delay    Time   Description
+---------------------------------------------------------
+   0.00    0.00   clock prog_clk (rise edge)
+   0.00    0.00   clock network delay (ideal)
+   2.00    2.00 v input external delay
+   0.00    2.00 v chanx_right_in[0] (in)
+   0.26    2.27 v _17_/X (sky130_fd_sc_hd__buf_2)
+   0.00    2.27 v chanx_left_out[1] (out)
+           2.27   data arrival time
+
+  10.00   10.00   clock prog_clk (rise edge)
+   0.00   10.00   clock network delay (ideal)
+   0.00   10.00   clock reconvergence pessimism
+  -2.00    8.00   output external delay
+           8.00   data required time
+---------------------------------------------------------
+           8.00   data required time
+          -2.27   data arrival time
+---------------------------------------------------------
+           5.73   slack (MET)
+
+

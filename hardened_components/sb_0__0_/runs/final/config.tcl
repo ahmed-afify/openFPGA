@@ -24,7 +24,7 @@ set ::env(SYNTH_SCRIPT) /openLANE_flow/scripts//synth.tcl
 set ::env(SYNTH_STRATEGY) 2
 set ::env(CLOCK_BUFFER_FANOUT) 16
 # Floorplan config
-set ::env(FP_CORE_UTIL) 90
+set ::env(FP_CORE_UTIL) 80
 set ::env(FP_ASPECT_RATIO) 1
 set ::env(FP_CORE_MARGIN) 0
 set ::env(FP_IO_HMETAL) 4
@@ -37,7 +37,7 @@ set ::env(FP_PDN_HOFFSET) 16.65
 set ::env(FP_PDN_HPITCH) 153.18
 set ::env(FP_TAPCELL_DIST) 14
 # Placement config
-set ::env(PL_TARGET_DENSITY) 0.9
+set ::env(PL_TARGET_DENSITY) 0.8
 set ::env(PL_TIME_DRIVEN) 0
 set ::env(PL_LIB) /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 # CTS config

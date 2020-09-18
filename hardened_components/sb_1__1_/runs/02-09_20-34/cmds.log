@@ -1,0 +1,20 @@
+Wed Sep 02 20:34:40 UTC 2020 - Executing "/openLANE_flow/scripts//padLefMacro.py -s unithd -r 8 -i /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp//merged_unpadded.lef -o /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp//merged.lef -e {sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*} |& tee >&@stdout"
+
+Wed Sep 02 20:34:47 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp//merged.lef"
+
+Wed Sep 02 20:34:47 UTC 2020 - Executing "sed -i -E {s/CLASS PAD.*$/CLASS PAD ;/g} /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp//merged_unpadded.lef"
+
+Wed Sep 02 20:34:47 UTC 2020 - Executing "/openLANE_flow/scripts//libtrim.pl /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib /home/aa/Desktop/Afify/openlane/pdks/sky130A/libs.tech/openlane/sky130_fd_sc_hd/no_synth.cells > /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp//trimmed.lib"
+
+Wed Sep 02 20:34:47 UTC 2020 - Executing "yosys -c /openLANE_flow/scripts//synth.tcl -l /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//logs/synthesis/yosys.log |& tee >&@stdout"
+
+Wed Sep 02 20:34:48 UTC 2020 - Executing "sed -i -e {s/\(set ::env(CURRENT_NETLIST)\).*/\1 \/openLANE_flow\/designs\/sb_1__1_\/runs\/02-09_20-34\/\/results\/synthesis\/sb_1__1_.synthesis.v/} /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//config.tcl"
+
+Wed Sep 02 20:34:48 UTC 2020 - Executing "sed -i -e {s/\(set ::env(PREV_NETLIST)\).*/\1 0/} /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//config.tcl"
+
+Wed Sep 02 20:34:48 UTC 2020 - Executing "sta /openLANE_flow/scripts//sta.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//logs/synthesis/opensta.log"
+
+Wed Sep 02 20:34:49 UTC 2020 - Executing "openroad -exit /openLANE_flow/scripts//openroad/or_floorplan.tcl |& tee >&@stdout /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//logs/floorplan/verilog2def.openroad.log"
+
+Wed Sep 02 20:34:50 UTC 2020 - Executing "python3 /openLANE_flow/scripts//io_place.py --input-lef /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp//merged.lef --input-def /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp/floorplan/verilog2def_openroad.def --config /openLANE_flow/designs/sb_1__1_/sb_1__1_pin.cfg --hor-layer 4 --ver-layer 3 --ver-width-mult 2 --hor-width-mult 2 --length-mult 4 -o /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//tmp/floorplan/ioPlacer.def |& tee /openLANE_flow/designs/sb_1__1_/runs/02-09_20-34//logs//floorplan/place_io_ol.log >&@stdout"
+
