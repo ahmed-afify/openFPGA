@@ -550,14 +550,14 @@ MACRO sb_1__1_
     DIRECTION INPUT ;
     PORT
       LAYER met3 ;
-        RECT 0.000 117.000 2.400 117.600 ;
+        RECT 0.000 122.440 2.400 123.040 ;
     END
   END left_top_grid_pin_10_
   PIN pReset
     DIRECTION INPUT ;
     PORT
       LAYER met3 ;
-        RECT 0.000 122.440 2.400 123.040 ;
+        RECT 0.000 117.000 2.400 117.600 ;
     END
   END pReset
   PIN prog_clk
@@ -615,7 +615,7 @@ MACRO sb_1__1_
       LAYER li1 ;
         RECT 5.520 10.795 109.020 114.325 ;
       LAYER met1 ;
-        RECT 2.830 2.760 109.020 114.480 ;
+        RECT 5.520 2.760 109.020 114.480 ;
       LAYER met2 ;
         RECT 3.410 122.880 8.090 123.160 ;
         RECT 8.930 122.880 14.070 123.160 ;
@@ -739,7 +739,7 @@ MACRO sb_1__1_
       LAYER met5 ;
         RECT 5.520 54.895 109.020 95.145 ;
         RECT 5.520 33.965 109.020 50.095 ;
-        RECT 5.520 24.700 109.020 29.165 ;
+        RECT 5.520 11.100 109.020 29.165 ;
   END
 END sb_1__1_
 END LIBRARY

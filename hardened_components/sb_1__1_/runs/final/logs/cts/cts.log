@@ -1810,27 +1810,27 @@ Number of created patterns = 313632.
     Tot. number of sinks: 88
     Number of static layers: 0
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(7165, 36660), (90425, 110220)]
- Normalized sink region: [(0.551154, 2.82), (6.95577, 8.47846)]
+ Original sink region: [(7165, 39500), (90425, 110220)]
+ Normalized sink region: [(0.551154, 3.03846), (6.95577, 8.47846)]
     Width:  6.40462
-    Height: 5.65846
+    Height: 5.44
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 44
-    Sub-region size: 3.20231 X 5.65846
+    Sub-region size: 3.20231 X 5.44
     Segment length (rounded): 1
     Key: 216280 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 22
-    Sub-region size: 3.20231 X 2.82923
+    Sub-region size: 3.20231 X 2.72
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 3
     Direction: Horizontal
     # sinks per sub-region: 11
-    Sub-region size: 1.60115 X 2.82923
+    Sub-region size: 1.60115 X 2.72
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1840,7 +1840,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 16345.7 dbu.
+ Avg. source sink dist: 16229.7 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1850,7 +1850,7 @@ Number of created patterns = 313632.
     Minimum number of buffers in the clock path: 4.
     Maximum number of buffers in the clock path: 4.
     Created 15 clock nets.
-    Fanout distribution for the current clock = 8:1, 9:1, 10:3, 13:2, 15:1.
+    Fanout distribution for the current clock = 6:1, 9:1, 10:1, 11:1, 12:1, 13:2, 14:1.
     Max level of the clock tree: 3.
  ... End of TritonCTS execution.
 [INFO]: Legalizing...
@@ -1872,10 +1872,10 @@ row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement      179.0 u
+total displacement      164.1 u
 average displacement      0.3 u
-max displacement         22.5 u
-original HPWL         14978.8 u
-legalized HPWL        15087.6 u
+max displacement         21.8 u
+original HPWL         15121.5 u
+legalized HPWL        15222.7 u
 delta HPWL                  1 %
 
