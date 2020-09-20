@@ -1759,7 +1759,7 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/sb_3__3_/runs/final/results/placement/sb_3__3_.placement.def
 Notice 0: Design: sb_3__3_
 Notice 0:     Created 58 pins.
-Notice 0:     Created 307 components and 1192 component-terminals.
+Notice 0:     Created 325 components and 1228 component-terminals.
 Notice 0:     Created 238 nets and 488 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/sb_3__3_/runs/final/results/placement/sb_3__3_.placement.def
 [INFO]: Setting output delay to: 2.0
@@ -1810,21 +1810,21 @@ Number of created patterns = 313632.
     Tot. number of sinks: 36
     Number of static layers: 0
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(7165, 14900), (61905, 66700)]
- Normalized sink region: [(0.551154, 1.14615), (4.76192, 5.13077)]
-    Width:  4.21077
-    Height: 3.98462
+ Original sink region: [(11765, 36660), (62365, 80180)]
+ Normalized sink region: [(0.905, 2.82), (4.79731, 6.16769)]
+    Width:  3.89231
+    Height: 3.34769
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Horizontal
     # sinks per sub-region: 18
-    Sub-region size: 2.10538 X 3.98462
+    Sub-region size: 1.94615 X 3.34769
     Segment length (rounded): 1
     Key: 216280 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Vertical
     # sinks per sub-region: 9
-    Sub-region size: 2.10538 X 1.99231
+    Sub-region size: 1.94615 X 1.67385
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1834,7 +1834,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 13574.9 dbu.
+ Avg. source sink dist: 11831.4 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1852,24 +1852,24 @@ Warning: Cannot find MACRO with VDD/VSS pins.
 Warning: could not find power special net
 Design Stats
 --------------------------------
-total instances           314
-multi row instances       314
-fixed instances           108
+total instances           332
+multi row instances       332
+fixed instances           126
 nets                      245
-design area            5074.9 u^2
-fixed area              265.3 u^2
+design area            5439.0 u^2
+fixed area              292.8 u^2
 movable area           2175.8 u^2
-utilization                45 %
-utilization padded         47 %
-rows                       26
+utilization                42 %
+utilization padded         44 %
+rows                       27
 row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement       43.4 u
+total displacement       43.0 u
 average displacement      0.1 u
-max displacement         10.9 u
-original HPWL          6257.7 u
-legalized HPWL         6269.1 u
-delta HPWL                  0 %
+max displacement          9.0 u
+original HPWL          8778.7 u
+legalized HPWL         8774.1 u
+delta HPWL                 -0 %
 
