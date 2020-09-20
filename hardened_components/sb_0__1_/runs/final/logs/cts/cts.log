@@ -1810,21 +1810,21 @@ Number of created patterns = 313632.
     Tot. number of sinks: 50
     Number of static layers: 0
  Wire segment unit: 13000 dbu (13 um)
- Original sink region: [(7165, 25780), (63285, 91060)]
- Normalized sink region: [(0.551154, 1.98308), (4.86808, 7.00462)]
-    Width:  4.31692
-    Height: 5.02154
+ Original sink region: [(7165, 20340), (64205, 91060)]
+ Normalized sink region: [(0.551154, 1.56462), (4.93885, 7.00462)]
+    Width:  4.38769
+    Height: 5.44
  [WARNING] Creating fake entries in the LUT.
  Level 1
     Direction: Vertical
     # sinks per sub-region: 25
-    Sub-region size: 4.31692 X 2.51077
+    Sub-region size: 4.38769 X 2.72
     Segment length (rounded): 1
     Key: 216280 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Level 2
     Direction: Horizontal
     # sinks per sub-region: 13
-    Sub-region size: 2.15846 X 2.51077
+    Sub-region size: 2.19385 X 2.72
     Segment length (rounded): 1
     Key: 216289 outSlew: 11 load: 1 length: 1 isBuffered: 1
  Stop criterion found. Max number of sinks is (15)
@@ -1834,7 +1834,7 @@ Number of created patterns = 313632.
  ****************
  * Post CTS opt *
  ****************
- Avg. source sink dist: 16775.2 dbu.
+ Avg. source sink dist: 17368 dbu.
  Num outlier sinks: 0
  ********************
  * Write data to DB *
@@ -1866,10 +1866,10 @@ row height                2.7 u
 
 Placement Analysis
 --------------------------------
-total displacement       58.8 u
+total displacement       57.5 u
 average displacement      0.1 u
-max displacement         16.9 u
-original HPWL         11459.3 u
-legalized HPWL        11495.5 u
+max displacement         13.9 u
+original HPWL         11391.2 u
+legalized HPWL        11423.2 u
 delta HPWL                  0 %
 
