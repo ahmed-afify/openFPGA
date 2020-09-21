@@ -6,13 +6,13 @@ Reading netlist file /openLANE_flow/designs/sb_0__3_/runs/final//results/magic/s
 Reading netlist file /openLANE_flow/designs/sb_0__3_/runs/final//results/lvs/sb_0__3_.lvs.powered.v
 Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
 Creating placeholder cell definition for module sky130_fd_sc_hd__diode_2.
-Creating placeholder cell definition for module sky130_fd_sc_hd__decap_8.
 Creating placeholder cell definition for module sky130_fd_sc_hd__fill_2.
-Creating placeholder cell definition for module sky130_fd_sc_hd__decap_4.
-Creating placeholder cell definition for module sky130_fd_sc_hd__decap_3.
-Creating placeholder cell definition for module sky130_fd_sc_hd__fill_1.
 Creating placeholder cell definition for module sky130_fd_sc_hd__decap_12.
+Creating placeholder cell definition for module sky130_fd_sc_hd__decap_8.
+Creating placeholder cell definition for module sky130_fd_sc_hd__decap_3.
+Creating placeholder cell definition for module sky130_fd_sc_hd__decap_4.
 Creating placeholder cell definition for module sky130_fd_sc_hd__decap_6.
+Creating placeholder cell definition for module sky130_fd_sc_hd__fill_1.
 Creating placeholder cell definition for module sky130_fd_sc_hd__tapvpwrvgnd_1.
 Creating placeholder cell definition for module sky130_fd_sc_hd__inv_8.
 Creating placeholder cell definition for module sky130_fd_sc_hd__conb_1.
@@ -49,14 +49,6 @@ Circuit sky130_fd_sc_hd__dfrbp_1 contains 0 device instances.
 Circuit contains 0 nets.
 
 Circuit sky130_fd_sc_hd__dfrbp_1 contains no devices.
-Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__inv_1'
-Circuit sky130_fd_sc_hd__inv_1 contains 0 device instances.
-Circuit contains 0 nets, and 4 disconnected pins.
-Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__inv_1'
-Circuit sky130_fd_sc_hd__inv_1 contains 0 device instances.
-Circuit contains 0 nets.
-
-Circuit sky130_fd_sc_hd__inv_1 contains no devices.
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__buf_2'
 Circuit sky130_fd_sc_hd__buf_2 contains 0 device instances.
 Circuit contains 0 nets, and 4 disconnected pins.
@@ -65,6 +57,14 @@ Circuit sky130_fd_sc_hd__buf_2 contains 0 device instances.
 Circuit contains 0 nets.
 
 Circuit sky130_fd_sc_hd__buf_2 contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__inv_1'
+Circuit sky130_fd_sc_hd__inv_1 contains 0 device instances.
+Circuit contains 0 nets, and 4 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_sc_hd__inv_1'
+Circuit sky130_fd_sc_hd__inv_1 contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_fd_sc_hd__inv_1 contains no devices.
 Contents of circuit 1:  Circuit: 'sky130_fd_sc_hd__clkbuf_1'
 Circuit sky130_fd_sc_hd__clkbuf_1 contains 0 device instances.
 Circuit contains 0 nets, and 4 disconnected pins.
