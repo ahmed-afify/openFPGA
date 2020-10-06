@@ -24,3 +24,19 @@
 4. Run "cd build"
 5. Run "cmake ..  -DCMAKE_BUILD_TYPE=debug" 
 6. Run "make"
+
+# FPGA_3X3 
+This an example of a tileable fpga from openFPGA. The modules used in this example will be the same whether it is a 3x3 or nxn configuration. (n>=3)
+
+# Old Hardened Components
+
+ You'll find the succesful hardened macros for each of the unique components used in the 3x3 fgpa ( 3x3 clb layout ).
+ However the Utilization was set too low in the .config file and so this was fixed in the Hardened Components folder
+ 
+ # Hardening new Components
+ 
+ 1. Copy the src files from any of the components under Hardened components. Do not use the old ones because changes were made to some of the source files.
+ 2. Delete the original module .v file & relpace it with the new component you are hardening 
+ 3. Create a pinplace.cfg file and use the floorplan of the same module found in the old components under final_pin_placement run to get the pin placement.
+ 4. Run the design interactively using openlane to find the optimal core utilization and target density
+ 
