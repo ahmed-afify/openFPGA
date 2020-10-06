@@ -5,11 +5,11 @@ left=[]
 bottom=[]
 top=[] 
 lines=[]
-right_pins=[]
-left_pins=[("chanx_in_17_","i"),("chanx_in_15_","i"),("chanx_in_13_","i"),("chanx_in_11_","i"),("chanx_in_9_","i"),("chanx_in_7_","i"),("chanx_in_5_","i"),("chanx_in_3_","i"),("chanx_in_1_","i"),("chanx_out_16_","o"),("chanx_out_14_","o"),("chanx_out_12_","o"),("chanx_out_10_","o"),("chanx_out_8_","o"),("chanx_out_6_","o"),("chanx_out_4_","o"),("chanx_out_2_","o"),("chanx_out_0_","o"),("chanx_out_17_","o"),("chanx_out_15_","o"),("chanx_out_13_","o"),("chanx_out_11_","o"),("chanx_out_9_","o"),("chanx_out_7_","o"),("chanx_out_5_","o"),("chanx_out_3_","o"),("chanx_out_1_","o"),("chanx_in_16_","i"),("chanx_in_14_","i"),("chanx_in_12_","i"),("chanx_in_10_","i"),("chanx_in_8_","i"),("chanx_in_6_","i"),("chanx_in_4_","i"),("chanx_in_2_","i"),("chanx_in_0_","i"),("ccff_head","i")]
-bottom_pins=[("ccff_tail","o"),("bottom_grid_pin_0_","o"),("bottom_grid_pin_2_","o"),("bottom_grid_pin_4_","o"),("bottom_grid_pin_6_","o"),("bottom_grid_pin_8_","o"),("bottom_grid_pin_10_","o"),("bottom_grid_pin_12_","o"),("bottom_grid_pin_14_","o")]
-top_pins=[("top_grid_pin_2_","o"),("top_grid_pin_6_","o"),("top_grid_pin_14_","o"),("prog_clk","i"),("pReset","i")]
-x_left=0
+top_pins=[("top_left_grid_pin_13_","i"),("chany_top_out[0]","o"),("chany_top_out[1]","o"),("chany_top_out[2]","o"),("chany_top_out[3]","o"),("chany_top_out[4]","o"),("chany_top_out[5]","o"),("chany_top_out[6]","o"),("chany_top_out[7]","o"),("chany_top_out[8]","o"),("chany_top_in[0]","i"),("chany_top_in[1]","i"),("chany_top_in[2]","i"),("chany_top_in[3]","i"),("chany_top_in[4]","i"),("chany_top_in[5]","i"),("chany_top_in[6]","i"),("chany_top_in[7]","i"),("chany_top_in[8]","i"),("top_right_grid_pin_11_","i")]
+left_pins=[("left_bottom_grid_pin_12_","i"),("chanx_left_out[0]","o"),("chanx_left_out[1]","o"),("chanx_left_out[2]","o"),("chanx_left_out[3]","o"),("chanx_left_out[4]","o"),("chanx_left_out[5]","o"),("chanx_left_out[6]","o"),("chanx_left_out[7]","o"),("chanx_left_out[8]","o"),("chanx_left_in[0]","i"),("chanx_left_in[1]","i"),("chanx_left_in[2]","i"),("chanx_left_in[3]","i"),("chanx_left_in[4]","i"),("chanx_left_in[5]","i"),("chanx_left_in[6]","i"),("chanx_left_in[7]","i"),("chanx_left_in[8]","i"),("ccff_tail","o"),("prog_clk","i"),("pReset","i"),("left_top_grid_pin_10_","i")]
+bottom_pins=[("bottom_left_grid_pin_13_","i"),("chany_bottom_out[0]","o"),("chany_bottom_out[1]","o"),("chany_bottom_out[2]","o"),("chany_bottom_out[3]","o"),("chany_bottom_out[4]","o"),("chany_bottom_out[5]","o"),("chany_bottom_out[6]","o"),("chany_bottom_out[7]","o"),("chany_bottom_out[8]","o"),("chany_bottom_in[0]","i"),("chany_bottom_in[1]","i"),("chany_bottom_in[2]","i"),("chany_bottom_in[3]","i"),("chany_bottom_in[4]","i"),("chany_bottom_in[5]","i"),("chany_bottom_in[6]","i"),("chany_bottom_in[7]","i"),("chany_bottom_in[8]","i"),("bottom_right_grid_pin_11_","i")]
+right_pins=[("right_bottom_grid_pin_12_","i"),("chanx_right_out[0]","o"),("chanx_right_out[1]","o"),("chanx_right_out[2]","o"),("chanx_right_out[3]","o"),("chanx_right_out[4]","o"),("chanx_right_out[5]","o"),("chanx_right_out[6]","o"),("chanx_right_out[7]","o"),("chanx_right_out[8]","o"),("chanx_right_in[0]","i"),("chanx_right_in[1]","i"),("chanx_right_in[2]","i"),("chanx_right_in[3]","i"),("chanx_right_in[4]","i"),("chanx_right_in[5]","i"),("chanx_right_in[6]","i"),("chanx_right_in[7]","i"),("chanx_right_in[8]","i"),("right_top_grid_pin_10_","i"),("ccff_head","i")]
+x_right=0
 x_right=0
 y_bottom=0
 y_top=0
@@ -45,7 +45,7 @@ def get_step(orientation):
     if(orientation==1):      #left
         pins=((left[len(left)-1][1]-left[0][1])/680)-2
         
-        return math.ceil(pins/len(left_pins))
+        return math.floor(pins/len(left_pins))
           
     elif(orientation==2):    #top
         pins=((top[len(top)-1][0]-top[0][0])/460)-2
